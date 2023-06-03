@@ -46,37 +46,37 @@ conceptualContent:
         # Card
         - title: Top searched content
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Top page views
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
 # =============================================================================
@@ -86,37 +86,37 @@ conceptualContent:
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
         # Card
         - title: Another card
           links:
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: overview
               text: Best article
-            - url: www.microsoft.com
+            - url: https://www.microsoft.com
               itemType: deploy
               text: 2nd best article
 # =============================================================================
@@ -131,15 +131,15 @@ additionalContent:
         # Card
         - summary: John Doe
           title: M365 expert
-          url: www.microsoft.com
+          url: https://www.microsoft.com
         # Card
         - summary: Jane Doe
           title: Windows expert
-          url: www.microsoft.com
+          url: https://www.microsoft.com
         # Card
         - summary: Alien Explorer
           title: Azure know-it-all
-          url: www.microsoft.com
+          url: https://www.microsoft.com
     - title: Last row of possibilities # < 60 chars (optional)
       # summary: sectionsummary # < 160 chars (optional)
       items:
@@ -147,13 +147,13 @@ additionalContent:
         - title: Guidelines
           links:
             - text: How to contribute
-              url: www.microsoft.com
+              url: https://www.microsoft.com
             - text: Templates
-              url: www.microsoft.com
+              url: https://www.microsoft.com
             - text: Guidelines and standards
-              url: www.microsoft.com
+              url: https://www.microsoft.com
         # Card
         - title: Help and support
           links:
             - text: Support options
-              url: www.microsoft.com
+              url: https://www.microsoft.com
