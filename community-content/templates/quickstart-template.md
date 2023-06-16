@@ -37,7 +37,7 @@ Java, etc.); the language or framework shouldn't appear in parentheses.
 
 -->
 
-# Quickstart: <do something with X>
+# Quickstart: do something with X
 TODO: Add your heading
 
 ---
@@ -254,7 +254,7 @@ so that a reader doesn't need to recreate those resources.
 
 ## Clean up resources
 
-If you're not going to continue to use this application, delete <resources> with the following steps:
+If you're not going to continue to use this application, delete resources with the following steps:
 
 1. From the left-hand menu...
 2. ...click Delete, type...and then click Delete
@@ -276,7 +276,7 @@ Do not use a "More info section" or a "Resources section" or a "See also section
 
 Advance to the next article to learn how to create...
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-get-started-mvc.md)
+> [Next steps button]()
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the main branch.
