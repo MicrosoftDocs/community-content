@@ -28,7 +28,7 @@ content meets their needs. Should NOT begin with a verb.
 
 ---
 
-**Principal author**: [Your name](URL of your LinkedIn page)
+**Principal author**: [Your name](URL of your Microsoft Learn profile)
 
 ---
 

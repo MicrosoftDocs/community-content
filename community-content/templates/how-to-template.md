@@ -29,7 +29,7 @@ TODO: Add your heading
 
 ---
 
-**Principal author**: [Your name](URL of your LinkedIn page)
+**Principal author**: [Your name](URL of your Microsoft Learn profile)
 
 ---
 
