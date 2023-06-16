@@ -3,9 +3,9 @@ title: Concept topic template #Required; page title is displayed in search resul
 description: Concept description #Required; article description that is displayed in search results. 
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: #Required; service per approved list. slug assigned by ACOM.
+ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: concept-article #Required; leave this attribute/value as-is.
-ms.date: #Required; mm/dd/yyyy format.
+ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 ms.custom: template-concept #Required; leave this attribute/value as-is.
 content_well_notification: 
   - Human-created-Community

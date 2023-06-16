@@ -3,9 +3,9 @@ title: Overview topic template #Required; page title displayed in search results
 description: Overview description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: #Required; service per approved list. service slug assigned to your service by ACOM.
+ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: #Required; mm/dd/yyyy format.
+ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
 ---

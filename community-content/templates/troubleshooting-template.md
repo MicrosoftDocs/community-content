@@ -3,8 +3,9 @@ title: Troubleshooting topic template #Required; this page title is displayed in
 description: Troubleshooting description #Required; this article description is displayed in search results.
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
+ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: troubleshooting-general #Required; leave this attribute/value as-is.
-ms.date: #Required; enter the date in the mm/dd/yyyy format.
+ms.date: 06/16/2023 #Required; enter the date in the mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
 ---

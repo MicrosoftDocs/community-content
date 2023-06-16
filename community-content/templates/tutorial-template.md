@@ -3,9 +3,9 @@ title: Tutorial topic template #Required; page title displayed in search results
 description: Tutorial description #Required; article description that is displayed in search results. Include the word "tutorial".
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: #Required; service per approved list. service slug assigned to your service by ACOM.
+ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: tutorial #Required; leave this attribute/value as-is.
-ms.date: #Required; mm/dd/yyyy format.
+ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
 ---
