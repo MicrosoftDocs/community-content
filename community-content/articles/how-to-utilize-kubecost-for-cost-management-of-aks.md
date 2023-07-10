@@ -11,8 +11,7 @@ content_well_notification:
   - Human-created-Community
 ---
 
-# [H1 heading]
-How to: Manage cost and optimize resources in AKS with Kubecost
+# Manage cost and optimize resources in AKS with Kubecost
 
 ---
 
@@ -24,9 +23,9 @@ Cost management and resource optimization are crucial aspects of operating Kuber
 
 We will look into:
 
-- How Kubecost community version can be installed in an AKS cluster;
-- How access to Kubecost dashboard can be secured with help of OAuth2 Proxy;
-- How Azure-related out-of-cluster costs can be integrated into the same kubecost dashboard;
+- How Kubecost community version can be installed and configured in an AKS cluster;
+- How Kubecost dashboard can be publicly exposed over HTTPS and secured with Azure AD authentication with help of OAuth2 Proxy;
+- How Azure-related out-of-cluster costs can be integrated into the same kubecost dashboard with help of Azure Cloud Integration;
 
 Finally we will briefly touch upon core capabilities of Kubecost community version like cluster cost trends, resource utilization insights, and improvement recommendations.
 
@@ -48,35 +47,29 @@ Finally we will briefly touch upon core capabilities of Kubecost community versi
 
 - (Optional) **Publicly accessible kubecost dashboard:** Certificate management tool for AKS cluster to provision TLS certificates for secure connection to kubecost dashboard. A popular and good alternative is cert-manager: [cert-manager installation](https://cert-manager.io/docs/installation).
 
-<!-- 4. Task H2s ------------------------------------------------------------------------------
-
-Required: Each major step in completing a task should be represented as an H2 in the article.
-These steps should be numbered.
-The procedure should be introduced with a brief sentence or two.
-Multiple procedures should be organized in H2 level sections.
-Procedure steps use ordered lists.
-
--->
-- get kubecost community version token: https://www.kubecost.com/install
-- azure integration prep
-- kubecost azure integration
-- install kubecost helm chart
-- install oauth2 proxy to publicly expose kubecost with auth
-- showcase some functionality
-
 ## 1 - Acquire Kubecost community version unique token
 
 First you will need to retrieve a unique token for Kubecost community version by providing an e-mail address here: [https://www.kubecost.com/install](https://www.kubecost.com/install).
 
 Make a note of the token since it will be used later in the installation process.
 
-## 2 - Configure Azure Cloud Integration
+## 2 - Create namespace for Kubecost resources
+
+Now you can create a namespace in AKS cluster where Kubecost resources will live. Default and recommended name for the namespace is ```kubecost```, and it will be the one we will use in this tutorial.
+
+``` sh
+kubectl create namespace kubecost
+```
+
+## 3 - Configure Azure Cloud Integration
 
 In this step you will integrate total daily costs for the Azure subscription where AKS cluster is deployed to Kubecost. This will allow you see out-of-cluster costs for other Azure services side-by-side with in-cluster costs in the same Kubecost dashboard.
 
 In order to configure Azure Cloud Integration you will need to set up daily export of Azure cost reports to Azure storage. Kubecost will access Azure storage through API to retrieve the cost data for display.
 
 ``` powershell
+
+# Declare required configuration values
 $subscriptionId = "[AZURE_SUBSCRIPTION_ID]"
 $resourceGroup = "kubecost-rg"
 $location = "northeurope"
@@ -84,54 +77,116 @@ $storageAccount = "kubecost-st"
 $storageContainer = "costreports"
 $storageContainerPath = "costreportsdir"
 
+# Register service provider to create cost reports
 az provider register --namespace 'Microsoft.CostManagementExports'
+
+# Create new resource group where Kubecost resources will be stored
 az group create --name $resourceGroup --location $location
+
+# Create new storage account where Azure cost reports will be stored
 az storage account create --resource-group $resourceGroup --name $storageAccount --location $location --kind StorageV2 --sku Standard_LRS
+
+# Create container in the newly created storage to store cost reports
 az storage container create --name $storageContainer --account-name $storageAccount
 
+# Create daily Azure cost exports to the newly created storage
 az costmanagement export create --name kubecostexport --type AmortizedCost \
 --scope "subscriptions/$subscriptionId" \
 --storage-account-id /subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$storageAccount \
 --storage-container $storageContainer --timeframe MonthToDate --recurrence Daily \
 --schedule-status Active --storage-directory $storageContainerPath
+
+# Get access key for the newly created storage
+$storageAccessKey = az storage account keys list --resource-group $resourceGroup --account-name $storageAccount | ConvertFrom-Json | Select-Object -First 1 -ExpandProperty value
 ```
 
-## 3 - Create namespace for Kubecost resources
+Now that the daily export of Azure cost reports is set up you will need to save some of it's configuration information as a JSON file named ```cloud-integration.json```. This file will be used to create a Kubernetes Secret in the next step.
 
-Now you need to create a namespace in AKS cluster where Kubecost resources will live. Default and recommended name for the namespace is ```kubecost```, and it will be the one we will use in this tutorial.
+``` powershell
+# Get temporary file path to save the JSON file to
+$tempFilePath = [System.IO.Path]::GetTempPath()
 
-``` sh
-kubectl create namespace kubecost
+# Create JSON object that will store Azure Cloud Integration configuration
+$cloudIntegrationObject = @"
+{
+  "azure": [
+    {
+        "azureSubscriptionID": $subscriptionId,
+        "azureStorageAccount": $storageAccount,
+        "azureStorageAccessKey": "AZ_cloud_integration_azureStorageAccessKey",
+        "azureStorageContainer": $storageContainer,
+        "azureContainerPath": $storageContainerPath,
+        "azureCloud": "public"
+    }
+  ]
+}
+"@
+
+# Save JSON object as a file with the required name
+$cloudIntegrationObject | Set-Content "$tempFilePath/cloud-integration.json" -Encoding UTF8
 ```
 
 ## 4 - Create Kubernetes Secret for Azure Cloud Integration configuration
 
-Now that Azure Cloud Integration is configured we can save the configuration as a Kubernetes Secret in the respective AKS cluster, in the same namespace where Kubecost will be deployed.
+Now that Azure Cloud Integration is configured we can deploy ```cloud-integration.json```, which we generated in the previous step, as a Kubernetes Secret in the respective AKS cluster, in the same namespace where Kubecost will be deployed. Kubecost will use this object in order to identify which storage resource it needs to query in order to retrieve daily Azure cost report data.
 
 ``` sh
 kubectl create secret generic kubecostazstorage --from-file "./cloud-integration.json" -n kubecost
 ```
 
-## 5 - Deploy Kubecost Helm chart
+## 5 - Deploy Kubecost
 
-In this step you will deploy Kubecost Helm chart with Azure Cloud Integration to an AKS cluster. Prior to running the command you need to update the ```kubecostToken``` value with the unique token that was acquired in step 1 of this tutorial, and ```version``` with the Kubecost Helm chart version of your choice. 
+You are ready to deploy Kubecost Helm chart with Azure Cloud Integration to an AKS cluster! Prior to running below commands you need to update the ```kubecostToken``` value with the unique token that was acquired in step 1 of this tutorial, and ```version``` with the Kubecost Helm chart version of your choice. 
 
-Please note that usage of a latest/wildcard version is not recommended. At the point of writing this article the latest stable version of Kubecost Helm chart is ```1.104.4```. You can find stable release version with help of following command: ```helm search repo kubecost/cost-analyzer```.
+**Please note that usage of a latest/wildcard version is not recommended.** At the point of writing this article the latest stable version of Kubecost Helm chart is ```1.104.4```. You can find stable release version with help of following command: ```helm search repo kubecost/cost-analyzer```.
 
 ``` sh
-# Add Kubecost Helm repo and get latest repo updates
+# Add Kubecost Helm repository and get latest repository updates
 helm repo add kubecost https://kubecost.github.io/cost-analyzer/
 helm repo update
 
-# Deploy Kubecost Helm chart with Azure Cloud Integration
+# Deploy Kubecost Helm chart with enabled Azure Cloud Integration
 helm upgrade kubecost kubecost/cost-analyzer --install --namespace kubecost --set kubecostToken="[KUBECOST_UNIQUE_TOKEN]" --set kubecostProductConfigs.cloudIntegrationSecret=kubecostazstorage --version [KUBECOST_HELM_CHART_VERSION]
 ```
+Once Helm deployment executes you can access Kubecost dashboard with help of port forwarding:
+```kubectl port-forward -n kubecost deployment/kubecost-cost-analyzer 9090```
+
+As you can see, default deployment of Kubecost doesn't make the dashboard easily accessible. In a real-life scenario you may want multiple resources to be able to access it via a defined URL for instance. At the same time you would still want this access to be secure and controlled with some form of authentication in order to prevent full public exposure of this type of data.
+
+SSO and RBAC functionality is only supported in Kubecost enterprise version, but it's still possible to implement TLS and Azure AD authentication to Kubecost dashboard with help of OAuth2 Proxy. Below steps will demonstrate how you can do that.
 
 ## 6 - (Optional) Create OAuth2 Proxy application in Azure AD
-TODO: Add introduction sentence(s)
-TODO: Add ordered list of procedure steps
+The last two steps require optional pre-requisites, that were mentioned in the beginning of this article, to be installed and configured. Installation and configuration of Ingress Controller and cert-manager are outside of the scope of this article, but you can check out the documentation that was provided both in the pre-requisites and next steps section for additional information.
 
-## 7 - (Optional) Deploy OAuth2 Proxy application and Kubecost Ingress
+In this step we need to register an application in Azure AD tenant that will represent OAuth2 Proxy installation for Kubecost.
+
+``` powershell
+# Create application registration in Azure AD with reply URL representing OAuth2 Proxy authentication URL for the respective Kubecost instance
+
+# Create client secret for the application: you can either create it manually in Azure portal or use below command to create a client secret based on the value that you specify
+
+
+
+```
+
+## 7 - (Optional) Deploy OAuth2 Proxy
+
+In this step you will deploy OAuth2 Proxy application that will enable Azure AD authentication for the Kubecost dashboard that you have deployed in step 5. Please note that the same namespace is used for OAuth2 Proxy and Kubecost deployments.
+
+``` powershell
+
+```
+
+## 8 - (Optional) Deploy Kubecost Ingress
+
+In the last step you will deploy Kubecost Ingress that will allow external access to the Kubecost dashboard.
+
+``` powershell
+
+```
+
+## Functional highlights
+
 
 ## Next steps
 
