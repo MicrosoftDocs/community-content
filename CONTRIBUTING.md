@@ -51,15 +51,13 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 5. [Commit and push changes](https://learn.microsoft.com/en-us/contribute/how-to-write-workflows-major#making-your-changes) to your fork.
 6. If you need to [make more changes](https://learn.microsoft.com/en-us/contribute/how-to-write-workflows-major#making-your-next-change), no problem! Keep iterating as needed.
 7. Open a pull request by doing the following:
-    * Open [MicrosoftDocs/community-content](https://github.com/MicrosoftDocs/community-content) (this repository).
-    * Select **Pull requests**.
-    * Select **New pull request**.
-    * Select **compare across forks**.
-    * Select your fork from the **head repository**.
-    * Select **Compare & pull request**.
-    * Fill out the form (please read carefully, this way we don't need to go back and forth too often)
-    * give your PR a descriptive title.
-    * describe what's in the PR (new article with images).
-* If you want to see what the article will look like, switch to the **Preview** view.
-* Select **Create pull request**.
-* If needed, you can commit more files and changes.
+    a. Open [MicrosoftDocs/community-content](https://github.com/MicrosoftDocs/community-content) (this repository).
+    b. Select **Pull requests**.
+    c. Select **New pull request**.
+    d. Select **compare across forks**.
+    e. Select your fork from the **head repository**.
+    f. Select **Compare & pull request**.
+    g. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
+    h. If you want to see what the article will look like, switch to the **Preview** view.
+    i. Select **Create pull request**.
+    j. If needed, you can commit more files and changes.
