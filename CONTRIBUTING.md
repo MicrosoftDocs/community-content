@@ -51,13 +51,13 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 5. [Commit and push changes](https://learn.microsoft.com/en-us/contribute/how-to-write-workflows-major#making-your-changes) to your fork.
 6. If you need to [make more changes](https://learn.microsoft.com/en-us/contribute/how-to-write-workflows-major#making-your-next-change), no problem! Keep iterating as needed.
 7. Open a pull request by doing the following:
-    a. Navigate to your fork of this repository (it will most likely be in the format of https://github.com/<YOUR GITHUB ACCOUNT>/community-content).
-    b. Select **Pull requests**.
-    c. Select **New pull request**.
-    d. Ensure that the base repository is **MicrosoftDocs/community-content** and the **base** drop-down menu is **main**.
-    e. Ensure that the head repository is your fork (**<YOUR GITHUB ACCOUNT>/community-content**) and the **base** drop-down menu is the branch with your proposed content.
-    f. Select **Compare & pull request**.
-    g. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
-    h. If you want to see what the article will look like, switch to the **Preview** view.
-    i. Select **Create pull request**.
-    j. If needed, you can commit more files and changes.
+    1. Navigate to your fork of this repository (it will most likely be in the format of https://github.com/<YOUR GITHUB ACCOUNT>/community-content).
+    2. Select **Pull requests**.
+    3. Select **New pull request**.
+    4. Ensure that the base repository is **MicrosoftDocs/community-content** and the **base** drop-down menu is **main**.
+    5. Ensure that the head repository is your fork (**<YOUR GITHUB ACCOUNT>/community-content**) and the **base** drop-down menu is the branch with your proposed content.
+    6. Select **Compare & pull request**.
+    7. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
+    8. If you want to see what the article will look like, switch to the **Preview** view.
+    9. Select **Create pull request**.
+    10. If needed, you can commit more files and changes.
