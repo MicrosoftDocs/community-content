@@ -39,6 +39,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 3. Clone the repository to have it locally available:
     * Select **Code**.
     * Copy the URL (it is `https://github.com/<YOUR GITHUB ACCOUNT>/community-content.git`).
+      ![clone repo](community-content/media/clone-url.png)
     * Open the terminal in VS Code.
     * Navigate to a directory where you want to clone the repository.
     * Type `git clone <COPIED URL HERE>`.
@@ -52,12 +53,14 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 6. If you need to [make more changes](https://learn.microsoft.com/en-us/contribute/how-to-write-workflows-major#making-your-next-change), no problem! Keep iterating as needed.
 7. Open a pull request by doing the following:
     1. Navigate to your fork of this repository (it will most likely be in the format of https://github.com/<YOUR GITHUB ACCOUNT>/community-content).
-    2. Select **Pull requests**.
-    3. Select **New pull request**.
-    4. Ensure that the base repository is **MicrosoftDocs/community-content** and the **base** drop-down menu is **main**.
-    5. Ensure that the head repository is your fork (**<YOUR GITHUB ACCOUNT>/community-content**) and the **base** drop-down menu is the branch with your proposed content.
-    6. Select **Compare & pull request**.
-    7. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
-    8. If you want to see what the article will look like, switch to the **Preview** view.
-    9. Select **Create pull request**.
-    10. If needed, you can commit more files and changes.
+       ![pull request tab](community-content/media/pull-request-tab.png)
+    1. Select **Pull requests**.
+    1. Select **New pull request**.
+    1. Ensure that the base repository is **MicrosoftDocs/community-content** and the **base** drop-down menu is **main**.
+    1. Ensure that the head repository is your fork (**<YOUR GITHUB ACCOUNT>/community-content**) and the **base** drop-down menu is the branch with your proposed content.
+       ![pr-request](community-content/media/pull-request-request.png)
+    1. Select **Compare & pull request**.
+    1. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
+    1. If you want to see what the article will look like, switch to the **Preview** view.
+    1. Select **Create pull request**.
+    1. If needed, you can commit more files and changes.
