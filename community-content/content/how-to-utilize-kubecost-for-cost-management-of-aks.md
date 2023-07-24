@@ -19,7 +19,7 @@ content_well_notification:
 
 ---
 
-Cost management and resource optimization are crucial aspects of operating Kubernetes, including managed Kubernetes services like Azure Kubernetes Service (AKS). In this article, we explore Kubecost community version which is an open-core tool that can help managing costs and utilizing resources more efficiently within AKS clusters. 
+Cost management and resource optimization are crucial aspects of operating Kubernetes, including managed Kubernetes service offerings like Azure Kubernetes Service (AKS). In this article, we explore Kubecost community version, which is an open-core tool that can help managing costs and utilizing resources more efficiently within AKS clusters. 
 
 We will look into:
 
@@ -39,18 +39,21 @@ Finally we will briefly touch upon core capabilities of Kubecost community versi
 
 - Existing AKS cluster 
 
-- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS. As an example, you can follow this tutorial to deploy Application Gateway Ingress Controller add-on for a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS. There are multiple types of Ingress Controllers that you can use. In this article I will be using Application Gateway Ingress Controller (AGIC) add-on for AKS. Installation of Ingress Controller is beyond the scope of this article, but you can follow this tutorial to install AGIC add-on on a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- (Optional) **Publicly accessible Kubecost dashboard:** custom domain that you can use to publicly expose a Kubecost instance, as well as provision a TLS certificate to.
+- (Optional) **Publicly accessible Kubecost dashboard:** custom domain that you can use to publicly expose a Kubecost instance, as well as provision a TLS certificate to. Acquiring and hosting custom domain is beyond the scope of this article, but you can follow this MS Learn module to learn more about hosting your custom domain with Azure DNS: [Host your domain on Azure DNS](https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns)
 
-- (Optional) **Publicly accessible Kubecost dashboard:** certificate authority that can provision TLS certificates for the custom domain. Certificate management tool like ```cert-manager``` will query the CA to request TLS certificates. A popular and good alternative is [Let's Encrypt](https://letsencrypt.org/docs).
+- (Optional) **Publicly accessible Kubecost dashboard:** certificate authority that can provision TLS certificates for the custom domain. Certificate management tool like ```cert-manager``` will query the CA to request TLS certificates. Acquiring TLS certificates is beyond the scope of this article, but this article will be using [Let's Encrypt](https://letsencrypt.org/docs), which is a popular, good and free alternative.
 
-- (Optional) **Publicly accessible Kubecost dashboard:** Certificate management tool for AKS cluster to provision TLS certificates for secure connection to Kubecost dashboard. A popular and good alternative is [cert-manager](https://cert-manager.io/docs/installation).
+- (Optional) **Publicly accessible Kubecost dashboard:** Certificate management tool for AKS cluster to provision TLS certificates for secure connection to Kubecost dashboard. Installing and configuring certificate management tool is beyond the scope of this article, but this article will be using [cert-manager](https://cert-manager.io/docs/installation), which is a popular, good and open source alternative.
 
 ## 1 - Create namespace for Kubecost resources
 
-Now you can create a namespace in AKS cluster where Kubecost resources will be deployed. Default and recommended name for the namespace is ```kubecost```, and it will be the one we will use in this walkthrough. 
-**Please ensure that active Kubernetes context is set to the correct AKS cluster prior to executing below command.**
+First you need to create a namespace in AKS cluster where Kubecost resources will be deployed. Default and recommended name for the namespace is ```kubecost```, and it will be the one we will be using in this article.
+
+> [!NOTE]
+> Please ensure that active Kubernetes context is set to the correct AKS cluster prior to executing below command.
+> You can verify it by executing following command in kubectl: ```kubectl config current-context```.
 
 ``` sh
 kubectl create namespace kubecost
@@ -58,22 +61,31 @@ kubectl create namespace kubecost
 
 ## 2 - Configure Azure Cloud Integration for Kubecost
 
-In this step you will integrate total daily costs overview for the Azure subscription where AKS cluster is deployed into Kubecost dashboard. This will allow you see out-of-cluster costs for other Azure services side-by-side with in-cluster costs in the same Kubecost dashboard.
+In this step you will configure Azure Cloud Integration which enables overview of daily costs for the Azure subscription where AKS cluster is deployed in the Kubecost dashboard. This will allow you to see out-of-cluster costs for other Azure services side-by-side with in-cluster costs in the same Kubecost dashboard.
 
-In order to configure Azure Cloud Integration you will need to set up daily export of Azure cost reports to a dedicated Azure storage. Kubecost will access Azure storage via API to retrieve the cost data for display in the dashboard.
+In order to configure Azure Cloud Integration you will need to set up daily export of Azure cost reports to a dedicated Azure storage account. Kubecost will access Azure storage account via API to retrieve the cost data for display in the dashboard.
 
 > [!NOTE]
 > - Not all Microsoft Azure offers are currently supported in Cost Management. Please ensure that your Azure subscription type is supported by Cost Management prior to setting up Azure cost daily export. You may find supported Azure offers here: [Supported Microsoft Azure offers](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data#supported-microsoft-azure-offers).
 
-``` powershell
+> [!NOTE]
+> - Please ensure that the correct Azure subscription is set as active prior to executing below commands. You can verify that by executing following command in Azure CLI: ```az account show```. 
+> - You can set an Azure subscription to active by executing following command in Azure CLI: ```az account set --subscription [AZURE_SUBSCRIPTION_ID]```
 
+``` powershell
 # Declare required configuration values
-$subscriptionId = "[AZURE_SUBSCRIPTION_ID]"
+
+$subscriptionId = (az account show | ConvertFrom-Json).id
+# Resource group name must be unique on the subscription level, so please ensure that there is no existing resource group with the name that you're planning to use
 $resourceGroup = "kubecost-rg"
 $location = "northeurope"
-$storageAccount = "kubecostst"
+# Storage account name must be globally unique so please verify that the name you're using is unique, otherwise you may get duplicate errors upon storage account creation
+$storageAccount = "kubecostst" 
 $storageContainer = "costreports"
 $storageContainerPath = "costreportsdir"
+# In order to enable cost report export we need to configure the recurrence period. Below variables configure the export to start in one day and run for 50 years (we can't omit the to-date), but you're welcome to modify it as per your needs
+$fromDate = (Get-Date).AddDays(1).ToString("yyyy-MM-ddTHH:mm:ss")
+$toDate = (Get-Date).AddYears(50).ToString("yyyy-MM-ddTHH:mm:ss")
 
 # Register service provider to create cost reports
 az provider register --namespace 'Microsoft.CostManagementExports'
@@ -92,19 +104,22 @@ az costmanagement export create --name kubecostexport --type AmortizedCost `
 --scope "subscriptions/$subscriptionId" `
 --storage-account-id "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$storageAccount" `
 --storage-container $storageContainer --timeframe MonthToDate --recurrence Daily `
---schedule-status Active --storage-directory $storageContainerPath
+--schedule-status Active --storage-directory $storageContainerPath --recurrence-period from="$fromDate" to="$toDate"
 
-# Get access key for the newly created storage
-$storageAccessKey = az storage account keys list --resource-group $resourceGroup --account-name $storageAccount | ConvertFrom-Json | Select-Object -First 1 -ExpandProperty value
+# Get access key for the newly created Azure storage account
+$storageAccessKey = (az storage account keys list --resource-group $resourceGroup --account-name $storageAccount | ConvertFrom-Json) | Select-Object -First 1 -ExpandProperty value
 ```
 
 Now that the daily export of Azure cost reports is set up you will need to save some of it's configuration information as a JSON file named ```cloud-integration.json```. This file will be used to create a Kubernetes Secret in the next step.
+
+> [!NOTE]
+> ```cloud-integration.json``` must be saved in UTF-8 without BOM encoding. This may be a challenge if you're using PowerShell version **5.x** for running below commands, since it uses UTF-8 BOM by default. A workaround in this case may be either to use PowerShell version 7+, create the file manually instead of doing it via below commands, or create a file with below commands but update the encoding manually afterwards. You can also use .NET library to modify default encoding as part of PowerShell code but it is beyond the scope of this article (there's a [StackOverflow thread](https://stackoverflow.com/questions/5596982/using-powershell-to-write-a-file-in-utf-8-without-the-bom) that may be of help).
 
 ``` powershell
 # Get temporary file path to save the JSON file to
 $tempFilePath = [System.IO.Path]::GetTempPath()
 
-# Create JSON object that will store Azure Cloud Integration configuration
+# Create JSON object that will store Azure Cloud Integration configuration - it will populate values from the variables that we've defined above
 $cloudIntegrationObject = @"
 {
   "azure": [
@@ -126,20 +141,21 @@ $cloudIntegrationObject | Set-Content "$tempFilePath/cloud-integration.json" -En
 
 ## 3 - Create Kubernetes Secret for Azure Cloud Integration configuration
 
-Now that Azure Cloud Integration is configured we can deploy ```cloud-integration.json```, which we generated in the previous step, as a Kubernetes Secret in the respective AKS cluster, in the same namespace where Kubecost will be deployed. Kubecost will use this object in order to identify which storage resource it needs to query in order to retrieve daily Azure cost report data.
+Now that Azure Cloud Integration is configured we can deploy ```cloud-integration.json```, which we created in the previous step, as a Kubernetes Secret in the respective AKS cluster, in the same namespace where Kubecost will be deployed. Kubecost will use this Secret to identify which Azure storage resource it needs to query in order to retrieve daily Azure cost report data.
 
-``` sh
+``` powershell
 kubectl create secret generic kubecostazstorage --from-file "$tempFilePath/cloud-integration.json" --namespace kubecost
 ```
 
 ## 4 - Deploy Kubecost
 
-You are ready to deploy Kubecost Helm chart with Azure Cloud Integration to an AKS cluster! Prior to running below commands you need to update ```version``` with the Kubecost Helm chart version of your choice.
+You are ready to deploy Kubecost Helm chart with Azure Cloud Integration to an AKS cluster! As you can see, in the ```helm upgrade``` command we're configuring Azure Cloud Integration for Kubecost by setting the name of Kubernetes Secret, that we created in the previous step, as the ```kubecostProductConfigs.cloudIntegrationSecret``` parameter value.
 
 > [!NOTE]
 > - Usage of a latest/wildcard version is not recommended. At the point of writing this article the latest stable version of Kubecost Helm chart is ```1.105.0```. You can find stable release version with help of following command: ```helm search repo kubecost/cost-analyzer```.
+> - Prior to running below commands, please update ```KUBECOST_HELM_CHART_VERSION``` placeholder with the Kubecost Helm chart version of your choice.
 
-``` sh
+``` powershell
 # Add Kubecost Helm repository and get latest repository updates
 helm repo add kubecost https://kubecost.github.io/cost-analyzer
 helm repo update
@@ -147,113 +163,137 @@ helm repo update
 # Deploy Kubecost Helm chart with enabled Azure Cloud Integration
 helm upgrade kubecost kubecost/cost-analyzer --install --namespace kubecost --set kubecostProductConfigs.cloudIntegrationSecret=kubecostazstorage --version [KUBECOST_HELM_CHART_VERSION]
 ```
-Once Helm deployment executes you can access Kubecost dashboard at ```http://localhost:9090``` with help of port forwarding:
+Once Helm deployment is finished and all Pods are in the Running state you can access Kubecost dashboard. Since we haven't exposed Kubecost dashboard for external access, it can currently be accessed only at ```http://localhost:9090``` with help of ```kubectl port-forward``` command:
 ```kubectl port-forward -n kubecost deployment/kubecost-cost-analyzer 9090```
 
-In a real-life scenario you may want multiple resources to be able to access Kubecost dashboard at specific URL address. At the same time you would still want this access to be secure and controlled with some form of authentication in order to prevent full public exposure of this type of data.
+In a real-life scenario you may want others to be able to access Kubecost dashboard without depending on kubectl and direct access to the cluster. At the same time you would still want this access to be secure and limited by some form of authentication in order to prevent full public exposure of this type of data.
 
-SSO and RBAC functionality is unfortunately only supported in Kubecost enterprise version, but it's still possible to achieve by implementing TLS and Microsoft Entra ID authentication to Kubecost dashboard with help of another open source tool - OAuth2 Proxy. Below steps will demonstrate how you can do that. 
+Single Sign-On (SSO) and Role-based access control(RBAC) functionality are unfortunately only supported in Kubecost enterprise version, but it's still possible to achieve the same type of functionality by implementing TLS and Microsoft Entra ID authentication to Kubecost dashboard with help of another open source tool - OAuth2 Proxy. Below steps will demonstrate how you can do that. 
 
 > [!NOTE]
-> - Please ensure that you've set up optional pre-requisites prior to executing below steps.
+> - Please ensure that you have optional pre-requisites in place prior to executing below steps.
 
 ## 5 - (Optional) Create OAuth2 Proxy application in Microsoft Entra ID
 
-The last two steps require optional pre-requisites, that were mentioned in the beginning of this article, to be installed and configured. Installation and configuration of Ingress Controller and cert-manager are outside of the scope of this article, but you can check out the documentation that was provided both in the pre-requisites and next steps section for additional information.
+Installation and configuration of Ingress Controller and TLS certificate management for AKS cluster are outside of the scope of this article, but Application Gateway Ingress Controller, Let's Encrypt and cert-manager are being used as part of this article. You can check both [pre-requisites](#prerequisites) and [next steps](#next-steps) section for additional information.
 
-In this step we need to register an application in Microsoft Entra ID tenant that will represent OAuth2 Proxy installation for Kubecost.
+In this step we need to register an application in Microsoft Entra ID tenant that will represent OAuth2 Proxy instance for Kubecost.
+
+> [!NOTE]
+> - Prior to running below commands, please update ```KUBECOST_HOSTNAME``` placeholder with the hostname that you would like to expose Kubecost dashboard at. For example, ```kubecost.mycustomdomain.com```.
 
 ``` powershell
 # Create application registration in Microsoft Entra ID with reply URL representing OAuth2 Proxy authentication URL for the respective Kubecost instance
-$proxyClientId = az ad app create --display-name "kubecost-oauth2-proxy" --sign-in-audience AzureADMyOrg --web-redirect-uris "[KUBECOST_PUBLIC_URL]/oauth2/callback" | ConvertFrom-Json | Select-Object -First 1 -ExpandProperty appId
+$proxyClientId = (az ad app create --display-name "kubecost-oauth2-proxy" --sign-in-audience AzureADMyOrg --web-redirect-uris "https://[KUBECOST_HOSTNAME]/oauth2/callback" | ConvertFrom-Json) | Select-Object -First 1 -ExpandProperty appId
 
-# Create client secret for the application: you can either create it manually in Azure portal or use below command to create a client secret based on the value that you specify
+# Create client secret for the application: you can either create it manually in Azure portal or use below command to generate a client secret automatically
 $proxyClientSecret = $(az ad app credential reset --id $proxyClientId --append --display-name "kubecost-client-secret" --query password --output tsv)
 ```
+You should now be able to locate OAuth2 Proxy application in App registrations in Azure portal:
 
-## 6 - (Optional) Deploy OAuth2 Proxy
+![Screenshot of OAuth2 Proxy application in App registrations view in Azure portal](../media/aks-kubecost/kubecost-proxy-app.png)
 
-In this step you will deploy OAuth2 Proxy application that will enable Microsoft Entra ID authentication for the Kubecost dashboard that you have deployed in step 5. Please note that the same namespace is used for OAuth2 Proxy and Kubecost deployments.
+## 6 - (Optional) Add DNS record for Kubecost
+
+In order to make Kubecost dashboard accessible externally you need to add a DNS record for the fully qualified domain name (FQDN) that points to the respective public IP that the Kubecost dashboard instance will be exposed at. If your custom domain is not hosted in Azure DNS you will need to reference instructions for that hosting provider on how to add a new DNS record. 
+
+If your custom domain is hosted in Azure DNS you can use below command to add a new DNS record with respective public IP. In this article the DNS record for Kubecost dashboard is mapped to the public IP of Application Gateway Ingress Controller.
+
+> [!NOTE]
+> - Prior to running below commands, please ensure that you've updated placeholders according to how your Azure DNS zone is set up.
 
 ``` powershell
-$proxyValuesObject = @"
+az network dns record-set a add-record --resource-group [RESOURCE_GROUP_NAME] --zone-name [AZURE_DNS_ZONE_NAME] --record-set-name kubecost  --ipv4-address [PUBLIC_IP_ADDRESS]
+```
+
+## 7 - (Optional) Deploy OAuth2 Proxy
+
+In this step you will deploy OAuth2 Proxy Helm chart that will enable Microsoft Entra ID authentication for the Kubecost dashboard which you deployed in [step 5](#5---optional-create-oauth2-proxy-application-in-microsoft-entra-id). Please note that the same namespace is used for OAuth2 Proxy and Kubecost deployments.
+
+First you will need to create a ```values.yaml``` file which will contain deployment configuration that OAuth2 Proxy will use in order to properly enable Microsoft Entra ID authentication for Kubecost. All possible configuration properties are available in the official [OAuth2 Proxy Helm chart repository](https://github.com/oauth2-proxy/manifests/blob/main/helm/oauth2-proxy/values.yaml). We will keep configuration to the minimum in this article.
+
+You will need to replace following placeholders:
+
+* **KUBECOST_HOSTNAME**: FQDN that Kubecost dashboard will be accessible at, for example ***kubecost.mycustomdomain.com***;
+* **PROXY_APP_CLIENT_ID**: client id for OAuth2 Proxy app registered in Microsoft Entra ID;
+* **PROXY_APP_CLIENT_SECRET**: client secret for OAuth2 Proxy app registered in Microsoft Entra ID;
+* **PROXY_APP_TENANT_ID**: Microsoft Entra ID Tenant ID where OAuth2 Proxy app is registered;
+* **COOKIE_SECRET**: a secret value of your choice that OAuth2 Proxy will use to encrypt/decrypt user session cookies. Please note that cookie secret must be 16, 24, or 32 bytes to create an AES cipher. You can generate a random value with openssl command: ```openssl rand -base64 32 | head -c 32 | base64```;
+
+Once the placeholders are updated in the below YAML you may save it to a directory of your choice.
+
+``` yaml
+# values.yaml
 ingress:
   enabled: true
-  className: azure/application-gateway
-  path: /oauth2
-  pathType: Prefix
   hosts:
     - [KUBECOST_HOSTNAME]
   annotations:
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"
-    cert-manager.io/cluster-issuer: [CertClusterIssuerName]
+    kubernetes.io/ingress.class: azure/application-gateway # required for Azure Application Gateway Ingress Controller
+    appgw.ingress.kubernetes.io/ssl-redirect: "true"
+    cert-manager.io/cluster-issuer: letsencrypt-prod # cert-manager ClusterIssuer for TLS certificates
   tls:
-    - secretName: [KUBECOST_HOSTNAME]-oauth2-proxy-ingress-tls-secret
+    - secretName: kubecost-oauth2-proxy-ingress-tls-secret
       hosts:
         - [KUBECOST_HOSTNAME]
-proxyVarsAsSecrets: true
+proxyVarsAsSecrets: true # Use secrets instead of environment values for setting up OAuth2 Proxy variables
 config:
   cookieName: kubecostproxycookie
-  clientID: $proxyClientId
-  clientSecret: $proxyClientSecret
-  cookieSecret: $cookieSecret
-resources:
-   limits:
-     cpu: 100m
-     memory: 128Mi
-   requests:
-     cpu: 100m
-     memory: 128Mi
-extraArgs:
-  provider: oidc
-  azure-tenant: [MICROSOFT_ENTRA_ID_TENANT_ID] # Microsoft Entra ID OAuth2 Proxy application Tenant ID
-  pass-access-token: true
-  email-domain: "*"
-  upstream: file:///dev/null
-  http-address: 0.0.0.0:4180
-  oidc-issuer-url: https://login.microsoftonline.com/[MICROSOFT_ENTRA_ID_TENANT_ID]/v2.0
+  clientID: [PROXY_APP_CLIENT_ID]
+  clientSecret: [PROXY_APP_CLIENT_SECRET]
+  cookieSecret: [COOKIE_SECRET] # Cookie secret must be 16, 24, or 32 bytes to create an AES cipher.
+  configFile: |-
+        email_domains = [ "*" ]
+        upstreams = [ "http://kubecost-cost-analyzer.kubecost.svc.cluster.local:9090" ]      
+        reverse_proxy = "true"
+        silence_ping_logging = "true"
+        redirect_url = "https://[KUBECOST_HOSTNAME]/oauth2/callback"
+        azure_tenant = "[PROXY_APP_TENANT_ID]"
+        oidc_issuer_url = "https://login.microsoftonline.com/[PROXY_APP_TENANT_ID]/v2.0"
+        provider = "oidc"
 podLabels:
-  application: [KUBECOST_HOSTNAME]-oauth2-proxy
+  application: kubecost-oauth2-proxy
 customLabels:
-  application: [KUBECOST_HOSTNAME]-oauth2-proxy
+  application: kubecost-oauth2-proxy
 replicaCount: 1
-"@
-
-# Save JSON object as a file with the required name
-$proxyValuesObject | Set-Content "$tempFilePath/values.yaml" -Encoding UTF8
-
-helm repo add oauth2-proxy https://oauth2-proxy.github.io/manifests
-helm repo update
-helm upgrade --install kubecost-oauth2-proxy --namespace kubecost -f "$tempFilePath/values.yaml" oauth2-proxy/oauth2-proxy
-
 ```
 
-## 7 - (Optional) Deploy Kubecost Ingress
+Once configuration is saved to ```values.yaml```, you can deploy OAuth2 Proxy. Please remember to replace ```PATH_TO_VALUES_FILE``` placeholder with the file path where you save the file.
+
+``` powershell
+# Add OAuth2 Proxy Helm repository and get latest repository updates
+helm repo add oauth2-proxy https://oauth2-proxy.github.io/manifests
+helm repo update
+
+# Deploy OAuth2 Proxy Helm chart to kubecost namespace with the configuration value that we created above
+helm upgrade --install kubecost-oauth2-proxy --namespace kubecost -f "[PATH_TO_VALUES_FILE]/values.yaml" oauth2-proxy/oauth2-proxy
+```
+
+## 8 - (Optional) Deploy Kubecost Ingress
 
 In the last step you will deploy Kubecost Ingress that will allow external access to the Kubecost dashboard.
 
-``` powershell
-
-$kubecostIngressObject = @"
+``` yaml
+# ingress.yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: kubecost-cost-analyzer
   namespace: kubecost
-  annotations:   
-    nginx.ingress.kubernetes.io/rewrite-target: /
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"
-    nginx.ingress.kubernetes.io/auth-url: "https://[KUBECOST_HOSTNAME]/oauth2/auth"
-    nginx.ingress.kubernetes.io/auth-signin: "https://[KUBECOST_HOSTNAME]/oauth2/start?rd=https://[KUBECOST_HOSTNAME]/oauth2/callback"
-    meta.helm.sh/release-name: kubecost
-    meta.helm.sh/release-namespace: kubecost
+  annotations:
+    kubernetes.io/ingress.class: azure/application-gateway # required for Azure Application Gateway Ingress Controller
+    appgw.ingress.kubernetes.io/rewrite-target: /
+    appgw.ingress.kubernetes.io/ssl-redirect: "true"
+    appgw.ingress.kubernetes.io/auth-url: "https://[KUBECOST_HOSTNAME]/oauth2/auth" # required for OAuth2 Proxy
+    appgw.ingress.kubernetes.io/auth-signin: "https://[KUBECOST_HOSTNAME]/oauth2/start?rd=https://[KUBECOST_HOSTNAME]/oauth2/callback" # Kubecost callback URL required for OAuth2 Proxy
+    meta.helm.sh/release-name: kubecost # include Ingress to Kubecost Helm release
+    meta.helm.sh/release-namespace: kubecost # include Ingress to Kubecost Helm release namespace
   labels:
     app: cost-analyzer
     app.kubernetes.io/instance: kubecost
-    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/managed-by: Helm # include Ingress to Kubecost Helm deployment
     app.kubernetes.io/name: cost-analyzer
 spec:
-  ingressClassName: azure/application-gateway
   tls:
   - hosts:
     - [KUBECOST_HOSTNAME]
@@ -269,20 +309,46 @@ spec:
             name: kubecost-cost-analyzer
             port:
               number: 9090
-"@
-
-# Save JSON object as a file with the required name
-$kubecostIngressObject | Set-Content "$tempFilePath/ingress.yaml" -Encoding UTF8
-
-# Deploy Kubecost Ingress
-kubectl apply -f "$tempFilePath/ingress.yaml" --namespace kubecost
 ```
 
-Now, you can access your Kubecost dashboard at a public URL that you've configured and once you attempt to access it you should be first redirected to Microsoft login page prior to accessing the dashboard itself, thanks to OAuth2 Proxy!
+Please remember to replace ```PATH_TO_VALUES_FILE``` placeholder with the file path where you save the file.
+
+``` powershell
+# Deploy Kubecost Ingress
+kubectl apply -f "[PATH_TO_INGRESS_FILE]/ingress.yaml" --namespace kubecost
+```
+
+You can now access your Kubecost dashboard at a public URL that you've configured and once you attempt to access it you should be first redirected to Microsoft login page prior to accessing the dashboard itself, thanks to OAuth2 Proxy!
 
 ## Functional highlights
 
-Let's finish up this walkthrough with a few highlights of Kubecost dashboard that can provide you with some useful information about cost and efficiency of your AKS clusters.
+Now that you've successfully deployed Kubecost dashboard it's worth highlighting some of it's functionality that can provide you with some useful information about cost and efficiency of your AKS clusters.
+
+1. **Overview page** provides useful insights into not only the overall cloud costs and cluster-specific costs, but also how efficiently the cluster is utilized. For example, you can analyze the daily trend of how much RAM, CPU and storage stay idle and how much of these resources are allocated vs. how much is actually being used daily. This information may give you a better overall picture so that you can request only the amount of resources that you actually need, which is both a more cost-efficient and sustainable choice.
+
+![Screenshot of an Overview page in Kubecost dashboard](../media/aks-kubecost/kubecost-overview-page.png)
+
+2. **Cost allocations by resource and overall cloud costs history** provides daily overview of the cost per Kubernetes object like Namespace or Service, or per Azure service if you have enabled Azure Cloud Integration. This data can help you monitor if any resources suddenly get cost spikes in case of performance issues for example, or if there are resources that are not used anymore and can therefore be cleaned up.
+
+![Screenshot of Allocations page in Kubecost dashboard](../media/aks-kubecost/kubecost-resource-allocations.png)
+
+![Screenshot of Cloud Cost Explorer page in Kubecost dashboard](../media/aks-kubecost/kubecost-cloud-cost-explorer.png)
+
+3. **Cluster health tests** evaluates the overall health of a Kubernetes cluster based on a collection of tests that it runs towards it. This data can be an additional helper in monitoring how your cluster and it's workloads are doing.
+
+![Screenshot of cluster health test page in Kubecost dashboard](../media/aks-kubecost/kubecost-cluster-health.png)
+
+4. **Cost saving recommendations** provides a collection of useful recommendations that you can follow in order to reduce the overall cost of your cluster(s) as well as utilize it's resources more efficiently and sustainably. Some of the recommendations may be to use reserved or spot instances, clean up zombie workloads or choose a different Node size. As you can see in the below screenshot, in case of right-sizing Kubecost may even come with suggestions on which options would be a better choice, based on the usage and efficiency history. This data can be helpful for you to take more informative choices when optimizing your cluster configuration.
+
+![Screenshot of overall savings recommendations in Kubecost dashboard](../media/aks-kubecost/kubecost-savings-recommendations.png)
+
+![Screenshot of cluster sizing recommendations in Kubecost dashboard](../media/aks-kubecost/kubecost-cluster-sizing-recommendations.png)
+
+Finally, apart from SSO and RBAC support Kubecost community version has a few limitations that is worth knowing about:
+
+* Kubecost community version supports displaying only 1 Kubernetes/AKS cluster per dashboard. A workaround here may be to use a single place where you can gather links to the Kubecost dashboards deployed in different clusters so that those can be accessed from a single place.
+
+* Kubecost community version supports data retention for 15 days only.
 
 ## Next steps
 
