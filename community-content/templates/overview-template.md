@@ -1,5 +1,5 @@
 ---
-title: Overview topic template #Required; page title displayed in search results. Don't enclose in quotation marks. 
+title: Overview topic template #Required; page title displayed in search results. Don't enclose in quotation marks. Don't use any puncutation, such as colons, commas, or periods.
 description: Overview description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
