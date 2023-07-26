@@ -1,5 +1,5 @@
 ---
-title: How to: Manage cost and optimize resources in AKS with Kubecost
+title: How to manage cost and optimize resources in AKS with Kubecost
 description: In this article, we delve into how you can install, configure and use  community version of the Kubecost tool for cost management and resource optimization in Azure Kubernetes Service (AKS) cluster.
 author: guidemetothemoon
 ms.author: shchow
