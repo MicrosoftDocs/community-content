@@ -1,5 +1,5 @@
 ---
-title: Quickstart topic template #Required; page title displayed in search results. Include the word "quickstart". Include the brand.
+title: Quickstart topic template #Required; page title displayed in search results. Include the word "quickstart". Include the brand. Don't use any puncutation, such as colons, commas, or periods.
 description: Quickstart description #Required; article description that is displayed in search results. Include the word "quickstart".
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
