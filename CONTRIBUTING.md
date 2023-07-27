@@ -23,11 +23,11 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 * No marketing or advertising.
 * No licensing or pricing information.
-* No self-promotion.
 * No AI-exclusively generated content; if AI-assisted in writing the content, this must be attributed and noted at the top of the article.
 * Harmful content, such as processes that may leave a system or process in a stuck state, or clearly violates laws or terms and conditions.
 * Content that doesn't belong to you; plagiarism is strictly prohibited.
 * Low-effort articles, such as having a single link to another site; a single video; an article with only links in it.
+* Articles where the primary purpose is self-promotion.
 * News and announcements.
 
 ## Get started contributing
