@@ -18,10 +18,6 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: "Microsoft Learn Community"
-      itemType: learn
-      url: https://learn.microsoft.com/en-us/training/learn-community
-    # Card
     - title: "How do I contribute?"
       itemType: learn
       url: https://github.com/MicrosoftDocs/community-content/blob/main/CONTRIBUTING.md
@@ -33,6 +29,10 @@ highlightedContent:
     - title: "Template comparison"
       itemType: quickstart
       url: templates/content-type-comparison.md
+    # Card
+    - title: "About the Microsoft Learn Community"
+      itemType: overview
+      url: https://learn.microsoft.com/en-us/training/learn-community
 
 # =============================================================================
 # conceptualContent section (optional)
@@ -71,14 +71,14 @@ conceptualContent:
               itemType: deploy
               text: 2nd best article
         # Card
-        - title: Another card
-          links:
-            - url: https://www.microsoft.com
-              itemType: overview
-              text: Best article
-            - url: https://www.microsoft.com
-              itemType: deploy
-              text: 2nd best article
+        # - title: Another card
+          # links:
+            # - url: https://www.microsoft.com
+              # itemType: overview
+              # text: Best article
+            # - url: https://www.microsoft.com
+              # itemType: deploy
+              # text: 2nd best article
 # =============================================================================
     - title: Recommended learning
       # summary:  # < 160 chars (optional)
