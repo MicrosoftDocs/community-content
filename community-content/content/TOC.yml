@@ -1,4 +1,4 @@
 - name: Microsoft Learn Community Content
   href: ../index.yml
 - name: Manage cost and optimize resources in AKS with Kubecost
-  href: how-to-utilize-kubecost-for-cost-management-of-aks.mdindex.md
+  href: how-to-utilize-kubecost-for-cost-management-of-aks.md
