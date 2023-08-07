@@ -23,7 +23,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 * No marketing or advertising.
 * No licensing or pricing information.
-* No AI-exclusively generated content; if AI-assisted in writing the content, this must be attributed and noted at the top of the article.
+* No AI-exclusively generated content; if AI-assisted in writing the content, this must be explicitly mentioned by adding 'AI-contribution' as a value to the 'content_well_notification' metadata attribute. Adding this value will add a disclaimer at the top of the article.
 * Harmful content, such as processes that may leave a system or process in a stuck state, or clearly violates laws or terms and conditions.
 * Content that doesn't belong to you; plagiarism is strictly prohibited.
 * Low-effort articles, such as having a single link to another site; a single video; an article with only links in it.
