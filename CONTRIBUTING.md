@@ -68,7 +68,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 ## File structure
 
 * **Article files ending in .md** belong in the [content](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/content) folder.
-* **Image files, such as .png or .jpg** belong in the [media](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/media) folder, in a sub-folder where the images are used. For example, your article is named **my-article.md**. You would create a folder within the media folder called **my-article** and all your images would be stored in the **media/my-article** folder.
+* **Image files, such as .png or .jpg** belong in the [media](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/media) folder, in a sub-folder where the images are used. For example, if your article is named **my-article.md**, you would create a folder within the media folder called **my-article**, and all your images would be stored in the **media/my-article** folder.
 * Make sure to add your article as an entry to the [TOC.yml](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/content/TOC.yml) file, following the markdown syntax.
 
 ## Microsoft Learn contributor guide
