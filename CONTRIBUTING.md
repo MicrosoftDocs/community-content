@@ -65,6 +65,12 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
     1. Select **Create pull request**.
     1. If needed, you can commit more files and changes.
 
+## File structure
+
+* **Article files ending in .md** belong in the [content](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/content) folder.
+* **Image files, such as .png or .jpg** belong in the [media](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/media) folder, in a sub-folder where the images are used. For example, your article is named **my-article.md**. You would create a folder within the media folder called **my-article** and all your images would be stored in the **media/my-article** folder.
+* Make sure to add your article as an entry to the [TOC.yml](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/content/TOC.yml) file, following the markdown syntax.
+
 ## Microsoft Learn contributor guide
 
 Another resource we have for contributing is the [Microsoft Learn contributor guide](https://learn.microsoft.com/en-us/contribute/). This is our most comprehensive guide to contributing and includes more detailed setup information, as well as articles such as the full contribution workflow, style and voice guidelines, and other writing resources. Check it out!
