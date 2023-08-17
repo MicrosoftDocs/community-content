@@ -73,4 +73,4 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 ## Microsoft Learn contributor guide
 
-Another resource we have for contributing is the [Microsoft Learn contributor guide](https://learn.microsoft.com/en-us/contribute/). This is our most comprehensive guide to contributing and includes more detailed setup information, as well as articles such as the full contribution workflow, style and voice guidelines, and other writing resources. Check it out!
+Another resource we have for contributing is the [Microsoft Learn contributor guide](https://learn.microsoft.com/en-us/contribute/content). This is our most comprehensive guide to contributing and includes more detailed setup information, as well as articles such as the full contribution workflow, style and voice guidelines, and other writing resources. Check it out!
