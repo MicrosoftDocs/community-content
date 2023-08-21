@@ -1,5 +1,5 @@
 ---
-title: Concept topic template #Required; page title is displayed in search results. Include the brand.
+title: Concept topic template #Required; page title is displayed in search results. Include the brand. Don't use any puncutation, such as colons, commas, or periods.
 description: Concept description #Required; article description that is displayed in search results. 
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 

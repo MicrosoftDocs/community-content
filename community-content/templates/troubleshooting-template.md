@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting topic template #Required; this page title is displayed in search results; Always include the word "troubleshoot" in this line.
+title: Troubleshooting topic template #Required; this page title is displayed in search results; Always include the word "troubleshoot" in this line. Don't use any puncutation, such as colons, commas, or periods.
 description: Troubleshooting description #Required; this article description is displayed in search results.
 author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
