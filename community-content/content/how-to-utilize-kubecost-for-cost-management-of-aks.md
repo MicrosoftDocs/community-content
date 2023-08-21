@@ -240,13 +240,11 @@ config:
   cookieSecret: <CookieSecret> # Cookie secret must be 16, 24, or 32 bytes to create an AES cipher.
   configFile: |-
         email_domains = [ "*" ]
-        upstreams = [ "http://kubecost-cost-analyzer.kubecost.svc.cluster.local:9090" ]      
-        reverse_proxy = "true"
-        silence_ping_logging = "true"
-        redirect_url = "https://<KubecostHostname>/oauth2/callback"
+        upstreams = [ "http://kubecost-cost-analyzer.kubecost.svc.cluster.local:9090" ]
         azure_tenant = "<ProxyAppTenantId>"
         oidc_issuer_url = "https://login.microsoftonline.com/<ProxyAppTenantId>/v2.0"
         provider = "oidc"
+        skip_provider_button = "true"
 podLabels:
   application: kubecost-oauth2-proxy
 customLabels:
@@ -280,8 +278,6 @@ metadata:
     kubernetes.io/ingress.class: azure/application-gateway # required for Azure Application Gateway Ingress Controller
     appgw.ingress.kubernetes.io/rewrite-target: /
     appgw.ingress.kubernetes.io/ssl-redirect: "true"
-    appgw.ingress.kubernetes.io/auth-url: "https://<KubecostHostname>/oauth2/auth" # required for OAuth2 Proxy
-    appgw.ingress.kubernetes.io/auth-signin: "https://<KubecostHostname>/oauth2/start?rd=https://<KubecostHostname>/oauth2/callback" # Kubecost callback URL required for OAuth2 Proxy
     meta.helm.sh/release-name: kubecost # include Ingress to Kubecost Helm release
     meta.helm.sh/release-namespace: kubecost # include Ingress to Kubecost Helm release namespace
   labels:
