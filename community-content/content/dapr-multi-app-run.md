@@ -169,7 +169,7 @@ apps:
 
 ### Common section
 
-The common section is a optional part of the file where variables can be defined that are shared across all Dapr applications that are part of the apps section.
+The common section is an optional part of the file where variables can be defined that are shared across all Dapr applications that are part of the apps section.
 
 In this case, all Dapr apps use the same pubsub component that is defined in the `resources/pubsub.yaml` file.
 
@@ -183,7 +183,12 @@ common:
 
 ### Apps section
 
-The apps section is a list of Dapr applications that are part of the multi-app run. The following properties have been used for the apps in this demo:
+The apps section is a list of Dapr applications that are part of the multi-app run. 
+
+> [!NOTE]
+> Note that the order of the Dapr applications in this section determines the sequence in which they are started.
+
+The following properties have been used for the apps in this demo:
 
 - `appID`: The ID of the Dapr application. This is used to identify the application in the Dapr dashboard.
 - `appDirPath`: The path to the directory where the application is located.
