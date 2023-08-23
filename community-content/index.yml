@@ -49,9 +49,9 @@ conceptualContent:
             - url: content/how-to-utilize-kubecost-for-cost-management-of-aks.md
               itemType: how-to-guide
               text: Manage cost and optimize resources in AKS with Kubecost
-            - url: content/example.md
+            - url: content/wsl-user-msft-kernel-v6.md
               itemType: how-to-guide
-              text: Placeholder for Nuno
+              text: How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
         # Card
         - title: Top page views
           links:
