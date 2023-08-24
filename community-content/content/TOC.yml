@@ -1,10 +1,8 @@
 - name: Microsoft Learn Community Content
   href: ../index.md
-- name: Content
-  items:
-  - name: "Quickstart: Speed up the inner development loop with Dapr multi-app run"
-    href: dapr-multi-app-run.md
-  - name: How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
-    href: wsl-user-msft-kernel-v6.md
-  - name: Manage cost and optimize resources in AKS with Kubecost
-    href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+- name: "Quickstart: Speed up the inner development loop with Dapr multi-app run"
+  href: dapr-multi-app-run.md
+- name: How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
+  href: wsl-user-msft-kernel-v6.md
+- name: Manage cost and optimize resources in AKS with Kubecost
+  href: how-to-utilize-kubecost-for-cost-management-of-aks.md
