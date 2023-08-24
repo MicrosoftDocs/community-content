@@ -4,3 +4,5 @@
   items:
   - name: Manage cost and optimize resources in AKS with Kubecost
     href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+  - name: "Quickstart: Speed up the inner development loop with Dapr multi-app run"
+    href: dapr-multi-app-run.md
