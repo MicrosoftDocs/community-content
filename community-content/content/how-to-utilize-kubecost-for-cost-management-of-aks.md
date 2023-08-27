@@ -276,7 +276,7 @@ metadata:
   namespace: kubecost
   annotations:
     kubernetes.io/ingress.class: azure/application-gateway # required for Azure Application Gateway Ingress Controller
-    appgw.ingress.kubernetes.io/rewrite-target: /
+    appgw.ingress.kubernetes.io/backend-path-prefix: "/"
     appgw.ingress.kubernetes.io/ssl-redirect: "true"
     meta.helm.sh/release-name: kubecost # include Ingress to Kubecost Helm release
     meta.helm.sh/release-namespace: kubecost # include Ingress to Kubecost Helm release namespace
