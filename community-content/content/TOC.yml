@@ -7,5 +7,5 @@
 - name: Manage cost and optimize resources in AKS with Kubecost
   href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: Learn how to be a community contributor
-  href: ../../CONTRIBUTING.md
+  href: https://github.com/MicrosoftDocs/community-content/blob/main/CONTRIBUTING.md
   
