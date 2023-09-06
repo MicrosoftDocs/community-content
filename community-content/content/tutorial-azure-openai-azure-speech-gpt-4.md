@@ -43,7 +43,7 @@ Before we dive into the integration process, let’s first understand what Azure
 
 Azure OpenAI Service provides customers with access to advanced language AI capabilities through OpenAI’s GPT-4, GPT-3.5, Codex, and DALL-E models, all with the added security and enterprise support of Azure. Co-developed with OpenAI, Azure OpenAI ensures compatibility and a seamless transition between the two platforms. By using Azure OpenAI, customers can leverage the same models as OpenAI while benefiting from the security features of Microsoft Azure, such as private networking and regional availability. Additionally, Azure OpenAI promotes responsible AI by offering content filtering capabilities.
 
-[What is Azure OpenAI Service?](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview?WT.mc_id=DT-MVP-5001664)
+[What is Azure OpenAI Service?](https://learn.microsoft.com/azure/ai-services/openai/overview?WT.mc_id=DT-MVP-5001664)
 
 Previously, access to Azure OpenAI Service is exclusive to approved enterprise customers and partners, including Microsoft MVP. To gain access, registration is required. Now, Azure OpenAI Service is generally available, but the service still currently requires registration.
 If you want to access Azure OpenAI Service, you will need to complete the Request Access to Azure OpenAI Service form first.
@@ -52,14 +52,14 @@ https://aka.ms/oaiapply
 
 If your application to access the Azure OpenAI service is approved, then you can create an Azure OpenAI service in your Azure subscription.
 
-![1-aoai-access](../media/aoai-speech-python/1-aoai-access.png)
+![aoai-access](../media/aoai-speech-python/1-aoai-access.png)
 
 
 
 ## Models in Azure OpenAI service
 The Azure OpenAI service offers users access to a range of different models, such as gpt-35-turbo, gpt-35-turbo-16k, gpt-4 and gpt-4-32k, each with its own capabilities and price point. The version of both gpt-35-turbo and gpt-4 models is a new and improved 0613 model version, which comes with the enhanced steerability.
 
-![2-aoai-pricing](../media/aoai-speech-python/2-aoai-pricing.png)
+![aoai-pricing](../media/aoai-speech-python/2-aoai-pricing.png)
 
 However, it should be noted that the GPT-4 models are currently still available by request only. Existing Azure OpenAI customers can apply for access to these models by completing the form below.
 
@@ -71,7 +71,7 @@ https://aka.ms/oai/get-gpt4
 ## Sign in to Azure OpenAI Studio
 To get started, go to https://oai.azure.com to access Azure OpenAI Studio. Sign in using credentials that have access to your Azure OpenAI resource. You can select the appropriate directory, Azure subscription, and Azure OpenAI resource during or after the sign-in process.
 
-![3-aoai-studio](../media/aoai-speech-python/3-aoai-studio.png)
+![aoai-studio](../media/aoai-speech-python/3-aoai-studio.png)
 
 ## Develop a Python program that incorporates Azure OpenAI GPT-4 and Azure Speech functionalities
 Setting up Azure OpenAI and Azure Speech Services in the Azure portal is quite straightforward. Once created, we can access these services in our code. Let me illustrate this with an example in Python.
@@ -113,21 +113,21 @@ First, let’s take a look at the steps involved in setting up the Azure OpenAI 
 https://{your-resource-name}.openai.azure.com/
 ```
 
-[Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
+[Azure OpenAI Service REST API reference](https://learn.microsoft.com/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
 
 Moreover, it’s crucial to specify the API version when utilizing the GPT-4 models to generate chat message completions. 
 
-[Supported versions](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
+[Supported versions](https://learn.microsoft.com/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
 
 To access the Azure OpenAI service from your Python code, the next step involves providing the API key. This key can be located in the Keys and Endpoint panel of your Azure OpenAI service, as shown below.
 
-![4-aoai-key](../media/aoai-speech-python/4-aoai-key.png)
+![aoai-key](../media/aoai-speech-python/4-aoai-key.png)
 
 Likewise, it is necessary to establish the Azure Speech service. In this case, I have opted for the `en-NZ-MollyNeural` voice, which emulates the accent of New Zealanders, also known as Kiwis.
 
 The link below provides access to information on the languages and voice support available for the Speech service.
 
-[Language and voice support for the Speech service](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts&WT.mc_id=DT-MVP-5001664)
+[Language and voice support for the Speech service](https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts&WT.mc_id=DT-MVP-5001664)
 
 
 ### Step 3 - Creating a speech recognizer and starting the recognition
@@ -214,5 +214,5 @@ If you're not going to continue to use this application, delete the Azure OpenAI
 
 
 ## Next steps
-- [Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
+- [Azure OpenAI Service REST API reference](https://learn.microsoft.com/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
 - [Azure OpenAI Samples GitHub repository](https://github.com/Azure-Samples/openai)
