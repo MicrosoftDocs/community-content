@@ -63,7 +63,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
     1. Give your PR a descriptive title and a description of what your content represents (for example, "new Azure Defender article with images").
     1. If you want to see what the article will look like, switch to the **Preview** view.
     1. Select **Create pull request**.
-    1. If needed, you can commit more files and changes.
+    1. The system will validate the PR against the build rules and output any technical corrections that need to be made. You **must** resolve any **warnings** or **errors**. If needed, you can commit more files and changes in your fork, and the PR will track any commits that you make.
 
 ## File structure
 
