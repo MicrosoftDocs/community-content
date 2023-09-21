@@ -194,7 +194,7 @@ Tiering can be enabled at any time, before your first backup or after; it will a
 1. To set smart tiering, navigate to your **[Recovery Services vault](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults)**
 2. Click **Manage**
 3. Select **Backup policies**
-4. Select your backup **policy
+4. Select your backup **policy**
 5. Click **Enable Tiering**
 
 ![Enable Smart Tiering](../media/securing-azure-backups/Enable-SmartTiering.gif)
