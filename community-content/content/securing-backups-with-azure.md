@@ -1,7 +1,7 @@
 ---
 title: Securing your Microsoft Azure Backups
 description: How to use features such as Resource Guard and immutability to secure your Microsoft Azure backups. 
-author: jehchow 
+author: lukemurraynz 
 ms.author: shchow 
 ms.service: azure
 ms.topic: how-to 
@@ -49,13 +49,13 @@ Let's take a look at the following:
 
 First up is **immutability**.
 
-> “While Azure Backup stores data in isolation from production workloads, it allows performing management operations to help you manage your backups, including those that allow you to delete recovery points. However, in certain scenarios, you may want to make the backup data immutable by preventing any such operations that, if used by malicious actors, could lead to the loss of backups. The Immutable vault setting on your vault enables you to block such operations to ensure that your backup data is protected, even if any malicious actors try to delete them to affect the recoverability of data.”
+> "While Azure Backup stores data in isolation from production workloads, it allows performing management operations to help you manage your backups, including those that allow you to delete recovery points. However, in certain scenarios, you may want to make the backup data immutable by preventing any such operations that, if used by malicious actors, could lead to the loss of backups. The Immutable vault setting on your vault enables you to block such operations to ensure that your backup data is protected, even if any malicious actors try to delete them to affect the recoverability of data."
 
 While Azure Backup stores data in isolation from production workloads, it allows you to perform management operations to help you manage your backups, including those that allow you to delete recovery points. You may want to make the backup data immutable by preventing any such operations that, if used by malicious actors, could lead to the loss of backups.
 
 You can read more about immutable vaults and the statuses of Disabled/Enabled and Enabled and Lock directly at the [Microsoft Learn documentation](https://learn.microsoft.com/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796).
 
-It’s worth making sure you don’t enable and lock your Recovery services vault unless you are certain of the backup job retention period, as this cannot be altered (reduced) after it is locked.
+It is worth making sure you don't enable and lock your Recovery services vault unless you are certain of the backup job retention period, as this cannot be altered *(reduced)* after it is locked.
 
 1. To enable an immutable vault, navigate to your **[Recovery Services vault](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults)**
 2. Click **Properties**
@@ -63,7 +63,7 @@ It’s worth making sure you don’t enable and lock your Recovery services vaul
 4. Select '**Enable vault immutability**'
 5. Click **Apply**
 
-![Enable Immutable Vault](../media/securing-azure-backups/Enable-ImmutableVault.gif)
+![Enable Immutable Vault](../media/securing-azure-backups/Enable-ImmutableVault.png)
 
 You can view the status of multiple Recovery Services vaults in the Azure Portal directly by using the portal filters.
 
@@ -83,7 +83,7 @@ Azure Backup *(Recovery Services Vaults and Backup Vaults)* contains enhanced so
 6. Adjust **retention period** *(i.e., when the backup item can be restored, the minimum is 14 days to a maximum of 180 days)*.
 7. Click **Update**
 
-![Enable Soft Delete](../media/securing-azure-backups/Enable-SoftDelete_RSV.gif)
+![Enable Soft Delete](../media/securing-azure-backups/Enable-SoftDelete_RSV.png)
 
 > Selecting Enable Always-on soft delete is a permanent setting to ensure that soft delete is always enabled and cannot be turned off for that particular Recovery Services or Backup Vault. To recover an item using soft delete, navigate to the backup item within your Recovery Services vault and select Undelete.
 
@@ -106,7 +106,7 @@ Refer to: [Usage scenarios](https://learn.microsoft.com/azure/backup/multi-user-
 7. **Select** the **items** you wish to use Resource Guard to protect against
 8. Click **Review + create**
 
-![Create Resource Guard](../media/securing-azure-backups/Create-ResourceGuard.gif)
+![Create Resource Guard](../media/securing-azure-backups/Create-ResourceGuard.png)
 
 Once the Resource Guard has been created, it is time to use it.
 
@@ -121,9 +121,9 @@ Once the Resource Guard has been created, it is time to use it.
 9. Select your **Resource Guard**
 10. Click **Save**
 
-![Configure Resource Guard](../media/securing-azure-backups/Configure-ResourceGuard.gif)
+![Configure Resource Guard](../media/securing-azure-backups/Configure-ResourceGuard.png)
 
-Now let’s test it by attempting to remove a Backup Job and Deleted Items as a user with the Backup Contributor role (but no rights to the Resource Guard).
+Now let's test it by attempting to remove a Backup Job and Deleted Items as a user with the Backup Contributor role (but no rights to the Resource Guard).
 
 1. Navigate to your **[Recovery Services vault](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults)**
 2. Click **Overview**
@@ -136,9 +136,9 @@ Now let’s test it by attempting to remove a Backup Job and Deleted Items as a 
 9. Click **Stop Backup**
 10. Select **Delete Backup data**
 
-You should get *“Unlock privilege access is needed to delete the ResourceGuard proxy”*.
+You should get *"Unlock privilege access is needed to delete the ResourceGuard proxy"*.
 
-![Test Resource Guard](../media/securing-azure-backups/Test-ResourceGuard_JobDelete.gif)
+![Test Resource Guard](../media/securing-azure-backups/Test-ResourceGuard_JobDelete.png)
 
 You can then take this a step forward, using PIM (Privileged Identity Management) to allow the Backup Contributor to request Contributor permissions to the Resource Guard to implement privileged actions, such as deleting a backup job, for a certain period and with approvers.
 
@@ -150,16 +150,16 @@ Reference: [Configure Multi-user authorization using Resource Guard in Azure Bac
 
 Enchanted policy allows:
 
-• Multiple backups per day
-• 1-30 days operational tier
-• Vault tier
-• Zone-redundant storage (ZRS) resilient snapshots
-• Support for Trusted Azure Virtual Machines
+* Multiple backups per day
+* 1-30 days operational tier
+* Vault tier
+* Zone-redundant storage (ZRS) resilient snapshots
+* Support for Trusted Azure Virtual Machines
 
 For this article, we will touch on the multiple backups per day as a key to meeting RPO (Recovery Point Objective) and RTO (Recovery Time Objective) business requirements.
 
-• RPO (Recovery Point Objective) - Decreases potential data loss; aligns with backup frequency (e.g., 4 hours, 6 hours).
-• RTO (Recovery Time Objective) - Reduce RTO by having more recent and smaller data sets for restoration.
+* RPO (Recovery Point Objective) - Decreases potential data loss; aligns with backup frequency (e.g., 4 hours, 6 hours).
+* RTO (Recovery Time Objective) - Reduce RTO by having more recent and smaller data sets for restoration.
 
 ![RTP/RPO](../media/securing-azure-backups/rpo-rto-infographic.jpg)
 
@@ -177,13 +177,13 @@ So, let us create an Enhanced Backup Policy that backups our Virtual Machine eve
 10. Navigate down because we are using Instant restore snapshots; these snapshots are not stored in the Backup Vault but instead in the Azure subscription directly, so specify the **name of the resource group** that the **snapshots** will be stored into (otherwise, Azure will create a default Resource Group of AzureBackupRG_{Geo}_{n})
 11. Click **Create**
 
-![Create Enchanced Policy](../media/securing-azure-backups/Create-EnchancedPolicy.gif)
+![Create Enchanced Policy](../media/securing-azure-backups/Create-EnchancedPolicy.png)
 
 [Restoring a backup item](https://learn.microsoft.com/azure/backup/backup-azure-arm-restore-vms?WT.mc_id=AZ-MVP-5004796) is the same as restoring from a standard policy.
 
 ## Intelligent Tiering
 
-Finally, let’s look at tiering; although not a direct security feature, I would be a bit amiss to mention this, for more effective cost management, by default, your Backups will do into the backup as Standard tier, although not hot storage this is not the coolest (slowest) of tiers, hence not the cheapest, especially for those longer-term recovery points, where you are likely not to restore from (although that doesn’t mean you can’t – it will just be a lot slower (and more expensive) to retrieve the backup points).
+Finally, let's look at tiering; although not a direct security feature, I would be a bit amiss to mention this, for more effective cost management, by default, your Backups will do into the backup as Standard tier, although not hot storage this is not the coolest (slowest) of tiers, hence not the cheapest, especially for those longer-term recovery points, where you are likely not to restore from (although that doesn't mean you can't – it will just be a lot slower (and more expensive) to retrieve the backup points).
 
 Intelligent Tiering allows you to move your standard vault backup items into the Archive tier. You can configure this manually, i.e., move all recovery points older than 3 months to the archive vault, or let Azure manage this for you, based on your policy, restore attempts etc.
 
@@ -197,7 +197,7 @@ Tiering can be enabled at any time, before your first backup or after; it will a
 4. Select your backup **policy**
 5. Click **Enable Tiering**
 
-![Enable Smart Tiering](../media/securing-azure-backups/Enable-SmartTiering.gif)
+![Enable Smart Tiering](../media/securing-azure-backups/Enable-SmartTiering.png)
 
 ## Next steps
 
