@@ -1,6 +1,6 @@
 ---
 title: Securing your Microsoft Azure Backups
-description: How to use features such as Resource Guard, and immutability to secure your Microsoft Azure backups. 
+description: How to use features such as Resource Guard and immutability to secure your Microsoft Azure backups. 
 author: jehchow 
 ms.author: shchow 
 ms.service: azure
@@ -27,7 +27,7 @@ Backups are vital to the continuity of your workloads, whether recovering from a
 
 Over the last few years, as security concerns have grown across a plethora of platforms and services, Microsoft Backup as a product hasn't stood still, with numerous features such as:
 
-* [The transition of the Backup alerts](https://learn.microsoft.com/en-gb/azure/backup/move-to-azure-monitor-alerts?WT.mc_id=AZ-MVP-5004796#supported-alerting-solutions) from Classic to Azure Monitor allows you to take advantage of action groups, email/SMS notifications, Azure Mobile app notifications and automation on failed backups or if someone deletes a backup job.
+* [The transition of the Backup alerts](https://learn.microsoft.com/azure/backup/move-to-azure-monitor-alerts?WT.mc_id=AZ-MVP-5004796#supported-alerting-solutions) from Classic to Azure Monitor allows you to take advantage of action groups, email/SMS notifications, Azure Mobile app notifications and automation on failed backups or if someone deletes a backup job.
 * Support for Azure Virtual Machines, running [Premium SSD v2](https://azure.microsoft.com/en-us/updates/premium-ssd-v2-backup-support/?WT.mc_id=AZ-MVP-5004796), with v2 Premium SSD offering the next level of storage performance early on.
 * Azure Backup support for [Confidential Virtual Machines](https://learn.microsoft.com/azure/confidential-computing/overview?WT.mc_id=AZ-MVP-5004796) using Customer Managed Keys
 * [SAP HANA system replication](https://learn.microsoft.com/en-us/azure/backup/sap-hana-database-with-hana-system-replication-backup?WT.mc_id=AZ-MVP-5004796) backup support on Azure Virtual Machines
@@ -140,7 +140,7 @@ You should get *“Unlock privilege access is needed to delete the ResourceGuard
 
 ![Test Resource Guard](../media/securing-azure-backups/Test-ResourceGuard_JobDelete.gif)
 
-You can then take this a step forward, using PIM (Privileged Identity Management) to allow the Backup Contributor to request Contributor permissions to the Resource Guard to implement privileged actions, such as the deletion of a backup job, for a certain period, and with approvers.
+You can then take this a step forward, using PIM (Privileged Identity Management) to allow the Backup Contributor to request Contributor permissions to the Resource Guard to implement privileged actions, such as deleting a backup job, for a certain period and with approvers.
 
 Resource Guard is helpful to consider when you may have application owners supporting their own workloads and Backups but still want to maintain ownership by the platform or backup team to make sure there is no unintentional data loss.
 
@@ -207,6 +207,6 @@ If interested, the following Microsoft Learn documentation is worth reading to d
 * [Use Archive tier support](https://learn.microsoft.com/en-us/azure/backup/use-archive-tier-support?pivots=client-portaltier&WT.mc_id=AZ-MVP-5004796)
 * [Immutable vault for Azure Backup](https://learn.microsoft.com/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
 * [Multi-user authorization using Resource Guard](https://learn.microsoft.com/azure/backup/multi-user-authorization-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
-* [Azure Backup architecture and components[https://learn.microsoft.com/azure/backup/backup-architecture?WT.mc_id=AZ-MVP-5004796]
+* [Azure Backup architecture and components](https://learn.microsoft.com/azure/backup/backup-architecture?WT.mc_id=AZ-MVP-5004796)
 
 And keep an eye on [Azure Updates](https://azure.microsoft.com/updates/?category=compute&WT.mc_id=AZ-MVP-5004796) for the latest updates to Backup services on Microsoft Azure.
