@@ -32,7 +32,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 ## Get started contributing
 
-1. Start by [setting up your GitHub account](https://learn.microsoft.com/en-us/contribute/get-started-setup-github) and [installing tools](https://learn.microsoft.com/en-us/contribute/get-started-setup-tools) such as VS Code.
+1. Start by [setting up your GitHub account](https://learn.microsoft.com/contribute/content/get-started-setup-github) and [installing tools](https://learn.microsoft.com/contribute/content/get-started-setup-tools) such as VS Code.
 2. Fork this repository to create a copy in your GitHub account:
     * Open [MicrosoftDocs/community-content](https://github.com/MicrosoftDocs/community-content) (this repository)
     * Select **Fork** --> The URL of your fork is now `https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content/`
