@@ -8,3 +8,5 @@
   href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4 
   href: tutorial-azure-openai-azure-speech-gpt-4.md
+- name: How-to enforce .NET code format using EditorConfig and GitHub Actions
+  href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
