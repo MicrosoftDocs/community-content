@@ -10,5 +10,3 @@
   href: tutorial-azure-openai-azure-speech-gpt-4.md
 - name: How-to enforce .NET code format using EditorConfig and GitHub Actions
   href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
-- name: Securing your Microsoft Azure Backups
-  href: securing-backups-with-azure.md
