@@ -6,7 +6,7 @@
   href: wsl-user-msft-kernel-v6.md
 - name: Manage cost and optimize resources in AKS with Kubecost
   href: how-to-utilize-kubecost-for-cost-management-of-aks.md
-- name: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4 
+- name: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4
   href: tutorial-azure-openai-azure-speech-gpt-4.md
   name: Remembering the Users in Cloud Transformations
   href: remembering-the-users-in-cloud-transformation.md
