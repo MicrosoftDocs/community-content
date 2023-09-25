@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Dr Greg Low](https://learn.microsoft.com/en-us/users/greglow/)
+**Principal author**: [Dr Greg Low](https://learn.microsoft.com/users/greglow/)
 
 ---
 
@@ -73,4 +73,4 @@ Transformations deliver the true benefits about moving to the cloud. They are al
 ## Next steps
 Moving to the cloud is not about moving virtual machines between hosting environments. An important first step is to consider the use of Platform as a Service (PaaS) offerings. Consider how you could make use of PaaS offerings. 
 
-[What is PaaS?](https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-paas)
+[What is PaaS?](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-is-paas)
