@@ -50,7 +50,7 @@ An example is below:
 
 However, if I navigate to the Overview page and click JSON View, I can see the hidden tags in the resource metadata.
 
-![Azure Portal - Resource Tags](../media/hidden-tags-azure/azureportal-hiddentitle-vmtagsjson.png "Azure Portal - Resource Tags")
+![Azure Portal - Resource Tags](../media/hidden-tags-azure/azureportal-hiddentitle-vmtags.png "Azure Portal - Resource Tags")
 
 ## hidden-tags
 
