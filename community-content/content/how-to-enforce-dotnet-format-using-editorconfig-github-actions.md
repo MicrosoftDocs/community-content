@@ -71,6 +71,17 @@ To create an EditorConfig file, you have a few options:
 
 3. Select the **èditorconfig File (.NET)** template and rename it to `.editorconfig`. Click **Add**. This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
 
+### Option 3: Creating an EditorConfig file using the dotnet CLI
+
+1. Open a command prompt and navigate to the root directory of your project/solution.
+2. Run the following command to create an EditorConfig file:
+
+   ```bash
+   dotnet new editorconfig
+   ```
+
+   This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
+
 > [!NOTE]
 > The `.editorconfig` file will be applied to all the files in the same directory and its subdirectories. You can override the settings in a subdirectory by creating another `.editorconfig` file in that subdirectory. However, it is recommended to have only one `.editorconfig` file in the root directory of your project/solution to avoid confusion unless you have a good reason to do so.
 
