@@ -1,7 +1,7 @@
 ---
 title: Discover Microsoft Azure learning, training, certifications, and career path opportunities
 description: This blog post will help you land correctly with your Microsoft Azure Certification learning and Career path 
-author: Hamid Sadeghpour Saleh
+author: h-sadeghpour
 ms.author: shchow
 ms.service: azure
 ms.topic: guidelines/mentorship article
@@ -10,7 +10,13 @@ ms.custom: template-concept
 content_well_notification: 
   - Human-created-Community
 ---
+# Discover Microsoft Azure learning, training, certifications, and career path opportunities
 
+---
+
+**Principal author**: [Hamid Sadeghpour Saleh](https://learn.microsoft.com/users/hamidsadeghpoursaleh/)
+
+---
 
 **What is Microsoft Azure?
 **
