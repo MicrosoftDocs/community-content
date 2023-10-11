@@ -10,8 +10,6 @@ content_well_notification:
   - Human-created-Community
 ---
 
-
-
 # Tutorial: Integrating Azure OpenAI and Azure Speech Services to Create a Voice-Enabled Chatbot with Python and GPT-4
 
 
@@ -34,9 +32,6 @@ In this tutorial, you learn how to:
 ## Prerequisites
 - An Azure subscription - Create a [free trial account](https://azure.microsoft.com/free)
 - Access to Azure OpenAI Service - https://aka.ms/oaiapply
-- Access to GPT-4 models in Azure OpenAI service - https://aka.ms/oai/get-gpt4
-
-
 
 ## What is the difference between Azure OpenAI and OpenAI
 Before we dive into the integration process, let’s first understand what Azure OpenAI Service is.
@@ -60,13 +55,6 @@ If your application to access the Azure OpenAI service is approved, then you can
 The Azure OpenAI service offers users access to a range of different models, such as gpt-35-turbo, gpt-35-turbo-16k, gpt-4 and gpt-4-32k, each with its own capabilities and price point. The version of both gpt-35-turbo and gpt-4 models is a new and improved 0613 model version, which comes with the enhanced steerability.
 
 ![aoai-pricing](../media/aoai-speech-python/2-aoai-pricing.png)
-
-However, it should be noted that the GPT-4 models are currently still available by request only. Existing Azure OpenAI customers can apply for access to these models by completing the form below.
-
-https://aka.ms/oai/get-gpt4
-
-
-
 
 ## Sign in to Azure OpenAI Studio
 To get started, go to https://oai.azure.com to access Azure OpenAI Studio. Sign in using credentials that have access to your Azure OpenAI resource. You can select the appropriate directory, Azure subscription, and Azure OpenAI resource during or after the sign-in process.
@@ -130,6 +118,7 @@ The link below provides access to information on the languages and voice support
 [Language and voice support for the Speech service](https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts&WT.mc_id=DT-MVP-5001664)
 
 
+
 ### Step 3 - Creating a speech recognizer and starting the recognition
 To converse with a chatbot powered by GPT-4 in a human-like conversation, the first step is to create a speech recognizer capable of identifying our voice.
 
@@ -183,6 +172,7 @@ The function takes a prompt as input and uses the `openai.ChatCompletion.create(
 The main input of the `openai.ChatCompletion.create()` method is the messages parameter, which should be an array consisting of message objects. Each message object in the array must include a “role” (which can be either “system”, “user”, or “assistant”) and a “content” field (which contains the message’s content, in this case, the message’s content is the value of prompt).
 
 
+
 ### Step 5 - Adding Text-to-Speech Functionality to the Chatbot
 Let’s now include another feature that allows the chatbot to vocalize the text produced by the Azure OpenAI service in a human-like manner.
 
@@ -213,6 +203,9 @@ As the end result, you can click on the video below to check out this chat bot t
 If you're not going to continue to use this application, delete the Azure OpenAI resource or resource group from the Azure Portal.
 
 
+
 ## Next steps
 - [Azure OpenAI Service REST API reference](https://learn.microsoft.com/azure/ai-services/openai/reference?WT.mc_id=DT-MVP-5001664)
 - [Azure OpenAI Samples GitHub repository](https://github.com/Azure-Samples/openai)
+
+
