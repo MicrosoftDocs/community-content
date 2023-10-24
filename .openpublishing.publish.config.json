@@ -16,9 +16,9 @@
     }
   ],
   "notification_subscribers": [
-    "shchow@microsoft.com",
     " sonia@microsoft.com",
-    " pidebrui@microsoft.com"
+    " pidebrui@microsoft.com",
+    "carly.revier@microsoft.com"
   ],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
@@ -31,5 +31,6 @@
       "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {}
+  "branch_target_mapping": {},
+  "targets": {}
 }
