@@ -51,9 +51,9 @@ Microsoft leads the world in Responsible AI and Responsible Generative AI. Learn
 
 For executive and business leaders:
 
-- AI Business School: These courses are technology agnostic but are provided on the Microsoft Learn platform: http://aka.ms/aibs
-- Learn generative AI with Microsoft Azure AI Services: https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/
-- Ethical AI workshops: To understand responsible AI use: https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/
+- AI Business School: These courses are technology agnostic but are provided on the Microsoft Learn platform: https://aka.ms/aibs
+- Learn generative AI with Microsoft Azure AI Services: https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/
+- Ethical AI workshops: To understand responsible AI use: https://learn.microsoft.com/training/modules/responsible-generative-ai/
 
 For architects and developers:
 
