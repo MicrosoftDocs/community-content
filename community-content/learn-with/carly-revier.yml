@@ -4,8 +4,8 @@ title: Learn with Carly Revier
 sections: 
   # Intro
   - componentType: text
-    title: Learn with Carly Revier
-    summary: Noelle wants to teach you about generative AI.
+    title: Learn Power Automate with Carly Revier
+    summary: " "
 
    # bifold with image and text blocks
   - componentType: bifold
@@ -14,12 +14,13 @@ sections:
       - src: ./media/carly-revier/carly-revier.jpg
         alt: Headshot of Carly Revier.
         componentType: image
-      - title: "Noelle can help you learn about:"
+      - title: " "
+        summary: Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates.
         componentType: text
         links:
           - componentType: link
-            url: https://bing.com
-            text: Click here to see Carly's latest collection
+            url: index.md
+            text: See more expert profiles.
         list:
           componentType: list
           style: unordered # ordered | checklist
@@ -27,6 +28,29 @@ sections:
             - AI thing 1
             - AI thing 2
             - AI thing 3
+
+  # social section
+  - componentType: social
+    title: Follow Carly on the web
+    links:
+      - componentType: social-link
+        url: https://bing.com
+        destination: github
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitter
+      - componentType: social-link
+        url: https://bing.com
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitch
+      - componentType: social-link
+        url: https://bing.com
+        destination: youtube
 
 # Icon cards grid
   - componentType: grid
@@ -89,25 +113,3 @@ sections:
         url: https://bing.com
 
 
-  # social section
-  - componentType: social
-    title: Follow Noelle on the web
-    links:
-      - componentType: social-link
-        url: https://bing.com
-        destination: github
-      - componentType: social-link
-        url: https://bing.com
-        destination: twitter
-      - componentType: social-link
-        url: https://bing.com
-        destination: linkedin
-      - componentType: social-link
-        url: https://bing.com
-        destination: blog
-      - componentType: social-link
-        url: https://bing.com
-        destination: twitch
-      - componentType: social-link
-        url: https://bing.com
-        destination: youtube
