@@ -5,7 +5,7 @@ sections:  # bifold with image and text blocks
   - componentType: bifold
     alignment: center
     blocks:
-      - src: ./media/noelle-russell/noelle-russell.jpg
+      - src: ./media/noelle-russell/noelle-russell.png
         alt: Headshot of Noelle Russell.
         componentType: image
       - title: Learn with Noelle Russell
