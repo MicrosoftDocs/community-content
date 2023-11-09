@@ -1,15 +1,20 @@
 ### YamlMime:Marketing
 title: Learn with Noelle Russell
 # brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
-sections:  # bifold with image and text blocks
+sections: 
+  # Intro
+  - componentType: text
+    title: Learn with Noelle Russell
+    summary: Noelle wants to teach you about generative AI.
+
+   # bifold with image and text blocks
   - componentType: bifold
     alignment: center
     blocks:
       - src: ./media/noelle-russell/noelle-russell.png
         alt: Headshot of Noelle Russell.
         componentType: image
-      - title: Learn with Noelle Russell
-        summary: "Noelle Russell is a Microsoft MVP and AI pro who can help you learn about:"
+      - title: "Noelle can help you learn about:"
         componentType: text
         links:
           - componentType: link
