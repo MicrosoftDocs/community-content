@@ -6,6 +6,10 @@ sections:
   - componentType: text
     title: Learn Power Automate with Carly Revier
     summary: " "
+    links: 
+      - componentType: Link
+        url: index.md
+        text: See more expert profiles.
 
 # social section
   - componentType: social
@@ -41,9 +45,18 @@ sections:
         summary: Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates.
         componentType: text
         links:
-          - componentType: link
-            url: index.md
-            text: See more expert profiles.
+          - componentType: social-link
+            url: https://bing.com
+            destination: github
+          - componentType: social-link
+            url: https://bing.com
+            destination: twitter
+          - componentType: social-link
+            url: https://bing.com
+            destination: linkedin
+          - componentType: social-link
+            url: https://bing.com
+            destination: blog  
         list:
           componentType: list
           style: unordered # ordered | checklist
