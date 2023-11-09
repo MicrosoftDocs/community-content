@@ -1,0 +1,103 @@
+### YamlMime:Marketing
+title: Learn with Carly Revier
+# brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
+sections: 
+  # Intro
+  - componentType: text
+    title: Learn with Carly Revier
+    summary: Noelle wants to teach you about generative AI.
+
+   # bifold with image and text blocks
+  - componentType: bifold
+    alignment: center
+    blocks:
+      - src: ./media/carly-revier/carly-revier.jpg
+        alt: Headshot of Carly Revier.
+        componentType: image
+      - title: "Noelle can help you learn about:"
+        componentType: text
+        links:
+          - componentType: link
+            url: https://bing.com
+            text: Click here to see Carly's latest collection
+        list:
+          componentType: list
+          style: unordered # ordered | checklist
+          children:
+            - AI thing 1
+            - AI thing 2
+            - AI thing 3
+
+# Icon cards grid
+  - componentType: grid
+    title: Generative AI skills collection
+    blocks:
+      - componentType: icon-card
+        title: Link to resource 1
+        summary: This link is important because...
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/VSCode.png
+      - componentType: icon-card
+        title: Link to resource 2
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/Edge.png
+      - componentType: icon-card
+        title: Link to resource 3
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/TypeScript.png
+      - componentType: icon-card
+        title: Link to resource 4
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/AzureAppPlatform.png
+  
+  # cards section (2)
+  - componentType: cards
+    isShadowless: true
+    title: My latest videos
+    summary: Stay tuned for more!
+    blocks:
+      - componentType: card
+        title: Card 1 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+
+
+  # social section
+  - componentType: social
+    title: Follow Noelle on the web
+    links:
+      - componentType: social-link
+        url: https://bing.com
+        destination: github
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitter
+      - componentType: social-link
+        url: https://bing.com
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitch
+      - componentType: social-link
+        url: https://bing.com
+        destination: youtube

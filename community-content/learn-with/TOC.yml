@@ -2,9 +2,9 @@ items:
   - name: Learn with experts
     href: index.md
   - name: Noelle Russell
-    href: noelle-russell.md
-  - name: Expert 2
-    href: noelle-russell.md
+    href: noelle-russell-2.yml
+  - name: Carly Revier
+    href: carly-revier.yml
   - name: Expert 3
     href: noelle-russell.md
   - name: Expert 4
