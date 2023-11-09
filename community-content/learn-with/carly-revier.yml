@@ -77,6 +77,16 @@ sections:
         summary: Summary text, keep it brief
         imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
         url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
 
 
   # social section
