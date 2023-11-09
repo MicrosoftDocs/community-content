@@ -1,5 +1,5 @@
 ---
-title: Contributor profile - Noelle Russell
+title: Learn with Noelle Russell
 description: Learn about Noelle Russell, a Microsoft MVP and community contributor. 
 author: carlyrevier
 ms.author: cahublou
@@ -11,11 +11,11 @@ content_well_notification:
   - Human-created-Community
 ---
 
-# Meet Noelle Russell
+# Learn with Noelle Russell
 
 :::row:::
    :::column span="":::
-        :::image type="content" source="../media/profile-noelle-russell/noelle-russell.jpg" alt-text="Headshot of Noelle Russell."::: 
+        :::image type="content" source="../media/noelle-russell/noelle-russell.jpg" alt-text="Headshot of Noelle Russell.":::
    :::column-end:::
    :::column span="2":::
       Noelle Russell is a leading global AI solutions and responsible generative AI technologist at Accenture. She's also a Microsoft MVP and community contributor. [Read more about Noelle.](https://techcommunity.microsoft.com/t5/microsoft-mvp-award-program-blog/learn-more-about-ai-and-accessibility/ba-p/3938397)  

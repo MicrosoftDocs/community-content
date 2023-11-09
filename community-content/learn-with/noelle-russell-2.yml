@@ -1,0 +1,47 @@
+### YamlMime:Marketing
+title: Learn with Noelle Russell
+# brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
+sections:  # bifold with image and text blocks
+  - componentType: bifold
+    alignment: center
+    blocks:
+      - src: ./media/noelle-russell/noelle-russell.jpg
+        alt: Headshot of Noelle Russell.
+        componentType: image
+      - title: Bifold text title
+        summary: "Noelle Russell is a Microsoft MVP and AI pro who can help you learn about:"
+        componentType: text
+        links:
+          - componentType: link
+            url: https://bing.com
+            text: Click here to see Noelle's latest collection
+        list:
+          componentType: list
+          style: unordered # ordered | checklist
+          children:
+            - AI thing 1
+            - AI thing 2
+            - AI thing 3
+
+  # social section
+  - componentType: social
+    title: Follow Noelle on the web
+    links:
+      - componentType: social-link
+        url: https://bing.com
+        destination: github
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitter
+      - componentType: social-link
+        url: https://bing.com
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitch
+      - componentType: social-link
+        url: https://bing.com
+        destination: youtube
