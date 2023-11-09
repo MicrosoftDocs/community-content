@@ -65,8 +65,6 @@ sections:
             - AI thing 2
             - AI thing 3
 
-
-
 # Icon cards grid
   - componentType: grid
     title: Generative AI skills collection
