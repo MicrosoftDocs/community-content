@@ -8,7 +8,7 @@ sections:  # bifold with image and text blocks
       - src: ./media/noelle-russell/noelle-russell.jpg
         alt: Headshot of Noelle Russell.
         componentType: image
-      - title: Bifold text title
+      - title: Learn with Noelle Russell
         summary: "Noelle Russell is a Microsoft MVP and AI pro who can help you learn about:"
         componentType: text
         links:
@@ -22,6 +22,57 @@ sections:  # bifold with image and text blocks
             - AI thing 1
             - AI thing 2
             - AI thing 3
+
+# Icon cards grid
+  - componentType: grid
+    title: Generative AI skills collection
+    blocks:
+      - componentType: icon-card
+        title: Link to resource 1
+        summary: This link is important because...
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/VSCode.png
+      - componentType: icon-card
+        title: Link to resource 2
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/Edge.png
+      - componentType: icon-card
+        title: Link to resource 3
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/TypeScript.png
+      - componentType: icon-card
+        title: Link to resource 4
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/AzureAppPlatform.png
+  
+  # cards section (2)
+  - componentType: cards
+    isShadowless: true
+    title: My latest videos
+    summary: Stay tuned for more!
+    blocks:
+      - componentType: card
+        title: Card 1 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+
 
   # social section
   - componentType: social
