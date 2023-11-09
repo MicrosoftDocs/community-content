@@ -9,7 +9,7 @@ sections:
 
 # social section
   - componentType: social
-    title: Follow Carly on the web
+    title: " "
     links:
       - componentType: social-link
         url: https://bing.com
