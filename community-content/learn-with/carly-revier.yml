@@ -7,6 +7,29 @@ sections:
     title: Learn Power Automate with Carly Revier
     summary: " "
 
+# social section
+  - componentType: social
+    title: Follow Carly on the web
+    links:
+      - componentType: social-link
+        url: https://bing.com
+        destination: github
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitter
+      - componentType: social-link
+        url: https://bing.com
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitch
+      - componentType: social-link
+        url: https://bing.com
+        destination: youtube
+
    # bifold with image and text blocks
   - componentType: bifold
     alignment: center
@@ -29,28 +52,7 @@ sections:
             - AI thing 2
             - AI thing 3
 
-  # social section
-  - componentType: social
-    title: Follow Carly on the web
-    links:
-      - componentType: social-link
-        url: https://bing.com
-        destination: github
-      - componentType: social-link
-        url: https://bing.com
-        destination: twitter
-      - componentType: social-link
-        url: https://bing.com
-        destination: linkedin
-      - componentType: social-link
-        url: https://bing.com
-        destination: blog
-      - componentType: social-link
-        url: https://bing.com
-        destination: twitch
-      - componentType: social-link
-        url: https://bing.com
-        destination: youtube
+
 
 # Icon cards grid
   - componentType: grid
