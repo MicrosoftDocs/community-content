@@ -8,7 +8,6 @@ sections:
  #   summary: " "
 
   - componentType: hero-product
-    supertitle: 
     title: Learn ML with Carly Revier
     subtitle: "Carly knows about:"
     size: large
