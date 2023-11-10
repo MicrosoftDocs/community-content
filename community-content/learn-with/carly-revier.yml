@@ -19,8 +19,10 @@ sections:
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /media/carly-revier/noelle-hero-dark.png
-      darkImageSrc: /media/carly-revier/contributor-home-hero-dark.png
+      lightImageSrc: ./media/carly-revier/noelle-hero-dark.png
+      darkImageSrc: ./media/carly-revier/contributor-home-hero-dark.png
+
+      #media/carly-revier/noelle-hero-dark.png
 
 # social section
   - componentType: social
