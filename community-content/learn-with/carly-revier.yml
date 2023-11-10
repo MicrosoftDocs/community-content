@@ -19,10 +19,23 @@ sections:
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/noelle-hero-dark.png
-      darkImageSrc: ./media/noelle-hero-dark.png
+      lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
+      darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
 
-      #media/carly-revier/noelle-hero-dark.png
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community Content
+    title: Learn ML with Carly Revier
+    subtitle: "Carly knows about:"
+    size: large
+    summary: "Power Automate | Azure machine learning | ChatGPT"
+    links:
+      - componentType: link
+        url: https://bing.com
+        text: Back to all expert profiles
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark-2.png
+      darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark-2.png
 
 # social section
   - componentType: social
