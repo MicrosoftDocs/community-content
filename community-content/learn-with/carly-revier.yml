@@ -8,10 +8,14 @@ sections:
  #   summary: " "
 
   - componentType: hero-product
+    supertitle: Microsoft Learn Community Content
     title: Learn ML with Carly Revier
-    subtitle: "Carly knows about:"
     size: large
-    summary: "- Power Automate <br> - Another skill <br> - Another skill"
+    summary: |
+      Carly knows about:
+      * Power Automate
+      * Climbing
+      * Making these marketing pages
     links:
       - componentType: link
         url: https://bing.com
