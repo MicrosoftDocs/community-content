@@ -3,13 +3,22 @@ title: Learn with Carly Revier
 # brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
 sections: 
   # Intro
-  - componentType: text
-    title: Learn Power Automate with Carly Revier
+#  - componentType: text
+ #   title: Learn Power Automate with Carly Revier
+ #   summary: " "
+
+# Hero with an image background and dark textColor
+  - componentType: hero
+    title: " "
+    textColor: dark
+    background:
+      componentType: image
+      src: ./media/carly-revier/carly-hero.png
     summary: " "
-    links: 
-      - componentType: Link
-        url: index.md
-        text: See more expert profiles.
+    links:
+      - componentType: link
+        url: https://bing.com
+        text: See more profiles
 
 # social section
   - componentType: social
@@ -45,18 +54,9 @@ sections:
         summary: Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates.
         componentType: text
         links:
-          - componentType: social-link
-            url: https://bing.com
-            destination: github
-          - componentType: social-link
-            url: https://bing.com
-            destination: twitter
-          - componentType: social-link
-            url: https://bing.com
-            destination: linkedin
-          - componentType: social-link
-            url: https://bing.com
-            destination: blog  
+          - componentType: link
+            url: index.md
+            text: See more expert profiles.
         list:
           componentType: list
           style: unordered # ordered | checklist
@@ -64,6 +64,8 @@ sections:
             - AI thing 1
             - AI thing 2
             - AI thing 3
+
+
 
 # Icon cards grid
   - componentType: grid
