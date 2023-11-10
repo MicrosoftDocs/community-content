@@ -7,18 +7,20 @@ sections:
  #   title: Learn Power Automate with Carly Revier
  #   summary: " "
 
-# Hero with an image background and dark textColor
-  - componentType: hero
-    title: " "
-    textColor: dark
-    background:
-      componentType: image
-      src: ./media/carly-revier/carly-hero.png
-    summary: " "
+  - componentType: hero-product
+    supertitle: 
+    title: Learn ML with Carly Revier
+    subtitle: "Carly knows about:"
+    size: large
+    summary: "- Power Automate <br> - Another skill <br> - Another skill"
     links:
       - componentType: link
         url: https://bing.com
-        text: See more profiles
+        text: Back to all expert profiles
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /media/carly-revier/noelle-hero-dark.png
+      darkImageSrc: ./media/carly-revier/noelle-hero-dark.png
 
 # social section
   - componentType: social
