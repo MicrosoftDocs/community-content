@@ -12,15 +12,15 @@ sections:
     title: Learn ML with Carly Revier
     subtitle: "Carly knows about:"
     size: large
-    summary: "Machine learning | Rock climbing | Marketing pages"
+    summary: "Power Automate | Azure machine learning | ChatGPT"
     links:
       - componentType: link
         url: https://bing.com
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community-content/learn-with/media/carly-revier/contributor-home-hero-dark.png
-      darkImageSrc: /community-content/learn-with/media/carly-revier/contributor-home-hero-dark.png
+      lightImageSrc: /media/carly-revier/noelle-hero-dark.png
+      darkImageSrc: /media/carly-revier/contributor-home-hero-dark.png
 
 # social section
   - componentType: social
