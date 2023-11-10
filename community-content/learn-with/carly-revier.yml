@@ -8,9 +8,8 @@ sections:
  #   summary: " "
 
   - componentType: hero-product
-    supertitle: Microsoft Learn Community Content
+    supertitle: Community Content
     title: Learn ML with Carly Revier
-    subtitle: "Carly knows about:"
     size: large
     summary: "Power Automate | Azure machine learning | ChatGPT"
     links:
@@ -22,20 +21,9 @@ sections:
       lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
       darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
 
-  - componentType: hero-product
-    supertitle: Microsoft Learn Community Content
-    title: Learn ML with Carly Revier
-    subtitle: "Carly knows about:"
-    size: large
-    summary: "Power Automate | Azure machine learning | ChatGPT"
-    links:
-      - componentType: link
-        url: https://bing.com
-        text: Back to all expert profiles
-    heroImage:
-      componentType: hero-image
-      lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark-2.png
-      darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark-2.png
+  - componentType: text
+    title: " "
+    summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
 
 # social section
   - componentType: social
@@ -60,33 +48,9 @@ sections:
         url: https://bing.com
         destination: youtube
 
-   # bifold with image and text blocks
-  - componentType: bifold
-    alignment: center
-    blocks:
-      - src: ./media/carly-revier/carly-revier.jpg
-        alt: Headshot of Carly Revier.
-        componentType: image
-      - title: " "
-        summary: Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates. Carly is a Technical Program Manager at Microsoft. She is the best person ever to work with power automate, and everything you could possibly need to know you can learn from her. She is originally from Florida but has also lived in Texas, and now lives in Seattle with her husband, daughter, dog, and two cats that she tolerates.
-        componentType: text
-        links:
-          - componentType: link
-            url: index.md
-            text: See more expert profiles.
-        list:
-          componentType: list
-          style: unordered # ordered | checklist
-          children:
-            - AI thing 1
-            - AI thing 2
-            - AI thing 3
-
-
-
 # Icon cards grid
   - componentType: grid
-    title: Generative AI skills collection
+    title: Generative AI skills resources
     blocks:
       - componentType: icon-card
         title: Link to resource 1
@@ -94,7 +58,7 @@ sections:
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/VSCode.png
+          src: ./media/icons/youtube.png
       - componentType: icon-card
         title: Link to resource 2
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -116,12 +80,27 @@ sections:
         icon:
           componentType: image
           src: ./media/AzureAppPlatform.png
+      - componentType: icon-card
+        title: Link to resource 5
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/AzureAppPlatform.png
+      - componentType: icon-card
+        title: Link to resource 6
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/AzureAppPlatform.png
+      
   
   # cards section (2)
   - componentType: cards
     isShadowless: true
-    title: My latest videos
-    summary: Stay tuned for more!
+    title: My favorite videos for machine learning
+    summary: These videos are owned and/or curated by Carly. Microsoft doesn't own or review this content.
     blocks:
       - componentType: card
         title: Card 1 title
