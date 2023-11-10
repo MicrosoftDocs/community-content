@@ -10,19 +10,17 @@ sections:
   - componentType: hero-product
     supertitle: Microsoft Learn Community Content
     title: Learn ML with Carly Revier
+    subtitle: "Carly knows about:"
     size: large
-    summary: "Carly knows about:\n
-      * Power Automate\n
-      * Climbing\n
-      * Making these marketing pages"
+    summary: "Machine learning | Rock climbing | Marketing pages"
     links:
       - componentType: link
         url: https://bing.com
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community-content/learn-with/media/carly-revier/noelle-hero-dark.png
-      darkImageSrc: /community-content/learn-with/media/carly-revier/noelle-hero-dark.png
+      lightImageSrc: /community-content/learn-with/media/carly-revier/contributor-home-hero-dark.png
+      darkImageSrc: /community-content/learn-with/media/carly-revier/contributor-home-hero-dark.png
 
 # social section
   - componentType: social
