@@ -21,11 +21,7 @@ sections:
       lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
       darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
 
-  - componentType: text
-    title: " "
-    summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
-
-# social section
+  # social section
   - componentType: social
     title: " "
     links:
@@ -47,6 +43,10 @@ sections:
       - componentType: social-link
         url: https://bing.com
         destination: youtube
+
+  - componentType: text
+    title: "Bio"
+    summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
 
 # Icon cards grid
   - componentType: grid
