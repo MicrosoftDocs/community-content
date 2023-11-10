@@ -10,7 +10,7 @@ sections:
   - componentType: hero-product
     supertitle: Community Content Expert
     title: Learn wtih Carly Revier
-    size: medium
+    #size: small
     summary: "Power Automate | Azure machine learning | ChatGPT"
     links:
       - componentType: link
