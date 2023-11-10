@@ -8,9 +8,9 @@ sections:
  #   summary: " "
 
   - componentType: hero-product
-    supertitle: Community Content
-    title: Learn ML with Carly Revier
-    size: small
+    supertitle: Community Content Expert
+    title: Learn wtih Carly Revier
+    size: medium
     summary: "Power Automate | Azure machine learning | ChatGPT"
     links:
       - componentType: link
@@ -20,15 +20,6 @@ sections:
       componentType: hero-image
       lightImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
       darkImageSrc: /community/learn-with/media/carly-revier/noelle-hero-dark.png
-
-  # Hero with background image - default transform
-  - componentType: hero
-    supertitle: Community Content expert
-    title: Learn machine learning with Carly Revier
-    image:
-      componentType: image
-      src: ./media/carly-revier/noelle-russell.png
-    summary: Power Automate | Something else | Something else
 
   # social section
   - componentType: social
