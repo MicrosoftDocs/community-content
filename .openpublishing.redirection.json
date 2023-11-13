@@ -1,0 +1,7 @@
+{
+    "redirections": [{
+            "source_path": "community-content/index.md",
+            "redirect_url": "/community/content/index"
+        }
+    ]
+}
