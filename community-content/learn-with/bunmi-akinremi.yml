@@ -63,5 +63,12 @@ sections:
         icon:
           componentType: image
           src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: ML practice assessments
+        summary: Practice assessments to help you prepare for a Microsoft Certification exam.
+        url: https://learn.microsoft.com/en-us/credentials/certifications/practice-assessments-for-microsoft-certifications
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
 
 

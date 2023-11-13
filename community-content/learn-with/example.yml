@@ -57,35 +57,35 @@ sections:
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/Edge.png
+          src: ../media/icons/medium.png
       - componentType: icon-card
         title: Link to resource 3
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/TypeScript.png
+          src: ./media/icons/learn.png
       - componentType: icon-card
         title: Link to resource 4
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/AzureAppPlatform.png
+          src: ./media/icons/youtube.png
       - componentType: icon-card
         title: Link to resource 5
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/AzureAppPlatform.png
+          src: ./media/icons/medium.png
       - componentType: icon-card
         title: Link to resource 6
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
-          src: ./media/AzureAppPlatform.png
+          src: ./media/icons/learn.png
       
   
   # Video card section
