@@ -1,0 +1,56 @@
+### YamlMime:Marketing
+title: Learn with experts
+# brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
+sections: 
+
+  - componentType: hero-product
+    supertitle: learn with experts
+    title: Learn with Carly Revier
+    #size: small
+    summary: Welcome to Microsoft Learn experts! Browse expert profiles and discover resources to help you in your learning journey.
+    #links:
+     # - componentType: link
+      #  url: https://bing.com
+       # text: Back to all expert profiles
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/index/dark-background.png
+      darkImageSrc: /community/learn-with/media/index/dark-background.png
+
+  - componentType: speaker-profile-cards
+    title: Meet the experts
+    summary: Select each expert's link to view their profile and see their resources.
+    blocks:
+    - componentType: speaker-profile-card
+      title: Carly Revier
+      imageUrl: /community/learn-with/media/index/carly-revier.jpg
+      summary: "Power Platform | Generative AI | Microsoft Entra"
+      socialLink:    
+        componentType: social-link
+        url: https://twitter.com/carlyrevier
+        destination: twitter
+    - componentType: speaker-profile-card
+      title: Carly Revier
+      imageUrl: /community/learn-with/media/index/carly-revier.jpg
+      summary: "Power Platform | Generative AI | Microsoft Entra"
+      socialLink:    
+        componentType: social-link
+        url: https://twitter.com/carlyrevier
+        destination: twitter
+    - componentType: speaker-profile-card
+      title: Carly Revier
+      imageUrl: /community/learn-with/media/index/carly-revier.jpg
+      summary: "Power Platform | Generative AI | Microsoft Entra"
+      socialLink:    
+        componentType: social-link
+        url: https://twitter.com/carlyrevier
+        destination: twitter
+    - componentType: speaker-profile-card
+      title: Carly Revier
+      imageUrl: /community/learn-with/media/index/carly-revier.jpg
+      summary: "Power Platform | Generative AI | Microsoft Entra"
+      socialLink:    
+        componentType: social-link
+        url: https://twitter.com/carlyrevier
+        destination: twitter
+      
