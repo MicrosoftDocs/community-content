@@ -14,7 +14,7 @@ sections:
        # text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/media/index/dark-background.png
+      lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
 
   - componentType: speaker-profile-cards

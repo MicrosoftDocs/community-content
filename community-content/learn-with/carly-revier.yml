@@ -18,7 +18,7 @@ sections:
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/media/carly-revier/carly-revier-dark.png
+      lightImageSrc: /community/learn-with/media/carly-revier/carly-revier-light.png
       darkImageSrc: /community/learn-with/media/carly-revier/carly-revier-dark.png
 
   # social section
