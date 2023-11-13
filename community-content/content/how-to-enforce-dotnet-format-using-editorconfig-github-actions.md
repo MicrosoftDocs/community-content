@@ -57,7 +57,7 @@ To create an EditorConfig file, you have a few options:
 
 1. Open your .NET project/solution in Visual Studio 2022. Click **Tools** > **Options** > **Text Editor** > **C#** > **Code Style** > **General**. Then click **Generate .editorconfig file from settings**.
 
-   ![Generate .editorconfig file](../media/enforce-dotnet-format/generate-editorconfig-file.png)
+   ![Generate .editorconfig file](media/enforce-dotnet-format/generate-editorconfig-file.png)
 
 2. Choose the root directory of your project/solution and name the file `.editorconfig`. Click **Save**.
 
@@ -67,7 +67,7 @@ To create an EditorConfig file, you have a few options:
 
 2. In the search box, type `editorconfig`. You will see two templates as follows:
 
-   ![Add .editorconfig file](../media/enforce-dotnet-format/add-editorconfig-file.png)
+   ![Add .editorconfig file](media/enforce-dotnet-format/add-editorconfig-file.png)
 
 3. Select the **èditorconfig File (.NET)** template and rename it to `.editorconfig`. Click **Add**. This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
 
@@ -91,7 +91,7 @@ You can edit the `.editorconfig` file in Visual Studio 2022 or any text editor. 
 
 1. Open the `.editorconfig` file in Visual Studio 2022. You can see the default settings for the code style.
 
-   ![Edit .editorconfig file](../media/enforce-dotnet-format/edit-editorconfig.png)
+   ![Edit .editorconfig file](media/enforce-dotnet-format/edit-editorconfig.png)
 
 2. Edit the code style settings as needed. Note that different teams may have different code style settings. Discuss with your team members and agree on a set of code style settings before editing the file.
 
@@ -103,11 +103,11 @@ You have a couple of options to format your code locally.
 
 1. Click **Tools** > **Options** > **Text Editor** > **Code Cleanup** in Visual Studio 2022. Select the **Run Code Cleanup profile on Save** checkbox.
 
-   ![Config Code Cleanup](../media/enforce-dotnet-format/config-code-cleanup.png)
+   ![Config Code Cleanup](media/enforce-dotnet-format/config-code-cleanup.png)
 
 2. Click **Configure Code Cleanup**. You can choose what fixes to run on save. Click **OK**.
 
-   ![Config Code Cleanup profile](../media/enforce-dotnet-format/config-code-cleanup-profile.png)
+   ![Config Code Cleanup profile](media/enforce-dotnet-format/config-code-cleanup-profile.png)
 
 3. Open a C# file in your project/solution. Make some changes to the code and save the file. The code will be formatted automatically. You can also press `Ctrl + K, Ctrl + E` to format the code manually.
 
@@ -161,7 +161,7 @@ GitHub Actions is a CI/CD tool that allows you to automate your software develop
 
 2. In the **Continuous integration** category, click **Configure** for **.NET**.
 
-   ![Add GitHub Action](../media/enforce-dotnet-format/add-github-action.png)
+   ![Add GitHub Action](media/enforce-dotnet-format/add-github-action.png)
 
 3. Rename the workflow name as `dotnet-format.yml` or any name you like.
 
@@ -199,7 +199,7 @@ GitHub Actions is a CI/CD tool that allows you to automate your software develop
 
 6. Check the status of the workflow when a pull request is created. Click **Details** to see the details of the workflow.
 
-   ![GitHub Action result](../media/enforce-dotnet-format/github-action-result.png)
+   ![GitHub Action result](media/enforce-dotnet-format/github-action-result.png)
 
 ## Next steps
 
