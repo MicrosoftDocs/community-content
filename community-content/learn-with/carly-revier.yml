@@ -8,10 +8,10 @@ sections:
  #   summary: " "
 
   - componentType: hero-product
-    supertitle: Community Content Expert
-    title: Learn wtih Carly Revier
+    supertitle: learn with experts
+    title: Learn with Carly Revier
     #size: small
-    summary: "Power Automate | Azure machine learning | ChatGPT"
+    summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
     links:
       - componentType: link
         url: https://bing.com
@@ -23,7 +23,7 @@ sections:
 
   # social section
   - componentType: social
-    title: " "
+    title: "Connect with me"
     links:
       - componentType: social-link
         url: https://bing.com
@@ -45,7 +45,7 @@ sections:
         destination: youtube
 
   - componentType: text
-    title: "Bio"
+    title: " "
     summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
 
 # Icon cards grid
