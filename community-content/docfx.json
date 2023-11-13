@@ -40,8 +40,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/community/content/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+      "breadcrumb_path": "~/breadcrumb/toc.json",
       "feedback_system": "None",
       "permissioned-type": "public"
     },
