@@ -4,8 +4,8 @@ title: Learn with experts
 sections: 
 
   - componentType: hero-product
-    supertitle: learn with experts
-    title: Learn with Carly Revier
+    #supertitle: learn with experts
+    title: Learn with Experts
     #size: small
     summary: Welcome to Microsoft Learn experts! Browse expert profiles and discover resources to help you in your learning journey.
     #links:
@@ -32,7 +32,7 @@ sections:
     - componentType: speaker-profile-card
       title: Carly Revier
       imageUrl: /community/learn-with/media/index/carly-revier.jpg
-      summary: "Power Platform | Generative AI | Microsoft Entra"
+      summary: "AI skills | Containerization | VS Code pro"
       socialLink:    
         componentType: social-link
         url: https://twitter.com/carlyrevier

@@ -14,7 +14,7 @@ sections:
     summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate! Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
     links:
       - componentType: link
-        url: https://bing.com
+        url: https://learn.microsoft.com/community/learn-with
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
