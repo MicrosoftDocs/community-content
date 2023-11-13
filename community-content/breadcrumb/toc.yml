@@ -6,3 +6,7 @@ items:
   - name: Community content
     tocHref: /community/
     topicHref: /community
+    items:
+    - name: Content
+      tocHref: /community/content/
+      topicHref: /community/content
