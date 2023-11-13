@@ -26,7 +26,7 @@ sections:
       summary: "Machine learning | AI ethics | low-resource languages"
       socialLink:    
         componentType: social-link
-        url: https:/learn.microsoft.com/community/learn-with/bunmi-akinremi
+        url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
         destination: blog
     - componentType: speaker-profile-card
       title: Carly Revier
@@ -34,6 +34,6 @@ sections:
       summary: "Power Platform | SharePoint | Microsoft Learn"
       socialLink:    
         componentType: social-link
-        url: https:/learn.microsoft.com/community/learn-with/example
+        url: https://learn.microsoft.com/community/learn-with/example
         destination: blog
       

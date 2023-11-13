@@ -57,7 +57,7 @@ sections:
         url: https://bing.com
         icon:
           componentType: image
-          src: ../media/icons/medium.png
+          src: ./media/icons/medium.png
       - componentType: icon-card
         title: Link to resource 3
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
