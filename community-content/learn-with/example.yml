@@ -1,12 +1,8 @@
 ### YamlMime:Marketing
 title: Learn with Carly Revier
-# brand: aspnet | azure | dotnet | dynamics | javascript | m365 | ms-graph | nuget | office | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | workplace-analytics | xamarin  # pick one
 sections: 
-  # Intro
-#  - componentType: text
- #   title: Learn Power Automate with Carly Revier
- #   summary: " "
 
+# Profile header
   - componentType: hero-product
     supertitle: learn with experts
     title: Learn with Carly Revier
@@ -18,10 +14,10 @@ sections:
         text: Back to all expert profiles
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/media/carly-revier/carly-revier-light.png
-      darkImageSrc: /community/learn-with/media/carly-revier/carly-revier-dark.png
+      lightImageSrc: /community/learn-with/media/example/carly-revier-light.png
+      darkImageSrc: /community/learn-with/media/example/carly-revier-dark.png
 
-  # social section
+  # Social section
   - componentType: social
     title: " "
     links:
@@ -44,11 +40,7 @@ sections:
         url: https://bing.com
         destination: youtube
 
-  #- componentType: text
-   # title: " "
-    #summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate! Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
-
-# Icon cards grid
+# Resources grid card section
   - componentType: grid
     title: Generative AI skills resources
     blocks:
@@ -96,7 +88,7 @@ sections:
           src: ./media/AzureAppPlatform.png
       
   
-  # cards section (2)
+  # Video card section
   - componentType: cards
     isShadowless: true
     title: My favorite videos for machine learning

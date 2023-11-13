@@ -1,0 +1,67 @@
+### YamlMime:Marketing
+title: Learn ML with Bunmi Akinremi 
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: learn with experts
+    title: Learn ML with Bunmi Akinremi
+    #size: small
+    summary: Bunmi Akinremi is a computer science student interested in machine learning engineering and a big fan of learning and sharing with the community. Her research interest is in AI Ethics and low resource languages. In her free time, she writes poems and takes photographs of nature.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to all expert profiles
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/bunmi-akinremi/bunmi-light.png
+      darkImageSrc: /community/learn-with/media/bunmi-akinremi/bunmi-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://twitter.com/bumie_rose
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/bunmi-akinremi/
+        destination: linkedin
+      - componentType: social-link
+        url: https://medium.com/@akinremibunmi111
+        destination: medium
+
+# Resources grid card section
+  - componentType: grid
+    title: Getting started with machine learning
+    blocks:
+      - componentType: icon-card
+        title: ML for those who don't know anything about ML
+        summary: My community-content article all about machine learning!
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Introduction to Machine Learning
+        summary: A friendly intro to the main algorithms of machine learning.
+        url: https://www.youtube.com/watch?si=8UrbZ4lAhLlF3VCW&v=IpGxLWOIZy4&feature=youtu.be
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Getting started with NumPy and Pandas
+        summary: An 8-minute read for data science newbies.
+        url: https://medium.com/aiplusoau/getting-started-with-numpy-and-pandas-bc80de19536e
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Machine Learning for total beginners
+        summary: My Microsoft Learn collection of ML resources.
+        url: https://learn.microsoft.com/en-gb/collections/k7zhwr43rm1wo
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+
+
