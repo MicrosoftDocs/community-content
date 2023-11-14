@@ -22,9 +22,9 @@ content_well_notification:
 
 The journey to learning Data Analysis is as good as starting with the right resources and keeping them basic. In this article, I will help you streamline your learning journey by focusing on what matters in a timely manner.
 
-One of the challenges beginners face in this recent time while learning Data Analysis with Power BI is abundance of information which is opten called Information Overload. There are thousands of resources and learning path out there that make beginners easily get overwhelmed. 
+One of the challenges beginners face in this recent time while learning Data Analysis with Power BI is abundance of information which is often called Information Overload. There are thousands of resources and learning path out there that make beginners easily get overwhelmed. 
 
-You need to overcome the beginners' inertia. Yes, that's the force that hold you down to beginners content for several months without making significant progress. This article will provide some guides on how to overcome this challenge with resource recommendation.
+Another major challenge is `Beginners' Inertia`. This is the force that hold you down to beginners content for several months without making significant progress. I will provide some guides on how to overcome this challenge with some recommendation.
 
 
 
