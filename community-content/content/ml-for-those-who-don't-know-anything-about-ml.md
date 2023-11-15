@@ -1,11 +1,11 @@
 ---
 title: Machine Learning For Those Who Don't Know Anything About Machine Learning #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: This article introduces you to the basic concepts in machine learning #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: Bunmi Akinremi #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+author: bumie-e #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
 ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 15/11/2023 #Required; mm/dd/yyyy format.
+ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
 ---
@@ -14,7 +14,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Bunmi Akinremi](https://learn.microsoft.com/en-gb/users/bunmiakinremi-3492/)
+**Principal author**: [Bunmi Akinremi](https://learn.microsoft.com/users/bunmiakinremi-3492/)
 
 ---
 
