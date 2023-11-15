@@ -5,7 +5,7 @@ author: jehchow #Required; a Microsoft employee's GitHub user alias, with correc
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
 ms.service: power-bi #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 11/07/2023 #Required; mm/dd/yyyy format.
+ms.date: 11/14/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
 ---
