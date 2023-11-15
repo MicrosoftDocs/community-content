@@ -26,7 +26,7 @@ Machines are all around us! From rather subtle ones like your mobile phones to b
  
 First thing’s first, Machine Learning is not Artificial intelligence (AI). It is a field in AI with a focus on developing algorithms and statistical models that makes machines do magic (perform tasks without explicitly telling them to). AI includes many fields and Machine Learning is only one part of it. 
  
-Now, just like AI, Machine learning has its own sub fields. It used to be 3, but now, let’s just say six.
+Now, just like AI, Machine learning has its own sub fields. It used to be three, but now, let’s just say six.
  
 - Supervised learning: This is simply training a model by giving it past examples of the task you want it to do. For example, training a model to differentiate between chicken and fish. This kind of task is called classification, where the target is either one thing or the other. In cases where you have to predict numbers like prices, time, and so on, it's called regression. Our baking scenario is a regression task.
 - Unsupervised learning: This is when you do not provide the model with any sample of what you want to do, and it tries to figure out how to classify the data by itself. 
