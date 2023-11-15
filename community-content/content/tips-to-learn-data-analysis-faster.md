@@ -61,7 +61,7 @@ It is not about the tools, it is about business value.
 ## Time to learn
 I am glad you have come to understand the real thing about Data Analytics, It is never about the tools, it is first, about the business. Now it's time to get started and Learn. I have curated somePower BI beginners friendly learning content on Microsoft Learn. You earn badges and trophies for completing the modules and learning path.
 
-[Click Here to start learning](https://learn.microsoft.com/en-us/collections/60nmc8q70e561d)
+[Click Here to start learning](https://learn.microsoft.com/collections/60nmc8q70e561d)
 
 
 ## Without this, you are not done
