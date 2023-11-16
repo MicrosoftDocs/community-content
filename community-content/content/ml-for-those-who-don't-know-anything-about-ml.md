@@ -43,11 +43,11 @@ It gives you the ability to train one algorithm to adapt to the different types 
 
 ## How Machine Learning actually works
 
-![Image showing the high level overview of machine learning](.../media/ml-newbies/ml-process-lifecycle.png)
+![Image showing the high level overview of machine learning](../media/ml-newbies/ml-process-lifecycle.png)
 
 Machine Learning, like any other software is remote and abstract until there's an interface to communicate with it. Just like the concept of a website, you need to have a front-end interface before you can buy or sell items online. The machine learning algorithm that gives you a result when you send a query is called a model. 
 
-![Image showing the processes in the machine learning life cycle](.../media/ml-newbies/ml-high-level-overview.png)
+![Image showing the processes in the machine learning life cycle](../media/ml-newbies/ml-high-level-overview.png)
 
 Before you can start making magic with machine learning, you need to first follow the machine learning process. 
 - Data collection: where you get information on the various pastries you'll like to bake and the time it takes to bake them. You can store them in a CSV file.
