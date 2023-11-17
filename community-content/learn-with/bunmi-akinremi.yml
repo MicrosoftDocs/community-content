@@ -47,7 +47,7 @@ sections:
       - componentType: icon-card
         title: ML for those who don't know anything about ML
         summary: My community-content article all about machine learning!
-        url: ml-for-those-who-don't-know-anything-about-ml.md
+        url: https://learn.microsoft.com/community/content/ml-for-those-who-don't-know-anything-about-ml
         icon:
           componentType: image
           src: ./media/icons/learn.png
@@ -120,5 +120,4 @@ sections:
         summary: Decoding brain signals to text with AI
         imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-4.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=z-OBapDD340
-
 
