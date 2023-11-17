@@ -1,5 +1,11 @@
 - name: Microsoft Learn Community Content
   href: ../index.md
+- name: Machine learning for those who don't know anything about machine learning
+  href: ml-for-those-who-don't-know-anything-about-ml.md
+- name: Must-Use AI features in Power BI
+  href: must-use-ai-features-in-power-bi.md
+- name: Learning data analysis faster in the age of AI
+  href: tips-to-learn-data-analysis-faster.md
 - name: Best practices for building collaborative UX with Human-AI partnership
   href: best-practices-ai-ux.md
 - name: Hidden Tags in Microsoft Azure
@@ -8,11 +14,11 @@
   href: Discover Microsoft Azure learning, training, certifications, and career path opportunities.md
 - name: Securing your Microsoft Azure Backups
   href: securing-backups-with-azure.md
-- name: Remembering the Users in Cloud Transformations
+- name: Remembering the users in cloud transformations
   href: remembering-the-users-in-cloud-transformation.md
 - name: How-to enforce .NET code format using EditorConfig and GitHub Actions
   href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
-- name: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4
+- name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
   href: tutorial-azure-openai-azure-speech-gpt-4.md
 - name: Manage cost and optimize resources in AKS with Kubecost
   href: how-to-utilize-kubecost-for-cost-management-of-aks.md
