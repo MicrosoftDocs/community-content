@@ -103,21 +103,21 @@ sections:
       - componentType: card
         title: 5 career paths in AI
         summary: Choosing a career path in AI
-        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-1.jpg # imageUrl is optional
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-1.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=d2DCUYuJYAU
       - componentType: card
         title: What really is data science
         summary: Learn about the what and why of data science
-        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-2.jpg # imageUrl is optional
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-2.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=xC-c7E5PK0Y
       - componentType: card
         title: Deploying ML models in production
         summary: Learn how ML works in production
-        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-3.jpg # imageUrl is optional
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-3.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=Mrv3CZNWYEg
       - componentType: card
         title: AI mind-reading experiment
         summary: Decoding brain signals to text with AI
-        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-4.jpg # imageUrl is optional
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-4.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=z-OBapDD340
 
