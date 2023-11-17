@@ -1,9 +1,9 @@
 ---
 title: Must-Use AI Features in Power BI 
 description: This article is your companion to becoming effective business data analyst using Microsoft Power BI and leveraging on its AI capabilities.
-author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: power-bi #Required; service per approved list. service slug assigned to your service by ACOM.
+author: theoyinbooke  #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
+ms.service: powerbi #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: 11/14/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
@@ -33,8 +33,7 @@ You read that right? With the AI Features in Power BI, you'll never work alone. 
 
 
 ## Time to Get Started
-I have curated the contents you need to learn how to use these AI features and practice them below, click the link or the image to get started.
-[Click here to start learning](https://learn.microsoft.com/collections/1kp7t5go8ejmx5)
+I have curated the contents you need to learn how to use these AI features and practice them. [Click here to start learning](https://learn.microsoft.com/collections/1kp7t5go8ejmx5).
 
 
 ## Prove Others Wrong

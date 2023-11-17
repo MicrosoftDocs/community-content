@@ -1,9 +1,9 @@
 ---
 title: Learning Data Analysis Faster in the Age of AI 
 description: Your quick guide to learning Data Analysis with Power BI faster and better.
-author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: power-bi #Required; service per approved list. service slug assigned to your service by ACOM.
+author: theoyinbooke #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
+ms.service: powerbi #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: 11/14/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 

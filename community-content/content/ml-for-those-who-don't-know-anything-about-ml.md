@@ -2,7 +2,7 @@
 title: Machine Learning For Those Who Don't Know Anything About Machine Learning #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: This article introduces you to the basic concepts in machine learning #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: bumie-e #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
+ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
 ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
@@ -83,6 +83,6 @@ You don’t have to search too far to find a use case.
  
 Here are some great resources to help you get started.
  
-- Introduction to Machine Learning
-- Getting started with Numpy and Pandas
-- Complete learning path from data processing to model deployment  
+- [Introduction to Machine Learning](https://youtu.be/IpGxLWOIZy4?si=8UrbZ4lAhLlF3VCW)
+- [Getting started with Numpy and Pandas](https://medium.com/aiplusoau/getting-started-with-numpy-and-pandas-bc80de19536e)
+- [Complete learning path from data processing to model deployment](https://learn.microsoft.com/collections/k7zhwr43rm1wo)
