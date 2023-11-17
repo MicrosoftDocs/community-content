@@ -29,11 +29,27 @@ sections:
         url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
         destination: blog
     - componentType: speaker-profile-card
-      title: Carly Revier
-      imageUrl: /community/learn-with/media/index/carly-revier.jpg
-      summary: "Power Platform | SharePoint | Microsoft Learn"
+      title: Coming soon
+      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      summary: " "
       socialLink:    
         componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/example
+        url: https://bing.com
+        destination: blog
+    - componentType: speaker-profile-card
+      title: Coming soon
+      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      summary: " "
+      socialLink:    
+        componentType: social-link
+        url: https://bing.com
+        destination: blog
+    - componentType: speaker-profile-card
+      title: Coming soon
+      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      summary: " "
+      socialLink:    
+        componentType: social-link
+        url: https://bing.com
         destination: blog
       

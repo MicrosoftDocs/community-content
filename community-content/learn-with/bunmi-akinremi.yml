@@ -22,14 +22,23 @@ sections:
     title: " "
     links:
       - componentType: social-link
+        url: http://github.com/bumie-e
+        destination: github
+      - componentType: social-link
         url: https://twitter.com/bumie_rose
         destination: twitter
       - componentType: social-link
         url: https://www.linkedin.com/in/bunmi-akinremi/
         destination: linkedin
       - componentType: social-link
+        url: https://www.youtube.com/channel/UCt653PRjM8IriCpOqJUcwsw
+        destination: youtube
+      - componentType: social-link
         url: https://medium.com/@akinremibunmi111
         destination: medium
+      - componentType: social-link
+        url: https://www.instagram.com/bumie_rose/
+        destination: instagram
 
 # Resources grid card section
   - componentType: grid
@@ -38,14 +47,28 @@ sections:
       - componentType: icon-card
         title: ML for those who don't know anything about ML
         summary: My community-content article all about machine learning!
-        url: https://bing.com
+        url: ml-for-those-who-don't-know-anything-about-ml.md
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Introduction to Machine Learning
-        summary: A friendly intro to the main algorithms of machine learning.
-        url: https://www.youtube.com/watch?si=8UrbZ4lAhLlF3VCW&v=IpGxLWOIZy4&feature=youtu.be
+        title: What is machine learning?
+        summary: A basic introduction to machine learning
+        url: https://www.youtube.com/watch?v=9gGnTQTYNaE
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: AI vs. machine learning
+        summary: Learn the difference between AI and machine learning
+        url: https://www.youtube.com/watch?v=4RixMPF4xis&t=19s
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Machine learning lecture
+        summary: Lecture 1 of a full course in machine learning from Stanford University
+        url: https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
         icon:
           componentType: image
           src: ./media/icons/youtube.png
@@ -66,9 +89,36 @@ sections:
       - componentType: icon-card
         title: ML practice assessments
         summary: Practice assessments to help you prepare for a Microsoft Certification exam.
-        url: https://learn.microsoft.com/en-us/credentials/certifications/practice-assessments-for-microsoft-certifications
+        url: https://learn.microsoft.com/credentials/certifications/practice-assessments-for-microsoft-certifications
         icon:
           componentType: image
           src: ./media/icons/learn.png
+
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: My favourite videos for machine learning
+    summary: These videos are curated and/or owned by Bunmi. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: 5 career paths in AI
+        summary: Choosing a career path in AI
+        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-1.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=d2DCUYuJYAU
+      - componentType: card
+        title: What really is data science
+        summary: Learn about the what and why of data science
+        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-2.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=xC-c7E5PK0Y
+      - componentType: card
+        title: Deploying ML models in production
+        summary: Learn how ML works in production
+        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-3.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=Mrv3CZNWYEg
+      - componentType: card
+        title: AI mind-reading experiment
+        summary: Decoding brain signals to text with AI
+        imageUrl: https://learn.microsoft.com/community/learn-with/media/bunmi-akinremi/video-4.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=z-OBapDD340
 
 
