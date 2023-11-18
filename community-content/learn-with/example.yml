@@ -1,0 +1,118 @@
+### YamlMime:Marketing
+title: Learn with Carly Revier
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: learn with experts
+    title: Learn with Carly Revier
+    #size: small
+    summary: Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate! Carly is a Technical Program Manager at Microsoft. She lives in Seattle with her husband, daughter, dog, and two annoying cats. She enjoys reading, rock climbing, and staying up late to work on technical projects. She can help you build an awesome workflow in Power Automate!
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to all expert profiles
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/example/carly-revier-light.png
+      darkImageSrc: /community/learn-with/media/example/carly-revier-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://bing.com
+        destination: github
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitter
+      - componentType: social-link
+        url: https://bing.com
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://bing.com
+        destination: twitch
+      - componentType: social-link
+        url: https://bing.com
+        destination: youtube
+
+# Resources grid card section
+  - componentType: grid
+    title: Generative AI skills resources
+    blocks:
+      - componentType: icon-card
+        title: Link to resource 1
+        summary: This link is important because...
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Link to resource 2
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Link to resource 3
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Link to resource 4
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Link to resource 5
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Link to resource 6
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: My favorite videos for machine learning
+    summary: These videos are owned and/or curated by Carly. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: Card 1 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Card 2 title
+        summary: Summary text, keep it brief
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+
+
