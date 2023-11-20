@@ -1,24 +1,24 @@
 ### YamlMime:Marketing
-title: Learn with experts
+title: Microsoft Learn Community Leaders 
 sections: 
 
   - componentType: hero-product
     #supertitle: learn with experts
-    title: Learn with Experts
+    title: Microsoft Learn Community Leaders
     #size: small
-    summary: Welcome to Microsoft Learn experts! Browse community experts and discover resources to help you in your learning journey.
+    summary: Welcome to Microsoft Learn Community Leaders! Discover resources curated by our community leaders to help you in your learning journey.
     #links:
      # - componentType: link
       #  url: https://bing.com
-       # text: Back to all expert profiles
+       # text: Back to all Microsoft Learn Community Leaders
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
 
   - componentType: speaker-profile-cards
-    title: Meet the experts
-    summary: Select each expert's link to learn more about them and see their recommended resources.
+    title: Meet the community leaders
+    summary: Select each leader's link to learn more about them and see their recommended resources.
     blocks:
     - componentType: speaker-profile-card
       title: Bunmi Akinremi
