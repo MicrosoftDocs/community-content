@@ -54,14 +54,7 @@ sections:
       - componentType: icon-card
         title: What is Machine Learning?
         summary: A basic introduction to Machine Learning
-        url: https://www.youtube.com/watch?v=9gGnTQTYNaE
-        icon:
-          componentType: image
-          src: ./media/icons/youtube.png
-      - componentType: icon-card
-        title: AI vs. Machine Learning
-        summary: Learn the difference between AI and Machine Learning
-        url: https://www.youtube.com/watch?v=4RixMPF4xis&t=19s
+        url: https://www.youtube.com/playlist?list=PLlrxD0HtieHjNnGcZ1TWzPjKYWgfXSiWG
         icon:
           componentType: image
           src: ./media/icons/youtube.png
