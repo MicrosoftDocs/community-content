@@ -7,10 +7,10 @@ sections:
     supertitle: Microsoft Learn Community
     title: Learn with Olanrewaju Oyinbooke
     #size: small
-    summary: AI is not coming for your work; it is coming to your work and I am deeply passionate about helping stay relevant by learning how to apply them to your work and accelerate your career. I am the Data and AI guy. |
-     |
-     Olanrewaju is a 13x Microsoft Certified, Microsoft MVP, MCT, and Community leader. |
-     |
+    summary: AI is not coming for your work; it is coming to your work and I am deeply passionate about helping stay relevant by learning how to apply them to your work and accelerate your career. I am the Data and AI guy. <br />
+      <br />
+     Olanrewaju is a 13x Microsoft Certified, Microsoft MVP, MCT, and Community leader. <br />
+      <br />
      I can help you build reports that add value to business, machine learning models that can reduce costs, increase revenue, and optimized business processes, low-code powered applications and many more. So happy you are here! 
     links:
       - componentType: link
@@ -115,22 +115,22 @@ sections:
       - componentType: card
         title: Deliver competitive advantage with AI
         summary: We are in the era of AI and Microsoft Fabric is the analytics platform. Build data pipelines, predictive models, Power BI reports, etc.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/comp-adv-ai.jpg
         url: https://www.youtube.com/watch?v=jt6oq2CjaiA
       - componentType: card
         title: Get started with Microsoft Fabric
         summary: Get yourself familiar with the analytic platform in the era of AI.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/get-started-fabric.jpg
         url: https://www.youtube.com/watch?v=-f0XIVEP7bE&list=PLv2BtOtLblH1RhbtfTpp9ovi3Y-3HiRO2
       - componentType: card
         title: Error troubleshooting in Jupyter Notebooks
         summary: Troubleshooting takes a huge part of our work, what if you can do it better and faster? Learn more here.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/troubleshooting-jupyter.jpg
         url: https://www.youtube.com/watch?v=Wc9ZyHG0xxA
       - componentType: card
         title: Practical SQL for beginners
         summary: SQL is the language for databases. This is where your work will mostly start – getting the data from where they are stored. SQL to the rescue.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/practical-sql.jpg
         url: https://www.youtube.com/playlist?list=PL21kTsq1t_-kA8aET667XjUrx8xjfXfwD
 
   # Video card section 2
@@ -142,22 +142,22 @@ sections:
       - componentType: card
         title: Understanding GitHub for data analysts
         summary: As a data analyst, the knowledge of GitHub will help you strengthen your ability to collaborate across code estates on multiple projects.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/github-for-data-analysts.jpg
         url: https://www.youtube.com/watch?v=TB7m05rilw4
       - componentType: card
         title: Documenting your data analysis project on GitHub
         summary: Don’t keep your data analysis project on your PC. Learn how to properly document it to earn more reward for your learning effort.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/project-doc.jpg
         url: https://www.youtube.com/watch?v=TB7m05rilw4
       - componentType: card
         title: Using Copilot with Jupyter Notebooks
         summary: Copilot for Jupyter Notebooks in Visual Studio Code -- you have the assistance you’ve been waiting for.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/github-copilot-jupyter.jpg
         url: https://www.youtube.com/watch?v=QS_bh-3qKdw
       - componentType: card
         title: Effortless Python with GitHub Copilot
         summary: Leverage GitHub Copilot for your python projects in Visual Studio Code. The assistant you’ve been waiting for.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/python-github-copilot.jpg
         url: https://www.youtube.com/watch?v=DSHfHT5qnGc&list=PLj6YeMhvp2S5_hvBl2SE-7YCHYlLQ0bPt&index=4
 
 
