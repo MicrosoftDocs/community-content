@@ -56,21 +56,21 @@ sections:
       - componentType: icon-card
         title: Microsoft Fabric for beginners
         summary: Learn how to deliver quicker business value and innovation on data with the Data Analytic platform for the era of AI.
-        url: https://learn.microsoft.com/training/modules/get-started-data-activator-microsoft-fabric
+        url: https://learn.microsoft.com/training/modules/get-started-data-activator-microsoft-fabric?wt.mc_id=learnwithola_01_content_cnl
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Must-use AI features in Power BI
         summary: Get familiar with AI features in Power BI to improve your productivity. 
-        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/power-bi-ai-features-for-all-data-analysts/ba-p/3835447
+        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/power-bi-ai-features-for-all-data-analysts/ba-p/3835447?wt.mc_id=learnwithola_01_content_cnl 
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: "Microsoft Azure AI Fundamentals: Generative AI"
         summary: A valuable resources for beginners in Generative AI and its application. Earn badges and trophy when you learn.
-        url: https://learn.microsoft.com/training/paths/introduction-generative-ai/ 
+        url: https://learn.microsoft.com/training/paths/introduction-generative-ai/?wt.mc_id=learnwithola_01_content_cnl 
 
         icon:
           componentType: image
@@ -85,21 +85,21 @@ sections:
       - componentType: icon-card
         title: GitHub for beginners learning resource
         summary: Having the knowledge of GitHub as a Data Professional will make you open to expand your role into more technical area.
-        url: https://learn.microsoft.com/training/modules/introduction-to-github
+        url: https://learn.microsoft.com/training/modules/introduction-to-github?wt.mc_id=learnwithola_01_content_cnl 
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Projects to challenge your data skills
         summary: In doers I trust, take up this data analysis challenge to demonstrate your skill. Highly recommended if you need portfolio worthy project. 
-        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/github-for-data-analyst-and-power-platform-developers/ba-p/3719651
+        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/github-for-data-analyst-and-power-platform-developers/ba-p/3719651?wt.mc_id=learnwithola_01_content_cnl 
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Start your Power BI learning journey here
         summary: A compilation of Power BI learning resources. Highly recommended for beginners. 
-        url: https://learn.microsoft.com/collections/60nmc8q70e561d
+        url: https://learn.microsoft.com/collections/60nmc8q70e561d?wt.mc_id=learnwithola_01_content_cnl 
         icon:
           componentType: image
           src: ./media/icons/learn.png
