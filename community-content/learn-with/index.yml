@@ -1,0 +1,55 @@
+### YamlMime:Marketing
+title: Microsoft Learn Community Leaders 
+sections: 
+
+  - componentType: hero-product
+    #supertitle: learn with experts
+    title: Microsoft Learn Community Leaders
+    #size: small
+    summary: Welcome to Microsoft Learn Community Leaders! Discover resources curated by our community leaders to help you in your learning journey.
+    #links:
+     # - componentType: link
+      #  url: https://bing.com
+       # text: Back to all Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/index/light-background.png
+      darkImageSrc: /community/learn-with/media/index/dark-background.png
+
+  - componentType: speaker-profile-cards
+    title: Meet the community leaders
+    summary: Select each leader's link to learn more about them and see their recommended resources.
+    blocks:
+    - componentType: speaker-profile-card
+      title: Bunmi Akinremi
+      imageUrl: /community/learn-with/media/index/bunmi-akinremi.jpg
+      summary: "Machine learning | AI ethics | Low-resource languages"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
+        destination: blog
+    - componentType: speaker-profile-card
+      title: Olanrewaju Oyinbooke
+      imageUrl: /community/learn-with/media/index/ola-oyinbooke.jpg
+      summary: "Power BI | Data & AI | Machine learning"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/olanrewaju-oyinbooke
+        destination: blog
+    - componentType: speaker-profile-card
+      title: Coming soon
+      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      summary: " "
+      socialLink:    
+        componentType: social-link
+        url: https://bing.com
+        destination: blog
+    - componentType: speaker-profile-card
+      title: Coming soon
+      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      summary: " "
+      socialLink:    
+        componentType: social-link
+        url: https://bing.com
+        destination: blog
+      
