@@ -207,7 +207,7 @@ In this how-to article, you learned how to enforce your .NET code formatting usi
 
 * [.NET Code style preferences](https://learn.microsoft.com/visualstudio/ide/code-styles-and-code-cleanup?WT.mc_id=DT-MVP-5001643)
 * [Create portable, custom editor settings with EditorConfig](https://learn.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?WT.mc_id=DT-MVP-5001643)
-* [.NET Code-style rule options](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643)
+* [.NET Code-style rule options](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643)
 * [.NET Code-style rules](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/style-rules?WT.mc_id=DT-MVP-5001643)
 * [Overview of .NET source code analysis](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/overview?WT.mc_id=DT-MVP-5001643)
 * [GitHub Actions documentation](https://docs.github.com/actions)
