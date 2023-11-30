@@ -63,11 +63,11 @@ It is worth making sure you don't enable and lock your Recovery services vault u
 4. Select '**Enable vault immutability**'
 5. Click **Apply**
 
-![Enable Immutable Vault](../media/securing-azure-backups/Enable-ImmutableVault.png)
+![Enable Immutable Vault](media/securing-azure-backups/Enable-ImmutableVault.png)
 
 You can view the status of multiple Recovery Services vaults in the Azure Portal directly by using the portal filters.
 
-![Azure Portal - Filters - Immutability](../media/securing-azure-backups/AzurePortal_Immutability.png)
+![Azure Portal - Filters - Immutability](media/securing-azure-backups/AzurePortal_Immutability.png)
 
 ## Soft Delete
 
@@ -83,7 +83,7 @@ Azure Backup *(Recovery Services Vaults and Backup Vaults)* contains enhanced so
 6. Adjust **retention period** *(i.e., when the backup item can be restored, the minimum is 14 days to a maximum of 180 days)*.
 7. Click **Update**
 
-![Enable Soft Delete](../media/securing-azure-backups/Enable-SoftDelete_RSV.png)
+![Enable Soft Delete](media/securing-azure-backups/Enable-SoftDelete_RSV.png)
 
 > Selecting Enable Always-on soft delete is a permanent setting to ensure that soft delete is always enabled and cannot be turned off for that particular Recovery Services or Backup Vault. To recover an item using soft delete, navigate to the backup item within your Recovery Services vault and select Undelete.
 
@@ -106,7 +106,7 @@ Refer to: [Usage scenarios](https://learn.microsoft.com/azure/backup/multi-user-
 7. **Select** the **items** you wish to use Resource Guard to protect against
 8. Click **Review + create**
 
-![Create Resource Guard](../media/securing-azure-backups/Create-ResourceGuard.png)
+![Create Resource Guard](media/securing-azure-backups/Create-ResourceGuard.png)
 
 Once the Resource Guard has been created, it is time to use it.
 
@@ -121,7 +121,7 @@ Once the Resource Guard has been created, it is time to use it.
 9. Select your **Resource Guard**
 10. Click **Save**
 
-![Configure Resource Guard](../media/securing-azure-backups/Configure-ResourceGuard.png)
+![Configure Resource Guard](media/securing-azure-backups/Configure-ResourceGuard.png)
 
 Now let's test it by attempting to remove a Backup Job and Deleted Items as a user with the Backup Contributor role (but no rights to the Resource Guard).
 
@@ -138,7 +138,7 @@ Now let's test it by attempting to remove a Backup Job and Deleted Items as a us
 
 You should get *"Unlock privilege access is needed to delete the ResourceGuard proxy"*.
 
-![Test Resource Guard](../media/securing-azure-backups/Test-ResourceGuard_JobDelete.png)
+![Test Resource Guard](media/securing-azure-backups/Test-ResourceGuard_JobDelete.png)
 
 You can then take this a step forward, using PIM (Privileged Identity Management) to allow the Backup Contributor to request Contributor permissions to the Resource Guard to implement privileged actions, such as deleting a backup job, for a certain period and with approvers.
 
@@ -161,7 +161,7 @@ For this article, we will touch on the multiple backups per day as a key to meet
 * RPO (Recovery Point Objective) - Decreases potential data loss; aligns with backup frequency (e.g., 4 hours, 6 hours).
 * RTO (Recovery Time Objective) - Reduce RTO by having more recent and smaller data sets for restoration.
 
-![RTP/RPO](../media/securing-azure-backups/rpo-rto-infographic.jpg)
+![RTP/RPO](media/securing-azure-backups/rpo-rto-infographic.jpg)
 
 So, let us create an Enhanced Backup Policy that backups our Virtual Machine every 4 hours and retains an instant recovery snapshot for 5 days (snapshot stored locally, close to the original virtual machine, allow faster restore, then from slower (but cheaper) cooler tiers of storage).
 
@@ -177,7 +177,7 @@ So, let us create an Enhanced Backup Policy that backups our Virtual Machine eve
 10. Navigate down because we are using Instant restore snapshots; these snapshots are not stored in the Backup Vault but instead in the Azure subscription directly, so specify the **name of the resource group** that the **snapshots** will be stored into (otherwise, Azure will create a default Resource Group of AzureBackupRG_{Geo}_{n})
 11. Click **Create**
 
-![Create Enchanced Policy](../media/securing-azure-backups/Create-EnchancedPolicy.png)
+![Create Enchanced Policy](media/securing-azure-backups/Create-EnchancedPolicy.png)
 
 [Restoring a backup item](https://learn.microsoft.com/azure/backup/backup-azure-arm-restore-vms?WT.mc_id=AZ-MVP-5004796) is the same as restoring from a standard policy.
 
@@ -197,7 +197,7 @@ Tiering can be enabled at any time, before your first backup or after; it will a
 4. Select your backup **policy**
 5. Click **Enable Tiering**
 
-![Enable Smart Tiering](../media/securing-azure-backups/Enable-SmartTiering.png)
+![Enable Smart Tiering](media/securing-azure-backups/Enable-SmartTiering.png)
 
 ## Next steps
 

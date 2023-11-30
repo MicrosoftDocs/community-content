@@ -26,7 +26,7 @@ This quickstart describes how to use the Dapr CLI to run multiple Dapr services 
 
 [Dapr](https://dapr.io) is a portable, event-driven runtime that enables developers to efficiently build resilient, microservice-based, applications that runs on the cloud and edge. Developers like to use Dapr since it offers ready to use building blocks for workflow, state management, publish/subscribe, configuration, secrets management, and more. These building block functionalities are exposed through a set of HTTP and gRPC APIs, so any language that supports these protocols can use Dapr.
 
-![Dapr Overview](../media/dapr-multi-app-run/dapr-overview.png)
+![Dapr Overview](media/dapr-multi-app-run/dapr-overview.png)
 
 The [multi-app-run](https://github.com/diagrid-labs/multi-app-run) GitHub repository contains a demo that uses the Dapr publish/subscribe building block to communicate between services. The demo consists of three services written in Nodejs:
 
@@ -34,7 +34,7 @@ The [multi-app-run](https://github.com/diagrid-labs/multi-app-run) GitHub reposi
 - **subscriber1**: Subscribes to the `orders` topic and prints the message to the console.
 - **subscriber2**: subscribes to the `orders` topic and prints the message to the console.
 
-![Dapr Publish/Subscribe demo](../media/dapr-multi-app-run/dapr-pubsub.png)
+![Dapr Publish/Subscribe demo](media/dapr-multi-app-run/dapr-pubsub.png)
 
 > [!NOTE]
 > The message broker in this demo is Redis that is running locally in a container. This container is installed automatically when installing the Dapr CLI.
