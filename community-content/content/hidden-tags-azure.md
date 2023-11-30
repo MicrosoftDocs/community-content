@@ -46,11 +46,11 @@ The hidden-title tag is handy for picking resources that belong to a specific se
 
 An example is below:
 
-![Azure Portal - Hidden Title Tag](../media/hidden-tags-azure/azureportal_hiddentitle.png  "Azure Portal - Hidden Title Tag")
+![Azure Portal - Hidden Title Tag](media/hidden-tags-azure/azureportal_hiddentitle.png  "Azure Portal - Hidden Title Tag")
 
 However, if I navigate to the Overview page and click JSON View, I can see the hidden tags in the resource metadata.
 
-![Azure Portal - Resource Tags](../media/hidden-tags-azure/azureportal-hiddentitle-vmtags.png "Azure Portal - Resource Tags")
+![Azure Portal - Resource Tags](media/hidden-tags-azure/azureportal-hiddentitle-vmtags.png "Azure Portal - Resource Tags")
 
 ## hidden-tags
 
@@ -58,11 +58,11 @@ However, if I navigate to the Overview page and click JSON View, I can see the h
 
 You can use the Azure Portal directly to add the Tags to apply hidden tags.
 
-![Azure Portal - Add Tags](../media/hidden-tags-azure/azureportal_hiddentagsadd.png "Azure Portal - Add Tags")
+![Azure Portal - Add Tags](media/hidden-tags-azure/azureportal_hiddentagsadd.png "Azure Portal - Add Tags")
 
 You can remove the Tag by adding the hidden-tag again and keeping the value empty _(i.e. blanking out the hidden-title will remove the title)_. However, it will still be against the metadata _(Resource Graph)_ as a Tag that exists (as seen in the screenshot below) - it is much cleaner to use PowerShell.
 
-![Azure - Resource Tags](../media/hidden-tags-azure/azureportal_hiddentagsremove.png "Azure - Resource Tags")
+![Azure - Resource Tags](media/hidden-tags-azure/azureportal_hiddentagsremove.png "Azure - Resource Tags")
 
 ### PowerShell
 
@@ -79,7 +79,7 @@ Get-AzResource -ResourceGroupName $resouceGroup | Select-Object ResourceId | Out
 ```
 This snippet will gather all the resources in your Resource Group and then select their Resource IDs; the script will then prompt with a GUI, allowing you to select which resources or resources you want to update your tags on. Once you click Ok, it will update the Tags on the selected resources.
 
-![PowerShell - Add Azure Tags](../media/hidden-tags-azure/powershell_hiddentagsadd.png "PowerShell - Add Azure Tags")
+![PowerShell - Add Azure Tags](media/hidden-tags-azure/powershell_hiddentagsadd.png "PowerShell - Add Azure Tags")
 
 You may be wondering if the Hidden tags are useful for automation, but if the 'Get-AzTag' cmdlet doesn't work, how can I retrieve the resources? It's a good question, and that is where 'Get-AzResource' comes to the rescue.
 

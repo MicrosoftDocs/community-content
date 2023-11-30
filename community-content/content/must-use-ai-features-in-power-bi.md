@@ -18,7 +18,7 @@ content_well_notification:
 
 ---
 
-![Must Use AI Features in Power BI Design](../media/power-bi-ai/power-bi-ai.png)
+![Must Use AI Features in Power BI Design](media/power-bi-ai/power-bi-ai.png)
 
 Data Analytics has changed forever and Power BI is the leader in this space. Through Advanced AI Capabilities, Microsoft has pushed the limit of values delivered to businesses through Data Analytics. In this article, I will share with you top AI features in Microsoft Power BI that every Data Analyst Must Use.
 

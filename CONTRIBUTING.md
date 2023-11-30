@@ -15,7 +15,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 ## Allowed content
 
-* Quality, helpful technical content that adds value. Examples of this: Solving a problem, sharing valuable tips or processes, or reducing time to implement a solution.
+* Quality, helpful, technical content that adds value. Examples of this: Solving a problem, sharing valuable tips or processes, or reducing time to implement a solution.
 * Use your voice and style!
 * Occasional quoting or referring to other sources or webpages is allowed, but you must make sure to cite sources.
 
@@ -23,19 +23,19 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 * No marketing or advertising.
 * No licensing or pricing information.
-* No AI-exclusively generated content; if AI-assisted in writing the content, this must be explicitly mentioned by adding 'AI-contribution' as a value to the 'content_well_notification' metadata attribute. Adding this value will add a disclaimer at the top of the article.
-* Harmful content, such as processes that may leave a system or process in a stuck state, or clearly violates laws or terms and conditions.
-* Content that doesn't belong to you; plagiarism is strictly prohibited.
-* Low-effort articles, such as having a single link to another site; a single video; an article with only links in it.
+* No content generated exclusively by AI. If AI assisted in writing the content, this must be explicitly mentioned by adding 'AI-contribution' as a value to the 'content_well_notification' metadata attribute. Adding this value will add a disclaimer at the top of the article.
+* Harmful content, such as processes that may leave a system or process in a stuck state or that clearly violate laws or terms and conditions.
+* Content that doesn't belong to you. Plagiarism is strictly prohibited.
+* Low-effort articles, such as having a single link to another site, a single video, or an article with only links in it.
 * Articles where the primary purpose is self-promotion.
 * News and announcements.
 
 ## Get started contributing
 
-1. Start by [setting up your GitHub account](https://learn.microsoft.com/contribute/content/get-started-setup-github) and [installing tools](https://learn.microsoft.com/contribute/content/get-started-setup-tools) such as VS Code.
+1. [Set up your GitHub account](https://learn.microsoft.com/contribute/content/#create-a-github-account) and [install authoring tools](https://learn.microsoft.com/contribute/content/get-started-setup-tools) such as VS Code.
 2. Fork this repository to create a copy in your GitHub account:
-    * Open [MicrosoftDocs/community-content](https://github.com/MicrosoftDocs/community-content) (this repository)
-    * Select **Fork** --> The URL of your fork is now `https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content/`
+    * Open [MicrosoftDocs/community-content](https://github.com/MicrosoftDocs/community-content) (this repository).
+    * Select **Fork** --> The URL of your fork is now `https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content/`.
 3. Clone the repository to have it locally available:
     * Select **Code**.
     * Copy the URL (it is `https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content.git`).
@@ -43,16 +43,16 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
     * Open the terminal in VS Code.
     * Navigate to a directory where you want to clone the repository.
     * Type `git clone <COPIED URL HERE>`.
-4. [Create a working branch](https://learn.microsoft.com/contribute/content/how-to-write-workflows-major#use-github-flow) and write your article! Here are some resources to refer to, if you need them:
+4. [Create a working branch](https://learn.microsoft.com/contribute/content/how-to-write-major-edits?tabs=terminal#create-and-check-out-your-working-branch) and write your article! Here are some resources to refer to, if you need them:
     * [Templates folder](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/templates)
-    * [How to choose a template](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/templates/content-type-comparison.md)
-    * [Markdown reference](https://learn.microsoft.com/en-us/contribute/markdown-reference)
-    * [Add code to articles](https://learn.microsoft.com/en-us/contribute/code-in-docs)
-    * [How to format text](https://learn.microsoft.com/en-us/contribute/text-formatting-guidelines)
-5. [Commit and push changes](https://learn.microsoft.com/contribute/content/how-to-write-workflows-major#making-your-changes) to your fork.
-6. If you need to [make more changes](https://learn.microsoft.com/contribute/content/how-to-write-workflows-major#making-your-next-change), no problem! Keep iterating as needed.
-7. Open a pull request by doing the following:
-    1. Navigate to your fork of this repository (it will most likely be in the format of https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content).
+    * [Choose a template](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/templates/content-type-comparison.md)
+    * [Markdown reference](https://learn.microsoft.com/contribute/content/markdown-reference)
+    * [Add code to articles](https://learn.microsoft.com/contribute/content/code-in-docs)
+    * [Format text](https://learn.microsoft.com/contribute/content/text-formatting-guidelines)
+5. [Commit and push changes](https://learn.microsoft.com/contribute/content/how-to-write-major-edits?tabs=terminal#commit-and-push-your-changes) to your fork.
+6. If you need to [make more changes](https://learn.microsoft.com/contribute/content/how-to-write-major-edits?tabs=terminal#make-your-next-change), no problem! Keep iterating as needed.
+7. Open a pull request:
+    1. Navigate to your fork of this repository. (It will most likely be in the format of https://github.com/<YOUR_GITHUB_ACCOUNT>/community-content).
     1. Select **Pull requests**.
     1. Select **New pull request**.
        ![pull request tab](community-content/media/contribution/pull-request-tab.png)
@@ -68,9 +68,9 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 ## File structure
 
 * **Article files ending in .md** belong in the [content](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/content) folder.
-* **Image files, such as .png or .jpg** belong in the [media](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/media) folder, in a sub-folder where the images are used. For example, if your article is named **my-article.md**, you would create a folder within the media folder called **my-article**, and all your images would be stored in the **media/my-article** folder.
-* Make sure to add your article as an entry to the top of the [TOC.yml](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/content/TOC.yml) file, following the markdown syntax of all the previous entries.
+* **Image files, such as .png or .jpg** belong in the [content/media](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/content/media) folder, in a sub-folder where the images are used. For example, if your article is named **my-article.md**, you would create a folder within the media folder called **my-article**, and all your images would be stored in the **media/my-article** folder.
+* Make sure to add your article as an entry to the top of the [TOC.yml](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/content/TOC.yml) file, following the Markdown syntax of all the previous entries.
 
 ## Microsoft Learn contributor guide
 
-Another resource we have for contributing is the [Microsoft Learn contributor guide](https://learn.microsoft.com/contribute/content). This is our most comprehensive guide to contributing and includes more detailed setup information, as well as articles such as the full contribution workflow, style and voice guidelines, and other writing resources. Check it out!
+Another resource to reference when contributing is the [Microsoft Learn contributor guide](https://learn.microsoft.com/contribute/content). This is our most comprehensive guide for contributing and includes more detailed setup information, as well as articles such as the full contribution workflow, style and voice guidelines, and other writing resources. Check it out!
