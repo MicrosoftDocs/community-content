@@ -1,20 +1,20 @@
 ---
 title: Example content #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: Example content description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
+author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
+ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
+ms.service: azure #Required; service per approved list.
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
-  - Human-created-Community
+  - Human-created-Community #Required; don't change.
 ---
 
 # What is example content?
 
 ---
 
-**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/jehchow-3527/)
+**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/jehchow-3527/) <!-- Add your name and a link to your Learn profile or community leader page>
 
 ---
 
