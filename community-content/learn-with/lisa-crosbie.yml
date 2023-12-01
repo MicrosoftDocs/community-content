@@ -1,0 +1,97 @@
+### YamlMime:Marketing
+title: Learn with Lisa Crosbie
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with Lisa Crosbie
+    #size: small
+    summary: Lisa Crosbie is known for her ability to explain technology in a way that makes it easy for non technical users to understand, and to make it approachable and fun. She is a regular speaker at international Microsoft and community events, and runs a popular YouTube channel dedicated to helping people skill up on Copilot and low code business applications. She is a four-time Microsoft Business Applications MVP and a Microsoft Certified Trainer.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/lisa-crosbie/lisa-crosbie-light.png
+      darkImageSrc: /community/learn-with/media/lisa-crosbie/lisa-crosbie-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://twitter.com/LisaCrosbie
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/lisa-crosbie/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.lisacrosbie.com
+        destination: blog
+      - componentType: social-link
+        url: https://www.youtube.com/lisacrosbie
+        destination: youtube
+
+# Resources grid card section
+  - componentType: grid
+    title: My favourite copilot and AI resources
+    blocks:
+      - componentType: icon-card
+        title: Adopt, extend, and build copilot experiences
+        summary: An overview of all the Copilots, plus links to a bunch of specific technical labs.
+        url: https://learn.microsoft.com/microsoft-cloud/dev/copilot/overview?WT.mc_id=BA-MVP-5003537
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Create Power Platform solutions with copilot
+        summary: Learn how to create apps, automations, and chatbots using Copilot.
+        url: https://learn.microsoft.com/training/paths/copilot-solutions/?WT.mc_id=BA-MVP-5003537
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Fundamentals of generative AI
+        summary: A short beginner guide to learn how large language models enable AI applications and services.
+        url: https://learn.microsoft.com/training/modules/fundamentals-generative-ai/?WT.mc_id=BA-MVP-5003537
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Generative AI for beginners
+        summary: A 12-lesson course on everything you need to start building Generative AI applications.
+        url: https://github.com/microsoft/generative-ai-for-beginners
+        icon:
+          componentType: image
+          src: ./media/icons/github.png
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: Copilot videos
+    summary: These videos are owned and/or curated by Lisa. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: Get started with Microsoft Copilot Studio
+        summary: Learn to create your own Copilot based on websites and documents.
+        imageUrl: /community/learn-with/media/lisa-crosbie/get-started-copilot.jpg
+        url: https://www.youtube.com/watch?v=frIA3Wof08Y
+      - componentType: card
+        title: Microsoft 365 Copilot explained
+        summary: Get across all the key concepts of Copilot for Microsoft 365 and how it changes business
+        imageUrl: /community/learn-with/media/lisa-crosbie/copilot-explained.jpg
+        url: https://www.youtube.com/watch?v=VlM9a469LE0
+      - componentType: card
+        title: How Copilot for Microsoft 365 works
+        summary:  Learn how large language models work when you connect them to data in your organisation.
+        imageUrl: /community/learn-with/media/lisa-crosbie/how-copilot-works.jpg
+        url: https://www.youtube.com/watch?v=B2-8wrF9Okc
+      - componentType: card
+        title: How to turn your Excel spreadsheets into Power Apps
+        summary: Learn how to use Power Apps Copilot to turn spreadsheets into apps.
+        imageUrl: /community/learn-with/media/lisa-crosbie/excel-to-power-apps.jpg
+        url: https://www.youtube.com/watch?v=mnHxS5XD8jc
+
+
