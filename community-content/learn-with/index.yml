@@ -37,12 +37,12 @@ sections:
         url: https://learn.microsoft.com/community/learn-with/olanrewaju-oyinbooke
         destination: blog
     - componentType: speaker-profile-card
-      title: Coming soon
-      imageUrl: /community/learn-with/media/index/coming-soon.jpg
-      summary: " "
+      title: Lisa Crosbie
+      imageUrl: /community/learn-with/media/index/lisa-crosbie.jpg
+      summary: "Copilot | Automation | Low-code applications "
       socialLink:    
         componentType: social-link
-        url: https://bing.com
+        url: https://learn.microsoft.com/community/learn-with/lisa-crosbie
         destination: blog
     - componentType: speaker-profile-card
       title: Coming soon
