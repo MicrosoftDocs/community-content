@@ -28,10 +28,10 @@ sections:
         url: https://www.linkedin.com/in/lisa-crosbie/
         destination: linkedin
       - componentType: social-link
-        url: www.lisacrosbie.com
+        url: https://www.lisacrosbie.com
         destination: blog
       - componentType: social-link
-        url: www.youtube.com/lisacrosbie
+        url: https://www.youtube.com/lisacrosbie
         destination: youtube
 
 # Resources grid card section
