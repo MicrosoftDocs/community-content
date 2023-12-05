@@ -36,17 +36,17 @@ sections:
 
 # Resources grid card section
   - componentType: grid
-    title: My favourite copilot and AI resources
+    title: My favourite Copilot and AI resources
     blocks:
       - componentType: icon-card
-        title: Adopt, extend, and build copilot experiences
+        title: Adopt, extend, and build Copilot experiences
         summary: An overview of all the Copilots, plus links to a bunch of specific technical labs.
         url: https://learn.microsoft.com/microsoft-cloud/dev/copilot/overview?WT.mc_id=BA-MVP-5003537
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Create Power Platform solutions with copilot
+        title: Create Power Platform solutions with Copilot
         summary: Learn how to create apps, automations, and chatbots using Copilot.
         url: https://learn.microsoft.com/training/paths/copilot-solutions/?WT.mc_id=BA-MVP-5003537
         icon:
@@ -70,28 +70,28 @@ sections:
   # Video card section
   - componentType: cards
     isShadowless: true
-    title: Copilot videos
+    title: Meet your Microsoft Copilots
     summary: These videos are owned and/or curated by Lisa. Microsoft doesn't own or review this content.
     blocks:
       - componentType: card
-        title: Get started with Microsoft Copilot Studio
+        title: Microsoft Copilot vs. Copilot for Microsoft 365
+        summary:  In this video, I explain what Microsoft Copilot is, and how it is different from Copilot for Microsoft 365.
+        imageUrl: /community/learn-with/media/lisa-crosbie/what-is-microsoft-copilot.png
+        url: https://youtu.be/pXzjJ0NvFJE
+      - componentType: card
+        title: Build your first Copilot in 8 minutes
         summary: Learn to create your own Copilot based on websites and documents.
-        imageUrl: /community/learn-with/media/lisa-crosbie/get-started-copilot.jpg
+        imageUrl: /community/learn-with/media/lisa-crosbie/get-started-copilot.png
         url: https://www.youtube.com/watch?v=frIA3Wof08Y
       - componentType: card
-        title: Microsoft 365 Copilot explained
+        title: Microsoft 365 Copilot just changed the future of work
         summary: Get across all the key concepts of Copilot for Microsoft 365 and how it changes business
-        imageUrl: /community/learn-with/media/lisa-crosbie/copilot-explained.jpg
+        imageUrl: /community/learn-with/media/lisa-crosbie/copilot-explained.png
         url: https://www.youtube.com/watch?v=VlM9a469LE0
       - componentType: card
-        title: How Copilot for Microsoft 365 works
-        summary:  Learn how large language models work when you connect them to data in your organisation.
-        imageUrl: /community/learn-with/media/lisa-crosbie/how-copilot-works.jpg
-        url: https://www.youtube.com/watch?v=B2-8wrF9Okc
-      - componentType: card
-        title: How to turn your Excel spreadsheets into Power Apps
+        title: Turn your Excel spreadsheets into Power Apps
         summary: Learn how to use Power Apps Copilot to turn spreadsheets into apps.
-        imageUrl: /community/learn-with/media/lisa-crosbie/excel-to-power-apps.jpg
+        imageUrl: /community/learn-with/media/lisa-crosbie/excel-to-power-apps.png
         url: https://www.youtube.com/watch?v=mnHxS5XD8jc
 
 
