@@ -70,7 +70,7 @@ sections:
   # Video card section
   - componentType: cards
     isShadowless: true
-    title: Boost your productivity with Microsoft's Copilots 
+    title: Meet your Microsoft Copilots
     summary: These videos are owned and/or curated by Lisa. Microsoft doesn't own or review this content.
     blocks:
       - componentType: card
