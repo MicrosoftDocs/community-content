@@ -47,7 +47,7 @@ sections:
     - componentType: speaker-profile-card
       title: Cyrus Wong
       imageUrl: /community/learn-with/media/index/cyrus-wong.jpg
-      summary: " "
+      summary: "Azure | DevOps | Data center admin "
       socialLink:    
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/cyrus-wong
