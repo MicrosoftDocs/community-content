@@ -47,7 +47,7 @@ sections:
       - componentType: icon-card
         title: ML for those who don't know anything about ML
         summary: My community-content article all about Machine Learning!
-        url: https://learn.microsoft.com/community/content/ml-for-those-who-don't-know-anything-about-ml?wt.mc_id=studentamb_185863
+        url: https://learn.microsoft.com/community/content/ml-for-those-who-don't-know-anything-about-ml
         icon:
           componentType: image
           src: ./media/icons/learn.png
@@ -75,14 +75,14 @@ sections:
       - componentType: icon-card
         title: Machine Learning for total beginners
         summary: My Microsoft Learn collection of ML resources.
-        url: https://learn.microsoft.com/en-gb/collections/k7zhwr43rm1wo?wt.mc_id=studentamb_185863
+        url: https://learn.microsoft.com/en-gb/collections/k7zhwr43rm1wo
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: ML practice assessments
         summary: Practice assessments to help you prepare for a Microsoft Certification exam.
-        url: https://learn.microsoft.com/credentials/certifications/practice-assessments-for-microsoft-certifications?wt.mc_id=studentamb_185863
+        url: https://learn.microsoft.com/credentials/certifications/practice-assessments-for-microsoft-certifications
         icon:
           componentType: image
           src: ./media/icons/learn.png

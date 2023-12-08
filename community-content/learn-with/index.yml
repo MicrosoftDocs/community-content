@@ -45,11 +45,11 @@ sections:
         url: https://learn.microsoft.com/community/learn-with/lisa-crosbie
         destination: blog
     - componentType: speaker-profile-card
-      title: Coming soon
-      imageUrl: /community/learn-with/media/index/coming-soon.jpg
+      title: Cyrus Wong
+      imageUrl: /community/learn-with/media/index/cyrus-wong.jpg
       summary: " "
       socialLink:    
         componentType: social-link
-        url: https://bing.com
+        url: https://learn.microsoft.com/community/learn-with/cyrus-wong
         destination: blog
       
