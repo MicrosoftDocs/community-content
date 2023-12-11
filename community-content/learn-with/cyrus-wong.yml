@@ -1,0 +1,110 @@
+### YamlMime:Marketing
+title: Learn with Cyrus Wong
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with Cyrus Wong
+    #size: small
+    summary: Cyrus Wong is an accomplished senior lecturer who oversees the Higher Diploma program in Cloud and Data Centre Administration Department Information Technology of Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee) in Hong Kong. He’s a passionate advocate for the adoption of cloud technology and has earned recognitions from all major cloud providers, including the Microsoft MVP award for Azure. He incorporates AI/ML into his daily curriculum and often writes about open-source projects. 
+ 
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/cyrus-wong/cyrus-wong-light.png
+      darkImageSrc: /community/learn-with/media/cyrus-wong/cyrus-wong-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://github.com/wongcyrus 
+        destination: github
+      - componentType: social-link
+        url: https://twitter.com/wongcyrus 
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/cyruswong/ 
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@CyrusWong
+        destination: youtube
+      - componentType: social-link
+        url: https://www.facebook.com/cywong.vtc 
+        destination: facebook
+      - componentType: social-link
+        url: https://medium.com/@wongcyrus 
+        destination: medium
+      - componentType: social-link
+        url: https://mvp.microsoft.com/en-US/MVP/profile/86da86ff-8786-ed11-aad1-000d3a197333
+        destination: website
+
+# Resources grid card section
+  - componentType: grid
+    title: Getting started with DevOps
+    blocks:
+      - componentType: icon-card
+        title: GitHub skills
+        summary: Learn how to use GitHub with interactive courses designed for beginners and experts.
+        url: https://skills.github.com/
+        icon:
+          componentType: image
+          src: ./media/icons/github.png
+      - componentType: icon-card
+        title: Learn Git branching
+        summary: Learn Git branching with this interactive web platform that makes learning Git fun through step-by-step feature demos.
+        url: https://learngitbranching.js.org/
+        icon:
+          componentType: image
+          src: ./media/icons/web.png
+      - componentType: icon-card
+        title: Azure Infrastructure as Code with Terraform
+        summary: Learn about infrastructure as code using Terraform.
+        url: https://developer.hashicorp.com/terraform/tutorials/azure-get-started/infrastructure-as-code?in=terraform%2Fazure-get-started
+        icon:
+          componentType: image
+          src: ./media/icons/hashicorp.png
+      - componentType: icon-card
+        title: Azure Terraform workshop
+        summary: Terraform tutorial that covers building, changing, and destroying infrastructure.
+        url: https://hashicorp.github.io/field-workshops-terraform/slides/azure/terraform-oss/index.html#1
+        icon:
+          componentType: image
+          src: ./media/icons/hashicorp.png
+      - componentType: icon-card
+        title: Ansible Essentials workshop
+        summary: Learn how to get started with Ansible to automate various DevOps tasks.
+        url: https://ansible.github.io/lightbulb/decks/ansible-essentials.html#/
+        icon:
+          componentType: image
+          src: ./media/icons/ansible.png
+      
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: DevOps video resources
+    summary: These videos are owned and/or curated by Cyrus. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: Free Docker Fundamentals course
+        summary: Introductory playlist covering the basics of Docker, like installation, containerization, and deployment.
+        imageUrl: /community/learn-with/media/cyrus-wong/docker-fundamentals.jpg
+        url: https://www.youtube.com/watch?v=gthvzSE4yIY&list=PLTk5ZYSbd9Mg51szw21_75Hs1xUpGObDm
+      - componentType: card
+        title: AZ-900 certification course
+        summary: A comprehensive playlist for the AZ-900 Azure Fundamentals Certification Course by John Savill.
+        imageUrl: /community/learn-with/media/cyrus-wong/az-900.jpg
+        url: https://www.youtube.com/watch?v=pY0LnKiDwRA&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3
+      - componentType: card
+        title: Introduction to GitHub Codespaces
+        summary: Learn everything you need to know to be productive using GitHub Codespaces to run configurable development environments.
+        imageUrl: /community/learn-with/media/cyrus-wong/codespaces.jpg
+        url: https://www.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975-
+
+

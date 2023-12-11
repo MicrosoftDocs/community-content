@@ -70,7 +70,7 @@ sections:
       - componentType: icon-card
         title: "Microsoft Azure AI Fundamentals: Generative AI"
         summary: A valuable resources for beginners in Generative AI and its application. Earn badges and trophy when you learn.
-        url: https://learn.microsoft.com/training/paths/introduction-generative-ai/?wt.mc_id=learnwithola_01_content_cnl 
+        url: https://learn.microsoft.com/training/paths/introduction-generative-ai 
 
         icon:
           componentType: image
@@ -85,21 +85,21 @@ sections:
       - componentType: icon-card
         title: GitHub for beginners learning resource
         summary: Having the knowledge of GitHub as a Data Professional will make you open to expand your role into more technical area.
-        url: https://learn.microsoft.com/training/modules/introduction-to-github?wt.mc_id=learnwithola_01_content_cnl 
+        url: https://learn.microsoft.com/training/modules/introduction-to-github
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Projects to challenge your data skills
         summary: In doers I trust, take up this data analysis challenge to demonstrate your skill. Highly recommended if you need portfolio worthy project. 
-        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/github-for-data-analyst-and-power-platform-developers/ba-p/3719651?wt.mc_id=learnwithola_01_content_cnl 
+        url: https://techcommunity.microsoft.com/t5/educator-developer-blog/github-for-data-analyst-and-power-platform-developers/ba-p/3719651 
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Start your Power BI learning journey here
         summary: A compilation of Power BI learning resources. Highly recommended for beginners. 
-        url: https://learn.microsoft.com/collections/60nmc8q70e561d?wt.mc_id=learnwithola_01_content_cnl 
+        url: https://learn.microsoft.com/collections/60nmc8q70e561d 
         icon:
           componentType: image
           src: ./media/icons/learn.png
