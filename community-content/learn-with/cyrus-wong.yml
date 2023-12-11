@@ -46,7 +46,7 @@ sections:
 
 # Resources grid card section
   - componentType: grid
-    title: My favorite DevOps resources
+    title: Getting started with DevOps
     blocks:
       - componentType: icon-card
         title: GitHub skills
