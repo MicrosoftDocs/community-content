@@ -1,0 +1,112 @@
+### YamlMime:Marketing
+title: Learn with MoureDev
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with MoureDev
+    #size: small
+    summary: Brais Moure, conocido como MoureDev, es ingeniero de software desde 2010. En 2015 creó su empresa como freelance, desarrollando más de 100 aplicaciones y trabajando diferentes proyectos nacionales e internacionales, así como lanzando sus propios proyectos personales. Desde 2018 divulga y comparte contenido sobre programación y desarrollo de software, con una comunidad de más de un millón de seguidores en distintas redes. Su principal objetivo es democratizar el estudio dentro de la comunidad de habla hispana. Brais es Microsoft MVP, GitHub Star y su libro "Git & GitHub desde cero" ha llegado a alcanzar el número 1 en Amazon España.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Regresar a Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/mouredev/brais-moure-light.png
+      darkImageSrc: /community/learn-with/media/mouredev/brais-moure-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://github.com/mouredev
+        destination: github
+      - componentType: social-link
+        url: https://twitter.com/mouredev
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/braismoure/
+        destination: linkedin
+      - componentType: social-link
+        url: https://bing.com
+        destination: blog
+      - componentType: social-link
+        url: https://www.twitch.tv/mouredev
+        destination: twitch
+      - componentType: social-link
+        url: https://www.youtube.com/mouredevapps
+        destination: youtube
+      - componentType: social-link
+        url: https://mouredev.com/
+        destination: website
+      - componentType: social-link
+        url: https://www.instagram.com/mouredev/
+        destination: instagram
+      - componentType: social-link
+        url: https://www.facebook.com/mouredev
+        destination: facebook
+
+# Resources grid card section
+  - componentType: grid
+    title: Aprender Git y GitHub
+    blocks:
+      - componentType: icon-card
+        title: Guía de Git y GitHub
+        summary: Esta colección te enseña los conceptos básicos de Git y GitHub.
+        url: https://learn.microsoft.com/es-es/collections/01ykiq17615q31
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Recurso 2
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Recurso resource 3
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Recurso resource 4
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: Mis videos favoritos sobre...
+    summary: Estos videos son propiedad y/o seleccionados por Brais. Microsoft no posee ni revisa este contenido.
+    blocks:
+      - componentType: card
+        title: Video 1 title
+        summary: Texto resumen. Manténlo breve.
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Video 2 title
+        summary: Texto resumen. Manténlo breve.
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Video 2 title
+        summary: Texto resumen. Manténlo breve.
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+      - componentType: card
+        title: Video 2 title
+        summary: Texto resumen. Manténlo breve.
+        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        url: https://bing.com
+
+
