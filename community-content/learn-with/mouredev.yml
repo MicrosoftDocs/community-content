@@ -68,14 +68,14 @@ sections:
           componentType: image
           src: ./media/icons/medium.png
       - componentType: icon-card
-        title: Recurso resource 3
+        title: Recurso 3
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Recurso resource 4
+        title: Recurso 4
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
