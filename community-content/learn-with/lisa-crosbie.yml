@@ -41,21 +41,21 @@ sections:
       - componentType: icon-card
         title: Adopt, extend, and build Copilot experiences
         summary: An overview of all the Copilots, plus links to a bunch of specific technical labs.
-        url: https://learn.microsoft.com/microsoft-cloud/dev/copilot/overview?WT.mc_id=BA-MVP-5003537
+        url: https://learn.microsoft.com/microsoft-cloud/dev/copilot/overview
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Create Power Platform solutions with Copilot
         summary: Learn how to create apps, automations, and chatbots using Copilot.
-        url: https://learn.microsoft.com/training/paths/copilot-solutions/?WT.mc_id=BA-MVP-5003537
+        url: https://learn.microsoft.com/training/paths/copilot-solutions
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Fundamentals of generative AI
         summary: A short beginner guide to learn how large language models enable AI applications and services.
-        url: https://learn.microsoft.com/training/modules/fundamentals-generative-ai/?WT.mc_id=BA-MVP-5003537
+        url: https://learn.microsoft.com/training/modules/fundamentals-generative-ai
         icon:
           componentType: image
           src: ./media/icons/learn.png
