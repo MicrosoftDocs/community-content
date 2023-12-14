@@ -85,22 +85,22 @@ sections:
       - componentType: card
         title: Deploy Azure Virtual Network peering in minutes
         summary: Learn how to create and configure two virtual networks, two virtual machines, and a v-net pairing between them.
-        imageUrl: /community/learn-with/media/ryan-oconnell/azure-vnet.jpg
+        imageUrl: /community/learn-with/media/ryan-oconnell/azure-vnet.png
         url: https://www.youtube.com/watch?v=-kL50ydMDVc
       - componentType: card
         title: Deploy Azure Active Directory Connect
         summary: Learn how to connect Azure Intra ID to on-premises Windows Active Directory
-        imageUrl: /community/learn-with/media/ryan-oconnell/azure-ad.jpg
+        imageUrl: /community/learn-with/media/ryan-oconnell/azure-ad.png
         url: https://www.youtube.com/watch?v=fyv0QeOTBn4
       - componentType: card
         title: Azure Storage Explorer overview
         summary: Learn how to manage Azure storage accounts with Azure Storage Explorer.
-        imageUrl: /community/learn-with/media/ryan-oconnell/azure-storage.jpg
+        imageUrl: /community/learn-with/media/ryan-oconnell/azure-storage.png
         url: https://www.youtube.com/watch?v=aaDM130tGr4
       - componentType: card
         title: Learn Azure Firewall in 28 minutes
         summary: Learn how to use Azure to deploy an Azure firewall.
-        imageUrl: /community/learn-with/media/ryan-oconnell/azure-firewall.jpg
+        imageUrl: /community/learn-with/media/ryan-oconnell/azure-firewall.png
         url: https://youtu.be/Jrls3UCXJLo
 
 
