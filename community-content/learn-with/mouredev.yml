@@ -56,57 +56,57 @@ sections:
       - componentType: icon-card
         title: Guía de Git y GitHub
         summary: Esta colección te enseña los conceptos básicos de Git y GitHub.
-        url: https://learn.microsoft.com/es-es/collections/01ykiq17615q31
+        url: https://learn.microsoft.com/collections/01ykiq17615q31
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Recurso 2
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        url: https://bing.com
+        title: Documentación GitHub
+        summary: Aprende cómo comenzar a crear, enviar y mantener software con GitHub.
+        url: https://docs.github.com/get-started
         icon:
           componentType: image
-          src: ./media/icons/medium.png
+          src: ./media/icons/github.png
       - componentType: icon-card
-        title: Recurso 3
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        url: https://bing.com
+        title: Guía de Python
+        summary: Una ruta de estudio centrada en los fundamentos de Python y la ciencia de datos.
+        url: https://learn.microsoft.com/collections/yk03h6xdzoy57x
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Recurso 4
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        url: https://bing.com
+        title: Hello-Python ruta de estudio en GitHub
+        summary: Curso para aprender el lenguaje de programación Python desde cero y para principiantes.
+        url: https://github.com/mouredev/Hello-Python
         icon:
           componentType: image
-          src: ./media/icons/youtube.png
+          src: ./media/icons/github.png
   
   # Video card section
   - componentType: cards
     isShadowless: true
-    title: Mis videos favoritos sobre...
+    title: Tutoriales en vídeo de GitHub y Python
     summary: Estos videos son propiedad y/o seleccionados por Brais. Microsoft no posee ni revisa este contenido.
     blocks:
       - componentType: card
-        title: Video 1 title
-        summary: Texto resumen. Manténlo breve.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
-        url: https://bing.com
+        title: Curso de Git y GitHub desde scratch para principiantes
+        summary: Este es un curso desde cero creado para aprender a trabajar con Git y GitHub y así mejorar como programadores.
+        imageUrl: /community/learn-with/media/mouredev/git.jpg
+        url: https://www.youtube.com/watch?v=3GymExBkKjE
       - componentType: card
-        title: Video 2 title
-        summary: Texto resumen. Manténlo breve.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
-        url: https://bing.com
+        title: Curso de Python desde cero para principiantes
+        summary: Este curso enseñará a los principiantes sobre Python desde cero
+        imageUrl: /community/learn-with/media/mouredev/python-fund.jpg
+        url: https://www.youtube.com/watch?v=Kp4Mvapo5kc
       - componentType: card
-        title: Video 2 title
-        summary: Texto resumen. Manténlo breve.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
-        url: https://bing.com
+        title: Curso de Python desde cero para backend
+        summary: Aprende a crear desde cero un backend y una API REST utilizando FastAPI y MongoDB.
+        imageUrl: /community/learn-with/media/mouredev/python-backend.jpg
+        url: https://www.youtube.com/watch?v=_y9qQZXE24A
       - componentType: card
-        title: Video 2 title
-        summary: Texto resumen. Manténlo breve.
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
-        url: https://bing.com
+        title: Curso de Python para web desde cero
+        summary: Este es un curso desde cero para principiantes para aprender frontend web con Python.
+        imageUrl: /community/learn-with/media/mouredev/python-frontend.jpg
+        url: https://www.youtube.com/watch?v=n2YrGsXJC6Y
 
 
