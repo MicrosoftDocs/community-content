@@ -52,4 +52,12 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/cyrus-wong
         destination: blog
+    - componentType: speaker-profile-card
+      title: Ryan O'Connell
+      imageUrl: /community/learn-with/media/index/ryan-oconnell.jpg
+      summary: "Networking | Virtual machines | Windows Server"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/ryan-oconnell
+        destination: blog
       
