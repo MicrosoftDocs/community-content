@@ -55,56 +55,56 @@ sections:
     blocks:
       - componentType: icon-card
         title: Fundamentals of Azure OpenAI Service
-        summary: This link is important because...
+        summary: Start here! This course will introduce you to the basic concepts of Azure OpenAI Service and prompt engineering.
         url: https://learn.microsoft.com/training/modules/explore-azure-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Generative AI for everyone
-        summary: This link is important because...
+        summary: This course is created by Andrew Ng and the team at deep learning and provides a beginners look at Generative AI with hands-on exercises.
         url: https://www.coursera.org/learn/generative-ai-for-everyone
         icon:
           componentType: image
           src: ./media/icons/coursera.png
       - componentType: icon-card
         title: Get started with Azure OpenAI Service
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: This course is an introduction for engineers and begins to set the technical landscape for learning how to build solutions with Azure OpenAI Service.
         url: https://learn.microsoft.com/training/modules/get-started-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Build natural language solutions with Azure OpenAI Service
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: This course focuses on how to create solutions that leverage human language as the user interface.
         url: https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Apply prompt engineering with Azure OpenAI Service
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: This course dives deeper into the world of prompt engineering with Azure OpenAI.
         url: https://learn.microsoft.com/training/modules/apply-prompt-engineering-azure-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Generate code with Azure OpenAI Service
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: One important generative AI use case is code generation. In this course, you will learn how to generate code with Azure OpenAI.
         url: https://learn.microsoft.com/en-us/training/modules/generate-code-azure-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Generate images with Azure OpenAI Service
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: Another broadly adapted use case is in image creation. In this course, you will learn how to leverage Azure Open AI to amplify your creativity with image generation.
         url: https://learn.microsoft.com/training/modules/generate-images-azure-openai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Attention Is All You Need – Research Paper
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: This is one of the most important papers related to the accelerated growth of Generative AI. Required reading, in my opinion.
         url: https://arxiv.org/abs/1706.03762
         icon:
           componentType: image
@@ -116,56 +116,56 @@ sections:
     blocks:
       - componentType: icon-card
         title: Microsoft AI Business School
-        summary: This link is important because...
+        summary: Learn the basics of AI so that you can begin to navigate conversations across industries and see how AI can help.
         url: https://learn.microsoft.com/training/paths/transform-your-business-with-microsoft-ai/
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
         title: Get Started with Microsoft Copilot
-        summary: This link is important because...
+        summary: Microsoft Copilot will change the way you work, but only if you know how to use it. This course will help get you started.
         url: https://copilot.microsoft.com/
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Generative AI for US federal agencies
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: If you are in the public sector, it’s important to understand the nuances that we need to consider for federal, state, and local use cases.
         url: https://www.accenture.com/us-en/services/us-federal-government/generative-ai
         icon:
           componentType: image
           src: ./media/icons/accenture.png
       - componentType: icon-card
         title: Empowering Responsible AI Practices
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: Responsible AI is a thread that needs to be weaved into every solution. This is a great resource to get started.
         url: https://www.microsoft.com/ai/responsible-ai
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Microsoft Responsible AI Standard
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: Microsoft has led the way in Responsible AI practices. This reference will help you understand the guidelines and guardrails for building AI responsibly.
         url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Advancing Government Services with Responsible Generative AI
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: Looking for a resource about Generative AI in Government? This is a great place to start.
         url: https://papers.govtech.com/Advancing-Government-Services-With-Responsible-Generative-AI-142225.html
         icon:
           componentType: image
           src: ./media/icons/web.png
       - componentType: icon-card
         title: Unlock new insights with Azure OpenAI Service for Government
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: In this post, you will see how innovative governments can be with Azure OpenAI.
         url: https://azure.microsoft.com/en-us/blog/unlock-new-insights-with-azure-openai-service-for-government
         icon:
           componentType: image
           src: ./media/icons/microsoft.png
       - componentType: icon-card
         title: Empowering AI in the Federal Government
-        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        summary: The go-to source for all things AI, as provided by the White House.
         url: https://ai.gov
         icon:
           componentType: image
