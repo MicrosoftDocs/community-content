@@ -60,4 +60,12 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/ryan-oconnell
         destination: blog
+    - componentType: speaker-profile-card
+      title: Brais Moure
+      imageUrl: /community/learn-with/media/index/brais-moure.jpg
+      summary: "Git | GitHub | Python"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/mouredev
+        destination: blog
       
