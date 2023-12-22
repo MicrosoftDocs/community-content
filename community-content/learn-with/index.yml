@@ -68,4 +68,12 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/mouredev
         destination: blog
+    - componentType: speaker-profile-card
+      title: Noelle Russell
+      imageUrl: /community/learn-with/media/index/noelle-russell.png
+      summary: "Generative AI | data & AI literacy | Conversational AI"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/noelle-russell
+        destination: blog
       
