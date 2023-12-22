@@ -45,42 +45,42 @@ sections:
     title: Generative AI skills resources
     blocks:
       - componentType: icon-card
-        title: Link to resource 1
+        title: Resource 1
         summary: This link is important because...
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Link to resource 2
+        title: Resource 2
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/medium.png
       - componentType: icon-card
-        title: Link to resource 3
+        title: Resource 3
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: Link to resource 4
+        title: Resource 4
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Link to resource 5
+        title: Resource 5
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
           componentType: image
           src: ./media/icons/medium.png
       - componentType: icon-card
-        title: Link to resource 6
+        title: Resource 6
         summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: https://bing.com
         icon:
@@ -97,22 +97,22 @@ sections:
       - componentType: card
         title: Card 1 title
         summary: Summary text, keep it brief
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/cyrus-wong/python-flask.jpg
         url: https://bing.com
       - componentType: card
         title: Card 2 title
         summary: Summary text, keep it brief
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/cyrus-wong/python-flask.jpg
         url: https://bing.com
       - componentType: card
-        title: Card 2 title
+        title: Card 3 title
         summary: Summary text, keep it brief
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/cyrus-wong/python-flask.jpg
         url: https://bing.com
       - componentType: card
-        title: Card 2 title
+        title: Card 4 title
         summary: Summary text, keep it brief
-        imageUrl: https://docs.microsoft.com/en-us/media/home-and-directory/featured-learn-tv-2x.png?branch=master # imageUrl is optional
+        imageUrl: /community/learn-with/media/cyrus-wong/python-flask.jpg
         url: https://bing.com
 
 

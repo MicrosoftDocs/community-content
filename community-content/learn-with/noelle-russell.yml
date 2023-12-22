@@ -1,0 +1,202 @@
+### YamlMime:Marketing
+title: Learn with Noelle Russell
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with Noelle Russell
+    #size: small
+    summary: Noelle Russell is a multi-award-winning technologist with an entrepreneurial spirit who specializes in helping companies with data, cloud, conversational AI, Generative AI, and LLMs. She has led teams at NPR, Microsoft, IBM, AWS, and Amazon Alexa, and she is a consistent champion for Data and AI literacy. She was awarded the Microsoft Most Valuable Professional award for Artificial Intelligence (for the third year) as well as VentureBeat's Women in AI Responsibility and Ethics award.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/noelle-russell/noelle-russell-light.png
+      darkImageSrc: /community/learn-with/media/noelle-russell/noelle-russell-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://github.com/unitygirl
+        destination: github
+      - componentType: social-link
+        url: https://twitter.com/noellerussell_
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/noelleai/
+        destination: linkedin
+      - componentType: social-link
+        url: https://noellerussell.ai
+        destination: blog
+      - componentType: social-link
+        url: https://www.youtube.com/@noelleai
+        destination: youtube
+      - componentType: social-link
+        url: https://www.facebook.com/lovefluencers
+        destination: facebook
+      - componentType: social-link
+        url: https://www.instagram.com/noelle.ai/
+        destination: instagram
+      - componentType: social-link
+        url: https://podcasts.apple.com/us/podcast/good-morning-ai-with-noelle-russell/id1718399627
+        destination: podcast
+      - componentType: social-link
+        url: http://aileadershipinstitute.com
+        destination: website
+
+# Resources grid card section
+  - componentType: grid
+    title: Generative AI upskilling resources
+    blocks:
+      - componentType: icon-card
+        title: Fundamentals of Azure OpenAI Service
+        summary: This link is important because...
+        url: https://learn.microsoft.com/training/modules/explore-azure-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Generative AI for everyone
+        summary: This link is important because...
+        url: https://www.coursera.org/learn/generative-ai-for-everyone
+        icon:
+          componentType: image
+          src: ./media/icons/coursera.png
+      - componentType: icon-card
+        title: Get started with Azure OpenAI Service
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://learn.microsoft.com/training/modules/get-started-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Build natural language solutions with Azure OpenAI Service
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Apply prompt engineering with Azure OpenAI Service
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://learn.microsoft.com/training/modules/apply-prompt-engineering-azure-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Generate code with Azure OpenAI Service
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://learn.microsoft.com/en-us/training/modules/generate-code-azure-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Generate images with Azure OpenAI Service
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://learn.microsoft.com/training/modules/generate-images-azure-openai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Attention Is All You Need – Research Paper
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://arxiv.org/abs/1706.03762
+        icon:
+          componentType: image
+          src: ./media/icons/cornell.png
+
+# Resources grid card section
+  - componentType: grid
+    title: Building inclusive AI solutions in the Federal Government
+    blocks:
+      - componentType: icon-card
+        title: Microsoft AI Business School
+        summary: This link is important because...
+        url: https://learn.microsoft.com/training/paths/transform-your-business-with-microsoft-ai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Get Started with Microsoft Copilot
+        summary: This link is important because...
+        url: https://copilot.microsoft.com/
+        icon:
+          componentType: image
+          src: ./media/icons/microsoft.png
+      - componentType: icon-card
+        title: Generative AI for US federal agencies
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://www.accenture.com/us-en/services/us-federal-government/generative-ai
+        icon:
+          componentType: image
+          src: ./media/icons/accenture.png
+      - componentType: icon-card
+        title: Empowering Responsible AI Practices
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://www.microsoft.com/ai/responsible-ai
+        icon:
+          componentType: image
+          src: ./media/icons/microsoft.png
+      - componentType: icon-card
+        title: Microsoft Responsible AI Standard
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl
+        icon:
+          componentType: image
+          src: ./media/icons/microsoft.png
+      - componentType: icon-card
+        title: Advancing Government Services with Responsible Generative AI
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://papers.govtech.com/Advancing-Government-Services-With-Responsible-Generative-AI-142225.html
+        icon:
+          componentType: image
+          src: ./media/icons/web.png
+      - componentType: icon-card
+        title: Unlock new insights with Azure OpenAI Service for Government
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://azure.microsoft.com/en-us/blog/unlock-new-insights-with-azure-openai-service-for-government
+        icon:
+          componentType: image
+          src: ./media/icons/microsoft.png
+      - componentType: icon-card
+        title: Empowering AI in the Federal Government
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: https://ai.gov
+        icon:
+          componentType: image
+          src: ./media/icons/web.png
+      
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: Snackable content for quick learning
+    summary: These videos are owned and/or curated by Noelle. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: Quick interview about Generative AI
+        summary: In this interview with SkyNews, Noelle shares insights into Generative AI and the future of work.
+        imageUrl: /community/learn-with/media/noelle-russell/news-interview.png
+        url: https://www.youtube.com/watch?v=cdf4KZGQrL0
+      - componentType: card
+        title: Good Morning AI podcast
+        summary: Learn the latest in AI Strategy, building an AI-Ready Culture, how to create responsible and trustworthy AI, and the importance of Ethics in AI. This is a podcast for leaders who want to learn more about how AI can help their business.
+        imageUrl: /community/learn-with/media/noelle-russell/good-morning-ai.png
+        url: https://www.youtube.com/playlist?list=PLyGQOVzfAm5NL4OPxlpiq6G0NpWdjC6y
+      - componentType: card
+        title: 10 things developers need to know about building intelligent apps
+        summary: Discover the top trends that developers need to know as they begin to integrate AI into their applications. We'll cover new tools and resources available to developers, demo the use of these tools to quickly and easily integrate cognitive services to web and mobile projects, and talk about the top scenarios companies are looking to build.
+        imageUrl: /community/learn-with/media/noelle-russell/10-things.png
+        url: https://learn.microsoft.com/en-us/events/build-2018/brk3235
+      - componentType: card
+        title: Empowering inclusion in tech
+        summary: In this keynote, Noelle shares her journey into technology and what it was like to succeed as a woman of color in Tech. Her inspirational story was shared with over 3,000 women at the ICAN Leadership Conference.
+        imageUrl: /community/learn-with/media/noelle-russell/empower-inclusion.png
+        url: https://youtu.be/Tg3YOkxWiSo?si=sJBxYbQUTBNhcvWK
+
+
