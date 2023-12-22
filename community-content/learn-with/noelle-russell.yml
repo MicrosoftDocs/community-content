@@ -187,7 +187,7 @@ sections:
         title: Good Morning AI podcast
         summary: Learn the latest in AI Strategy, building an AI-Ready Culture, how to create responsible and trustworthy AI, and the importance of Ethics in AI. This is a podcast for leaders who want to learn more about how AI can help their business.
         imageUrl: /community/learn-with/media/noelle-russell/good-morning-ai.png
-        url: https://www.youtube.com/playlist?list=PLyGQOVzfAm5NL4OPxlpiq6G0NpWdjC6y
+        url: https://www.youtube.com/playlist?list=PLyGQOVzfAm5NL4OPxlpiq6G0NpWdjC6y-
       - componentType: card
         title: 10 things developers need to know about building intelligent apps
         summary: Discover the top trends that developers need to know as they begin to integrate AI into their applications. We'll cover new tools and resources available to developers, demo the use of these tools to quickly and easily integrate cognitive services to web and mobile projects, and talk about the top scenarios companies are looking to build.
