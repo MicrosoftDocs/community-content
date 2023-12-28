@@ -76,4 +76,12 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/noelle-russell
         destination: blog
+    - componentType: speaker-profile-card
+      title: Lucas Silva
+      imageUrl: /community/learn-with/media/index/lucas-silva.jpg
+      summary: "Microsoft Azure | Microsoft 365 | Microsoft Endpoint Manager"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/lucas-silva
+        destination: blog
       

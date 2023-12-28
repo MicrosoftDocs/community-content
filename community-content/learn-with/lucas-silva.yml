@@ -1,0 +1,77 @@
+### YamlMime:Marketing
+title: Learn with Lucas Silva
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with Lucas Silva
+    #size: small
+    summary: Apaixonado e fascinado pelo mundo da tecnologia, sou um estudante entusiasta do programa Microsoft Student Ambassadors, sempre em busca de oportunidades para desenvolver habilidades e contribuir para a comunidade Microsoft. Estou dedicado a aprimorar meu conhecimento e compartilhar meu entusiasmo com outros apaixonados por tecnologia, visando sempre promover o crescimento coletivo e a inovação.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/lucas-silva/lucas-silva-light.png
+      darkImageSrc: /community/learn-with/media/lucas-silva/lucas-silva-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url: https://github.com/lbsilva10
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/lucas-barbosa-silva
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.facebook.com/lucas.silva.397501?mibextid=LQQJ4d
+        destination: facebook
+      - componentType: social-link
+        url: https://www.instagram.com/luukas1
+        destination: instagram
+
+# Resources grid card section
+  - componentType: grid
+    title: My favorite videos
+    blocks:
+      - componentType: icon-card
+        title: Treinamento Oficial - Azure Fundamentals (AZ-900)
+        summary: Essa é uma série de 5 vídeos focando na documentação oficial e visando o seu pass nesta certificação!
+        url: https://www.youtube.com/watch?v=4ub1uGKQK6U
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Treinamento para Certificação Azure AZ-104
+        summary: A primeira das três aulas de revisão do exame Azure AZ-104.
+        url: https://www.youtube.com/watch?v=LokbILz2m9E
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Como se tornar um Consultor Sênior em Microsoft 365
+        summary: Explorar a fascinante trajetória para se tornar um Consultor Sênior em Microsoft 365 com o especialista Bruno Leires.
+        url: https://www.youtube.com/watch?v=PgnWGOJQJNI
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Maratona AI-900
+        summary: Uma lista de vídeos instrutivos para ajudá-lo a passar no exame AI-900.
+        url: https://www.youtube.com/watch?v=fnoHAT0zdVw&list=PL_yq9hmeKAk_m71FQjzExkotuCuEeBNyS
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: O que é o modelo de PaaS na Cloud?
+        summary: Uma rápida explicação do modelo de nuvem PaaS.
+        url: https://www.youtube.com/shorts/cJcUpbdTYjw
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+
+
