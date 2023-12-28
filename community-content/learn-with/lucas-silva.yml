@@ -11,7 +11,7 @@ sections:
     links:
       - componentType: link
         url: https://learn.microsoft.com/community/learn-with
-        text: Back to Microsoft Learn Community Leaders
+        text: Voltar para Líderes da Comunidade Microsoft Learn
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/media/lucas-silva/lucas-silva-light.png
@@ -36,7 +36,7 @@ sections:
 
 # Resources grid card section
   - componentType: grid
-    title: My favorite videos
+    title: Meus vídeos favoritos
     blocks:
       - componentType: icon-card
         title: Treinamento Oficial - Azure Fundamentals (AZ-900)
