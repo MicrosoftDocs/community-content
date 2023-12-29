@@ -76,4 +76,20 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/noelle-russell
         destination: blog
+
+
+
+
+
+
+
+
+    - componentType: speaker-profile-card
+      title: Oumaima Fisaoui
+      imageUrl: /community/learn-with/media/index/oumaima-fisaoui.jpeg
+      summary: "Python | AI | Web technologies"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/oumaima-fisaoui
+        destination: blog
       
