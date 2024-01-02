@@ -86,7 +86,7 @@ sections:
 
     - componentType: speaker-profile-card
       title: Oumaima Fisaoui
-      imageUrl: /community/learn-with/media/index/oumaima-fisaoui.jpg
+      imageUrl: /community/learn-with/media/index/oumaima-fisaoui.png
       summary: "Python | AI | Web technologies"
       socialLink:    
         componentType: social-link
