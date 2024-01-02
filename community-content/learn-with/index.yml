@@ -83,5 +83,12 @@ sections:
       socialLink:    
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/lucas-silva
+    - componentType: speaker-profile-card
+      title: Oumaima Fisaoui
+      imageUrl: /community/learn-with/media/index/oumaima-fisaoui.jpg
+      summary: "Python | AI | Web technologies"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/oumaima-fisaoui
         destination: blog
       
