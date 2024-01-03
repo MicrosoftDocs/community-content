@@ -55,7 +55,7 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
 2. Clone the Microsoft Linux kernel repository from GitHub:
 
     ```bash
-    git clone https://github.com/microsoft/WSL2-Linux-Kernel.git
+    git clone https://github.com/microsoft/WSL2-Linux-Kernel.git --depth=1 -b linux-msft-wsl-6.1.y
     ```
 
 3. Install the required packages to build the kernel:
@@ -70,31 +70,25 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
     cd WSL2-Linux-Kernel
     ```
 
-5. Checkout the version 6.1.x branch:
-
-    ```bash
-    git checkout v6.1.x
-    ```
-
-6. Build the kernel:
+5. Build the kernel:
 
     ```bash
     make -j$(nproc) KCONFIG_CONFIG=Microsoft/config-wsl
     ```
 
-7. Install the kernel modules and headers:
+6. Install the kernel modules and headers:
 
     ```bash
     sudo make modules_install headers_install
     ```
 
-8. Copy the kernel image to the Windows file system:
+7. Copy the kernel image to the Windows file system:
 
     ```bash
     cp arch/x86/boot/bzImage /mnt/c/
     ```
 
-9. Exit the WSL terminal window
+8. Exit the WSL terminal window
 
 ## 2 - Installing the Microsoft Linux kernel v6.1.x
 
