@@ -188,7 +188,7 @@ $proxyClientSecret = $(az ad app credential reset --id $proxyClientId --append -
 
 You should now be able to locate OAuth2 Proxy application in App registrations view in Azure portal:
 
-![Screenshot of OAuth2 Proxy application in App registrations view in Azure portal](media/aks-kubecost/kubecost-proxy-app.png)
+![Screenshot of OAuth2 Proxy application in App registrations view in Azure portal](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-proxy-app.png)
 
 ## 6 - (Optional) Add DNS record for Kubecost
 
@@ -318,23 +318,23 @@ Now that you've successfully deployed Kubecost dashboard it's worth highlighting
 
 1. **Overview** provides useful insights into not only the overall cloud costs and cluster-specific costs, but also into how efficiently the cluster is utilized. For example, you can analyze the daily trend of how much RAM, CPU and storage stay idle and how much of these resources are allocated vs. how much are actually being used daily. This information may give you a better overview so that you can adjust the amount of requested resources to what you actually need, which is both a more cost-efficient and sustainable choice.
 
-![Screenshot of an Overview page in Kubecost dashboard](media/aks-kubecost/kubecost-overview-page.png)
+![Screenshot of an Overview page in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-overview-page.png)
 
 1. **Cost allocations by resource and overall cloud costs history** views provide daily overview of the cost per Kubernetes object like Namespace or Service, or per Azure service if you have enabled Azure Cloud Integration. This data can help you monitor if any resources suddenly get cost spikes in case of performance issues for example, or if there are resources that are not used anymore and can therefore be cleaned up.
 
-![Screenshot of Allocations page in Kubecost dashboard](media/aks-kubecost/kubecost-resource-allocations.png)
+![Screenshot of Allocations page in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-resource-allocations.png)
 
-![Screenshot of Cloud Cost Explorer page in Kubecost dashboard](media/aks-kubecost/kubecost-cloud-cost-explorer.png)
+![Screenshot of Cloud Cost Explorer page in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-cloud-cost-explorer.png)
 
 1. **Cluster health tests** view evaluates the overall health of a Kubernetes/AKS cluster based on a collection of tests that it runs towards it. This data can be an additional helper in monitoring how your cluster and its workloads are doing.
 
-![Screenshot of cluster health test page in Kubecost dashboard](media/aks-kubecost/kubecost-cluster-health.png)
+![Screenshot of cluster health test page in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-cluster-health.png)
 
 1. **Cost saving recommendations** view provides a collection of useful recommendations that you can follow in order to reduce the overall cost of your cluster(s), as well as utilize its resources more efficiently and sustainably. Some of the recommendations may be to use reserved or spot instances, clean up zombie workloads or choose a different Node size. As you can see in the below screenshot, in case of right-sizing, Kubecost may even come with potentially better configuration or resource options, based on the usage and efficiency history that it gathers over time. This data can be helpful for you to take more informed choices for cluster configuration optimizations.
 
-![Screenshot of the overall savings recommendations in Kubecost dashboard](media/aks-kubecost/kubecost-savings-recommendations.png)
+![Screenshot of the overall savings recommendations in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-savings-recommendations.png)
 
-![Screenshot of cluster sizing recommendations in Kubecost dashboard](media/aks-kubecost/kubecost-cluster-sizing-recommendations.png)
+![Screenshot of cluster sizing recommendations in Kubecost dashboard](media/how-to-utilize-kubecost-for-cost-management-of-aks/kubecost-cluster-sizing-recommendations.png)
 
 Finally, apart from SSO and RBAC support, Kubecost community version has a few other limitations that is worth knowing about:
 
