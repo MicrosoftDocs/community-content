@@ -20,7 +20,7 @@ content_well_notification:
 
 In today’s digital age, it is not easy for any business to work without the application of artificial intelligence (AI). Especially for those in retail or consumer market, AI has now become the integral aspect of their growth. If it is rightly (read: responsibly) used then it ensures the improvement in overall customer experience and helps drive sales. I recently completed a [course](https://www.linkedin.com/learning/ux-for-ai-design-practices-for-ai-developers/designing-for-ai) by [John Maeda](https://www.linkedin.com/in/johnmaeda), VP of Design and AI at Microsoft where he discusses a few essential principles for building remarkable user experience (UX) with the [AI copilot stack](https://news.microsoft.com/source/features/ai/microsoft-outlines-framework-for-building-ai-apps-and-copilots-expands-ai-plugin-ecosystem/) in real-world applications. These principles focus on creating a collaborative user experience rather than a pretty UX.
 
-:::image type="content" source="media/ai-ux/copilot.png" alt-text="Microsoft Copilot":::
+:::image type="content" source="media/best-practices-ai-ux/copilot.png" alt-text="Microsoft Copilot":::
 
 ## Collaborative UX
 
@@ -35,7 +35,7 @@ One of the collaborative UX design patterns that serves as a reminder to users t
 
 The implementation of AI Notice Pattern involves the usage of visual cues or textual indicators that clearly state the information is AI-generated. This can be done through notifications, disclaimers or prompts which encourage users to question or verify the AI’s output. The pattern aligns with the broader concept of collaborative UX stressing the importance of human-AI collaboration and active user involvement in the decision-making process. By incorporating this pattern into AI-powered applications, designers can create more responsible and user-centric experiences.
 
-:::image type="content" source="media/ai-ux/ainotice.png" alt-text="AI Notice Pattern":::
+:::image type="content" source="media/best-practices-ai-ux/ainotice.png" alt-text="AI Notice Pattern":::
 
 ### Suggested Prompts Pattern
 
@@ -43,7 +43,7 @@ Another collaborative UX pattern designed to improve the relationship between us
 
 Implementation of the Suggested Prompts pattern is comprised of both business workflow understanding as well as designing user interfaces that integrate the suggested prompts. This can be done through visual prompts, buttons or interactive elements that present users with the available options.
 
-:::image type="content" source="media/ai-ux/suggested-prompts.png" alt-text="Suggested Prompts Pattern":::
+:::image type="content" source="media/best-practices-ai-ux/suggested-prompts.png" alt-text="Suggested Prompts Pattern":::
 
 It is important to have the prompts to be concise, relevant and contextually aligned with the user’s goal. This collaborative UX pattern can help improve the efficiency and effectiveness of user interactions with the copilot and encourage users to explore different possibilities and consider alternative options. This way, users can benefit from the copilot’s capabilities through suggested prompts while maintaining control and decision-making authority to themselves.
 
@@ -54,7 +54,7 @@ It is important to have the prompts to be concise, relevant and contextually ali
 
 The last UX pattern to discuss today is around the feedback. Feedback about the performance of AI and how it helps out user’s goal and its output. It gives an opportunity to the users to contribute to the improvement of overall copilot’s capabilities therefore known as Feedback Opportunities Pattern. These contributions can vary from sharing their insights to corrections to suggestions and many more. Thus, a feedback loop is created, facilitating continuous learning and improvement. Feedback mechanisms such as a review form, issue reporting or a rating system can be integrated within the user interface of the AI-powered application.
 
-:::image type="content" source="media/ai-ux/feedback.png" alt-text="Feedback Opportunity Pattern":::
+:::image type="content" source="media/best-practices-ai-ux/feedback.png" alt-text="Feedback Opportunity Pattern":::
 
 The continuous feedback is valuable for the copilots strengths and weaknesses. It is essential for the underlying technology and algorithms which can be used to address any shortcomings. Feedback Opportunities not only empower users to contribute to the copilot’s development but also foster a sense of ownership and engagement. By incorporating user feedback into the development process, user experience designers (or developers in my opinion) can enhance the copilot’s capabilities, resulting in a more refined and effective user experience.
 

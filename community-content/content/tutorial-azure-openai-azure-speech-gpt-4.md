@@ -47,19 +47,19 @@ https://aka.ms/oaiapply
 
 If your application to access the Azure OpenAI service is approved, then you can create an Azure OpenAI service in your Azure subscription.
 
-![aoai-access](media/aoai-speech-python/1-aoai-access.png)
+![aoai-access](media/tutorial-azure-openai-azure-speech-gpt-4/1-aoai-access.png)
 
 
 
 ## Models in Azure OpenAI service
 The Azure OpenAI service offers users access to a range of different models, such as gpt-35-turbo, gpt-35-turbo-16k, gpt-4 and gpt-4-32k, each with its own capabilities and price point. The version of both gpt-35-turbo and gpt-4 models is a new and improved 0613 model version, which comes with the enhanced steerability.
 
-![aoai-pricing](media/aoai-speech-python/2-aoai-pricing.png)
+![aoai-pricing](media/tutorial-azure-openai-azure-speech-gpt-4/2-aoai-pricing.png)
 
 ## Sign in to Azure OpenAI Studio
 To get started, go to https://oai.azure.com to access Azure OpenAI Studio. Sign in using credentials that have access to your Azure OpenAI resource. You can select the appropriate directory, Azure subscription, and Azure OpenAI resource during or after the sign-in process.
 
-![aoai-studio](media/aoai-speech-python/3-aoai-studio.png)
+![aoai-studio](media/tutorial-azure-openai-azure-speech-gpt-4/3-aoai-studio.png)
 
 ## Develop a Python program that incorporates Azure OpenAI GPT-4 and Azure Speech functionalities
 Setting up Azure OpenAI and Azure Speech Services in the Azure portal is quite straightforward. Once created, we can access these services in our code. Let me illustrate this with an example in Python.
@@ -109,7 +109,7 @@ Moreover, it’s crucial to specify the API version when utilizing the GPT-4 mod
 
 To access the Azure OpenAI service from your Python code, the next step involves providing the API key. This key can be located in the Keys and Endpoint panel of your Azure OpenAI service, as shown below.
 
-![aoai-key](media/aoai-speech-python/4-aoai-key.png)
+![aoai-key](media/tutorial-azure-openai-azure-speech-gpt-4/4-aoai-key.png)
 
 Likewise, it is necessary to establish the Azure Speech service. In this case, I have opted for the `en-NZ-MollyNeural` voice, which emulates the accent of New Zealanders, also known as Kiwis.
 
