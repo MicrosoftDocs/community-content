@@ -18,7 +18,7 @@ content_well_notification:
 
 ---
 
-![Image banner of Learn Data Analytics Faster Design](media/da-faster/learn-data-analytics-faster.png)
+![Image banner of Learn Data Analytics Faster Design](media/tips-to-learn-data-analysis-faster/learn-data-analytics-faster.png)
 
 The journey to learning Data Analysis is as good as starting with the right resources and keeping them basic. In this article, I will help you streamline your learning journey by focusing on what matters in a timely manner.
 
@@ -39,7 +39,7 @@ I am sure you are wondering if this is all that is required in your learning jou
 
 ## It is not what you are thinking
 
-![Image banner of Business Value Design](media/da-faster/about-business-value.png)
+![Image banner of Business Value Design](media/tips-to-learn-data-analysis-faster/about-business-value.png)
 
 Data Analytics is not what you are thinking. It is not about Excel, Power BI, Python, or any other tools out there. Data Analytics is all about "Business Value". Once you understand this and how to meet this need, the journey becomes easier for you.
 
