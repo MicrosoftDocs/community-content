@@ -52,7 +52,7 @@ sections:
     blocks:
       - componentType: icon-card
         title: LangChain tutorials
-        summary:  Langchain is an opensource framework for building applications using LLM (Large language model). This playlist covers the basics and helps you create end-to-end applications.
+        summary:  Langchain is an opensource framework for building applications using LLMs. This playlist covers the basics and helps you create end-to-end applications.
         url: https://bing.com
         icon:
           componentType: image
