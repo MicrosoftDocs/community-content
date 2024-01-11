@@ -106,8 +106,8 @@ sections:
   #Markdown note
   - componentType: markdown
     content: |
-      "The Microsoft Learn Community Leaders program is a pilot program. Community Leaders are invited to create pages if they meet these criteria:
-      
+      The Microsoft Learn Community Leaders program is a pilot program. Community Leaders are invited to create pages if they meet these criteria:
+
       - A demonstrated understanding of the learning needs of the early-in-career audience.
       - Active engagement with the early-in-career audience on social media and other digital platforms.
-      - A presence and following on social media centered on creating and sharing learning resources."
+      - A presence and following on social media centered on creating and sharing learning resources.
