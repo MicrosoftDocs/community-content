@@ -2,6 +2,7 @@
 title: Microsoft Learn Community Leaders 
 sections: 
 
+  #Hero section
   - componentType: hero-product
     #supertitle: learn with experts
     title: Microsoft Learn Community Leaders
@@ -16,6 +17,7 @@ sections:
       lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
 
+  #Community leader profile cards
   - componentType: speaker-profile-cards
     title: Meet the community leaders
     summary: Select each leader's link to learn more about them and see their recommended resources.
@@ -92,4 +94,16 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/oumaima-fisaoui
         destination: blog
-      
+    - componentType: speaker-profile-card
+      title: Hammad Hassan
+      imageUrl: /community/learn-with/media/index/hammad-hassan.jpg
+      summary: "Generative AI | Community"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/hammad-hassan
+        destination: blog
+
+  #Markdown note
+  - componentType: markdown
+    content: |
+      This content is experimental. These community leaders have been invited to create pages because of their presence and following on social media centered on creating and sharing learning resources. At this time, we are only inviting a small set of community leaders to participate.

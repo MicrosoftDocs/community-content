@@ -1,0 +1,191 @@
+### YamlMime:Marketing
+title: Learn with Hammad Hassan
+sections: 
+
+# Profile header
+  - componentType: hero-product
+    supertitle: Microsoft Learn Community
+    title: Learn with Hammad Hassan
+    #size: small
+    summary: Hammad Hassan, a dynamic Computer Science student and triple Azure Certified professional, is fueled by a passion for Generative AI and community engagement. Hammad is the visionary founder of Saqi Limited, empowering Pakistan’s youth by providing tech guidance and fostering IT growth. His journey includes impactful commitments as a Teaching Assistant. With a focus on Generative AI, Hammad actively engages in community initiatives, driven by a desire to collaborate and innovate in technology.
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/media/hammad-hassan/hammad-hassan-light.png
+      darkImageSrc: /community/learn-with/media/hammad-hassan/hammad-hassan-dark.png
+
+  # Social section
+  - componentType: social
+    title: " "
+    links:
+      - componentType: social-link
+        url:  https://github.com/hamadhassan
+        destination: github
+      - componentType: social-link
+        url: https://twitter.com/hammadhassan299
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/in/hammadhassan365
+        destination: linkedin
+      - componentType: social-link
+        url: https://medium.com/@hammadhassan365/interview-experience-for-ai-intern-5b998b3d518c
+        destination: blog
+      - componentType: social-link
+        url: https://www.youtube.com/@m.hamadhassan
+        destination: youtube
+      - componentType: social-link
+        url: https://web.facebook.com/Iamhamadhassan
+        destination: facebook
+      - componentType: social-link
+        url: https://medium.com/@hammadhassan365
+        destination: medium
+      - componentType: social-link
+        url: https://mhammadhassan.com/
+        destination: website
+
+# Resources grid card section
+  - componentType: grid
+    title: Generative AI skills resources
+    blocks:
+      - componentType: icon-card
+        title: LangChain tutorials
+        summary:  Langchain is an opensource framework for building applications using LLMs. This playlist covers the basics and helps you create end-to-end applications.
+        url: https://bing.com
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: OpenAI tutorial
+        summary: Learn function calls and explore data extraction using OpenAI.
+        url: https://www.youtube.com/playlist?list=PLeo1K3hjS3uuyHkzjBfd3nwD7SJ5C11aB
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Generative AI for everyone
+        summary: What generative AI is and how it works, its common use cases, and what this technology can and cannot do.
+        url: https://www.coursera.org/learn/generative-ai-for-everyone
+        icon:
+          componentType: image
+          src: ./media/icons/coursera.png
+      - componentType: icon-card
+        title: "Microsoft Azure AI Fundamentals: Generative AI"
+        summary: Learn how large language models form the foundation of generative AI.
+        url: https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+
+# Resources grid card section
+  - componentType: grid
+    title: Generative AI trends
+    blocks:
+      - componentType: icon-card
+        title: Generative AI in the enterprise
+        summary:  Survey reveals AI adoption trends, bottlenecks, and skill needs.
+        url: https://oreilly.medium.com/generative-ai-in-the-enterprise-c43d57f0f20c
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: How to architect for generative AI
+        summary: Intuit VP shares data-layer insights for generative AI.
+        url: https://medium.com/be-data-driven/how-to-architect-for-generative-ai-1d55267b22c2
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: "Visionati: New age generative AI"
+        summary: AI-driven image descriptions and creative insights.
+        url: https://medium.com/the-crypto-kiosk/visionati-new-age-generative-ai-325ebc2643b3
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title:  Generative AI fuels climate change
+        summary: Energy consumption and climate impact.
+        url: https://levelup.gitconnected.com/generative-ai-fuels-climate-change-588f4be2a7c9
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Generative AI is here to stay
+        summary:  Assistance vs. overshadowing creativity.
+        url: https://medium.com/illumination/generative-ai-is-here-to-stay-2727dc986a8a
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Can generative AI transform hiring?
+        summary: "Fribl’s AI in recruiting: productivity vs. ethical integration."
+        url: https://ai.plainenglish.io/can-generative-ai-transform-hiring-fa699b620063
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title: Generative AI in action
+        summary: MIT showcases 12 innovative generative AI projects.
+        url: https://medium.com/open-learning/generative-ai-in-action-9f6fb6287781
+        icon:
+          componentType: image
+          src: ./media/icons/medium.png
+      - componentType: icon-card
+        title:  Generative AI models
+        summary: A comprehensive guide to unlocking business potential.
+        url: https://dev.to/xcubelabs/generative-ai-models-a-comprehensive-guide-to-unlocking-business-potential-c1
+        icon:
+          componentType: image
+          src: ./media/icons/devto.png
+      - componentType: icon-card
+        title: AI-generated game
+        summary: Building an AI-generated game with Stable Diffusion and data from Wikipedia.
+        url: https://dev.to/darraghor/building-an-ai-generated-game-with-stable-diffusion-and-data-from-wikipedia-26h1
+        icon:
+          componentType: image
+          src: ./media/icons/devto.png
+      - componentType: icon-card
+        title:  The magic of attention
+        summary: How Transformers improved generative AI.
+        url: https://dev.to/dvrvsimi/the-magic-of-attention-how-transformers-improved-generative-ai-1h3c
+        icon:
+          componentType: image
+          src: ./media/icons/devto.png
+      
+  
+  # Video card section
+  - componentType: cards
+    isShadowless: true
+    title: My favorite videos for generative AI
+    summary: These videos are owned and/or curated by Hammad. Microsoft doesn't own or review this content.
+    blocks:
+      - componentType: card
+        title: "Stanford lecture: Generative models"
+        summary: Discuss generative modeling as a form of unsupervised learning.
+        imageUrl: /community/learn-with/media/hammad-hassan/stanford-lecture.jpg
+        url: https://www.youtube.com/watch?v=5WoItGTWV54
+      - componentType: card
+        title: Deep generative modeling
+        summary: MIT lecture introducing deep generative modeling.
+        imageUrl: /community/learn-with/media/hammad-hassan/mit-lecture.jpg
+        url: https://www.youtube.com/watch?v=3G5hWM6jqPk
+      - componentType: card
+        title: "Andrew Ng: Opportunities in AI - 2023"
+        summary: Stanford lecture on trends in AI technologies and tools.
+        imageUrl: /community/learn-with/media/hammad-hassan/andrew-ng.jpg
+        url: https://www.youtube.com/watch?v=5p248yoa3oE
+      - componentType: card
+        title: Inside OpenAI, the Architect of ChatGPT, featuring Mira Murati
+        summary: The bright future and potential risks of a world with widespread artificial intelligence.
+        imageUrl: /community/learn-with/media/hammad-hassan/inside-openai.jpg
+        url: https://www.youtube.com/watch?v=p9Q5a1Vn-Hk
+      - componentType: card
+        title: What’s the future for generative AI?
+        summary: How can we harness AI to make great leaps in technology possible?
+        imageUrl: /community/learn-with/media/hammad-hassan/harness-ai.jpg
+        url: https://www.youtube.com/watch?v=b76gsOSkHB4
+
+
+
