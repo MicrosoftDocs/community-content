@@ -43,7 +43,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
     * Open the terminal in VS Code.
     * Navigate to a directory where you want to clone the repository.
     * Type `git clone <COPIED URL HERE>`.
-1. [Set up remotes](/contribute/content/get-started-setup-local#set-up-remotes) to establish a connection between your local repository and the original repository.
+1. [Set up remotes](https://learn.microsoft.com/en-us/contribute/content/get-started-setup-local#set-up-remotes) to establish a connection between your local repository and the original repository.
 1. [Create a working branch](https://learn.microsoft.com/contribute/content/how-to-write-major-edits?tabs=terminal#create-and-check-out-your-working-branch) and write your article! Here are some resources to refer to, if you need them:
     * [Templates folder](https://github.com/MicrosoftDocs/community-content/tree/main/community-content/templates)
     * [Choose a template](https://github.com/MicrosoftDocs/community-content/blob/main/community-content/templates/content-type-comparison.md)
