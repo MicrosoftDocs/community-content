@@ -1,9 +1,9 @@
 ---
-title: Troubleshooting topic template #Required; this page title is displayed in search results; Always include the word "troubleshoot" in this line. Don't use any puncutation, such as colons, commas, or periods.
+title: Troubleshooting topic template #Required; this page title is displayed in search results; Always include the word "troubleshoot" in this line. 
 description: Troubleshooting description #Required; this article description is displayed in search results.
-author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+author: jehchow #Required; your GitHub user alias, with correct capitalization.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
+ms.service: azure #Required; service per approved list. 
 ms.topic: troubleshooting-general #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; enter the date in the mm/dd/yyyy format.
 content_well_notification: 
