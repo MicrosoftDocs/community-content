@@ -1,10 +1,10 @@
 ---
-title: Quickstart topic template #Required; page title displayed in search results. Include the word "quickstart". Include the brand. Don't use any puncutation, such as colons, commas, or periods.
-description: Quickstart description #Required; article description that is displayed in search results. Include the word "quickstart".
-author: jehchow #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+title: "Quickstart: [verb] * [noun]" #Required; page title displayed in search results. Include the word "quickstart". Include the brand.
+description: [Article description.] #Required; article description that is displayed in search results. Include the word "quickstart".
+author: jehchow #Required; your GitHub user alias, with correct capitalization.
 ms.author: shchow #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
-ms.topic: quickstart #Required; leave this attribute/value as-is.
+ms.service: azure #Required; service per approved list.
+ms.topic: quickstart #Required; don't change.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 content_well_notification: 
   - Human-created-Community
@@ -25,20 +25,14 @@ into the hands of new customers in less than 10 minutes.
 
 -->
 
-<!-- 1. H1 -----------------------------------------------------------------------------
+# Quickstart: [verb] * [noun]
 
-Required: Starts with "Quickstart: " Pick an H1 that clearly conveys the task the user 
-will complete.
+<!-- Required: Article headline - H1
 
-Make the first word following "Quickstart:" a verb, which is to say, an action.
-The "X" part should identify both the technology or service involved (e.g. App Service,
-Cosmos DB, etc.) and the language or framework, if applicable (.NET Core, Python, JavaScript,
-Java, etc.); the language or framework shouldn't appear in parentheses.
+Identify the product or service and the feature area
+the quickstart covers.
 
 -->
-
-# Quickstart: do something with X
-TODO: Add your heading
 
 ---
 
@@ -46,88 +40,33 @@ TODO: Add your heading
 
 ---
 
-<!-- 2. Introductory paragraph ----------------------------------------------------------
+[Introduce and explain the purpose of the article.]
 
-Required: In the opening sentence, focus on the job or task to be completed, emphasizing
-general industry terms (such as "serverless," which are better for SEO) more than
-Microsoft-branded terms or acronyms (such as "Azure Functions" or "ACR"). That is, try
-to include terms people typically search for and avoid using *only* Microsoft terms.
+<!-- Required: Introductory paragraphs (no heading)
 
-After the opening sentence, summarize the steps taken in the article to answer "what is this
-article about?" Then include a brief statement of cost, if applicable.
-
-Example: 
-Get started with Azure Functions by using command-line tools to create a function that responds 
-to HTTP requests. After testing the code locally, you deploy it to the serverless environment 
-of Azure Functions. Completing this quickstart incurs a small cost of a few USD cents or less 
-in your Azure account.
+Write a brief introduction that can help the user determine whether the article is relevant for them. Begin with a sentence that says, "In this quickstart, you..."
 
 -->
 
-[Add your introductory paragraph]
-TODO: Add your introductory paragraph
+If you don't have a service subscription, create a free trial account...
 
-Get started with [service/product] by using [specific tools or activities] to [achieve a goal or job to be done]. [Summary of steps]. [Brief statement of cost incurred.]
+<!-- Required: Free account links (no heading)
 
-<!-- - Avoid links, which are generally invitations for the reader to leave the article and
-not complete the experience of the quickstart. The exception are links to alternate versions
-of the same content (e.g. when you have a VS Code-oriented article and a CLI-oriented article). Those
-links help get the reader to the right article, rather than being a distraction. If you feel that there are
-other important concepts needing links, make reviewing a particular article a prerequisite. Otherwise, rely
-on the line of standard links (see below).
+Because quickstarts are intended to help new customers use a product or service, include a link to a  free trial before the first H2.
 
-- Avoid any indication of the time it takes to complete the quickstart, because there's already
-the "x minutes to read" at the top and making a second suggestion can be contradictory. (The standard line is probably misleading, but that's a matter for site design.)
+-->
 
-- Avoid a bullet list of steps or other details in the quickstart: the H2's shown on the right
-of the docs page already fulfill this purpose.
+## Prerequisites
 
-- Avoid screenshots or diagrams: the opening sentence should be sufficient to explain the result,
-and other diagrams count as conceptual material that is best in a linked overview.
+<!-- Required: Prerequisites - H2
 
---->
+"Prerequisites" must be the first H2 in the article.
 
-<!-- Optional standard links: if there are suitable links, you can include a single line
-of applicable links for companion content at the end of the introduction. Don't use the line
-if there's only a single link. In general, these links are more important for SDK-based quickstarts. -->
+List any items that are needed for the quickstart, such as permissions or software.
 
-(Service name) overview | Reference documentation | Sample source code
+If the user needs to sign in to a portal to do the quickstart, provide instructions and a link.
 
-<!-- 5. Prerequisites --------------------------------------------------------------------
-
-Optional: Make Prerequisites the first H2 after the H1. Omit any preliminary text to the list.
-
-Include this heading even if there aren't any prerequisites, in which case just use the text: "None"
-(not bulleted). The reason for this is to maintain consistency across services, which trains readers
-to always look in the same place.
-
-When there are prerequisites, list each as *items*, not instructions to minimize the verbiage.
-For example, use "Python 3.6" instead of "Install Python 3.6". If the prerequisite is something
-to install, link to the applicable and specific installer or download. Selecting the item/link is then the
-action to fulfill the prerequisite. Use an action word only if necessary to make the meaning clear.
-Don't use links to conceptual information about a prerequisite; only use links for installers.
-
-Do not bold items, because listing items alone fulfills that same purpose.
-
-List prerequisites in the following order:
-- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
-- Language runtimes (Python, Node, .NET, etc.)
-- Packages (from pip, npm, nuget, etc.)
-- Tools (like VS Code IF REQUIRED. Don't include tools like pip if they're
-  automatically installed with another tool or language runtime, like Python. Don't include
-  optional tools like text editors--include them only if the quickstart demonstrates them.)
-- Sample code
-- Specialized hardware
-- Other preparatory work, such as creating a VM (OK to link to another article)
-- Azure keys
-- Service-specific keys
-
-The reason for placing runtimes and tools first is that it might take time to install
-them, and it's best to get a user started sooner than later.
-
-If you feel like your quickstart has a lot of prerequisites, the quickstart may be the
-wrong content type - a tutorial or how-to guide may be the better option. Remember that
-quickstarts should be something a reader can complete in 10 minutes or less.
+If there aren't any prerequisites, in a new paragraph under the "Prerequisites" H2, enter "None" in plain text (not as a bulleted list item).
 
 -->
 
@@ -139,146 +78,101 @@ quickstarts should be something a reader can complete in 10 minutes or less.
 - ...
 - (Any specific service-specific key - if specific actions are required, either link to an article that explains those steps, or make acquisition of a key one of the steps in the quickstart.)
 
-<!-- 6. Account sign in --------------------------------------------------------------------
+## Open [Cloud Shell, Azure CLI, or PowerShell]
 
-Required: If you need to sign in to the portal to do the quickstart, this H2 and link are required.
+<!-- Optional: Open a demo environment - H2
 
--->
+If you want to refer to using Azure Cloud Shell, the Azure CLI, or Azure PowerShell, place the instructions after the "Prerequisites" section.
 
-## Sign in to <service/product/tool name>
-TODO: add your instructions
-
-<!-- If signing in requires more than one step, then use this section. If it's just a single
-step, include that step in the first section that requires it.
-
--->
-
-<!-- 7. Open Azure Cloud Shell---------------------------------------------------------------------
-If you want to refer to using the Cloud Shell, place the instructions after the
-Prerequisites to keep the prerequisites as the first H2.
-
-However, only include the Cloud Shell if ALL commands can be run in the cloud shell.
+Include Cloud Shell only if all commands can run in Cloud Shell.
 
 --->
 
+## [verb] * [noun]
 
-## Open Azure Cloud Shell
-TODO: add your instructions
+[Introduce a task and its role in completing the process.]
 
-<!-- 7. Task H2s ------------------------------------------------------------------------------
+<!-- Required: Tasks to complete in the process - H2
 
-Required:
-Quickstarts are prescriptive and guide the customer through an end-to-end procedure.
-Make sure to use specific naming for setting up accounts and configuring technology.
+In one or more numbered H2 sections, describe tasks that the user completes in the process the quickstart describes.
 
-Avoid linking off to other content - include whatever the customer needs to complete the
-scenario in the article. For example, if the customer needs to set permissions, include the
-permissions they need to set, and the specific settings in the quickstart procedure. Don't
-send the customer to another article to read about it.
+-->
 
-In a break from tradition, do not link to reference topics in the procedural part of the
-quickstart when using cmdlets or code. Provide customers what they need to know in the quickstart
-to successfully complete the quickstart.
+1. Procedure step
+1. Procedure step
+1. Procedure step
 
-For portal-based procedures, minimize bullets and numbering.
+<!-- Required: Steps to complete the tasks - H2
 
-For the CLI or PowerShell based procedures, don't use bullets or numbering.
+Use ordered lists to describe how to complete tasks in the process. Be consistent when you describe how to use a method or tool to complete the task.
 
-Be mindful of the number of H2/procedures in the Quickstart. 3-5 procedural steps are about right.
-Once you've staged the article, look at the right-hand "In this article" section on the docs page;
-if there are more than 8 total, consider restructuring the article.
+Code requires specific formatting. Here are a few useful examples of commonly used code blocks. Make sure to use the interactive functionality when possible.
 
---->
-
-## Task 1
-TODO: Include a sentence or two to explain only what is needed to complete the
-procedure.
-
-1. Step 1 of the procedure
-1. Step 2 of the procedure
-1. Step 3 of the procedure
-1. Step 4 of the procedure
-
-## Task 2
-
-TODO:Include a sentence or two to explain only what is needed to complete the procedure.
-
-1. Step 1 of the procedure
-1. Step 2 of the procedure
-1. Step 3 of the procedure
-
-## Task 3
-
-TODO:Include a sentence or two to explain only what is needed to complete the procedure.
-
-<!-- 7. Code blocks ------------------------------------------------------------------------------
-
-Optional: Code requires specific formatting. Here are a few useful examples of
-commonly used code blocks. Make sure to use the interactive functionality where
-possible.
-For the CLI or PowerShell based procedures, don't use bullets or numbering.
+For the CLI-based or PowerShell-based procedures, don't use bullets or numbering.
 
 Here is an example of a code block for Java:
 
 ```java
-cluster = Cluster.build(new File("src/remote.yaml")).create();
+cluster = Cluster.build(new File("src/site.yaml")).create();
 ...
 client = cluster.connect();
 ```
 
-or a code block for Azure CLI:
+Here's a code block for the Azure CLI:
 
-```azurecli 
-az vm create --resource-group myResourceGroup --name myVM --image win2016datacenter --admin-username azureuser --admin-password myPassword12
-```
-or a code block for Azure PowerShell:
-
-```azurepowershell
-New-AzureRmContainerGroup -ResourceGroupName myResourceGroup -Name mycontainer -Image mcr.microsoft.com/windows/servercore/iis:nanoserver -OsType Windows -IpAddressType Public
+```azurecli-interactive 
+az vm create --resource-group myResourceGroup --name myVM 
+--image win2016datacenter --admin-username azureuser 
+--admin-password myPassword12
 ```
 
-<!-- Use the -interactive CLI/PowerShell code fences ONLY if all such commands can be marked that way,
-otherwise the reader might run some in the interactive in which case the state isn't determinate. 
+This is a code block for Azure PowerShell:
 
---->
-
-<!-- 8. Clean up resources ------------------------------------------------------------------------
-
-Required: To avoid any costs associated with following the quickstart procedure, a
-Clean up resources (H2) should come just before Next steps (H2)
-
-If there is a follow-on quickstart that uses the same resources, make that option clear
-so that a reader doesn't need to recreate those resources. 
-
+```azurepowershell-interactive
+New-AzureRmContainerGroup -ResourceGroupName 
+myResourceGroup -Name mycontainer 
+-Image mcr.microsoft.com/windows/servercore/iis:nanoserver 
+-OsType Windows -IpAddressType Public
+```
 -->
 
 ## Clean up resources
 
-If you're not going to continue to use this application, delete resources with the following steps:
+<!-- Optional: Steps to clean up resources - H2
 
-1. From the left-hand menu...
-2. ...click Delete, type...and then click Delete
+Provide steps the user takes to clean up resources that were created to complete the article.
 
+-->
 
-<!-- 9. Next steps ------------------------------------------------------------------------
+## Next step -or- Related content
 
-Required: Quickstarts should always have a Next steps H2 that points to the next logical
-quickstart in a series, or, if there are no other quickstarts, to some other
-cool thing the customer can do. A single link in the blue box format should
-direct the customer to the next article - and you can shorten the title in the
-boxes if the original one doesn’t fit. 
-
-Do not use a "More info section" or a "Resources section" or a "See also section". 
-
---->
-
-## Next steps
-
-Advance to the next article to learn how to create...
 > [!div class="nextstepaction"]
-> [Next steps button]()
+> [Next sequential article title](link.md)
+
+-or-
+
+- [Related article title](link.md)
+- [Related article title](link.md)
+- [Related article title](link.md)
+
+<!-- Optional: Next step or Related content - H2
+
+Consider adding one of these H2 sections (not both):
+
+A "Next step" section that uses 1 link in a blue box 
+to point to a next, consecutive article in a sequence.
+
+-or- 
+
+If the quickstart is not part of a sequence, use a 
+"Related content" section that lists links to 
+1 to 3 articles the user might find helpful.
+
+-->
 
 <!--
-Remove all the comments in this template before you sign-off or merge to the main branch.
+
+Remove all comments except the customer intent
+before you sign off or merge to the main branch.
 
 -->
