@@ -4,6 +4,11 @@
             "source_path": "community-content/content/Discover Microsoft Azure learning, training, certifications, and career path opportunities.md",
             "redirect_url": "/community/content/discover-azure-learning-opps",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "CONTRIBUTING.md",
+            "redirect_url": "https://github.com/MicrosoftDocs/community-content/wiki/Contribute-to-this-repo",
+            "redirect_document_id": true
         }
     ]
 }
