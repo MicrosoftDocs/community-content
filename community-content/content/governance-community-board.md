@@ -14,7 +14,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Ronen Ariely](https://learn.microsoft.com/en-us/users/pituach/) <!-- Add your name and a link to your Learn profile or community leader page>
+**Principal author**: [Ronen Ariely](https://learn.microsoft.com/users/pituach/) 
 
 ---
 
