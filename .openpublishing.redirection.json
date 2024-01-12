@@ -1,7 +1,7 @@
 {
     "redirections": [
         {
-            "source_path": "community-content/content/Discover Microsoft Azure learning, training, certifications, and career path opprtunities.md",
+            "source_path": "community-content/content/Discover Microsoft Azure learning, training, certifications, and career path opportunities.md",
             "redirect_url": "/community/content/discover-azure-learning-opps",
             "redirect_document_id": true
         }
