@@ -1,8 +1,8 @@
 ---
 title: Microsoft Learn Community Content
 description: Community written content for the community about Microsoft products and features.
-author: jehchow
-ms.author: shchow
+author: carlyrevier
+ms.author: cahublou
 ms.date: 08/23/2023
 ms.topic: overview
 ms.prod: non-product-specific
