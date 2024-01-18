@@ -36,40 +36,68 @@ sections:
 
 # Resources grid card section
   - componentType: grid
-    title: Meus vídeos favoritos
+    title: Vídeos favoritos que assisti
     blocks:
       - componentType: icon-card
-        title: Treinamento Oficial - Azure Fundamentals (AZ-900)
-        summary: Essa é uma série de 5 vídeos focando na documentação oficial e visando o seu pass nesta certificação!
-        url: https://www.youtube.com/watch?v=4ub1uGKQK6U
+        title: Como começar uma carreira Cloud do Zero?
+        summary: " "
+        url: https://www.youtube.com/watch?v=JBT5E7OYf5E&t=846s
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Treinamento para Certificação Azure AZ-104
-        summary: A primeira das três aulas de revisão do exame Azure AZ-104.
-        url: https://www.youtube.com/watch?v=LokbILz2m9E
+        title: Treinamento oficial da certificação AZ-900
+        summary: " "
+        url: https://www.youtube.com/watch?v=4ub1uGKQK6U&t=38s
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Como se tornar um Consultor Sênior em Microsoft 365
-        summary: Explorar a fascinante trajetória para se tornar um Consultor Sênior em Microsoft 365 com o especialista Bruno Leires.
-        url: https://www.youtube.com/watch?v=PgnWGOJQJNI
+        title: Treinamento oficial da certificação AZ-104
+        summary: " "
+        url: https://www.youtube.com/watch?v=2qxa__U5oVU&t=20s
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Maratona AI-900
-        summary: Uma lista de vídeos instrutivos para ajudá-lo a passar no exame AI-900.
+        title: Treinamento oficial da certificação AZ-305
+        summary: " "
+        url: https://www.youtube.com/watch?v=Yj5QNotTKwU
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Microsoft Learn Student Ambassador, requisitos e vantagens de participar!
+        summary: " "
+        url: https://www.youtube.com/watch?v=w28tAsTPIRE
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Treinamento Azure SC-900 | Certificação SC-900
+        summary: " "
+        url: https://www.youtube.com/watch?v=BfKZYoE-WhI
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Treinamento oficial da certificação MS-900
+        summary: " "
+        url: https://www.youtube.com/watch?v=IT58bml2Hj0
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Maratona AI-900 - Parte 01
+        summary: " "
         url: https://www.youtube.com/watch?v=fnoHAT0zdVw&list=PL_yq9hmeKAk_m71FQjzExkotuCuEeBNyS
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: O que é o modelo de PaaS na Cloud?
-        summary: Uma rápida explicação do modelo de nuvem PaaS.
-        url: https://www.youtube.com/shorts/cJcUpbdTYjw
+        title: O que esperar da TI em 2024?
+        summary: " "
+        url: https://www.youtube.com/watch?v=ZUh9CSKMl4o
         icon:
           componentType: image
           src: ./media/icons/youtube.png
