@@ -2,9 +2,10 @@
 title: Securing your Microsoft Azure Backups
 description: How to use features such as Resource Guard and immutability to secure your Microsoft Azure backups. 
 author: lukemurraynz 
-ms.author: shchow 
+ms.author: mlcc-owners
 ms.service: backup
 ms.topic: conceptual
+ms.topic: how-to 
 ms.date: 09/21/2023
 contributor-type: community
 content_well_notification: 

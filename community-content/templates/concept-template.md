@@ -1,8 +1,8 @@
 ---
 title: Concept topic template #Required; page title is displayed in search results. Include the brand. Don't use any puncutation, such as colons, commas, or periods.
 description: Concept description #Required; article description that is displayed in search results. 
-author: jehchow #Required; your GitHub user alias, with correct capitalization.
-ms.author: shchow #Required; a Microsoft distribution list; don't change. 
+author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
+ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; request from Microsoft admin. 
 ms.topic: concept-article #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.

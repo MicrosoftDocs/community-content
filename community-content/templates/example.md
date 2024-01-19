@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/jehchow-3527/) <!-- Add your name and a link to your Learn profile or community leader page>
+**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/carlyrevier-3527/) <!-- Add your name and a link to your Learn profile or community leader page>
 
 ---
 
