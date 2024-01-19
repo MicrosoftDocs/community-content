@@ -5,7 +5,6 @@ author: lukemurraynz
 ms.author: mlcc-owners
 ms.service: backup
 ms.topic: conceptual
-ms.topic: how-to 
 ms.date: 09/21/2023
 contributor-type: community
 content_well_notification: 
