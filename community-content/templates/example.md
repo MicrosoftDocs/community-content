@@ -2,10 +2,11 @@
 title: Example content #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: Example content description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list.
-ms.topic: overview #Required; leave this attribute/value as-is.
+ms.author: cahublou #Required; a Microsoft distribution list; don't change. 
+ms.service: azure #Required; request from Microsoft admin. 
+ms.topic: conceptual #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
+contributor-type: community #Required; don't change.
 content_well_notification: 
   - Human-created-Community #Required; don't change.
 ---

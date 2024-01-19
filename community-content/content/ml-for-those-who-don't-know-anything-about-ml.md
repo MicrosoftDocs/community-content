@@ -1,11 +1,12 @@
 ---
-title: Machine Learning For Those Who Don't Know Anything About Machine Learning #Required; page title displayed in search results. Don't enclose in quotation marks. 
-description: This article introduces you to the basic concepts in machine learning #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: bumie-e #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
-ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
+title: Machine Learning For Those Who Don't Know Anything About Machine Learning 
+description: This article introduces you to the basic concepts in machine learning.
+author: bumie-e 
+ms.author: cahublou 
+ms.service: machine-learning
+ms.topic: conceptual 
+ms.date: 11/15/2023 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---
