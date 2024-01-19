@@ -2,7 +2,7 @@
 title:  "Quickstart: Speed up the inner development loop with Dapr multi-app run"
 description: This quickstart describes how to use the Dapr CLI to run multiple Dapr services at once. This is a great way to speed up the inner development loop.
 author: marcduiker
-ms.author: shchow
+ms.author: mlcc-owners
 ms.service: dev-environment
 ms.topic: quickstart
 ms.date: 08/22/2023

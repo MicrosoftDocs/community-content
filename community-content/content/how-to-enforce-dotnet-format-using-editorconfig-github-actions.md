@@ -2,7 +2,7 @@
 title: How to enforce .NET code format using EditorConfig and GitHub Actions
 description: In this how-to article, you learn how to enforce your .NET code formatting using EditorConfig and GitHub Actions.
 author: yanxiaodi
-ms.author: shchow
+ms.author: mlcc-owners
 ms.service: dotnet
 ms.topic: how-to
 ms.date: 09/24/2023

@@ -2,7 +2,7 @@
 title: Discover Microsoft Azure learning, training, certifications, and career path opportunities
 description: This blog post will help you land correctly with your Microsoft Azure Certification learning and Career path 
 author: h-sadeghpour
-ms.author: shchow
+ms.author: mlcc-owners
 ms.service: azure
 ms.topic: conceptual
 ms.date: 09/19/2023

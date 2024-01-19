@@ -1,9 +1,9 @@
 ---
 title: Tutorial topic template #Required; page title displayed in search results. Include the word "tutorial". Include the brand. 
 description: Tutorial description #Required; article description that is displayed in search results. Include the word "tutorial".
-author: jehchow #Required; your GitHub user alias, with correct capitalization.
-ms.author: shchow #Required; a Microsoft distribution list; don't change. 
-ms.service: azure #Required; request from Microsoft admin. 
+author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
+ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
+ms.service: azure #Required; request from Microsoft admin.
 ms.topic: tutorial #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
