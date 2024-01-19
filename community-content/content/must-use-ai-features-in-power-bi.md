@@ -1,11 +1,12 @@
 ---
 title: Must-Use AI Features in Power BI 
 description: This article is your companion to becoming effective business data analyst using Microsoft Power BI and leveraging on its AI capabilities.
-author: theoyinbooke  #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: powerbi #Required; service per approved list. service slug assigned to your service by ACOM.
-ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 11/14/2023 #Required; mm/dd/yyyy format.
+author: theoyinbooke 
+ms.author: cahublou 
+ms.service: powerbi 
+ms.topic: conceptual
+ms.date: 11/14/2023 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---

@@ -1,17 +1,18 @@
 ---
-title: How-to use the Microsoft Linux kernel v6 on WSL2
+title: How to use the Microsoft Linux kernel v6 on WSL2
 description: Know how to build and use the Microsoft Linux kernel v6 on WSL2 instead of the stock kernel
 author: nunix
-ms.author: shchow
-ms.service: azure
+ms.author: mlcc-owners
+ms.service: microsoft-linux
 ms.topic: how-to
 ms.date: 07/07/2023
 ms.custom: template-how-to-pattern
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---
 
-# How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
+# How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
 
 ---
 

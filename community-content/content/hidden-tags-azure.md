@@ -2,11 +2,11 @@
 title: Hidden Tags in Microsoft Azure
 description: What the hidden tags are, and how to use them in Microsoft Azure
 author: lukemurraynz 
-ms.author: shchow 
-ms.service: azure
-ms.topic: how-to 
+ms.author: mlcc-owners 
+ms.service: azure-portal
+ms.topic: conceptual 
 ms.date: 09/26/2023
-ms.custom: template-how-to-pattern 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---

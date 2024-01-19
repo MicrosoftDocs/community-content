@@ -2,11 +2,12 @@
 title: Remembering the Users in Cloud Transformations
 description: Far too often, users aren't the primary focus of cloud-based transformations. It's important that at the end, they aren't left wondering what it was all about.  
 author: greglow-sdu
-ms.author: shchow
+ms.author: mlcc-owners
 ms.service: azure
 ms.topic: concept-article
 ms.date: 09/24/2023
 ms.custom: template-concept
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---

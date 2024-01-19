@@ -1,11 +1,12 @@
 ---
-title: "Governance: Community Board" #Required; page title displayed in search results. Don't enclose in quotation marks. 
-description: Board members of the microsoft learn community #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: pituach #Required; your GitHub user alias, with correct capitalization.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: azure #Required; service per approved list.
-ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 01/12/2024 #Required; mm/dd/yyyy format.
+title: "Governance: Community Board" 
+description: Board members of the Microsoft Learn community
+author: pituach 
+ms.author: cahublou 
+ms.service: azure 
+ms.topic: conceptual 
+ms.date: 01/12/2024 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community #Required; don't change.
 ---

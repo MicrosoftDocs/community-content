@@ -1,16 +1,17 @@
 ---
 title: Learning Data Analysis Faster in the Age of AI 
 description: Your quick guide to learning Data Analysis with Power BI faster and better.
-author: theoyinbooke #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: powerbi #Required; service per approved list. service slug assigned to your service by ACOM.
-ms.topic: overview #Required; leave this attribute/value as-is.
-ms.date: 11/14/2023 #Required; mm/dd/yyyy format.
+author: theoyinbooke 
+ms.author: cahublou 
+ms.service: powerbi 
+ms.topic: conceptual
+ms.date: 11/14/2023 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---
 
-# Data Analysis with Power BI for Absolute Beginners 
+# Data Analysis with Power BI for Absolute Beginners
 
 ---
 

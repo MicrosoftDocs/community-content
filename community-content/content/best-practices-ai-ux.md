@@ -2,10 +2,11 @@
 title: Best practices for building collaborative UX with Human-AI partnership 
 description: Learn about the best practices for creating the collaborative user experiences by leveraging the power of human-AI partnership. Learn how to optimise your design process with these essential tips and strategies.
 author: arafattehsin
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
-ms.service: artificial-intelligence #Required; service per approved list. service slug assigned to your service by ACOM.
+ms.author: cahublou 
+ms.service: artificial-intelligence 
 ms.topic: concept-article
-ms.date: 10/10/2023 #Required; mm/dd/yyyy format.
+ms.date: 10/10/2023 
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 
