@@ -4,8 +4,9 @@ description: Community written content for the community about Microsoft product
 author: carlyrevier
 ms.author: cahublou
 ms.date: 08/23/2023
-ms.topic: overview
+ms.topic: conceptual
 ms.prod: non-product-specific
+contributor-type: community
 ---
 
 # Welcome to Microsoft Learn Community Content!

@@ -3,9 +3,10 @@ title: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a V
 description: Tutorial In this tutorial, we’ll explore how to integrate Azure OpenAI service and Azure Speech service to create a chatbot that users can interact with via voice.
 author: chenjd
 ms.author: shchow 
-ms.service: azure 
+ms.service: azure-ai-openai
 ms.topic: tutorial 
-ms.date: 09/03/2023 
+ms.date: 09/03/2023
+contributor-type: community 
 content_well_notification: 
   - Human-created-Community
 ---
@@ -30,10 +31,12 @@ In this tutorial, you learn how to:
 > * Develop a Python program that incorporates Azure OpenAI GPT-4 and Azure Speech functionalities
 
 ## Prerequisites
+
 - An Azure subscription - Create a [free trial account](https://azure.microsoft.com/free)
 - Access to Azure OpenAI Service - https://aka.ms/oaiapply
 
 ## What is the difference between Azure OpenAI and OpenAI
+
 Before we dive into the integration process, let’s first understand what Azure OpenAI Service is.
 
 Azure OpenAI Service provides customers with access to advanced language AI capabilities through OpenAI’s GPT-4, GPT-3.5, Codex, and DALL-E models, all with the added security and enterprise support of Azure. Co-developed with OpenAI, Azure OpenAI ensures compatibility and a seamless transition between the two platforms. By using Azure OpenAI, customers can leverage the same models as OpenAI while benefiting from the security features of Microsoft Azure, such as private networking and regional availability. Additionally, Azure OpenAI promotes responsible AI by offering content filtering capabilities.

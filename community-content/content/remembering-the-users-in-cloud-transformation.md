@@ -7,6 +7,7 @@ ms.service: azure
 ms.topic: concept-article
 ms.date: 09/24/2023
 ms.custom: template-concept
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---

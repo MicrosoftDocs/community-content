@@ -3,9 +3,10 @@ title:  "Quickstart: Speed up the inner development loop with Dapr multi-app run
 description: This quickstart describes how to use the Dapr CLI to run multiple Dapr services at once. This is a great way to speed up the inner development loop.
 author: marcduiker
 ms.author: shchow
-ms.service: azure
+ms.service: dev-environment
 ms.topic: quickstart
 ms.date: 08/22/2023
+contributor-type: community
 content_well_notification: 
   - Human-created-Community
 ---
@@ -24,7 +25,7 @@ This quickstart describes how to use the Dapr CLI to run multiple Dapr services 
 
 ## Microservices with Dapr
 
-[Dapr](https://dapr.io) is a portable, event-driven runtime that enables developers to efficiently build resilient, microservice-based, applications that runs on the cloud and edge. Developers like to use Dapr since it offers ready to use building blocks for workflow, state management, publish/subscribe, configuration, secrets management, and more. These building block functionalities are exposed through a set of HTTP and gRPC APIs, so any language that supports these protocols can use Dapr.
+[Dapr](https://dapr.io) is a portable, event-driven runtime that enables developers to efficiently build resilient, microservice-based applications that runs on the cloud and edge. Developers like to use Dapr since it offers ready to use building blocks for workflow, state management, publish/subscribe, configuration, secrets management, and more. These building block functionalities are exposed through a set of HTTP and gRPC APIs, so any language that supports these protocols can use Dapr.
 
 ![Dapr Overview](media/dapr-multi-app-run/dapr-overview.png)
 
