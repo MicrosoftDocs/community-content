@@ -1,6 +1,6 @@
 ---
 title: Az Terraform - Deploy Resource Group and Azure Blob Storage #Required; page title displayed in search results. Don't enclose in quotation marks. 
-description: Example content description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+description: How to deploy resource group and Azure Blob Storage using Azure Terraform #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
 ms.service: azure #Required; service per approved list.
@@ -10,7 +10,7 @@ content_well_notification:
   - Human-created-Community #Required; don't change.
 ---
 
-### Azure Terraform: Deploy Resource Group and Azure Blob Storage
+# Azure Terraform: Deploy Resource Group and Azure Blob Storage
 
 ---
 **Principal author**: [George Chrysovaladis Grammatikos](https://learn.microsoft.com/en-us/users/georgechrysovalantisgrammatikos-8518/)
