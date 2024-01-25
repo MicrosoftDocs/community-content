@@ -13,7 +13,7 @@ content_well_notification:
 # Azure Terraform: Deploy Resource Group and Azure Blob Storage
 
 ---
-**Principal author**: [George Chrysovaladis Grammatikos](https://learn.microsoft.com/en-us/users/georgechrysovalantisgrammatikos-8518/)
+**Principal author**: [George Chrysovaladis Grammatikos](/users/georgechrysovalantisgrammatikos-8518/)
 
 ---
 
@@ -57,7 +57,7 @@ terraform version
 ```
 
 > [!NOTE]
-> You can read more about the above commands from the official MS documentation, which I used for this demo. {<https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash}>
+> You can read more about the above commands from the official MS documentation, which I used for this demo. [Configure Terraform in Azure Cloud Shell with Bash](/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash)
 
 ## Deploy Azure Blob Storage
 
