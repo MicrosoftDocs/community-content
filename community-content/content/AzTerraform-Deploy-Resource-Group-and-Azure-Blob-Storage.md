@@ -17,9 +17,9 @@ content_well_notification:
 
 ---
 
-## Let's demo it
-
 Occasionally, Terraform versions in Cloud Shell might be outdated. To update, type the commands below.
+
+## Let's demo it
 
 ### Update Terraform if needed
 
