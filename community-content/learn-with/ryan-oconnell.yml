@@ -27,11 +27,21 @@ sections:
       - componentType: social-link
         url: https://www.youtube.com/@ryanoconnell693
         destination: youtube
+      - componentType: social-link
+        url: https://rockitlabworks.wordpress.com/
+        destination: blog
 
 # Resources grid card section
   - componentType: grid
     title: Free, real-world training for beginners
     blocks:
+      - componentType: icon-card
+        title: Microsoft Sentinel hands-on training for beginners
+        summary: Learn how to set up a working Sentinel environment, the basics of KQL, how to create Analytics Rules, and more.
+        url: https://www.udemy.com/course/microsoft-sentinel-hands-on-training-for-beginners/
+        icon:
+          componentType: image
+          src: ./media/icons/udemy.png
       - componentType: icon-card
         title: Azure hands-on training for beginners
         summary: Learn what Microsoft Azure is, how to create users, the basics of Azure CLI, and more.
