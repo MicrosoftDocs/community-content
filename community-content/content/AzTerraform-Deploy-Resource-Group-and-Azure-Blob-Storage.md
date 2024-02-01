@@ -17,11 +17,16 @@ content_well_notification:
 
 ---
 
+
+
+
 In this post, I will show you how to deploy Azure Blob Storage within an Azure Resource Group using Terraform language with the AzureRM module.
 
 ## Let's demo it
 
 In order to follow the commands below you will only need an active Azure subscription. The tool for deployment will be Azure Cloud Shell which means you need an Internet browser.
+
+
 
 ### Update Terraform if needed
 
