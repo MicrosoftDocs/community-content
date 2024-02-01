@@ -2,6 +2,8 @@
   href: ../index.md
 - name: Machine learning for those who don't know anything about machine learning
   href: ml-for-those-who-don't-know-anything-about-ml.md
+- name: "Azure Terraform: How to deploy Azure RG and blob storage"  
+  href: AzTerraform-Deploy-Resource-Group-and-Azure-Blob-Storage.md
 - name: Must-Use AI features in Power BI
   href: must-use-ai-features-in-power-bi.md
 - name: Learning data analysis faster in the age of AI
