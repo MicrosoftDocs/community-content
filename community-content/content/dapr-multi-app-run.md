@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Marc Duiker](https://learn.microsoft.com/users/marcduiker/)
+**Principal author**: [Marc Duiker](/users/marcduiker/)
 
 ---
 

@@ -16,7 +16,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Nuno do Carmo](https://learn.microsoft.com/users/corsair/)
+**Principal author**: [Nuno do Carmo](/users/corsair/)
 
 ---
 
@@ -138,4 +138,4 @@ Congratulations, you have now the latest Microsoft Linux kernel v6.1.x installed
 
 ## Next steps
 
-You can learn more about the WSL2 capabilities and other configurations at the [Microsoft Learn website](https://learn.microsoft.com/windows/wsl).
+You can learn more about the WSL2 capabilities and other configurations at the [Microsoft Learn website](/windows/wsl).

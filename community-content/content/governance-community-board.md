@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Ronen Ariely](https://learn.microsoft.com/users/pituach/) 
+**Principal author**: [Ronen Ariely](/users/pituach/) 
 
 ---
 

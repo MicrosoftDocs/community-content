@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Bunmi Akinremi](https://learn.microsoft.com/users/bunmiakinremi-3492/)
+**Principal author**: [Bunmi Akinremi](/users/bunmiakinremi-3492/)
 
 ---
 
@@ -86,4 +86,4 @@ Here are some great resources to help you get started.
  
 - [Introduction to Machine Learning](https://youtu.be/IpGxLWOIZy4?si=8UrbZ4lAhLlF3VCW)
 - [Getting started with Numpy and Pandas](https://medium.com/aiplusoau/getting-started-with-numpy-and-pandas-bc80de19536e)
-- [Complete learning path from data processing to model deployment](https://learn.microsoft.com/collections/k7zhwr43rm1wo)
+- [Complete learning path from data processing to model deployment](/collections/k7zhwr43rm1wo)

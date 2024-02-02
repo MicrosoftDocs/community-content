@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Olanrewaju Oyinbooke](https://learn.microsoft.com/users/theoyinbooke)
+**Principal author**: [Olanrewaju Oyinbooke](/users/theoyinbooke)
 
 ---
 
@@ -34,7 +34,7 @@ You read that right? With the AI Features in Power BI, you'll never work alone. 
 
 
 ## Time to Get Started
-I have curated the contents you need to learn how to use these AI features and practice them. [Click here to start learning](https://learn.microsoft.com/collections/1kp7t5go8ejmx5).
+I have curated the contents you need to learn how to use these AI features and practice them. [Click here to start learning](/collections/1kp7t5go8ejmx5).
 
 
 ## Prove Others Wrong

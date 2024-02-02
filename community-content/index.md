@@ -17,6 +17,6 @@ We're just getting this experience off the ground, but we hope that it can help 
 
 **Want to know more about whom you're learning from?** Author names, linked to their Microsoft Learn profiles, are listed near the top of the article. If you find someone's content helpful, let them know! You can provide feedback on any article by selecting the **Feedback** button at the top of the page
 
-**See an error you want to correct?** You can edit content [in your browser](https://learn.microsoft.com/collections/1ekghm5k25kxe3) or [locally on your machine](https://learn.microsoft.com/collections/eg2qsxy1qrnre2).
+**See an error you want to correct?** You can edit content [in your browser](/collections/1ekghm5k25kxe3) or [locally on your machine](/collections/eg2qsxy1qrnre2).
 
-**Want to become an author?** At this time, we're only inviting a small set of authors to participate. If you're interested, [we'd love to hear from you](https://forms.microsoft.com/r/dU8RNdzL7w), but we'd also encourage you to explore the [many other ways you can share your expertise on Microsoft Learn](https://learn.microsoft.com/contribute)!
+**Want to become an author?** At this time, we're only inviting a small set of authors to participate. If you're interested, [we'd love to hear from you](https://forms.microsoft.com/r/dU8RNdzL7w), but we'd also encourage you to explore the [many other ways you can share your expertise on Microsoft Learn](/contribute/)!

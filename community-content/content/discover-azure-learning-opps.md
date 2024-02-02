@@ -15,7 +15,7 @@ content_well_notification:
 
 ---
 
-**Principal author**: [Hamid Sadeghpour Saleh](https://learn.microsoft.com/users/hamidsadeghpoursaleh/)
+**Principal author**: [Hamid Sadeghpour Saleh](/users/hamidsadeghpoursaleh/)
 
 ---
 
