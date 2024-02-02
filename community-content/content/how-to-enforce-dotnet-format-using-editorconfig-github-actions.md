@@ -70,7 +70,7 @@ To create an EditorConfig file, you have a few options:
 
    ![Add .editorconfig file](media/how-to-enforce-dotnet-format-using-editorconfig-github-actions/add-editorconfig-file.png)
 
-3. Select the **èditorconfig File (.NET)** template and rename it to `.editorconfig`. Click **Add**. This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](\r/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
+3. Select the **èditorconfig File (.NET)** template and rename it to `.editorconfig`. Click **Add**. This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
 
 ### Option 3: Creating an EditorConfig file using the dotnet CLI
 
@@ -81,7 +81,7 @@ To create an EditorConfig file, you have a few options:
    dotnet new editorconfig
    ```
 
-   This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](\r/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
+   This will create an EditorConfig file in the root directory of your project/solution with [default .NET code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643).
 
 > [!NOTE]
 > The `.editorconfig` file will be applied to all the files in the same directory and its subdirectories. You can override the settings in a subdirectory by creating another `.editorconfig` file in that subdirectory. However, it is recommended to have only one `.editorconfig` file in the root directory of your project/solution to avoid confusion unless you have a good reason to do so.
@@ -152,7 +152,7 @@ You can also manually run the `dotnet format` command to format your code. Here 
    dotnet format --verbosity diagnostic
    ```
 
-You can find more information about the `dotnet format` command [here](\r/dotnet/core/tools/dotnet-format?WT.mc_id=DT-MVP-5001643).
+You can find more information about the `dotnet format` command [here](/dotnet/core/tools/dotnet-format?WT.mc_id=DT-MVP-5001643).
 
 ## 4 - Configuring GitHub Actions to check the code formatting
 
@@ -206,11 +206,11 @@ GitHub Actions is a CI/CD tool that allows you to automate your software develop
 
 In this how-to article, you learned how to enforce your .NET code formatting using EditorConfig and GitHub Actions. To learn more about .NET code styles, please check out the following resources:
 
-* [.NET Code style preferences](\r/visualstudio/ide/code-styles-and-code-cleanup?WT.mc_id=DT-MVP-5001643)
-* [Create portable, custom editor settings with EditorConfig](\r/visualstudio/ide/create-portable-custom-editor-options?WT.mc_id=DT-MVP-5001643)
-* [.NET Code-style rule options](\r/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643)
-* [.NET Code-style rules](\r/dotnet/fundamentals/code-analysis/style-rules?WT.mc_id=DT-MVP-5001643)
-* [Overview of .NET source code analysis](\r/dotnet/fundamentals/code-analysis/overview?WT.mc_id=DT-MVP-5001643)
+* [.NET Code style preferences](/visualstudio/ide/code-styles-and-code-cleanup?WT.mc_id=DT-MVP-5001643)
+* [Create portable, custom editor settings with EditorConfig](/visualstudio/ide/create-portable-custom-editor-options?WT.mc_id=DT-MVP-5001643)
+* [.NET Code-style rule options](/dotnet/fundamentals/code-analysis/code-style-rule-options?WT.mc_id=DT-MVP-5001643)
+* [.NET Code-style rules](/dotnet/fundamentals/code-analysis/style-rules?WT.mc_id=DT-MVP-5001643)
+* [Overview of .NET source code analysis](/dotnet/fundamentals/code-analysis/overview?WT.mc_id=DT-MVP-5001643)
 * [GitHub Actions documentation](https://docs.github.com/actions)
 
 If you use Azure DevOps Pipelines, you can implement the same workflow using Azure DevOps Pipelines. For more information, see [Build, test, and deploy .NET Core apps using Azure DevOps Pipelines](/azure/devops/pipelines/languages/dotnet-core?WT.mc_id=DT-MVP-5001643).
