@@ -9,6 +9,7 @@ ms.date: 11/14/2023
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Must-Use AI Features in Power BI

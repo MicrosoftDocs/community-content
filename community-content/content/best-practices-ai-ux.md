@@ -10,6 +10,7 @@ contributor-type: community
 content_well_notification: 
   - Human-created-Community
 
+  contributor type: community
 ---
 # Best practices for building collaborative UX with Human-AI partnership 
 
