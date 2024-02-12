@@ -9,6 +9,7 @@ ms.date: 09/21/2023
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Securing your Microsoft Azure Backups

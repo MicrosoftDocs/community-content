@@ -10,6 +10,7 @@ ms.custom: template-concept #Required; leave this attribute/value as-is.
 contributor-type: community #Required; don't change.
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 <!--Remove all the comments in this template before you sign-off or merge to the 

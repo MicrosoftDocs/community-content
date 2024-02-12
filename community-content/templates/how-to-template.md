@@ -10,6 +10,7 @@ ms.custom: template-how-to-pattern #Required; leave this attribute/value as-is.
 contributor-type: community #Required; don't change.
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 <!--

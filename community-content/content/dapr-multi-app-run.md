@@ -9,6 +9,7 @@ ms.date: 08/22/2023
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Quickstart: Speed up the inner development loop with Dapr multi-app run

@@ -9,6 +9,7 @@ ms.date: 09/03/2023
 contributor-type: community 
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Tutorial: Integrating Azure OpenAI and Azure Speech Services to Create a Voice-Enabled Chatbot with Python and GPT-4

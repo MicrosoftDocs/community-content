@@ -10,6 +10,7 @@ ms.custom: template-how-to-pattern
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # How to enforce .NET format using EditorConfig and GitHub Actions

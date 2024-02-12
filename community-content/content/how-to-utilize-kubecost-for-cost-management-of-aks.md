@@ -10,6 +10,7 @@ ms.custom: template-how-to-pattern
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Manage cost and optimize resources in AKS with Kubecost

@@ -10,6 +10,7 @@ ms.custom: template-how-to-pattern
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)

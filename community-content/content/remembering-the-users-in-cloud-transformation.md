@@ -10,6 +10,7 @@ ms.custom: template-concept
 contributor-type: community
 content_well_notification: 
   - Human-created-Community
+  contributor type: community
 ---
 
 # Remembering the Users in Cloud Transformations
