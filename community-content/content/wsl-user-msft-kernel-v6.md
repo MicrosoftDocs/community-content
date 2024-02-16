@@ -62,7 +62,7 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
 3. Install the required packages to build the kernel:
 
     ```bash
-    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev
+    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev bc pahole
     ```
 
 4. Change directory to the kernel source code:
