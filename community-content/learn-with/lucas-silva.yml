@@ -67,16 +67,16 @@ sections:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Microsoft Learn Student Ambassador, requisitos e vantagens de participar!
-        summary: Saiba mais sobre o programa Microsoft Student Ambassadors com dois embaixadores atuais.
-        url: https://www.youtube.com/watch?v=w28tAsTPIRE
+        title: O que esperar da TI em 2024?
+        summary: Conheça MagaluCloud, tendências em IA, GitHub Copilot e como é trabalhar em TI.
+        url: https://www.youtube.com/watch?v=ZUh9CSKMl4o
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Treinamento Azure SC-900 | Certificação SC-900
-        summary: Aprenda os fundamentos de segurança, conformidade e identidade em todos os serviços Microsoft relacionados e baseados na nuvem.
-        url: https://www.youtube.com/watch?v=BfKZYoE-WhI
+        title: Microsoft Learn Student Ambassador, requisitos e vantagens de participar!
+        summary: Saiba mais sobre o programa Microsoft Student Ambassadors com dois embaixadores atuais.
+        url: https://www.youtube.com/watch?v=w28tAsTPIRE
         icon:
           componentType: image
           src: ./media/icons/youtube.png
@@ -88,18 +88,19 @@ sections:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Maratona AI-900 - Parte 01
-        summary: Conheça os serviços da Microsoft para trabalhar com inteligência artificial.
-        url: https://www.youtube.com/watch?v=fnoHAT0zdVw&list=PL_yq9hmeKAk_m71FQjzExkotuCuEeBNyS
+        title: O Exame AZ-500 atualizou! Tudo o que você precisa saber!
+        summary: Veja em detalhes como verificar se há atualizações de exames da Microsoft e como você deve se preparar para a nova atualização!
+        url: https://www.youtube.com/watch?v=KdDBTEqbFwM
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: O que esperar da TI em 2024?
-        summary: Conheça MagaluCloud, tendências em IA, GitHub Copilot e como é trabalhar em TI.
-        url: https://www.youtube.com/watch?v=ZUh9CSKMl4o
+        title: Como aplicar com sucesso segurança na nuvem!
+        summary: Desvende os segredos para aplicar com sucesso a estratégia Zero Trust para garantir que seus dados e recursos de nuvem estejam efetivamente protegidos.
+        url: https://www.youtube.com/watch?v=NQpvJssCa4U
         icon:
           componentType: image
           src: ./media/icons/youtube.png
+
 
 
