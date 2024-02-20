@@ -96,7 +96,7 @@ sections:
           src: ./media/icons/youtube.png
       - componentType: icon-card
         title: Como aplicar com sucesso segurança na nuvem!
-        summary: Learn about de Zero Trust na Nuvem com a Valéria Baptista do @CanaldaCloud. Neste vídeo, vamos desvendar os segredos para aplicar com sucesso a estratégia de Zero Trust, garantindo que seus dados e recursos na nuvem estejam protegidos de maneira eficaz.
+        summary: Desvende os segredos para aplicar com sucesso a estratégia Zero Trust para garantir que seus dados e recursos de nuvem estejam efetivamente protegidos.
         url: https://www.youtube.com/watch?v=NQpvJssCa4U
         icon:
           componentType: image
