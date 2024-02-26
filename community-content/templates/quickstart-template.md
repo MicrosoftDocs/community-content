@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: [verb] * [noun]" #Required; page title displayed in search results. Include the word "quickstart". Include the brand.
-description: [Article description.] #Required; article description that is displayed in search results. Include the word "quickstart".
+description: Article description. #Required; article description that is displayed in search results. Include the word "quickstart".
 author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; request from Microsoft admin.
