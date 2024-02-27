@@ -148,13 +148,13 @@ Provide steps the user takes to clean up resources that were created to complete
 ## Next step -or- Related content
 
 > [!div class="nextstepaction"]
-> [Next sequential article title](link.md)
+> Link to next sequential article title
 
 -or-
 
-- [Related article title](link.md)
-- [Related article title](link.md)
-- [Related article title](link.md)
+- Link to related article title
+- Link to related article title
+- Link to related article title
 
 <!-- Optional: Next step or Related content - H2
 
