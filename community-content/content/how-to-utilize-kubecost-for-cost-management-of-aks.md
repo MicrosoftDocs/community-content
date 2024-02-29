@@ -8,8 +8,7 @@ ms.topic: how-to
 ms.date: 07/25/2023
 ms.custom: template-how-to-pattern
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # Manage cost and optimize resources in AKS with Kubecost

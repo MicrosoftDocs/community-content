@@ -7,8 +7,7 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.date: 11/14/2023 
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # Data Analysis with Power BI for Absolute Beginners

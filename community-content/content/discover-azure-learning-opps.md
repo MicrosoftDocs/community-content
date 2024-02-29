@@ -7,8 +7,6 @@ ms.service: azure
 ms.topic: conceptual
 ms.date: 09/19/2023
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
 ---
 
 # Discover Microsoft Azure learning, training, certifications, and career path opportunities

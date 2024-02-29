@@ -7,8 +7,7 @@ ms.service: azure #Required; request from Microsoft admin.
 ms.topic: quickstart #Required; don't change.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 <!--

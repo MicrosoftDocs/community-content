@@ -8,8 +8,7 @@ ms.topic: concept-article #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 ms.custom: template-concept #Required; leave this attribute/value as-is.
 contributor-type: community #Required; don't change.
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 <!--Remove all the comments in this template before you sign-off or merge to the 
