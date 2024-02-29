@@ -8,8 +8,7 @@ ms.topic: how-to #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 ms.custom: template-how-to-pattern #Required; leave this attribute/value as-is.
 contributor-type: community #Required; don't change.
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 <!--

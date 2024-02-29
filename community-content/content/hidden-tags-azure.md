@@ -7,8 +7,7 @@ ms.service: azure-portal
 ms.topic: conceptual 
 ms.date: 09/26/2023
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # Hidden Tags in Microsoft Azure

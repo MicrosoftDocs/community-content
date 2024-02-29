@@ -7,8 +7,7 @@ ms.service: machine-learning
 ms.topic: conceptual 
 ms.date: 11/15/2023 
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # Machine Learning for those who don't know anything about Machine Learning

@@ -7,8 +7,7 @@ ms.service: backup
 ms.topic: conceptual
 ms.date: 09/21/2023
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # Securing your Microsoft Azure Backups
