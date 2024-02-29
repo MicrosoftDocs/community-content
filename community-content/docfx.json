@@ -43,6 +43,7 @@
       "breadcrumb_path": "/community/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "OpenSource",
+      "feedback_product_url": "https://github.com/MicrosoftDocs/community-content/issues/new/choose",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/",
       "feedback_help_link_type": "get-help-at-qna",
       "open_source_feedback_contributorGuideUrl": "https://learn.microsoft.com/contribute/content/",
