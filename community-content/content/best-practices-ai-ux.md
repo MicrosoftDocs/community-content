@@ -7,10 +7,8 @@ ms.service: artificial-intelligence
 ms.topic: concept-article
 ms.date: 10/10/2023 
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
-
 ---
+
 # Best practices for building collaborative UX with Human-AI partnership 
 
 ---

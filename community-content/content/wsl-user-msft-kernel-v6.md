@@ -8,8 +8,7 @@ ms.topic: how-to
 ms.date: 07/07/2023
 ms.custom: template-how-to-pattern
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
@@ -62,7 +61,7 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
 3. Install the required packages to build the kernel:
 
     ```bash
-    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev
+    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev bc python3 pahole
     ```
 
 4. Change directory to the kernel source code:

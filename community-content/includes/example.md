@@ -7,8 +7,7 @@ ms.service: azure #Required; service per approved list. service slug assigned to
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 # What is example include?

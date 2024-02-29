@@ -1,14 +1,13 @@
 ---
 title: "Quickstart: [verb] * [noun]" #Required; page title displayed in search results. Include the word "quickstart". Include the brand.
-description: [Article description.] #Required; article description that is displayed in search results. Include the word "quickstart".
+description: Quickstart description. #Required; article description that is displayed in search results. Include the word "quickstart".
 author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; request from Microsoft admin.
 ms.topic: quickstart #Required; don't change.
 ms.date: 06/16/2023 #Required; mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
-content_well_notification: 
-  - Human-created-Community
+
 ---
 
 <!--
@@ -148,13 +147,13 @@ Provide steps the user takes to clean up resources that were created to complete
 ## Next step -or- Related content
 
 > [!div class="nextstepaction"]
-> [Next sequential article title](link.md)
+> Link to next sequential article title
 
 -or-
 
-- [Related article title](link.md)
-- [Related article title](link.md)
-- [Related article title](link.md)
+- Link to related article title
+- Link to related article title
+- Link to related article title
 
 <!-- Optional: Next step or Related content - H2
 

@@ -6,8 +6,7 @@ ms.author: cahublou #Required; a Microsoft employee's alias; don't change.
 ms.service: azure #Required; service per approved list.
 ms.topic: Azure #Required; leave this attribute/value as-is.
 ms.date: 01/22/2024 #Required; mm/dd/yyyy format.
-content_well_notification: 
-  - Human-created-Community #Required; don't change.
+contributor-type: community
 ---
 
 # Azure Terraform: Deploy Resource Group and Azure Blob Storage

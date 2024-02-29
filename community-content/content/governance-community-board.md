@@ -7,8 +7,7 @@ ms.service: azure
 ms.topic: conceptual 
 ms.date: 01/12/2024 
 contributor-type: community
-content_well_notification: 
-  - Human-created-Community #Required; don't change.
+
 ---
 
 # Governance: Community Board
