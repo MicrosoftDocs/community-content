@@ -42,7 +42,13 @@
     "globalMetadata": {
       "breadcrumb_path": "/community/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "OpenSource",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/",
+      "feedback_help_link_type": "get-help-at-qna",
+      "open_source_feedback_contributorGuideUrl": "https://learn.microsoft.com/contribute/content/",
+      "open_source_feedback_issueTitle": "Customer feedback - ",
+      "open_source_feedback_issueUrl": "https://github.com/MicrosoftDocs/community-content/issues/new?template=customer-feedback.yml",
+      "open_source_feedback_productName": "Community Content",
       "permissioned-type": "public"
     },
     "fileMetadata": {},
