@@ -37,8 +37,6 @@ Examples are:
 
 As mentioned above, every tag with 'hidden-' in front of it will be hidden in the Azure Portal.
 
-You may have noticed that some resources in Azure, especially if the Azure ARM (Azure Resource Manager) creates them and the name is GUID-based, have a '(name)' around them after the resource name because of the hidden-title tag.
-
 You may have noticed that some resources in Azure, especially if the Azure ARM _(Azure Resource Manager)_ creates them and the name is GUID based, have a '(name)' around them after the resource name; this is because of the hidden-title tag.
 
 The hidden-title tag is handy for picking resources that belong to a specific service or application.
