@@ -7,7 +7,7 @@ ms.service: azure #Required; service per approved list.
 ms.topic: Azure #Required; leave this attribute/value as-is.
 ms.date: 03/16/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
-
+---
 
 # Azure REST API - How to create a Bearer token
 
@@ -16,20 +16,19 @@ contributor-type: community
 
 ---
 
-
 In this post, we'll read how to create a Bearer token and use it to authenticate Azure REST API.
 
 ## Prerequisites
 
 - An Active Azure Subscription
-- [Azure CLI](/cli/azure/install-azure-cli?view=azure-cli-latest) or [Cloud Shell](https://shell.azure.com/)
+- [Azure CLI](/cli/azure/install-azure-cli) or [Cloud Shell](https://shell.azure.com/)
 - [Postman](https://www.getpostman.com/downloads/)
 
 ## Create the Bearer token
 
 For the demo purposes, we are going to use Azure CLI to create the Bearer Token.
 
-## Step 1. Az-Login command
+### Step 1. Az-Login command
 
 Open elevated **CMD**, type ***az login*** and press **Enter**.
 
@@ -42,20 +41,22 @@ C:\WINDOWS\system32>az login
 To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code ######### to authenticate.
 
 ```
-## Step 2. Authenticate to Azure
+
+### Step 2. Authenticate to Azure
 
 Open in a web browser the page [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), enter the code **########** to authenticate the device on azure.
 
 :::image type="content" source="../../../Media/5277.code.png" alt-text="":::
 
-## Step 3. Set the Azure Subscription
+### Step 3. Set the Azure Subscription
 
 After we authenticate the device to connect to Azure we can proceed with the rest commands with the first being used to set the default subscription.
 
 ```azurecli
 az account set  --subscription "########-####-####-####-############"
 ```
-## Step 4. Create Azure Service Principal
+
+### Step 4. Create Azure Service Principal
 
 Type the following commands to create the Azure Service Principal,** **
 
@@ -75,29 +76,27 @@ Retrying role assignment creation: 2/36
 > [!IMPORTANT]
 > Copy the values for the appId, password, and tenant into a text file, because it will be used to next steps..
 
-
-
-# Create Azure REST API collection
+## Create Azure REST API collection
 
 Following the steps below we'll be able to create a new collection in Postman called Azure REST API.
 
-## Step 1. Manage Environments
+### Step 1. Manage Environments
 
 Open Postman, and click the button Manage Environments:::image type="content" source="../../../Media/3465.settings.png" alt-text=" ":::
 
-## Step 2. Add New Manage Environment
+### Step 2. Add New Manage Environment
 
 Select Add, to Add a new Manage Environment
 
 :::image type="content" source="../../../Media/5226.addenvironment.png" alt-text=" ":::
 
-## Step 3. Add the variables, Initial and current values
+### Step 3. Add the variables, Initial and current values
 
 At the next step, we have to add the variables (**tenantId**, **clientId**, **clientSecret**, **resource**, **subscriptionId**) with the initial and current values.
 
 :::image type="content" source="../../../Media/3323.environments.png" alt-text=" ":::
 
-# Get the MS Entra ID (formerly known as Azure AD) token
+## Get the MS Entra ID (formerly known as Azure AD) token
 
 To get the Azure Active Directory token we have to do:
 
@@ -111,7 +110,7 @@ As we can see below the Bearer Token has been created and we can use it to execu
 
 :::image type="content" source="../../../Media/2744.result.png" alt-text=" ":::
 
-# Using the Azure REST API
+## Using the Azure REST API
 
 At the final step, we are able to execute a request using Azure REST API to get the Resource Groups.
 
@@ -123,13 +122,13 @@ To get the Azure Active Directory token we have to do:
 
 :::image type="content" source="../../../Media/8546.result2.png" alt-text=" ":::
 
-# Conclusion
+## Conclusion
 
 To sum up, we have read how quickly and easily we can create a Bearer token to use Azure REST API. We need to have in the back of our mind that Azure subscription is a mandatory requirement to do a complete demo.
 
-# See Also
+## See lso
 
-- [Getting Started with Azure API Management REST API](https://azure.microsoft.com/en-us/resources/videos/getting-started-with-azure-api-management-rest-api/)
+- [Getting Started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
 - [Postman API Client](https://www.getpostman.com/product/api-client)
 - [Azure REST API Reference](/rest/api/azure/)
 
