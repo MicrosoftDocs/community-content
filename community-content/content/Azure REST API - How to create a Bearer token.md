@@ -36,8 +36,6 @@ To sign in, use a web browser to open the page https://microsoft.com/devicelogin
 
 ```
 
-
-
 ### Step 2. Authenticate to Azure
 
 Open in a web browser the page [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), enter the code **########** to authenticate the device on azure.
