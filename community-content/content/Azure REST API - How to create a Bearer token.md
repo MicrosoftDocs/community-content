@@ -32,15 +32,17 @@ Microsoft Windows [Version 10.0.18362.476]
 (c) 2019 Microsoft Corporation. All rights reserved.
  
 C:\WINDOWS\system32>az login
-To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code ######### to authenticate.
+To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code **#########** to authenticate.
 
 ```
+
+
 
 ### Step 2. Authenticate to Azure
 
 Open in a web browser the page [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), enter the code **########** to authenticate the device on azure.
 
-:::image type="content" source="media/Azure REST API - How to create a Bearer token/5277.code.png" alt-text="Code":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5277.code.png" alt-text="Code":::
 
 ### Step 3. Set The Azure Subscription
 
@@ -79,19 +81,19 @@ Following the steps below we'll be able to create a new collection in Postman ca
 
 ### Step 1. Manage Environments
 
-Open Postman, and click the button Manage Environments :::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/3465.settings.png" alt-text="ManageEnv":::
+Open Postman, and click the button Manage Environments :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3465.settings.png" alt-text="ManageEnv":::
 
 ### Step 2. Add New Manage Environment
 
 Select Add, to Add a new Manage Environment
 
-:::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/5226.addenvironment.png" alt-text="AddEnvironment":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="ManageEnv":::
 
 ### Step 3. Add The Variables, Initial And Current Values
 
 At the next step, we have to add the variables (tenantId, clientId, clientSecret, resource, subscriptionId) with the initial and current values.
 
-:::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/3323.environments.png" alt-text="Environments":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3323.environments.png" alt-text="Environments":::
 
 ### Get the Azure Active Directory Token
 
@@ -103,11 +105,11 @@ To get the Azure Active Directory token we have to follow the steps below:
 
 and click the button **Send**.
 
-:::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/3348.getaad.png" alt-text="GetAAD":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3348.getaad.png" alt-text="GetAAD":::
 
 As we can see below the Bearer Token has been created and we can use it to execute requests using Azure REST API.
 
-:::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/2744.result.png" alt-text="Result":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/2744.result.png" alt-text="Result":::
 
 ### Using The Azure REST API
 
@@ -119,7 +121,7 @@ To get the Azure Active Directory token we have to do:
 1. Type the request [https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10](https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10)
 1. Select Authorization Type "**Bearer Token**", and paste the token that we have been created on the previous step
 
-:::image type="content" source="../../media-wiki/Azure REST API - How to create a Bearer token/8546.result2.png" alt-text="Result2":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/8546.result2.png" alt-text="Result2":::
 
 ### Conclusion
 
