@@ -75,7 +75,7 @@ sections:
       - componentType: icon-card
         title: Grokking the machine learning interview by Educative.io
         summary: A comprehensive resource detailing machine learning systems design for likely interview questions.
-        url: hhttps://www.educative.io/courses/grokking-the-machine-learning-interview/modeling
+        url: https://www.educative.io/courses/grokking-the-machine-learning-interview/modeling
         icon:
           componentType: image
           src: ./media/icons/web.png

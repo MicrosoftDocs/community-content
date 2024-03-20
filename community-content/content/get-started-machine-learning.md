@@ -88,7 +88,7 @@ Because the paths in ML learning have slightly different requirements, having a 
 ### Ways to learn ML
 
 - Microsoft Learn
-    - [Deep Learning Vs Machine Learning](/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2&viewFallbackFrom=azureml-api-2%3Fwt.mc_id%3Dstudentamb_185863)
+    - [Deep Learning Vs Machine Learning](/azure/machine-learning/concept-deep-learning-vs-machine-learning/?wt.mc_id=studentamb_185863)
     - [Introduction to Machine Learning](/training/modules/introduction-to-machine-learning/?wt.mc_id=studentamb_185863)
     - [Train and evaluate Regression models](/training/modules/train-evaluate-regression-models/?wt.mc_id=studentamb_185863.)
 - Online courses
