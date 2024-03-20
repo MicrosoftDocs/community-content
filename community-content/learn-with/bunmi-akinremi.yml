@@ -45,47 +45,68 @@ sections:
     title: Getting started with Machine Learning
     blocks:
       - componentType: icon-card
-        title: ML for those who don't know anything about ML
-        summary: My community-content article all about Machine Learning!
-        url: https://learn.microsoft.com/community/content/ml-for-those-who-don't-know-anything-about-ml
-        icon:
-          componentType: image
-          src: ./media/icons/learn.png
-      - componentType: icon-card
-        title: What is Machine Learning?
-        summary: A basic introduction to Machine Learning
-        url: https://www.youtube.com/playlist?list=PLlrxD0HtieHjNnGcZ1TWzPjKYWgfXSiWG
+        title: What is machine learning?
+        summary: A basic introduction to machine learning.
+        url: https://www.youtube.com/watch?v=9gGnTQTYNaE
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Machine Learning lecture
+        title: AI vs machine learning
+        summary: Learn the difference between AI and machine learning.
+        url: https://www.youtube.com/watch?v=4RixMPF4xis&t=19s
+        icon:
+          componentType: image
+          src: ./media/icons/youtube.png
+      - componentType: icon-card
+        title: Machine learning lecture
         summary: Lecture 1 of a full course in machine learning from Stanford University
         url: https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
         icon:
           componentType: image
           src: ./media/icons/youtube.png
       - componentType: icon-card
-        title: Getting started with NumPy and Pandas
-        summary: An 8-minute read for data science newbies.
-        url: https://medium.com/aiplusoau/getting-started-with-numpy-and-pandas-bc80de19536e
+        title: Preparing for a machine learning interview with Chip Huyen
+        summary: Resources to help you prepare for your next machine learning interview.
+        url: https://huyenchip.com/ml-interviews-book/
         icon:
           componentType: image
-          src: ./media/icons/medium.png
+          src: ./media/icons/web.png
       - componentType: icon-card
-        title: Machine Learning for total beginners
-        summary: My Microsoft Learn collection of ML resources.
-        url: https://learn.microsoft.com/en-gb/collections/k7zhwr43rm1wo
+        title: Grokking the machine learning interview by Educative.io
+        summary: A comprehensive resource detailing machine learning systems design for likely interview questions.
+        url: https://www.educative.io/courses/grokking-the-machine-learning-interview/modeling
+        icon:
+          componentType: image
+          src: ./media/icons/web.png
+      - componentType: icon-card
+        title: Deep learning vs machine learning in Azure Machine Learning
+        summary: Learn the difference between machine learning and deep learning.
+        url: https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2&viewFallbackFrom=azureml-api-2%3Fwt.mc_id%3Dstudentamb_185863
         icon:
           componentType: image
           src: ./media/icons/learn.png
       - componentType: icon-card
-        title: ML practice assessments
-        summary: Practice assessments to help you prepare for a Microsoft Certification exam.
-        url: https://learn.microsoft.com/credentials/certifications/practice-assessments-for-microsoft-certifications
+        title: Introduction to machine learning
+        summary: A good introduction to machine learning for beginners.
+        url: https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/?wt.mc_id=studentamb_185863
         icon:
           componentType: image
           src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: Design a machine learning system
+        summary: Learn how to design an efficient machine learning system.
+        url: https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/?wt.mc_id=studentamb_185863
+        icon:
+          componentType: image
+          src: ./media/icons/learn.png
+      - componentType: icon-card
+        title: "DataCamp: Design a machine learning system"
+        summary: A good course on designing machine learning systems.
+        url: https://app.datacamp.com/learn/courses/designing-machine-learning-workflows-in-python
+        icon:
+          componentType: image
+          src: ./media/icons/web.png
 
   # Video card section
   - componentType: cards
@@ -113,4 +134,18 @@ sections:
         summary: Decoding brain signals to text with AI
         imageUrl: /community/learn-with/media/bunmi-akinremi/video-4.jpg # imageUrl is optional
         url: https://www.youtube.com/watch?v=z-OBapDD340
-
+      - componentType: card
+        title: Machine learning and neural networks without libraries
+        summary: Build an ML model from scratch with Python.
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-5.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=3wwiOSxDAmg
+      - componentType: card
+        title: Ethics in predictive analytics
+        summary: A talk highlighting the importance and concerns of ethics in machine learning project pipelines.
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-6.jpg # imageUrl is optional
+        url: https://youtu.be/xKBZ0nlUS5s
+      - componentType: card
+        title: "Tutorial: Deploy ML models with FastAPI, Docker, and Heroku"
+        summary: Learn how ML works in production.
+        imageUrl: /community/learn-with/media/bunmi-akinremi/video-7.jpg # imageUrl is optional
+        url: https://www.youtube.com/watch?v=h5wLuVDr0oc
