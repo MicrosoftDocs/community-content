@@ -9,7 +9,7 @@ ms.date: 03/20/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
-In this post, we learn how sticky session configured on Azure Load Balancer we explain what a sticky session is in simple words.
+The purpose of this post is to describe how we can configure a sticky session on an Azure Load Balancer and explain what a sticky session is in simple terms.
 
 ### Sticky Sessions
 
