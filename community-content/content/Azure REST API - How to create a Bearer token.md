@@ -9,14 +9,14 @@ ms.date: 03/20/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
-## Introduction
+# Introduction
 
 In this quick post, I will try to create a bearer token and use it to authenticate on Azure REST API.
 
 ## Prerequisites
 
 - An Active Azure Subscription
-- [Azure CLI](/cli/azure/install-azure-cli?view=azure-cli-latest) or [Cloud Shell](https://shell.azure.com/)
+- [Azure CLI](/cli/azure/install-azure-cli) or [Cloud Shell](https://shell.azure.com/)
 - [Postman](https://www.getpostman.com/downloads/)
 
 ## Create The Bearer Token
@@ -79,13 +79,15 @@ Following the steps below we'll be able to create a new collection in Postman ca
 
 ### Step 1. Manage Environments
 
-Open Postman, and click the button Manage Environments :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3465.settings.png" alt-text="ManageEnv":::
+Open Postman, and click the button Manage Environments:
+
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3465.settings.png" alt-text="Screenshot of the manage environments button.":::
 
 ### Step 2. Add New Manage Environment
 
-Select Add, to Add a new Manage Environment
+Select Add to Add a new Manage Environment.
 
-:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="ManageEnv":::
+:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="Screenshot of the add environment button.":::
 
 ### Step 3. Add The Variables, Initial And Current Values
 
@@ -93,7 +95,7 @@ At the next step, we have to add the variables (tenantId, clientId, clientSecret
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3323.environments.png" alt-text="Environments":::
 
-### Get the Azure Active Directory Token
+## Get the Azure Active Directory Token
 
 To get the Azure Active Directory token we have to follow the steps below:
 
@@ -109,24 +111,24 @@ As we can see below the Bearer Token has been created and we can use it to execu
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/2744.result.png" alt-text="Result":::
 
-### Using The Azure REST API
+## Using The Azure REST API
 
 In the final step, we can execute a request using Azure REST API to get the Resource Groups.
 
 To get the Azure Active Directory token we have to do:
 
 1. Select the **GET** method
-1. Type the request [https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10](https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10)
+1. Type the request: `https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10`
 1. Select Authorization Type "**Bearer Token**", and paste the token that we have been created on the previous step
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/8546.result2.png" alt-text="Result2":::
 
-### Conclusion
+## Conclusion
 
 In conclusion, this brief exploration into creating and utilizing a bearer token for authentication with Azure REST API highlights the straightforward process of establishing secure access to cloud resources. By following the outlined steps, users can confidently navigate the complexities of authentication protocols, ensuring seamless integration with Azure services. As technology continues to evolve, mastering such fundamental concepts becomes increasingly essential for effective cloud management and application development. Embracing these practices empowers individuals and organizations to leverage Azure's capabilities with confidence, unlocking the full potential of cloud computing in their endeavors.
 
-### See Also
+## See Also
 
-- [Getting Started with Azure API Management REST API](https://azure.microsoft.com/en-us/resources/videos/getting-started-with-azure-api-management-rest-api/)
+- [Getting Started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
 - [Postman API Client](https://www.getpostman.com/product/api-client)
 - [Azure REST API Reference](/rest/api/azure/)
