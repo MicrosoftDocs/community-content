@@ -1,5 +1,9 @@
 - name: Microsoft Learn Community Content
   href: ../index.md
+- name: Azure REST API - How to create a bearer token
+  href: azure-rest-api-how-to-create-a-bearer-token.md
+- name: Configure Azure Load Balancer for sticky sessions
+  href: azure-configure-load-balancer-for-sticky-sessions.md
 - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
   href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
 - name: Get started with Machine Learning

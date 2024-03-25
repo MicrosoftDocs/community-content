@@ -1,6 +1,6 @@
 ---
-title: Configure Azure Load Balancer For Sticky Sessions #Required; page title displayed in search results. Don't enclose in quotation marks. 
-description: Configure Azure Load Balancer For Sticky Sessions #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
+title: Configure Azure Load Balancer for sticky sessions #Required; page title displayed in search results. Don't enclose in quotation marks. 
+description: Configure Azure Load Balancer for sticky sessions #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
 ms.service: azure #Required; service per approved list.
@@ -24,7 +24,7 @@ When a client starts a session in one of the web servers, session stays in that 
  In a Non-sticky Session example. session are dispatched randomly , depending on the load balancing policy.
 :::image type="content" source="media/azure-configure-load-balancer-for-sticky-sessions/8004.non_2d00_sticky_2d00_sessions.jpg" alt-text="nonstickysessions":::
 
-## Configure An Azure Load-Balancer For sticky sessions
+## Configure Azure Load Balancer for sticky sessions
 
 In the following image we can see sticky session configuration from Azure Portal.
 
