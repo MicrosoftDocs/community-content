@@ -15,7 +15,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Dr Greg Low](https://learn.microsoft.com/users/greglow/)
+**Principal author**: [Dr Greg Low](/users/greglow/)
 
 ---
 
