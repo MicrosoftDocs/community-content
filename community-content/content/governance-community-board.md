@@ -14,7 +14,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Ronen Ariely](https://learn.microsoft.com/users/pituach/) 
+**Principal author**: [Ronen Ariely](/users/pituach/) 
 
 ---
 

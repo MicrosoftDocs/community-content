@@ -13,7 +13,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Hamid Sadeghpour Saleh](https://learn.microsoft.com/users/hamidsadeghpoursaleh/)
+**Principal author**: [Hamid Sadeghpour Saleh](/users/hamidsadeghpoursaleh/)
 
 ---
 

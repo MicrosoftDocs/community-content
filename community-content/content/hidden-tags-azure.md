@@ -14,11 +14,11 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Luke Murray](https://learn.microsoft.com/users/lukemurraynz/?WT.mc_id=AZ-MVP-5004796)
+**Principal author**: [Luke Murray](/users/lukemurraynz/?WT.mc_id=AZ-MVP-5004796)
 
 ---
 
-[Tags](https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources?tabs=json&WT.mc_id=AZ-MVP-5004796 "Use tags to organize your Azure resources and management hierarchy") in Microsoft Azure are pivotal to resource management, whether it's used for reporting or automation.
+[Tags](/azure/azure-resource-manager/management/tag-resources?tabs=json&WT.mc_id=AZ-MVP-5004796 "Use tags to organize your Azure resources and management hierarchy") in Microsoft Azure are pivotal to resource management, whether it's used for reporting or automation.
 
 But sometimes, you need that extra bit of information to help discover what resources are for, or you may want to add information to a resource that isn't directly displayed in the portal, especially when complex tags are in use that might be used in automation initiatives.
 
@@ -121,6 +121,6 @@ tags: resourceTags
 
 If interested, the following Microsoft Learn documentation is worth reading to delve deeper into the world of Tags.
 
-* [Use tags to organize your Azure resources and management hierarchy](https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources?WT.mc_id=AZ-MVP-5004796)
-* [Tag support for Azure resources](https://learn.microsoft.com/azure/azure-resource-manager/management/tag-support?WT.mc_id=AZ-MVP-5004796)
+* [Use tags to organize your Azure resources and management hierarchy](/azure/azure-resource-manager/management/tag-resources?WT.mc_id=AZ-MVP-5004796)
+* [Tag support for Azure resources](/azure/azure-resource-manager/management/tag-support?WT.mc_id=AZ-MVP-5004796)
 * [The Parent Tag: cm-resource-parent for Azure cost management](https://techcommunity.microsoft.com/t5/itops-talk-blog/the-parent-tag-cm-resource-parent-for-azure-cost-management/ba-p/3727771?WT.mc_id=AZ-MVP-5004796)
