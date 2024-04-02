@@ -14,7 +14,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Luke Murray](https://learn.microsoft.com/users/lukemurraynz/?WT.mc_id=AZ-MVP-5004796)
+**Principal author**: [Luke Murray](/users/lukemurraynz/?WT.mc_id=AZ-MVP-5004796)
 
 ---
 
@@ -26,11 +26,11 @@ Backups are vital to the continuity of your workloads, whether recovering from a
 
 Over the last few years, as security concerns have grown across a plethora of platforms and services, Microsoft Backup as a product hasn't stood still, with numerous features such as:
 
-* [The transition of the Backup alerts](https://learn.microsoft.com/azure/backup/move-to-azure-monitor-alerts?WT.mc_id=AZ-MVP-5004796#supported-alerting-solutions) from Classic to Azure Monitor allows you to take advantage of action groups, email/SMS notifications, Azure Mobile app notifications and automation on failed backups or if someone deletes a backup job.
+* [The transition of the Backup alerts](/azure/backup/move-to-azure-monitor-alerts?WT.mc_id=AZ-MVP-5004796#supported-alerting-solutions) from Classic to Azure Monitor allows you to take advantage of action groups, email/SMS notifications, Azure Mobile app notifications and automation on failed backups or if someone deletes a backup job.
 * Support for Azure Virtual Machines, running [Premium SSD v2](https://azure.microsoft.com/updates/premium-ssd-v2-backup-support/?WT.mc_id=AZ-MVP-5004796), with v2 Premium SSD offering the next level of storage performance early on.
-* Azure Backup support for [Confidential Virtual Machines](https://learn.microsoft.com/azure/confidential-computing/overview?WT.mc_id=AZ-MVP-5004796) using Customer Managed Keys
-* [SAP HANA system replication](https://learn.microsoft.com/azure/backup/sap-hana-database-with-hana-system-replication-backup?WT.mc_id=AZ-MVP-5004796) backup support on Azure Virtual Machines
-* Greater visibility with [Azure Backup Reports](https://learn.microsoft.com/azure/backup/configure-reports?tabs=backup-vaults&WT.mc_id=AZ-MVP-5004796) lets you see your backup compliance visually.
+* Azure Backup support for [Confidential Virtual Machines](/azure/confidential-computing/overview?WT.mc_id=AZ-MVP-5004796) using Customer Managed Keys
+* [SAP HANA system replication](/azure/backup/sap-hana-database-with-hana-system-replication-backup?WT.mc_id=AZ-MVP-5004796) backup support on Azure Virtual Machines
+* Greater visibility with [Azure Backup Reports](/azure/backup/configure-reports?tabs=backup-vaults&WT.mc_id=AZ-MVP-5004796) lets you see your backup compliance visually.
 
 This is just a list of SOME of the recent changes over the past few months at the time this article was written; as always, you can review the Azure updates page for the latest updates, but hopefully, this gives you a taste that the environment that is securing and storing your backups doesn't stand still.
 
@@ -52,7 +52,7 @@ First up is **immutability**.
 
 While Azure Backup stores data in isolation from production workloads, it allows you to perform management operations to help you manage your backups, including those that allow you to delete recovery points. You may want to make the backup data immutable by preventing any such operations that, if used by malicious actors, could lead to the loss of backups.
 
-You can read more about immutable vaults and the statuses of Disabled/Enabled and Enabled and Lock directly at the [Microsoft Learn documentation](https://learn.microsoft.com/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796).
+You can read more about immutable vaults and the statuses of Disabled/Enabled and Enabled and Lock directly at the [Microsoft Learn documentation](/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796).
 
 It is worth making sure you don't enable and lock your Recovery services vault unless you are certain of the backup job retention period, as this cannot be altered *(reduced)* after it is locked.
 
@@ -94,7 +94,7 @@ Resource Guard allows multi-user authorization *(MUA)* for Azure Backup operatio
 
 To function as intended, a different user must own the Resource Guard, and the vault admin must not have Contributor permissions.
 
-Refer to: [Usage scenarios](https://learn.microsoft.com/azure/backup/multi-user-authorization-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796#usage-scenarios), for various options, but essentially isolation is key.
+Refer to: [Usage scenarios](/azure/backup/multi-user-authorization-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796#usage-scenarios), for various options, but essentially isolation is key.
 
 1. To create a **Resource Guard**, navigate to **Resource Guards** in the Azure Portal
 2. Click **Create Resource Guard**
@@ -143,7 +143,7 @@ You can then take this a step forward, using PIM (Privileged Identity Management
 
 Resource Guard is helpful to consider when you may have application owners supporting their own workloads and Backups but still want to maintain ownership by the platform or backup team to make sure there is no unintentional data loss.
 
-Reference: [Configure Multi-user authorization using Resource Guard in Azure Backup](https://learn.microsoft.com/azure/backup/multi-user-authorization?tabs=azure-portal&pivots=vaults-recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
+Reference: [Configure Multi-user authorization using Resource Guard in Azure Backup](/azure/backup/multi-user-authorization?tabs=azure-portal&pivots=vaults-recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
 
 ## Enhanced Policy
 
@@ -178,7 +178,7 @@ So, let us create an Enhanced Backup Policy that backups our Virtual Machine eve
 
 ![Create Enchanced Policy](media/securing-backups-with-azure/Create-EnchancedPolicy.png)
 
-[Restoring a backup item](https://learn.microsoft.com/azure/backup/backup-azure-arm-restore-vms?WT.mc_id=AZ-MVP-5004796) is the same as restoring from a standard policy.
+[Restoring a backup item](/azure/backup/backup-azure-arm-restore-vms?WT.mc_id=AZ-MVP-5004796) is the same as restoring from a standard policy.
 
 ## Intelligent Tiering
 
@@ -202,10 +202,10 @@ Tiering can be enabled at any time, before your first backup or after; it will a
 
 If interested, the following Microsoft Learn documentation is worth reading to delve deeper into the world of Azure Backups.
 
-* [About Backup center for Azure Backup and Azure Site Recovery](https://learn.microsoft.com/azure/backup/backup-center-overview?WT.mc_id=AZ-MVP-5004796)
-* [Use Archive tier support](https://learn.microsoft.com/azure/backup/use-archive-tier-support?pivots=client-portaltier&WT.mc_id=AZ-MVP-5004796)
-* [Immutable vault for Azure Backup](https://learn.microsoft.com/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
-* [Multi-user authorization using Resource Guard](https://learn.microsoft.com/azure/backup/multi-user-authorization-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
-* [Azure Backup architecture and components](https://learn.microsoft.com/azure/backup/backup-architecture?WT.mc_id=AZ-MVP-5004796)
+* [About Backup center for Azure Backup and Azure Site Recovery](/azure/backup/backup-center-overview?WT.mc_id=AZ-MVP-5004796)
+* [Use Archive tier support](/azure/backup/use-archive-tier-support?pivots=client-portaltier&WT.mc_id=AZ-MVP-5004796)
+* [Immutable vault for Azure Backup](/azure/backup/backup-azure-immutable-vault-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
+* [Multi-user authorization using Resource Guard](/azure/backup/multi-user-authorization-concept?tabs=recovery-services-vault&WT.mc_id=AZ-MVP-5004796)
+* [Azure Backup architecture and components](/azure/backup/backup-architecture?WT.mc_id=AZ-MVP-5004796)
 
 And keep an eye on [Azure Updates](https://azure.microsoft.com/updates/?category=compute&WT.mc_id=AZ-MVP-5004796) for the latest updates to Backup services on Microsoft Azure.

@@ -14,7 +14,7 @@ contributor-type: community #Required; don't change.
 
 ---
 
-**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/carlyrevier-3527/) <!-- Add your name and a link to your Learn profile or community leader page>
+**Principal author**: [Jeh Chow](/users/carlyrevier-3527/) <!-- Add your name and a link to your Learn profile or community leader page>
 
 ---
 

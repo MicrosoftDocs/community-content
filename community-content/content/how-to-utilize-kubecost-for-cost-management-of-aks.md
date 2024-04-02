@@ -15,7 +15,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Kristina Devochko](https://learn.microsoft.com/users/kristinadevochko-7890)
+**Principal author**: [Kristina Devochko](/users/kristinadevochko-7890)
 
 ---
 
@@ -39,9 +39,9 @@ Finally we will briefly touch upon core capabilities of Kubecost community versi
 
 - Existing AKS cluster
 
-- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS in order to enable public access to Kubecost dashboard. There are multiple types of Ingress Controllers that you can use in AKS. In this article we will be using Application Gateway Ingress Controller (AGIC) add-on for AKS. Installation of Ingress Controller is beyond the scope of this article, but you can follow this tutorial to install AGIC add-on on a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](https://learn.microsoft.com/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS in order to enable public access to Kubecost dashboard. There are multiple types of Ingress Controllers that you can use in AKS. In this article we will be using Application Gateway Ingress Controller (AGIC) add-on for AKS. Installation of Ingress Controller is beyond the scope of this article, but you can follow this tutorial to install AGIC add-on on a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- (Optional) **Publicly accessible Kubecost dashboard:** custom domain that you will publicly expose a Kubecost dashboard at and provision a TLS certificate for. Acquiring and hosting a custom domain is beyond the scope of this article, but you can follow this Microsoft Learn module to learn more about hosting your custom domain with Azure DNS: [Host your domain on Azure DNS](https://learn.microsoft.com/training/modules/host-domain-azure-dns)
+- (Optional) **Publicly accessible Kubecost dashboard:** custom domain that you will publicly expose a Kubecost dashboard at and provision a TLS certificate for. Acquiring and hosting a custom domain is beyond the scope of this article, but you can follow this Microsoft Learn module to learn more about hosting your custom domain with Azure DNS: [Host your domain on Azure DNS](/training/modules/host-domain-azure-dns)
 
 - (Optional) **Publicly accessible Kubecost dashboard:** certificate authority (CA) for TLS certificate provisioning. Certificate management tools like `cert-manager` will query the CA to request TLS certificates. Acquiring TLS certificates is beyond the scope of this article. In this article we will be using [Let's Encrypt](https://letsencrypt.org/docs), which is a popular, good and free CA option.
 
@@ -64,7 +64,7 @@ In this step you will configure Azure Cloud Integration. It enables overview of 
 In order to configure Azure Cloud Integration you will need to set up daily export of Azure cost reports to a dedicated Azure storage account. Kubecost will access Azure storage account via API to retrieve the cost data for display in the dashboard.
 
 > [!NOTE]
-> Not all Microsoft Azure offers are currently supported in Cost Management. Please ensure that your Azure subscription type is supported by Cost Management prior to setting up Azure cost daily export. You may find supported Azure offers here: [Supported Microsoft Azure offers](https://learn.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#supported-microsoft-azure-offers).
+> Not all Microsoft Azure offers are currently supported in Cost Management. Please ensure that your Azure subscription type is supported by Cost Management prior to setting up Azure cost daily export. You may find supported Azure offers here: [Supported Microsoft Azure offers](/azure/cost-management-billing/costs/understand-cost-mgt-data#supported-microsoft-azure-offers).
 
 **Please ensure that the correct Azure subscription is set as active prior to executing below commands.** You can verify this by executing following command in Azure CLI: `az account show`. You can set an Azure subscription to active by executing following command in Azure CLI: `az account set --subscription <AzureSubscriptionId>`
 

@@ -13,7 +13,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Arafat Tehsin](https://learn.microsoft.com/users/arafattehsin/?WT.mc_id=AI-MVP-5003464)
+**Principal author**: [Arafat Tehsin](/users/arafattehsin/?WT.mc_id=AI-MVP-5003464)
 
 ---
 

@@ -12,7 +12,7 @@ contributor-type: community
 # Azure Terraform: Deploy Resource Group and Azure Blob Storage
 
 ---
-**Principal author**: [George Chrysovaladis Grammatikos](https://learn.microsoft.com/users/georgechrysovalantisgrammatikos-8518/)
+**Principal author**: [George Chrysovaladis Grammatikos](/users/georgechrysovalantisgrammatikos-8518/)
 
 ---
 
