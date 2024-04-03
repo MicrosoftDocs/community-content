@@ -1,5 +1,19 @@
 - name: Microsoft Learn Community Content
   href: ../index.md
+- name: Azure
+  items:
+  - name: Azure Backup
+    items:
+      - name: Securing your Microsoft Azure Backups
+        href: securing-backups-with-azure.md
+  - name: Azure Kubernetes (AKS)
+    items:
+      - name: Manage cost and optimize resources in AKS with Kubecost
+        href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+- name: Azure REST API - How to create a bearer token
+  href: azure-rest-api-how-to-create-a-bearer-token.md
+- name: Configure Azure Load Balancer for sticky sessions
+  href: azure-configure-load-balancer-for-sticky-sessions.md
 - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
   href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
 - name: Get started with Machine Learning
@@ -18,16 +32,12 @@
   href: hidden-tags-azure.md
 - name: Discover Microsoft Azure learning, training, certifications, and career path opportunities
   href: discover-azure-learning-opps.md
-- name: Securing your Microsoft Azure Backups
-  href: securing-backups-with-azure.md
 - name: Remembering the users in cloud transformations
   href: remembering-the-users-in-cloud-transformation.md
 - name: How-to enforce .NET code format using EditorConfig and GitHub Actions
   href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
 - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
   href: tutorial-azure-openai-azure-speech-gpt-4.md
-- name: Manage cost and optimize resources in AKS with Kubecost
-  href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: "Quickstart: Speed up the inner development loop with Dapr multi-app run"
   href: dapr-multi-app-run.md
 - name: How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
