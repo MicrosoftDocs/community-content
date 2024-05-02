@@ -9,11 +9,7 @@ ms.date: 03/20/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 # Azure REST API - Create a bearer token
-=======
-# Introduction
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
 
 In this quick post, I will try to create a bearer token and use it to authenticate on Azure REST API.
 
@@ -83,25 +79,13 @@ Following the steps below we'll be able to create a new collection in Postman ca
 
 ### Step 1. Manage environments
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 Open Postman, and click the button Manage Environments.
-=======
-Open Postman, and click the button Manage Environments:
-
-:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3465.settings.png" alt-text="Screenshot of the manage environments button.":::
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3465.settings.png" alt-text="Screenshot of the manage environments button.":::
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 ### Step 2. Add new manage environment
 
-Select Add to add a new Manage Environment
-=======
-Select Add to Add a new Manage Environment.
-
-:::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="Screenshot of the add environment button.":::
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
+Select Add to add a new Manage Environment.
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="Screenshot of the add environment button.":::
 
@@ -111,11 +95,7 @@ At the next step, we have to add the variables (tenantId, clientId, clientSecret
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/3323.environments.png" alt-text="Environments":::
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 ## Get the Azure Active Directory token
-=======
-## Get the Azure Active Directory Token
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
 
 To get the Azure Active Directory token we have to follow the steps below:
 
@@ -131,22 +111,14 @@ As we can see below the Bearer Token has been created and we can use it to execu
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/2744.result.png" alt-text="Result":::
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 ## Using the Azure REST API
-=======
-## Using The Azure REST API
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
 
 In the final step, we can execute a request using Azure REST API to get the Resource Groups.
 
 To get the Azure Active Directory token we have to do:
 
 1. Select the **GET** method
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 1. Type the request `https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10`
-=======
-1. Type the request: `https://management.azure.com/subscriptions/{{subscriptionId}}/resourcegroups?api-version=2017-05-10`
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md
 1. Select Authorization Type "**Bearer Token**", and paste the token that we have been created on the previous step
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/8546.result2.png" alt-text="Result2":::
@@ -155,16 +127,8 @@ To get the Azure Active Directory token we have to do:
 
 In conclusion, this brief exploration into creating and utilizing a bearer token for authentication with Azure REST API highlights the straightforward process of establishing secure access to cloud resources. By following the outlined steps, users can confidently navigate the complexities of authentication protocols, ensuring seamless integration with Azure services. As technology continues to evolve, mastering such fundamental concepts becomes increasingly essential for effective cloud management and application development. Embracing these practices empowers individuals and organizations to leverage Azure's capabilities with confidence, unlocking the full potential of cloud computing in their endeavors.
 
-<<<<<<< HEAD:community-content/content/azure-rest-api-how-to-create-a-bearer-token.md
 ## See also
 
 - [Getting started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
 - [Postman API client](https://www.getpostman.com/product/api-client)
 - [Azure REST API reference](/rest/api/azure/)
-=======
-## See Also
-
-- [Getting Started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
-- [Postman API Client](https://www.getpostman.com/product/api-client)
-- [Azure REST API Reference](/rest/api/azure/)
->>>>>>> 61bc5f34dc7343484c3d3e2dd00a924855bc5870:community-content/content/Azure REST API - How to create a Bearer token.md

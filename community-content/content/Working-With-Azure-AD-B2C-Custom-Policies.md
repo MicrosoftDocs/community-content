@@ -9,7 +9,7 @@ ms.date: 04/24/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
-## Working with Azure AD B2C Custom Policies
+# Working with Azure AD B2C Custom Policies
 
 This post describes one of two sign-in options provided by Azure AD B2C tenant, which is custom policies (the other is user flows). With Custom Policies, we can build customized authentication flows based on our needs.
 
@@ -20,7 +20,7 @@ We should ensure the following before getting started:
 - An active Azure AD B2C tenant
 - A registered web application
 - The necessary policy keys and register the Identity Experience Framework Apps
-- Download the Azure AD B2C policy starter pack from GitHub, make the configurations and upload it to the tenant.
+- Download the Azure AD B2C policy starter pack from GitHub, make the configurations and upload it to the tenant
 
 ## Add signing/encryption keys
 
@@ -78,7 +78,7 @@ Under **Supported account types**, select **Accounts in this organizational dire
 
 :::image type="content" source="media/working-with-azure-ad-b2c-custom-policies/10.png" alt-text="SupportedAccountTypes":::
 
-Under the **Redirect URI** section, select **Web**, and then type [https://tenant-name.b2clogin.com/tenant-name.onmicrosoft.com](https://tenant-name.b2clogin.com/tenant-name.onmicrosoft.com).
+Under the **Redirect URI** section, select **Web**, and then type `https://<tenant-name>.b2clogin.com/<tenant-name>.onmicrosoft.com`.
 
 :::image type="content" source="media/working-with-azure-ad-b2c-custom-policies/11.png" alt-text="RedirectURI":::
 
@@ -196,9 +196,9 @@ After unzipping the custom policy starter pack, zip file, we will see the folder
 
 Before we upload the custom policy XML files we must make some changes to the **TrustFrameworkExtensions.xml**.
 
-| ProxyIdentityExperienceFramework | Item Key="client_id"       | Application (client) ID  | IdentityExperienceFrameworkAppId |
+| ProxyIdentityExperienceFramework | \Item\ Key="client_id"       | Application (client) ID  | IdentityExperienceFrameworkAppId |
 | ---------------------------------| ---------------------------- | ------------------------     | -------------------------------- |
-| IdentityExperienceFramework | Item Key="IdTokenAudience"| Application (client) ID  | IdentityExperienceFramework   |
+| IdentityExperienceFramework | \Item\ Key="IdTokenAudience"| Application (client) ID  | IdentityExperienceFramework   |
 
 Find, open the **LocalAccounts/TrustFrameworkExtensions.xml**, search for the
 
