@@ -196,9 +196,9 @@ After unzipping the custom policy starter pack, zip file, we will see the folder
 
 Before we upload the custom policy XML files we must make some changes to the **TrustFrameworkExtensions.xml**.
 
-| ProxyIdentityExperienceFramework | \Item\ Key="client_id"       | Application (client) ID  | IdentityExperienceFrameworkAppId |
+| ProxyIdentityExperienceFramework | Item Key="client_id"       | Application (client) ID  | IdentityExperienceFrameworkAppId |
 | ---------------------------------| ---------------------------- | ------------------------     | -------------------------------- |
-| IdentityExperienceFramework | \Item\ Key="IdTokenAudience"| Application (client) ID  | IdentityExperienceFramework   |
+| IdentityExperienceFramework | Item Key="IdTokenAudience"| Application (client) ID  | IdentityExperienceFramework   |
 
 Find, open the **LocalAccounts/TrustFrameworkExtensions.xml**, search for the
 
