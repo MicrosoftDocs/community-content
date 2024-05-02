@@ -85,7 +85,7 @@ Open Postman, and click the button Manage Environments.
 
 ### Step 2. Add new manage environment
 
-Select Add to add a new Manage Environment
+Select Add to add a new Manage Environment.
 
 :::image type="content" source="media/Azure-REST-API-How-to-create-a-Bearer-token/5226.addenvironment.png" alt-text="Screenshot of the add environment button.":::
 
