@@ -6,6 +6,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "community-content/learn-with/example.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "CONTRIBUTING.md",
             "redirect_url": "https://github.com/MicrosoftDocs/community-content/wiki/Contribute-to-this-repo",
             "redirect_document_id": true
