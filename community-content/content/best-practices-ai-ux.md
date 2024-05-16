@@ -2,7 +2,7 @@
 title: Best practices for building collaborative UX with Human-AI partnership 
 description: Learn about the best practices for creating the collaborative user experiences by leveraging the power of human-AI partnership. Learn how to optimise your design process with these essential tips and strategies.
 author: arafattehsin
-ms.author: cahublou 
+ms.author: mlcc-owners 
 ms.service: artificial-intelligence 
 ms.topic: concept-article
 ms.date: 10/10/2023 
@@ -45,9 +45,6 @@ Implementation of the Suggested Prompts pattern is comprised of both business wo
 :::image type="content" source="media/best-practices-ai-ux/suggested-prompts.png" alt-text="Suggested Prompts Pattern":::
 
 It is important to have the prompts to be concise, relevant and contextually aligned with the user’s goal. This collaborative UX pattern can help improve the efficiency and effectiveness of user interactions with the copilot and encourage users to explore different possibilities and consider alternative options. This way, users can benefit from the copilot’s capabilities through suggested prompts while maintaining control and decision-making authority to themselves.
-
-> [!NOTE]
-> If you want to learn about UX for Copilots in depth then you do not want to miss [this session](https://build.microsoft.com/en-US/sessions/bac1bf0b-7c70-4366-bb86-0abd11b009bc?source=sessions) of Microsoft Build, 2023. All the images of this post are also taken from this session.
 
 ### Feedback Opportunities Pattern
 

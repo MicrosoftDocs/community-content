@@ -1,7 +1,7 @@
 ---
 title: How-to topic template #Required; page title is displayed in search results. Include the brand. Don't use any puncutation, such as colons, commas, or periods.
 description: How-to description #Required; article description that is displayed in search results. 
-author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
+author: pdebruin #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; request from Microsoft admin.
 ms.topic: how-to #Required; leave this attribute/value as-is.

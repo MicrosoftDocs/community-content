@@ -2,7 +2,7 @@
 title: "Governance: Community Board" 
 description: Board members of the Microsoft Learn community
 author: pituach 
-ms.author: cahublou 
+ms.author: mlcc-owners 
 ms.service: azure 
 ms.topic: conceptual 
 ms.date: 01/12/2024 
@@ -27,7 +27,7 @@ The repo is managed by a community board, which handles the daily maintenance an
 - Peter Geelen
 - Ronen Ariely
 - George Grammatikos
-- Carly Revier
+- Pieter de Bruin
 
 ## Community Learn On Facebook
 
