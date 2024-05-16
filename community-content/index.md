@@ -5,7 +5,6 @@ author: pdebruin
 ms.author: mlcc-owners
 ms.date: 01/19/2024
 ms.topic: conceptual
-ms.topic: Azure
 contributor-type: community
 no_index_ks: true
 ---
