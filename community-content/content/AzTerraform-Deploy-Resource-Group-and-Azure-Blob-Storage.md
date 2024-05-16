@@ -2,7 +2,7 @@
 title: Az Terraform - Deploy Resource Group and Azure Blob Storage #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: How to deploy resource group and Azure Blob Storage using Azure Terraform #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
-ms.author: cahublou #Required; a Microsoft employee's alias; don't change. 
+ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list.
 ms.topic: Azure #Required; leave this attribute/value as-is.
 ms.date: 01/22/2024 #Required; mm/dd/yyyy format.

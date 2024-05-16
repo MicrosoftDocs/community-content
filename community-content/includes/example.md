@@ -1,7 +1,7 @@
 ---
 title: Example include #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: Example include description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: carlyrevier #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
+author: pdebruin #Required; a Microsoft employee's GitHub user alias, with correct capitalization; don't change.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list. service slug assigned to your service by ACOM.
 ms.topic: overview #Required; leave this attribute/value as-is.
@@ -14,7 +14,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Jeh Chow](https://learn.microsoft.com/users/carlyrevier-3527/)
+**Principal author**: [Carly Revier](https://learn.microsoft.com/users/carlyrevier-3527/)
 
 ---
 

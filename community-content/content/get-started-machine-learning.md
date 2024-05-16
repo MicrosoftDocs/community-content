@@ -2,7 +2,7 @@
 title: Get started with machine learning #Required; page title displayed in search results. Don't enclose in quotation marks. 
 description: The article is an introductory guide to machine learning, covering its definition, types, applications, roadmap, careers, and resources. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: bumie-e #Required; your GitHub user alias, with correct capitalization.
-ms.author: cahublou #Required; a Microsoft distribution list; don't change. 
+ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: machine-learning #Required; request from Microsoft admin. 
 ms.topic: conceptual #Required; leave this attribute/value as-is.
 ms.date: 03/19/2024 #Required; mm/dd/yyyy format.
