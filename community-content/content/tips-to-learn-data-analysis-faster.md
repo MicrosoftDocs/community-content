@@ -2,7 +2,7 @@
 title: Learning Data Analysis Faster in the Age of AI 
 description: Your quick guide to learning Data Analysis with Power BI faster and better.
 author: theoyinbooke 
-ms.author: cahublou 
+ms.author: mlcc-owners 
 ms.service: powerbi 
 ms.topic: conceptual
 ms.date: 11/14/2023 

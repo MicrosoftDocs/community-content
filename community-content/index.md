@@ -1,11 +1,10 @@
 ---
 title: Microsoft Learn Community Content
 description: Community written content for the community about Microsoft products and features.
-author: carlyrevier
+author: pdebruin
 ms.author: mlcc-owners
 ms.date: 01/19/2024
 ms.topic: conceptual
-ms.prod: non-product-specific
 contributor-type: community
 no_index_ks: true
 ---

@@ -2,7 +2,7 @@
 title: Must-Use AI Features in Power BI 
 description: This article is your companion to becoming effective business data analyst using Microsoft Power BI and leveraging on its AI capabilities.
 author: theoyinbooke 
-ms.author: cahublou 
+ms.author: mlcc-owners 
 ms.service: powerbi 
 ms.topic: conceptual
 ms.date: 11/14/2023 
