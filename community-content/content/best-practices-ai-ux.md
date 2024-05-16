@@ -46,9 +46,6 @@ Implementation of the Suggested Prompts pattern is comprised of both business wo
 
 It is important to have the prompts to be concise, relevant and contextually aligned with the user’s goal. This collaborative UX pattern can help improve the efficiency and effectiveness of user interactions with the copilot and encourage users to explore different possibilities and consider alternative options. This way, users can benefit from the copilot’s capabilities through suggested prompts while maintaining control and decision-making authority to themselves.
 
-> [!NOTE]
-> If you want to learn about UX for Copilots in depth then you do not want to miss [this session](https://build.microsoft.com/en-US/sessions/bac1bf0b-7c70-4366-bb86-0abd11b009bc?source=sessions) of Microsoft Build, 2023. All the images of this post are also taken from this session.
-
 ### Feedback Opportunities Pattern
 
 The last UX pattern to discuss today is around the feedback. Feedback about the performance of AI and how it helps out user’s goal and its output. It gives an opportunity to the users to contribute to the improvement of overall copilot’s capabilities therefore known as Feedback Opportunities Pattern. These contributions can vary from sharing their insights to corrections to suggestions and many more. Thus, a feedback loop is created, facilitating continuous learning and improvement. Feedback mechanisms such as a review form, issue reporting or a rating system can be integrated within the user interface of the AI-powered application.
