@@ -69,7 +69,7 @@ Another significant aspect that has to do with Azure resource management is the 
 The benefit that the tagging strategy can have is for filtering and reporting on resources when it comes to resource usage and billing.
 The image below depicts how your tags will show on your resource group:
 
-:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/HowTagsShown.jpg" alt-text="HowTagsShown":::
+:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/HowTagsShown.jpg" alt-text="How tags are shown":::
 
 To read more about how you can define your tagging strategy, see [Define your tagging strategy](/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
 
