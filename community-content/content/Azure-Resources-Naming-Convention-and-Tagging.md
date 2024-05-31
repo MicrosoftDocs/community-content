@@ -30,6 +30,7 @@ According to MS documentation there are naming rules for Azure resources vary ba
 Determine a naming convention
 
 Let us see an example of naming an Azure resource. The general naming convention proposal would be something like the one below:
+
 :::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/NamingConventionProposal.jpg" alt-text="Naming convention proposal":::
 
 > [!NOTE]
@@ -46,8 +47,6 @@ The matrix below depicts a few more examples with several types of Azure resourc
 The image below depicts how your Azure resources name will show after applying the above rules:
 
 :::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/ResourcesImage.jpg" alt-text="Resources":::
-To get more abbreviation examples about Azure resources, see below:
-
 To get more abbreviation examples about Azure resources, see below:
 
 [AI + machine learning](/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations)
@@ -75,6 +74,7 @@ To read more about how you can define your tagging strategy, see [Define your ta
 
 > [!NOTE]
 >Whenever someone creates resources, resource groups or subscriptions, you can force them to add a new tag by adding a policy definition, as shown in the image below:
+>
 > :::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/AvailableDefinitions.jpg" alt-text="Available definitions":::
 
 ## Summarize
