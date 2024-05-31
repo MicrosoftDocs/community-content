@@ -1,15 +1,9 @@
 - name: Microsoft Learn Community Content
   href: ../index.md
-- name: Azure
-  items:
-  - name: Azure Backup
-    items:
-      - name: Securing your Microsoft Azure Backups
-        href: securing-backups-with-azure.md
-  - name: Azure Kubernetes (AKS)
-    items:
-      - name: Manage cost and optimize resources in AKS with Kubecost
-        href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+- name: Securing your Microsoft Azure Backups
+  href: securing-backups-with-azure.md
+- name: Manage cost and optimize resources in AKS with Kubecost
+  href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: Working with Azure AD B2C Custom Policies
   href: Working-With-Azure-AD-B2C-Custom-Policies.md
 - name: Azure REST API - How to create a bearer token
@@ -44,6 +38,5 @@
   href: dapr-multi-app-run.md
 - name: How-to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
   href: wsl-user-msft-kernel-v6.md
-
-
-
+- name: Azure resources naming convention and tagging
+  href: Azure-Resources-Naming-Convention-and-Tagging.md

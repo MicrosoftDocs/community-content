@@ -5,7 +5,7 @@ author: gxgrammatikos #Required; your GitHub user alias, with correct capitaliza
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list.
 ms.topic: Azure #Required; leave this attribute/value as-is.
-ms.date: 25/05/2024 #Required; mm/dd/yyyy format.
+ms.date: 05/25/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
@@ -30,7 +30,7 @@ According to MS documentation there are naming rules for Azure resources vary ba
 Determine a naming convention
 
 Let us see an example of naming an Azure resource. The general naming convention proposal would be something like the one below:
-:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/NamingConventionProposal.jpeg" alt-text="NamingConventionProposal":::
+:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/NamingConventionProposal.jpg" alt-text="Naming convention proposal":::
 
 > [!NOTE]
 > Βetween the components that form the name you can for example use **hyphen (-)** or **underscore (_)**, i.e. vm-webapp-dev-westeurope-01
@@ -45,7 +45,7 @@ The matrix below depicts a few more examples with several types of Azure resourc
 
 The image below depicts how your Azure resources name will show after applying the above rules:
 
-:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/ResourcesImage.jpeg" alt-text="Resources":::
+:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/ResourcesImage.jpg" alt-text="Resources":::
 To get more abbreviation examples about Azure resources, see below:
 
 To get more abbreviation examples about Azure resources, see below:
@@ -69,13 +69,13 @@ Another significant aspect that has to do with Azure resource management is the 
 The benefit that the tagging strategy can have is for filtering and reporting on resources when it comes to resource usage and billing.
 The image below depicts how your tags will show on your resource group:
 
-:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/HowTagsShown.jpg" alt-text="HowTagsShown":::
+:::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/HowTagsShown.jpg" alt-text="How tags are shown":::
 
 To read more about how you can define your tagging strategy, see [Define your tagging strategy](/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
 
 > [!NOTE]
 >Whenever someone creates resources, resource groups or subscriptions, you can force them to add a new tag by adding a policy definition, as shown in the image below:
-> :::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/AvailableDefinitions.jpeg" alt-text="AvailableDefinitions":::
+> :::image type="content" source="media/Azure-Resources-Naming-Conventions-and-tagging/AvailableDefinitions.jpg" alt-text="Available definitions":::
 
 ## Summarize
 
