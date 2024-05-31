@@ -15,7 +15,7 @@ contributor-type: community
 
 ---
 
-**Principal author**: [Foteini Savvidou](https://learn.microsoft.com/users/foteinisavvidou-7240/)
+**Principal author**: [Foteini Savvidou](/users/foteinisavvidou-7240/)
 
 ---
 
@@ -277,6 +277,6 @@ Through this how-to guide, you explored the core features of the pgvector extens
 
 Here is a list of useful resources to further enhance your skills:
 
-* [Azure AI Vision Multi-modal embeddings – Microsoft Docs](https://learn.microsoft.com/azure/ai-services/computer-vision/concept-image-retrieval?WT.mc_id=AI-MVP-5004971)
-* [How to use pgvector on Azure Cosmos DB for PostgreSQL – Microsoft Docs](https://learn.microsoft.com/azure/cosmos-db/postgresql/howto-use-pgvector?WT.mc_id=AI-MVP-5004971)
-* [How to optimize performance when using pgvector on Azure Cosmos DB for PostgreSQL – Microsoft Docs](https://learn.microsoft.com/azure/cosmos-db/postgresql/howto-optimize-performance-pgvector?WT.mc_id=AI-MVP-5004971)
+* [Azure AI Vision Multi-modal embeddings – Microsoft Docs](/azure/ai-services/computer-vision/concept-image-retrieval?WT.mc_id=AI-MVP-5004971)
+* [How to use pgvector on Azure Cosmos DB for PostgreSQL – Microsoft Docs](/azure/cosmos-db/postgresql/howto-use-pgvector?WT.mc_id=AI-MVP-5004971)
+* [How to optimize performance when using pgvector on Azure Cosmos DB for PostgreSQL – Microsoft Docs](/azure/cosmos-db/postgresql/howto-optimize-performance-pgvector?WT.mc_id=AI-MVP-5004971)
