@@ -72,7 +72,7 @@ sections:
       - componentType: icon-card
         title: Azure Terraform workshop
         summary: Terraform tutorial that covers building, changing, and destroying infrastructure.
-        url: https://hashicorp.github.io/field-workshops-terraform/slides/azure/terraform-oss/index.html#1
+        url: https://hashicorp.github.io/field-workshops-terraform/slides/azure
         icon:
           componentType: image
           src: ./media/icons/hashicorp.png

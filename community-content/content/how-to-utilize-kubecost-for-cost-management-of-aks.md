@@ -39,7 +39,7 @@ Finally we will briefly touch upon core capabilities of Kubecost community versi
 
 - Existing AKS cluster
 
-- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS in order to enable public access to Kubecost dashboard. There are multiple types of Ingress Controllers that you can use in AKS. In this article we will be using Application Gateway Ingress Controller (AGIC) add-on for AKS. Installation of Ingress Controller is beyond the scope of this article, but you can follow this tutorial to install AGIC add-on on a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](/azure/application-gateway/tutorial-ingress-controller-add-on-existing?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- (Optional) **Publicly accessible Kubecost dashboard:** Ingress Controller must be installed on AKS in order to enable public access to Kubecost dashboard. There are multiple types of Ingress Controllers that you can use in AKS. In this article we will be using Application Gateway Ingress Controller (AGIC) add-on for AKS. Installation of Ingress Controller is beyond the scope of this article, but you can follow this tutorial to install AGIC add-on on a new or existing AKS cluster: [Tutorial: Enable application gateway ingress controller add-on for an existing AKS cluster with an existing application gateway](/azure/application-gateway/tutorial-ingress-controller-add-on-existing)
 
 - (Optional) **Publicly accessible Kubecost dashboard:** custom domain that you will publicly expose a Kubecost dashboard at and provision a TLS certificate for. Acquiring and hosting a custom domain is beyond the scope of this article, but you can follow this Microsoft Learn module to learn more about hosting your custom domain with Azure DNS: [Host your domain on Azure DNS](/training/modules/host-domain-azure-dns)
 
@@ -347,5 +347,5 @@ Finally, apart from SSO and RBAC support, Kubecost community version has a few o
 To learn more about Kubecost, as well as how OAuth 2.0 authentication with OAuth2 Proxy works in more detail, please check out following resources:
 
 - [Kubecost documentation](https://docs.kubecost.com/install-and-configure/install/getting-started)
-- [OAuth2 Proxy documentation](https://oauth2-proxy.github.io/oauth2-proxy/docs)
+- [OAuth2 Proxy documentation](https://oauth2-proxy.github.io/oauth2-proxy/)
 - [Blog post: Setting Up OAuth 2.0 Authentication for Applications in AKS With NGINX and OAuth2 Proxy](https://kristhecodingunicorn.com/post/k8s_nginx_oauth)
