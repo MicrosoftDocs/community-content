@@ -25,11 +25,11 @@ In this post, we will read how easily we can Start, Stop, or Restart massively A
 
 ## Start, Stop VM's via Azure Portal
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4UlfI9MzRF0/0.jpg)](https://www.youtube.com/watch?v=4UlfI9MzRF0)
+[![Video that shows how to start and stop virtual machines using the Azure portal](https://img.youtube.com/vi/4UlfI9MzRF0/0.jpg)](https://www.youtube.com/watch?v=4UlfI9MzRF0)
 
 ## Start, Stop VM's via Azure Cloud Shell
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4EK_RSF6zY0/0.jpg)](https://www.youtube.com/watch?v=4EK_RSF6zY0)
+[![Video that shows how to start and stop virtual machines using the Azure cloud shell](https://img.youtube.com/vi/4EK_RSF6zY0/0.jpg)](https://www.youtube.com/watch?v=4EK_RSF6zY0)
 
 Please check below the Azure PowerShell scripts to Start, Stop, and Restart massive Virtual Machines.
 
