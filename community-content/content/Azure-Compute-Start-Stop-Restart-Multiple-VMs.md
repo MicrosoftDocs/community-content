@@ -48,8 +48,8 @@ Get-AzVM -ResourceGroupName $ResourceGroupName | Select Name | ForEach-Object { 
 
 ## Useful links
 
-- [Install Azure PowerShell](/powershell/azure/install-az-ps?view=azps-4.4.0)
-- [Get-AzVM (Module: Az.Compute)](/powershell/module/az.compute/get-azvm?view=azps-4.4.0)
-- [Start-AzVM (Module: Az.Compute)](/powershell/module/Az.Compute/Start-AzVM?view=azps-4.4.0)
-- [Stop-AzVM (Module: Az.Compute)](/powershell/module/az.compute/stop-azvm?view=azps-4.4.0)
-- [Restart-AzVM (Module: Az.Compute)](/powershell/module/Az.Compute/Restart-AzVM?view=azps-4.4.0)
+- [Install Azure PowerShell](/powershell/azure/install-az-ps)
+- [Get-AzVM (Module: Az.Compute)](/powershell/module/az.compute/get-azvm)
+- [Start-AzVM (Module: Az.Compute)](/powershell/module/Az.Compute/Start-AzVM)
+- [Stop-AzVM (Module: Az.Compute)](/powershell/module/az.compute/stop-azvm)
+- [Restart-AzVM (Module: Az.Compute)](/powershell/module/Az.Compute/Restart-AzVM)
