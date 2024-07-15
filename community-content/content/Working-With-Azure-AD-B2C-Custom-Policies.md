@@ -4,7 +4,7 @@ description: Working with Azure AD B2C Custom Policies #Required; article descri
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list.
-ms.topic: Azure #Required; leave this attribute/value as-is.
+ms.topic: conceptual #Required; leave this attribute/value as-is.
 ms.date: 04/24/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
