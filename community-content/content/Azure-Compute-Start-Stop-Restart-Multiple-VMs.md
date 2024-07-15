@@ -5,7 +5,7 @@ author: gxgrammatikos #Required; your GitHub user alias, with correct capitaliza
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; request from Microsoft admin. 
 ms.topic: conceptual #Required; leave this attribute/value as-is.
-ms.date: 13/07/2024 #Required; mm/dd/yyyy format.
+ms.date: 07/13/2024 #Required; mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
 
 ---
