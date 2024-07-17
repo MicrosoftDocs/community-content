@@ -16,7 +16,7 @@ Our goal in this post is to demonstrate how to deploy a logic app that sends ema
 
 ---
 
-**Principal author**: [George Chrysovalantis Grammatikos](/users/georgechrysovalantisgrammatikos-8518/) <!-- Add your name and a link to your Learn profile or community leader page>
+**Principal author**: [George Chrysovalantis Grammatikos](/users/georgechrysovalantisgrammatikos-8518/)
 
 ---
 
