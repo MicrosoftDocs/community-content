@@ -40,3 +40,7 @@
   href: wsl-user-msft-kernel-v6.md
 - name: Azure resources naming convention and tagging
   href: Azure-Resources-Naming-Convention-and-Tagging.md
+- name: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus
+  href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
+- name: Azure-Compute-Start-Stop-Restart-Multiple-VMs
+  href: Azure-Compute-Start-Stop-Restart-Multiple-VMs.md
