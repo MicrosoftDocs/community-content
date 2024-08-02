@@ -16,7 +16,7 @@ contributor-type: community #Required; don't change.
 
 ## Introduction
 
-In this post, we will talk about the [Azure Bot](https://azure.microsoft.com/en-us/services/bot-service/) and QnA Maker service. To create an Azure Bot we must use the [Bot Framework](https://dev.botframework.com/), with this framework developers are able to build intelligent bots to interact with users in multiple ways, like text, Skype, Slack, O365 etc.
+In this post, we will talk about the [Azure Bot](https://azure.microsoft.com/services/bot-service/) and QnA Maker service. To create an Azure Bot we must use the [Bot Framework](https://dev.botframework.com/), with this framework developers are able to build intelligent bots to interact with users in multiple ways, like text, Skype, Slack, O365 etc.
 
 ---
 
@@ -64,7 +64,7 @@ Fill in all the fields in the Web App Bot deployment blade and click the **Creat
 | Subscription | Select a valid Azure Subscription     |
 | Resource group | Select an existing or create a new Resource Group   |
 | Location  | Select a location for the Resource Group |
-| Pricing tier | Select a pricing tier, more details in this [link](https://azure.microsoft.com/en-us/pricing/details/bot-service/). |
+| Pricing tier | Select a pricing tier, more details in this [link](https://azure.microsoft.com/pricing/details/bot-service/). |
 | App name | Type a unique name for the Azure bot |
 | Bot template | Choose a bot template,actually we have two options between C# or Node.js |
 | Hosting Plan | Select the hosting plan for the service |
@@ -113,10 +113,10 @@ Select **Create a QnA service**, to create the KB that the Web App Bot use.  \[
 | :--------     | :-------                               |
 | Name     |  Type the QnA name                    |
 | Subscription | Select a valid Azure Subscription     |
-| Management pricing tier | Select a pricing tier for the QnA cognitive service. Check for more details in this [link](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/) |
+| Management pricing tier | Select a pricing tier for the QnA cognitive service. Check for more details in this [link](https://azure.microsoft.com/pricing/details/cognitive-services/) |
 | Location | Select the QnA service location |
 | Resource group  | Select a location for the Resource Group |
-| Searching pricing tier | Select a Search pricing tier, view full pricing details in this [link](https://azure.microsoft.com/en-us/pricing/details/search/) |
+| Searching pricing tier | Select a Search pricing tier, view full pricing details in this [link](https://azure.microsoft.com/pricing/details/search/) |
 | Search location  | Select the Search service location |
 | App name | Type a Name the app service |
 | Website location | Select  location for the Website |
@@ -197,7 +197,7 @@ From the main Web App Bot main blade, **App Service Settings** > **Application S
 | Setting | Value |
 | :----- | :------ |
 | QnAAuthKey | EndpointKey 12345678-ee18-548d-8402-9457615e9447 |
-| QnAEndpointHostName | <https://qnaname.azurewebsites.net/qnamaker> |
+| QnAEndpointHostName | https://#####.azurewebsites.net/qnamaker |
 | QnAAuthKey | b6d34ea4-d8e3-4d07-e0342-h6c81c0854c17 |
 
 :::image type="content" source="media/Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker/7343.appsettings_5f00_bot.png" alt-text="ImgWebAppsBotAppSettingsQnA":::
@@ -410,9 +410,7 @@ In this wiki post, we read how someone who wants to use the Azure Bot Service fo
 
 ## See Also
 
-- [Azure Bot Service pricing](https://azure.microsoft.com/en-us/pricing/details/bot-service/)
-- [Azure QnA Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/)
+- [Azure Bot Service pricing](https://azure.microsoft.com/pricing/details/bot-service/)
+- [Azure QnA Service pricing](https://azure.microsoft.com/pricing/details/cognitive-services/qna-maker/)
 - [Bot Builder SDK in GitHub](https://github.com/Microsoft/BotBuilder/)
-- [Enterprise Bot Template](/en-us/azure/bot-service/bot-builder-enterprise-template-overview?view=azure-bot-service-4.0)
 - [What is QnA Maker?](/en-us/azure/cognitive-services/qnamaker/overview/overview)
-- [How bots work](/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0&tabs=cs)
