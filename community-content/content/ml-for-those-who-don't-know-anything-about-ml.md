@@ -3,7 +3,7 @@ title: Machine Learning For Those Who Don't Know Anything About Machine Learning
 description: This article introduces you to the basic concepts in machine learning.
 author: bumie-e 
 ms.author: mlcc-owners 
-ms.service: machine-learning
+ms.service: azure-machine-learning
 ms.topic: conceptual 
 ms.date: 11/15/2023 
 contributor-type: community
