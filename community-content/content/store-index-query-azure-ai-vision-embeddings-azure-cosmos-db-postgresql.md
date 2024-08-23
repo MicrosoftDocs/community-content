@@ -3,7 +3,7 @@ title: Vector search with Azure AI Vision and Azure Cosmos DB for PostgreSQL
 description: In this how-to article, you learn how to store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL using pgvector. 
 author: sfoteini
 ms.author: mlcc-owners 
-ms.service: cosmos-db
+ms.service: azure-cosmos-db
 ms.topic: how-to
 ms.date: 03/18/2024
 ms.custom: template-how-to-pattern
