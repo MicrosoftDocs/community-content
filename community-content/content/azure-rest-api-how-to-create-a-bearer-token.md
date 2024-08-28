@@ -31,7 +31,7 @@ Open elevated CMD, type **az login**and press **Enter**.
 Microsoft Windows [Version 10.0.18362.476]
 (c) 2019 Microsoft Corporation. All rights reserved.
  
-C:\WINDOWS\system32> az login --tenant ########-####-####-####-############ --use-device-code
+C:\WINDOWS\system32> az login --tenant "########-####-####-####-############" --use-device-code
 To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code **#########** to authenticate.
 
 ```
