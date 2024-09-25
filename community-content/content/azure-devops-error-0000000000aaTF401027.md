@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting Azure DevOps error "remote 0000000000aaTF401027" #Required; this page title is displayed in search results; Always include the word "troubleshoot" in this line. 
-description: Troubleshooting description #Required; this article description is displayed in search results.
+description: Troubleshooting Azure DevOps error remote 0000000000aaTF401027 #Required; this article description is displayed in search results.
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
-ms.service: azuredevops #Required; request from Microsoft admin. 
+ms.service: azure #Required; request from Microsoft admin. 
 ms.topic: troubleshooting-general #Required; leave this attribute/value as-is.
 ms.date: 09/24/2024 #Required; enter the date in the mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
