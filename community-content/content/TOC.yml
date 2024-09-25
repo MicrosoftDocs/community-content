@@ -46,3 +46,5 @@
   href: Azure-Compute-Start-Stop-Restart-Multiple-VMs.md
 - name: Azure Bot Framework Introduction to Azure Bot Service and QnA Maker
   href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
+- name: Troubleshoot Azure Devops Error-0000000000aaTF401027.md
+  href: azure-devops-error-0000000000aaTF401027.md
