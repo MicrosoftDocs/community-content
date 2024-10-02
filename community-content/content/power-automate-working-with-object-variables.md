@@ -58,7 +58,7 @@ Let's add the action Send an HTTP request to SharePoint to provision the site. W
 | Description | Description for the site obtained from the user |
 | Web template | By default we are creating a communication site which has the web template ID : SITEPAGEPUBLISHING#0 |
 
-:::image type="content" source="media/power-automate-working-with-object-variables/send-an-http-request-to-sharepoint:::image type="content" source="media/power-automate-working-with-object-variables/send-an-http-request-to-sharepoint-2.png" alt-text="":::.png" alt-text="send_an_http_request_to_sharepoint_img":::
+:::image type="content" source="media/power-automate-working-with-object-variables/send-an-http-request-to-sharepoint.png" alt-text="send_an_http_request_to_sharepoint_img":::
 
 The action will start the site provisioning process and return back the output in the format :
 
