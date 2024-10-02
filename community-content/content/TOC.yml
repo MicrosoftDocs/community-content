@@ -14,6 +14,8 @@
   href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
 - name: Get started with Machine Learning
   href: get-started-machine-learning.md
+- name: Power Automate - Working with object variables
+  href: power-automate-working-with-object-variables.md
 - name: Machine learning for those who don't know anything about machine learning
   href: ml-for-those-who-don't-know-anything-about-ml.md
 - name: "Azure Terraform: How to deploy Azure RG and blob storage"  
