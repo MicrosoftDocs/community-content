@@ -14,6 +14,8 @@ contributor-type: community
 
 ---
 
+# Technical Guide for New Starters Contributing to Microsoft Learn Community Content (MLCC)
+
 ## Overview
 
 The "Technical Guide for New Starters Contributing to Microsoft Learn Community Content (MLCC)" provides essential instructions for beginners on creating and contributing technical content to MLCC. It covers submission guidelines, content formatting, best practices, and tools to help new contributors successfully share knowledge on the Microsoft Learn platform.
