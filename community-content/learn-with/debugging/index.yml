@@ -1,0 +1,37 @@
+### YamlMime:Marketing
+title: debugging Microsoft Learn Community Leaders 
+sections: 
+
+  #Hero section
+  - componentType: hero-product
+    #supertitle: learn with experts
+    title: debugging Microsoft Learn Community Leaders
+    #size: small
+    summary: debugging Welcome to Microsoft Learn Community Leaders! Discover resources curated by our community leaders to help you in your learning journey.
+    #links:
+     # - componentType: link
+      #  url: https://bing.com
+       # text: Back to all Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: ./media/hero-light.png
+      darkImageSrc: ./media/hero-dark.png
+
+  #Community leader profile cards
+  - componentType: speaker-profile-cards
+    title: debugging Meet the community leaders
+    summary: Select each leader's link to learn more about them and see their recommended resources.
+    blocks:
+    - componentType: speaker-profile-card
+      title: debugging Bunmi Akinremi
+      imageUrl: /community/learn-with/media/index/bunmi-akinremi.jpg
+      summary: "Machine learning | AI ethics | Low-resource languages"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
+        destination: blog
+
+  #Markdown note
+  - componentType: markdown
+    content: |
+      This content is experimental. These community leaders have been invited to create pages because of their presence and following on social media centered on creating and sharing learning resources. At this time, we are only inviting a small set of community leaders to participate.
