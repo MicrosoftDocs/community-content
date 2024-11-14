@@ -30,6 +30,14 @@ sections:
         componentType: social-link
         url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
         destination: blog
+    - componentType: speaker-profile-card
+      title: 2 debugging Bunmi Akinremi
+      imageUrl: /community/learn-with/media/index/bunmi-akinremi.jpg
+      summary: "2 Machine learning | AI ethics | Low-resource languages"
+      socialLink:    
+        componentType: social-link
+        url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
+        destination: blog
 
   #Markdown note
   - componentType: markdown
