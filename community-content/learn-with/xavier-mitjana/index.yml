@@ -1,0 +1,89 @@
+### YamlMime:Marketing
+title: Learn With Xavier Mitjana
+sections:
+  - title: 'Learn With Xavier Mitjana'
+    componentType: hero-product
+    supertitle: Microsoft Learn Community
+    summary: Xavier Mitjana is a specialist in applying AI to business, as well as an excellent audiovisual communicator with over 10 years of experience in technical and scientific outreach. Xavier combines technical and strategic consulting for organizations with practical training.He is also the creator and director of the YouTube channel 'AI in Action,' where he shares insights and advancements in artificial intelligence.
+    links:
+      - componentType: link
+        url: ../
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/creators/xavier-mitjana/media/hero-light.png
+      darkImageSrc: /community/learn-with/creators/xavier-mitjana/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.instagram.com/xavier_mitjana
+        destination: facebook
+      - componentType: social-link
+        url: https://www.linkedin.com/in/xaviermitjana/
+        destination: linkedin
+      - componentType: social-link
+        url: xavier_mitjana
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@XavierMitjana
+        destination: youtube
+      - componentType: social-link
+        url: https://iaenaccion.com/
+        destination: website
+  - title: ''
+    componentType: grid
+    blocks:
+      - title: How to use CHATGPT for FREE step by step!
+        componentType: icon-card
+        summary: Entire ChatGPT course step by step. Master its free version from start to finish.
+        url: https://youtu.be/D8MovUmuFh0?si=Dy5XHjNlgFKsuDZu
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: How to use the NEW CHATGPT CANVAS
+        componentType: icon-card
+        summary: Tutorial of ChatGPT Canvas. How its interface works and how to use Canvas to write and rewrite texts.
+        url: https://youtu.be/kl9PJ4U-P8U?si=IO360zUF_kIjmj6F
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: How to use Copilot Pro
+        componentType: icon-card
+        summary: COPILOT PRO integrates Artificial Intelligence into the Office 365 suite.How to start with it.
+        url: https://youtu.be/_zMa0s14bRk?si=eFY-YMyRyohQ5__v
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: The PERFECT method to BOOST YOUR PRODUCTIVITY with AI
+        componentType: icon-card
+        summary: Learn to automate by building custom tools, using no-code platforms, and maximizing ChatGPT's capabilities.Step-by-step tutorial to boost your productivity with the help of AI.
+        url: https://youtu.be/f5r6cSjgejY?si=ioey6TbpVYfqrsC_
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: ''
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: How to use CHATGPT for FREE step by step!
+        componentType: card
+        summary: Entire ChatGPT course step by step. Master its free version from start to finish.
+        imageUrl: ./media/1.jpg
+        url: https://www.youtube.com/watch?v=D8MovUmuFh0
+      - title: How to use the NEW CHATGPT CANVAS
+        componentType: card
+        summary: Tutorial of ChatGPT Canvas. How its interface works and how to use Canvas to write and rewrite texts.
+        imageUrl: ./media/2.jpg
+        url: https://youtu.be/kl9PJ4U-P8U?si=IO360zUF_kIjmj6F
+      - title: How to use Copilot Pro
+        componentType: card
+        summary: COPILOT PRO integrates Artificial Intelligence into the Office 365 suite.How to start with it.
+        imageUrl: ./media/3.jpg
+        url: https://youtu.be/_zMa0s14bRk?si=eFY-YMyRyohQ5__v
+      - title: The PERFECT method to BOOST YOUR PRODUCTIVITY with AI
+        componentType: card
+        summary: Learn to automate by building custom tools, using no-code platforms, and maximizing ChatGPT's capabilities.Step-by-step tutorial to boost your productivity with the help of AI.
+        imageUrl: ./media/4.jpg
+        url: https://youtu.be/f5r6cSjgejY?si=ioey6TbpVYfqrsC_

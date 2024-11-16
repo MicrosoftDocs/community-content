@@ -1,0 +1,7 @@
+{
+  "yaml.schemas": {
+    "https://static.docs.com/ui/latest/schemas/Marketing.schema.json": [
+      "learn-with/**/*/index.yml"
+    ]
+  }
+}
