@@ -1,109 +1,87 @@
 ### YamlMime:Marketing
-title: Microsoft Learn Community Leaders 
-sections: 
-
-  #Hero section
+title: Microsoft Learn Community Creators
+sections:
   - componentType: hero-product
-    #supertitle: learn with experts
-    title: Microsoft Learn Community Leaders
-    #size: small
+    title: Microsoft Learn Community Creators
+    size: small
     summary: Welcome to Microsoft Learn Community Leaders! Discover resources curated by our community leaders to help you in your learning journey.
-    #links:
-     # - componentType: link
-      #  url: https://bing.com
-       # text: Back to all Microsoft Learn Community Leaders
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
-
-  #Community leader profile cards
   - componentType: speaker-profile-cards
     title: Meet the community leaders
     summary: Select each leader's link to learn more about them and see their recommended resources.
     blocks:
-    - componentType: speaker-profile-card
-      title: Bunmi Akinremi
-      imageUrl: /community/learn-with/media/index/bunmi-akinremi.jpg
-      summary: "Machine learning | AI ethics | Low-resource languages"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/bunmi-akinremi
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Olanrewaju Oyinbooke
-      imageUrl: /community/learn-with/media/index/ola-oyinbooke.jpg
-      summary: "Power BI | Data & AI | Machine learning"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/olanrewaju-oyinbooke
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Lisa Crosbie
-      imageUrl: /community/learn-with/media/index/lisa-crosbie.jpg
-      summary: "Copilot | Automation | Low-code applications "
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/lisa-crosbie
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Cyrus Wong
-      imageUrl: /community/learn-with/media/index/cyrus-wong.jpg
-      summary: "Azure DevOps | AI/ML | Data center admin "
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/cyrus-wong
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Ryan O'Connell
-      imageUrl: /community/learn-with/media/index/ryan-oconnell.jpg
-      summary: "Networking | Virtual machines | Windows Server"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/ryan-oconnell
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Brais Moure
-      imageUrl: /community/learn-with/media/index/brais-moure.jpg
-      summary: "Git | GitHub | Python"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/mouredev
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Noelle Russell
-      imageUrl: /community/learn-with/media/index/noelle-russell.png
-      summary: "Generative AI | data & AI literacy | Conversational AI"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/noelle-russell
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Lucas Silva
-      imageUrl: /community/learn-with/media/index/lucas-silva.jpg
-      summary: "Microsoft Azure | Microsoft 365 | Microsoft Endpoint Manager"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/lucas-silva
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Oumaima Fisaoui
-      imageUrl: /community/learn-with/media/index/oumaima-fisaoui.png
-      summary: "Python | AI | Web technologies"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/oumaima-fisaoui
-        destination: blog
-    - componentType: speaker-profile-card
-      title: Hammad Hassan
-      imageUrl: /community/learn-with/media/index/hammad-hassan.jpg
-      summary: "Generative AI | Community"
-      socialLink:    
-        componentType: social-link
-        url: https://learn.microsoft.com/community/learn-with/hammad-hassan
-        destination: blog
-
-  #Markdown note
-  - componentType: markdown
-    content: |
-      This content is experimental. These community leaders have been invited to create pages because of their presence and following on social media centered on creating and sharing learning resources. At this time, we are only inviting a small set of community leaders to participate.
+      - componentType: speaker-profile-card
+        title: Olanrewaju Oyinbooke
+        imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.jpg
+        summary: "Power BI | Data & AI | Machine learning"
+        socialLink:    
+          componentType: social-link
+          url: ./olanrewaju-oyinbooke
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Lisa Crosbie
+        imageUrl: ./lisa-crosbie/media/lisa-crosbie.jpg
+        summary: "Copilot | Automation | Low-code applications "
+        socialLink:
+          componentType: social-link
+          url: ./lisa-crosbie
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Pascal Regeer
+        imageUrl: ./pascal-regeer/media/pascal-regeer.jpeg
+        summary: 'Diagrams | Email | PowerPoint'
+        socialLink:
+          componentType: social-link
+          url: ./pascal-regeer
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Grace Leung
+        imageUrl: ./grace-leung/media/grace-leung.jpg
+        summary: LLMs | Marketing | Prompt engineering'
+        socialLink:
+          componentType: social-link
+          url: ./grace-leung
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Xavier Mitjana
+        imageUrl: ./xavier-mitjana/media/xavier-mitjana.jpeg
+        summary: 'ChatGPT | Productivity | Copilot'
+        socialLink:
+          componentType: social-link
+          url: ./xavier-mitjana
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Shriram Vasudevan
+        imageUrl: ./shriram-vasudevan/media/shriram-vasudevan.jpeg
+        summary: 'Deep learning | Prompt engineering | RAG'
+        socialLink:
+          componentType: social-link
+          url: ./shriram-vasudevan
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Scott Brant
+        imageUrl: ./scott-brant/media/scott-brant.png
+        summary: 'Teams | Copilot | Generative AI'
+        socialLink:
+          componentType: social-link
+          url: ./scott-brant
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Colde Medin
+        imageUrl: ./colde-medin/media/colde-medin.jpg
+        summary: 'AI agents | RAG | Local AI'
+        socialLink:
+          componentType: social-link
+          url: ./colde-medin
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Ben Van Sprundel
+        imageUrl: ./ben-van-sprundel/media/ben-van-sprundel.png
+        summary: 'AI Agents | Copilot | No-code tools'
+        socialLink:
+          componentType: social-link
+          url: ./ben-van-sprundel
+          destination: blog
