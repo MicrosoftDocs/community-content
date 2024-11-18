@@ -46,22 +46,22 @@ To follow this guide, you should have the following prerequisites installed and 
 > [!NOTE]
 > Ubuntu is taken as the default option, however you can use another [distro from the Microsoft App Store](https://apps.microsoft.com/store/search/linux) and adapt the commands described in this guide to the distro of your choice.
 
-## 1 - Building the Microsoft Linux kernel v6.1.x
+## 1 - Building the Microsoft Linux kernel v6.6.x
 
-The first step will be to build the Microsoft Linux kernel from the version 6.1.x branch on GitHub as follows:
+The first step will be to build the Microsoft Linux kernel from the version 6.6.x branch on GitHub as follows:
 
 1. Open a WSL terminal window and launch the distro of your choice (for example: Ubuntu)
 
 2. Clone the Microsoft Linux kernel repository from GitHub:
 
     ```bash
-    git clone https://github.com/microsoft/WSL2-Linux-Kernel.git --depth=1 -b linux-msft-wsl-6.1.y
+    git clone https://github.com/microsoft/WSL2-Linux-Kernel.git --depth=1 -b linux-msft-wsl-6.6.y
     ```
 
 3. Install the required packages to build the kernel:
 
     ```bash
-    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev bc python3 pahole
+    sudo apt update && sudo apt install build-essential flex bison libssl-dev libelf-dev bc python3 pahole cpio
     ```
 
 4. Change directory to the kernel source code:
@@ -90,7 +90,7 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
 
 8. Exit the WSL terminal window
 
-## 2 - Installing the Microsoft Linux kernel v6.1.x
+## 2 - Installing the Microsoft Linux kernel v6.6.x
 
 Once the Microsoft Linux kernel is built, you can configure WSL to use it instead of the stock kernel as follows:
 
@@ -109,9 +109,9 @@ Once the Microsoft Linux kernel is built, you can configure WSL to use it instea
     wsl --shutdown
     ```
 
-## 3 - Using the Microsoft Linux kernel v6.1.x
+## 3 - Using the Microsoft Linux kernel v6.6.x
 
-With the new Microsoft Linux kernel v6.1.x installed and configured, you can now launch your WSL2 distro and check the kernel version as follows:
+With the new Microsoft Linux kernel v6.6.x installed and configured, you can now launch your WSL2 distro and check the kernel version as follows:
 
 1. Open a WSL terminal window and launch the distro of your choice (for example: Ubuntu)
 
@@ -124,7 +124,7 @@ With the new Microsoft Linux kernel v6.1.x installed and configured, you can now
     You should see the following output:
 
     ```bash
-    6.1.x-WSL2-Microsoft
+    6.6.x-WSL2-Microsoft
     ```
 
 Congratulations, you have now the latest Microsoft Linux kernel v6.1.x installed and configured on your WSL2 instance.
