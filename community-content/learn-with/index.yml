@@ -41,6 +41,7 @@ sections:
         title: Grace Leung
         imageUrl: ./grace-leung/media/grace-leung.jpg
         summary: LLMs | Marketing | Prompt engineering'
+        alt: Headshot of Grace Leung
         socialLink:
           componentType: social-link
           url: ./grace-leung
