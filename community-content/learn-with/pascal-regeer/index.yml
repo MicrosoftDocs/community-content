@@ -3,12 +3,12 @@ title: Learn With Pascal Regeer
 sections:
   - title: 'Learn With Pascal Regeer'
     componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     summary: Pascal Regeer is the creator of The Artificial Analyst, a YouTube channel that makes AI accessible for busy professionals. With humor and practical insights, Pascal’s videos cover essential AI tools, AI-powered diagramming, and productivity hacks, all designed to save time and boost efficiency. Drawing from years of tech consulting, he simplifies complex concepts, empowering viewers to leverage AI and focus on tasks they enjoy. Explore his content to learn how to make AI work for you!
     links:
       - componentType: link
-        url: ../
-        text: Back to Microsoft Learn Community Leaders
+        url: /community/learn-with
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/pascal-regeer/media/hero-light.png

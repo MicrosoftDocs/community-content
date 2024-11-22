@@ -4,14 +4,14 @@ sections:
 
 # Profile header
   - componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     title: Learn with Lisa Crosbie
     #size: small
     summary: Lisa Crosbie is known for her ability to explain technology in a way that makes it easy for non technical users to understand, and to make it approachable and fun. She is a regular speaker at international Microsoft and community events, and runs a popular YouTube channel dedicated to helping people skill up on Copilot and low code business applications. She is a four-time Microsoft Business Applications MVP and a Microsoft Certified Trainer.
     links:
       - componentType: link
         url: /community/learn-with
-        text: Back to Microsoft Learn Community Leaders
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/lisa-crosbie/media/hero-light.png

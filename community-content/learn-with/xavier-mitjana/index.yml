@@ -3,16 +3,16 @@ title: Learn With Xavier Mitjana
 sections:
   - title: 'Learn With Xavier Mitjana'
     componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     summary: Xavier Mitjana is a specialist in applying AI to business, as well as an excellent audiovisual communicator with over 10 years of experience in technical and scientific outreach. Xavier combines technical and strategic consulting for organizations with practical training.He is also the creator and director of the YouTube channel 'AI in Action,' where he shares insights and advancements in artificial intelligence.
     links:
       - componentType: link
-        url: ../
-        text: Back to Microsoft Learn Community Leaders
+        url: /community/learn-with
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/creators/xavier-mitjana/media/hero-light.png
-      darkImageSrc: /community/learn-with/creators/xavier-mitjana/media/hero-dark.png
+      lightImageSrc: /community/learn-with/xavier-mitjana/media/hero-light.png
+      darkImageSrc: /community/learn-with/xavier-mitjana/media/hero-dark.png
   - componentType: social
     title: ''
     links:
@@ -23,7 +23,7 @@ sections:
         url: https://www.linkedin.com/in/xaviermitjana/
         destination: linkedin
       - componentType: social-link
-        url: xavier_mitjana
+        url: https://www.x.com/xavier_mitjana
         destination: twitter
       - componentType: social-link
         url: https://www.youtube.com/@XavierMitjana

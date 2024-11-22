@@ -2,13 +2,13 @@
 title: Learn with Olanrewaju Oyinbooke
 sections:
   - componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     title: Learn with Olanrewaju Oyinbooke
-    summary: Power BI | Data & AI | Machine learning
+    summary: AI is not coming for your work; it is coming TO your work! Olanrewaju is the data and AI guy. He is deeply passionate about helping you stay relevant by teaching you how to apply AI to your work and accelerate your career. As a Microsoft Certified Trainer and community leader with 13 Microsoft certifications, he can help you build reports that add value to business; build machine learning models that can reduce costs, increase revenue, and optimize business processes; build low-code applications; and much more.
     links:
       - componentType: link
         url: /community/learn-with
-        text: Back to Microsoft Learn Community Leaders
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: >-

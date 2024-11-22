@@ -3,16 +3,16 @@ title: Learn With Ben van Sprundel
 sections:
   - title: Learn With Ben van Sprundel
     componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     summary: Ben van Sprundel is a two-time founder who helps startups and scaleups become AI-first companies. Originally from the Netherlands, he has been living and working remotely for over 10 years. Ben assists businesses in adopting and integrating AI Agents and automation to help businesses scale profitably. Through his YouTube channel, he also teaches others how to build practical no-code AI applications to save time and streamline processes in sales, marketing, business operations, and more.
     links:
       - componentType: link
-        url: ../
-        text: Back to Microsoft Learn Community Leaders
+        url: /community/learn-with
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/creators/ben-van-sprundel/media/hero-light.png
-      darkImageSrc: /community/learn-with/creators/ben-van-sprundel/media/hero-dark.png
+      lightImageSrc: /community/learn-with/ben-van-sprundel/media/hero-light.png
+      darkImageSrc: /community/learn-with/ben-van-sprundel/media/hero-dark.png
   - componentType: social
     title: ''
     links:

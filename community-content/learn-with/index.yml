@@ -1,87 +1,96 @@
 ### YamlMime:Marketing
-title: Microsoft Learn Community Creators
+title: Learn with Creators
 sections:
   - componentType: hero-product
-    title: Microsoft Learn Community Creators
+    title: Learn with Creators
     size: small
-    summary: Welcome to Microsoft Learn Community Leaders! Discover resources curated by our community leaders to help you in your learning journey.
+    summary: Discover resources and videos created and curated by creators in the community who are dedicated to helping you in your learning journey.
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
   - componentType: speaker-profile-cards
-    title: Meet the community leaders
-    summary: Select each leader's link to learn more about them and see their recommended resources.
+    title: Meet the creators
+    summary: Select each creator's link to learn more about them and see their recommended resources.
     blocks:
       - componentType: speaker-profile-card
-        title: Olanrewaju Oyinbooke
-        imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.jpg
-        summary: "Power BI | Data & AI | Machine learning"
-        socialLink:    
-          componentType: social-link
-          url: ./olanrewaju-oyinbooke
-          destination: blog
-      - componentType: speaker-profile-card
-        title: Lisa Crosbie
-        imageUrl: ./lisa-crosbie/media/lisa-crosbie.jpg
-        summary: "Copilot | Automation | Low-code applications "
+        title: Ben Van Sprundel
+        imageUrl: ./ben-van-sprundel/media/ben-van-sprundel.png
+        # alt: Headshot of Ben Van Sprundel
+        summary: 'AI Agents | Copilot | No-code tools'
         socialLink:
           componentType: social-link
-          url: ./lisa-crosbie
+          url: ./ben-van-sprundel/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Pascal Regeer
-        imageUrl: ./pascal-regeer/media/pascal-regeer.jpeg
-        summary: 'Diagrams | Email | PowerPoint'
+        title: Cole Medin
+        imageUrl: ./cole-medin/media/cole-medin.jpg
+        # alt: Headshot of Cole Medin
+        summary: 'AI agents | RAG | Local AI'
         socialLink:
           componentType: social-link
-          url: ./pascal-regeer
+          url: ./cole-medin/index.yml
           destination: blog
       - componentType: speaker-profile-card
         title: Grace Leung
         imageUrl: ./grace-leung/media/grace-leung.jpg
-        summary: LLMs | Marketing | Prompt engineering'
+        # alt: Headshot of Grace Leung
+        summary: LLMs | Marketing | Prompt engineering
         socialLink:
           componentType: social-link
-          url: ./grace-leung
+          url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Xavier Mitjana
-        imageUrl: ./xavier-mitjana/media/xavier-mitjana.jpeg
-        summary: 'ChatGPT | Productivity | Copilot'
+        title: Lisa Crosbie
+        imageUrl: ./lisa-crosbie/media/lisa-crosbie.jpg
+        # alt: Headshot of Lisa Crosbie
+        summary: "Copilot | Automation | Low-code applications "
         socialLink:
           componentType: social-link
-          url: ./xavier-mitjana
+          url: ./lisa-crosbie/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Shriram Vasudevan
-        imageUrl: ./shriram-vasudevan/media/shriram-vasudevan.jpeg
-        summary: 'Deep learning | Prompt engineering | RAG'
+        title: Olanrewaju Oyinbooke
+        imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.jpg
+        # alt: Headshot of Olanrewaju Oyinbooke
+        summary: "Power BI | Data & AI | Machine learning"
+        socialLink:    
+          componentType: social-link
+          url: ./olanrewaju-oyinbooke/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Pascal Regeer
+        imageUrl: ./pascal-regeer/media/pascal-regeer.jpeg
+        # alt: Headshot of Pascal Regeer
+        summary: 'Diagrams | Email | PowerPoint'
         socialLink:
           componentType: social-link
-          url: ./shriram-vasudevan
+          url: ./pascal-regeer/index.yml
           destination: blog
       - componentType: speaker-profile-card
         title: Scott Brant
         imageUrl: ./scott-brant/media/scott-brant.png
+        # alt: Headshot of Scott Brant
         summary: 'Teams | Copilot | Generative AI'
         socialLink:
           componentType: social-link
-          url: ./scott-brant
+          url: ./scott-brant/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Colde Medin
-        imageUrl: ./colde-medin/media/colde-medin.jpg
-        summary: 'AI agents | RAG | Local AI'
+        title: Shriram Vasudevan
+        imageUrl: ./shriram-vasudevan/media/shriram-vasudevan.jpeg
+        # alt: Headshot of Shriram Vasudevan
+        summary: 'Deep learning | Prompt engineering | RAG'
         socialLink:
           componentType: social-link
-          url: ./colde-medin
+          url: ./shriram-vasudevan/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Ben Van Sprundel
-        imageUrl: ./ben-van-sprundel/media/ben-van-sprundel.png
-        summary: 'AI Agents | Copilot | No-code tools'
+        title: Xavier Mitjana
+        imageUrl: ./xavier-mitjana/media/xavier-mitjana.jpeg
+        # alt: Headshot of Xavier Mitjana
+        summary: 'ChatGPT | Productivity | Copilot'
         socialLink:
           componentType: social-link
-          url: ./ben-van-sprundel
+          url: ./xavier-mitjana/index.yml
           destination: blog

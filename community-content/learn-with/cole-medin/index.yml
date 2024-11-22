@@ -3,16 +3,16 @@ title: Learn With Cole Medin
 sections:
   - title: Learn With Cole Medin
     componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     summary: Generative AI specialist with a wide range of experience developing AI Agents, RAG solutions, local AI deployments, generative AI libraries/packages, and much more. I am also an AI educator on YouTube where my primary goal is to break down complex AI topics into easy to understand guides that are extremely practical and engaging. I focus on both code and no code solutions because I am a firm believer that there is a time and place for both!
     links:
       - componentType: link
-        url: ../
-        text: Back to Microsoft Learn Community Leaders
+        url: /community/learn-with
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/creators/colde-medin/media/hero-light.png
-      darkImageSrc: /community/learn-with/creators/colde-medin/media/hero-dark.png
+      lightImageSrc: /community/learn-with/cole-medin/media/hero-light.png
+      darkImageSrc: /community/learn-with/cole-medin/media/hero-dark.png
   - componentType: social
     title: ''
     links:
