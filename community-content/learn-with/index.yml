@@ -10,8 +10,8 @@ sections:
       lightImageSrc: /community/learn-with/media/index/light-background.png
       darkImageSrc: /community/learn-with/media/index/dark-background.png
   - componentType: speaker-profile-cards
-    title: Meet the creators
-    summary: Select each creator's link to learn more about them and see their recommended resources.
+    title: Meet our creator community
+    summary: Explore our creators' profiles and check out their recommendations to accelerate your AI skill building.
     blocks:
       - componentType: speaker-profile-card
         title: Ben Van Sprundel
