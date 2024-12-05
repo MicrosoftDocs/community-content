@@ -3,16 +3,16 @@ title: Learn With Grace Leung
 sections:
   - title: Learn with Grace Leung
     componentType: hero-product
-    supertitle: Microsoft Learn Community
+    supertitle: Creator Community
     summary: Want to accelerate your digital growth in the AI age? Grace Leung is a digital growth consultant and educator who helps you embrace AI in your digital growth strategy. Coming from a digital marketing background, she is passionate about making AI and digital work together for online growth. She also runs a YouTube channel teaching how to combine AI with digital marketing in practical ways. Her mission is to break down complex concepts into actionable strategies while making it fun to learn.
     links:
       - componentType: link
-        url: ../
-        text: Back to Microsoft Learn Community Leaders
+        url: /community/learn-with
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/hero-light.png
-      darkImageSrc: ./media/hero-dark.png
+      lightImageSrc: /community/learn-with/grace-leung/media/hero-light.png
+      darkImageSrc: /community/learn-with/grace-leung/media/hero-dark.png
   - componentType: social
     title: ''
     links:
