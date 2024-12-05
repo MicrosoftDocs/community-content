@@ -1,5 +1,5 @@
 ---
-title: Tutorial Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4 
+title: Integrating Azure OpenAI and Azure Speech Services to Create a Voice Enabled Chatbot with Python and GPT-4 
 description: Tutorial In this tutorial, we’ll explore how to integrate Azure OpenAI service and Azure Speech service to create a chatbot that users can interact with via voice.
 author: chenjd
 ms.author: mlcc-owners 
@@ -10,7 +10,7 @@ contributor-type: community
 
 ---
 
-# Tutorial: Integrating Azure OpenAI and Azure Speech Services to Create a Voice-Enabled Chatbot with Python and GPT-4
+# Integrating Azure OpenAI and Azure Speech Services to Create a Voice-Enabled Chatbot with Python and GPT-4
 
 
 ---
