@@ -9,6 +9,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/example/**",
           "_themes/**",
           "_themes.pdf/**",
           "**/docfx.json",
@@ -25,7 +26,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.webp",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",

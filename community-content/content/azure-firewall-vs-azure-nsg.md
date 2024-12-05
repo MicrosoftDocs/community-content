@@ -9,7 +9,7 @@ ms.date: 10/07/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
 
-# Introduction
+# Azure Firewall vs Azure NSGs 
 
 One of the most significant reasons a company moves its workloads to Azure is security. In this post, we'll talk about the two most prominent Azure security services, Azure Firewall and NSG. With these two services, we can manage the inbound and outbound traffic of a VNet.
 

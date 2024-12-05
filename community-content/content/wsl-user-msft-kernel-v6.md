@@ -127,7 +127,7 @@ With the new Microsoft Linux kernel v6.6.x installed and configured, you can now
     6.6.x-WSL2-Microsoft
     ```
 
-Congratulations, you have now the latest Microsoft Linux kernel v6.1.x installed and configured on your WSL2 instance.
+Congratulations, you have now the latest Microsoft Linux kernel v6.6.x installed and configured on your WSL2 instance.
 
 ## Next steps
 
