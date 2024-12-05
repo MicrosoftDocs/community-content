@@ -10,7 +10,7 @@ contributor-type: community #Required; don't change.
 
 ---
 
-# Introduction
+# Sending tweets to email using Logic Apps and Service Bus
 
 Our goal in this post is to demonstrate how to deploy a logic app that sends emails to a mail account. The deployment includes several triggers and actions that can be used when creating a logic application. Here, we will provide a basic overview of when and how we can utilize this Microsoft service.
 
