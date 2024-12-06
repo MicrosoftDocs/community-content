@@ -4,6 +4,7 @@ sections:
 
 # Profile header
   - componentType: hero-product
+    size: large
     supertitle: Creator Community
     title: Learn with Lisa Crosbie
     #size: small
