@@ -41,6 +41,15 @@ sections:
           url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Kelwin Fernandes
+        imageUrl: ./kelwin-fernandes/media/kelwin-fernandes.jpg
+        # alt: Headshot of Kelwin Fernandes
+        summary: "Business | Management | Strategy"
+        socialLink:
+          componentType: social-link
+          url: ./kelwin-fernandes/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Lisa Crosbie
         imageUrl: ./lisa-crosbie/media/lisa-crosbie.jpg
         # alt: Headshot of Lisa Crosbie
