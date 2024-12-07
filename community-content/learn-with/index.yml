@@ -24,7 +24,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Cole Medin
-        imageUrl: ./cole-medin/media/cole-medin.jpg
+        imageUrl: ./cole-medin/media/cole-medin.png
         # alt: Headshot of Cole Medin
         summary: 'AI agents | RAG | Local AI'
         socialLink:
@@ -33,7 +33,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Grace Leung
-        imageUrl: ./grace-leung/media/grace-leung.jpg
+        imageUrl: ./grace-leung/media/grace-leung.png
         # alt: Headshot of Grace Leung
         summary: LLMs | Marketing | Prompt engineering
         socialLink:
@@ -41,8 +41,17 @@ sections:
           url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Kelwin Fernandes
+        imageUrl: ./kelwin-fernandes/media/kelwin-fernandes.png
+        # alt: Headshot of Kelwin Fernandes
+        summary: "Business | Management | Strategy"
+        socialLink:
+          componentType: social-link
+          url: ./kelwin-fernandes/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Lisa Crosbie
-        imageUrl: ./lisa-crosbie/media/lisa-crosbie.jpg
+        imageUrl: ./lisa-crosbie/media/lisa-crosbie.png
         # alt: Headshot of Lisa Crosbie
         summary: "Copilot | Automation | Low-code applications "
         socialLink:
@@ -51,7 +60,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Olanrewaju Oyinbooke
-        imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.jpg
+        imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.png
         # alt: Headshot of Olanrewaju Oyinbooke
         summary: "Power BI | Data & AI | Machine learning"
         socialLink:    
@@ -60,7 +69,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Pascal Regeer
-        imageUrl: ./pascal-regeer/media/pascal-regeer.jpeg
+        imageUrl: ./pascal-regeer/media/pascal-regeer.png
         # alt: Headshot of Pascal Regeer
         summary: 'Diagrams | Email | PowerPoint'
         socialLink:
@@ -78,7 +87,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Shriram Vasudevan
-        imageUrl: ./shriram-vasudevan/media/shriram-vasudevan.jpeg
+        imageUrl: ./shriram-vasudevan/media/shriram-vasudevan.png
         # alt: Headshot of Shriram Vasudevan
         summary: 'Deep learning | Prompt engineering | RAG'
         socialLink:
@@ -87,7 +96,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Xavier Mitjana
-        imageUrl: ./xavier-mitjana/media/xavier-mitjana.jpeg
+        imageUrl: ./xavier-mitjana/media/xavier-mitjana.png
         # alt: Headshot of Xavier Mitjana
         summary: 'ChatGPT | Productivity | Copilot'
         socialLink:
