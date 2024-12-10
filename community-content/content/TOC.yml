@@ -37,7 +37,7 @@
 - name: How to enforce .NET code format using EditorConfig and GitHub Actions
   href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
 - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
-  href: tutorial-azure-openai-azure-speech-gpt-4.md
+  href: azure-openai-azure-speech-gpt-4.md
 - name: Quickstart Speed up the inner development loop with Dapr multi-app run
   href: dapr-multi-app-run.md
 - name: How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
