@@ -1,0 +1,87 @@
+### YamlMime:Marketing
+title: Learn With Grace Leung
+sections:
+  - title: Learn with Grace Leung
+    componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    summary: Want to accelerate your digital growth in the AI age? Grace Leung is a digital growth consultant and educator who helps you embrace AI in your digital growth strategy. Coming from a digital marketing background, she is passionate about making AI and digital work together for online growth. She also runs a YouTube channel teaching how to combine AI with digital marketing in practical ways. Her mission is to break down complex concepts into actionable strategies while making it fun to learn.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/grace-leung/media/hero-light.png
+      darkImageSrc: /community/learn-with/grace-leung/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.instagram.com/graceleungyl
+        destination: instagram
+      - componentType: social-link
+        url: https://www.linkedin.com/in/grace-leung-yl/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@graceleungyl/
+        destination: youtube
+      - componentType: social-link
+        url: https://www.graceleung.com/
+        destination: website
+  - title: My Favorite Generative AI for Marketing Resources
+    componentType: grid
+    blocks:
+      - title: 'Generative AI: The Evolution of Thoughtful Online Search'
+        componentType: icon-card
+        summary: Learn about AI-powered search engines and the future of online search with AI.
+        url: https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtful-online-search
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Generative AI for Digital Marketers
+        componentType: icon-card
+        summary: Understand some basic ways in using AI in different areas in digital marketing.
+        url: https://www.linkedin.com/learning/generative-ai-for-digital-marketers
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: ChatGPT for Everyone
+        componentType: icon-card
+        summary: Learn about the basics of ChatGPT and some tips in writing effective prompts for ChatGPT
+        url: https://learnprompting.org/courses/chatgpt-for-everyone
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Prompt Engineering Guide
+        componentType: icon-card
+        summary: Learn about basic prompting concepts and common practical prompting techniques.
+        url: https://www.promptingguide.ai/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: AI for Digital Marketing
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: 6 Powerful AI prompting hacks
+        componentType: card
+        summary: AI prompting hacks for better results.
+        imageUrl: ./media/powerful-ai-prompting.jpg
+        url: https://youtu.be/g55knWQTUms
+      - title: The right strategy to humanize AI generated text
+        componentType: card
+        summary: Learn to make AI text sound more human.
+        imageUrl: ./media/humanize-ai-text.jpg
+        url: https://youtu.be/7wQQRtqfLQY
+      - title: Optimize your websites for AI search engines
+        componentType: card
+        summary: Tips to optimize websites for AI search.
+        imageUrl: ./media/ai-search-engine-optimizatoin.jpg
+        url: https://youtu.be/5jHkPLRM-fw
+      - title: AI-Proof Your Digital Marketing Career
+        componentType: card
+        summary: Future-proof your career in the AI age.
+        imageUrl: ./media/ai-proof-career.jpg
+        url: https://youtu.be/WT2mvqNbQ9c

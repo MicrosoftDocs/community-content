@@ -1,0 +1,110 @@
+### YamlMime:Marketing
+title: Learn With Scott Brant
+sections:
+  - title: 'Learn With Scott Brant'
+    componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    summary: As the driving force behind Your 365 Coach, Scott dedicated himself to empowering people worldwide to harness the full potential of Microsoft 365 Technologies. Through engaging and informative content on platforms like YouTube, TikTok, LinkedIn, and Instagram, Scott elevates productivity by helping people use tools they already have, in much better ways. Scott’s journey extends beyond content creation, with over twelve years of hands-on experience as a Microsoft technology consultant and most recently becoming a Microsoft Most Valuable Professional (MVP).
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/scott-brant/media/hero-light.png
+      darkImageSrc: /community/learn-with/scott-brant/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.facebook.com/Your365Coach/
+        destination: facebook
+      - componentType: social-link
+        url: https://www.linkedin.com/in/scottbrant2018/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@your365coach
+        destination: youtube
+      # - componentType: social-link
+      #   url: https://www.tiktok.com/@your365coach
+      #   destination: tiktok
+      - componentType: social-link
+        url: https://www.your365coach.co.uk/
+        destination: website
+  - title: Maximizing the Potential of Microsoft 365 Copilot
+    componentType: grid
+    blocks:
+      - title: Introduction to Microsoft 365 Copilot
+        componentType: icon-card
+        summary: Understanding the basics of Microsoft 365 Copilot is important, and this learning module will help you learn the basics.
+        url: /training/modules/introduction-microsoft-365-copilot/
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Explore the possibilities with Microsoft 365 Copilot
+        componentType: icon-card
+        summary: This short learning module will explore how Microsoft 365 Copilot can automate common tasks, in the app’s you use every day!
+        url: /training/modules/explore-possibilities-microsoft-365-copilot/
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Fundamentals of Generative AI
+        componentType: icon-card
+        summary: Generative AI has the power to transform our lives, so learning the fundamentals is an important step, in getting the most from it.
+        url: /training/modules/fundamentals-generative-ai/
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Productivity solutions of Microsoft 365
+        componentType: icon-card
+        summary: Learning what app, does what, in Microsoft 365 is important in both helping you and your team, so here’s a great way to learn the basics of Microsoft 365.
+        url: /training/modules/describe-productivity-solutions-microsoft-365/
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+  - title: 'Maximize Your Microsoft 365 Experience'
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: How to Use Copilot in Microsoft Outlook
+        componentType: card
+        summary: Learn how to automate your Inbox with Copilot
+        imageUrl: ./media/AutomateOutlookWithCopilot.jpg
+        url: https://youtu.be/Q2WsFayNjwo
+      - title: How to Use Copilot in OneDrive
+        componentType: card
+        summary: Summarize, Share and more in OneDrive with Copilot!
+        imageUrl: ./media/TransformOneDriveWithCopilot.webp
+        url: https://youtu.be/7ypKuSZ5Wu4
+      - title: How to Use Copilot Pages
+        componentType: card
+        summary: Take your Ideation to the next level with Copilot Pages
+        imageUrl: ./media/CopilotPages.jpg
+        url: https://youtu.be/mBEZw2sJJdc
+      - title: How to Use Copilot in Microsoft Teams
+        componentType: card
+        summary: Learn to save time every day using Copilot in Microsoft Teams
+        imageUrl: ./media/TeamsCopilot.jpg
+        url: https://youtu.be/W6g6lr9NM6Y
+      - title: 10 Powerful Tips for New Outlook
+        componentType: card
+        summary: In this video, we will show you ten tips that you need to use in the New Outlook
+        imageUrl: ./media/Top10TipsNewOutlook.webp
+        url: https://youtu.be/FaYLBs-FIBk
+      - title: 'Microsoft 365 for Teams: Building a Collaboration Hub for Teamwork'
+        componentType: card
+        summary: Learn to use Microsoft 365 apps to instantly improve your team’s collaboration
+        imageUrl: ./media/TeamsForCollaboration.png
+        url: https://youtu.be/BGZYo4aLqjg
+      - title: How to Use the NEW Microsoft Planner in Microsoft Teams
+        componentType: card
+        summary: Take your task management skills to the next level, with the New Planner App in Microsoft Teams
+        imageUrl: ./media/NewPlannerInTeams.webp
+        url: https://youtu.be/w1tZgeUxctk
+      - title: Meeting Notes Made Easy with Loop and Microsoft Teams!
+        componentType: card
+        summary: Take the stress out of capturing Meeting Notes, by following these simple steps
+        imageUrl: ./media/MeetingNotesMadeEasy.jpg
+        url: https://youtu.be/DvqBVcNNA_o

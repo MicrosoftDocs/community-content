@@ -1,0 +1,126 @@
+### YamlMime:Marketing
+title: Learn With Cole Medin
+sections:
+  - title: Learn With Cole Medin
+    componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    summary: Generative AI specialist with a wide range of experience developing AI Agents, RAG solutions, local AI deployments, generative AI libraries/packages, and much more. I am also an AI educator on YouTube where my primary goal is to break down complex AI topics into easy to understand guides that are extremely practical and engaging. I focus on both code and no code solutions because I am a firm believer that there is a time and place for both!
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/cole-medin/media/hero-light.png
+      darkImageSrc: /community/learn-with/cole-medin/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://github.com/coleam00
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/cole-medin-727752184/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/cole_medin
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@ColeMedin
+        destination: youtube
+  - title: My favorite open-source generative AI tools & libraries
+    componentType: grid
+    blocks:
+      - title: LangChain
+        componentType: icon-card
+        summary: LangChain is a framework to build with LLMs by chaining components together in a very intuitive way.
+        url: https://www.langchain.com/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: LangGraph
+        componentType: icon-card
+        summary: LangGraph is a fantastic framework for building controllable agentic workflows.
+        url: https://www.langchain.com/langgraph
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: N8N
+        componentType: icon-card
+        summary: The most flexible automation platform with a focus on AI. Code when you need, no-code when you don’t.
+        url: https://n8n.io/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Ollama
+        componentType: icon-card
+        summary: Run open source LLMs yourself in just minutes!
+        url: https://ollama.com/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Supabase
+        componentType: icon-card
+        summary: A scalable and open source platform for SQL DBs, user authentication, and vector embeddings to set up RAG AI Agents.
+        url: https://supabase.com/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Open WebUI
+        componentType: icon-card
+        summary: Open WebUI is an extensible, self-hosted AI interface that adapts to your workflow, all while operating entirely offline.
+        url: https://openwebui.com/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: Run all Your AI Locally
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: Run ALL Your AI Locally in Minutes
+        componentType: card
+        summary: Run your LLMs, RAG, and more locally!
+        imageUrl: ./media/Bolt.NewForkThumbnail.jpg
+        url: https://www.youtube.com/watch?v=V_0dNE-H2gw
+      - title: Chat with Your Local AI Setup using Open WebUI
+        componentType: card
+        summary: Use Open WebUI to chat with local LLMs
+        imageUrl: ./media/OpenWebUIN8NIntegrationThumbnail.jpg
+        url: https://www.youtube.com/watch?v=E2GIZrsDvuM
+      - title: Deploy ANY Local AI App to the Cloud
+        componentType: card
+        summary: Quickly self-host your local AI apps
+        imageUrl: ./media/DeployAIAppToCloudThumbnail.jpg
+        url: https://www.youtube.com/watch?v=259KgP3GbdE
+      - title: I Forked Bolt.new to use Local LLMs
+        componentType: card
+        summary: Run Bolt.new yourself and use local LLMs
+        imageUrl: ./media/Bolt.NewForkThumbnail.jpg
+        url: https://www.youtube.com/watch?v=3PFcAu_oU80
+  - title: Create AI Agents with N8N
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: RAG AI Agent with n8n + Supabase
+        componentType: card
+        summary: Create a RAG AI agent without any code
+        imageUrl: ./media/N8NRAGAgentThumbnail.jpg
+        url: https://www.youtube.com/watch?v=PEI_ePNNfJQ
+      - title: The Ultimate AI Agent Combo (n8n, LangChain, Python)
+        componentType: card
+        summary: Combine code + no-code to make AI Agents
+        imageUrl: ./media/LocalAIStarterKitThumbnail.jpg
+        url: https://www.youtube.com/watch?v=8hAMASB-RpM
+      - title: Build Full Stack Apps for your n8n AI Agents
+        componentType: card
+        summary: Use Streamlit + Claude to build n8n apps
+        imageUrl: ./media/n8nStreamlitThumbnail.jpg
+        url: https://www.youtube.com/watch?v=JyolNYRbAcs
+      - title: Effortless RAG in n8n - use ALL Your Files
+        componentType: card
+        summary: Use PDFs, Excel, and more for RAG in n8n
+        imageUrl: ./media/n8nPDFExcelThumbnail.jpg
+        url: https://www.youtube.com/watch?v=T1ZKEmDN8AA

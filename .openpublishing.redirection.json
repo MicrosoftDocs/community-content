@@ -6,9 +6,54 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "community-content/content/tutorial-azure-openai-azure-speech-gpt-4.md",
+            "redirect_url": "/community/content/azure-openai-azure-speech-gpt-4",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "community-content/learn-with/example.yml",
             "redirect_url": "/community/learn-with/index",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "community-content/learn-with/hammad-hassan.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/oumaima-fisaoui.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/lucas-silva.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/noelle-russell.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/ryan-oconnell.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/cyrus-wong.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/bunmi-akinremi.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/mouredev.yml",
+            "redirect_url": "/community/learn-with/index",
+            "redirect_document_id": false
         },
         {
             "source_path": "CONTRIBUTING.md",
