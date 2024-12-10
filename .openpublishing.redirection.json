@@ -6,7 +6,7 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "community-content/content/tutorial-azure-openai-azure-speech-gpt4.md",
+            "source_path": "community-content/content/tutorial-azure-openai-azure-speech-gpt-4.md",
             "redirect_url": "/community/content/azure-openai-azure-speech-gpt-4",
             "redirect_document_id": true
         },
