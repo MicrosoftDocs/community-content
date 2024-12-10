@@ -6,6 +6,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "community-content/content/tutorial-azure-openai-azure-speech-gpt4.md",
+            "redirect_url": "/community/content/azure-openai-azure-speech-gpt4",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "community-content/learn-with/example.yml",
             "redirect_url": "/community/learn-with/index",
             "redirect_document_id": true
