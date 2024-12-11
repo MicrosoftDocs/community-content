@@ -1,11 +1,11 @@
 ### YamlMime:Marketing
-title: Learn With Xavier Mitjana
+title: Learn with Xavier Mitjana
 sections:
-  - title: 'Learn With Xavier Mitjana'
+  - title: 'Learn with Xavier Mitjana'
     componentType: hero-product
     size: large
     supertitle: Creator Community
-    summary: Xavier Mitjana is a specialist in applying AI to business, as well as an excellent audiovisual communicator with over 10 years of experience in technical and scientific outreach. Xavier combines technical and strategic consulting for organizations with practical training.He is also the creator and director of the YouTube channel 'AI in Action,' where he shares insights and advancements in artificial intelligence.
+    summary: Xavier Mitjana is a specialist in applying AI to business, as well as an excellent audiovisual communicator with over 10 years of experience in technical and scientific outreach. Xavier combines technical and strategic consulting for organizations with practical training. He is also the creator and director of the YouTube channel 'AI in Action,' where he shares insights and advancements in artificial intelligence.
     links:
       - componentType: link
         url: /community/learn-with

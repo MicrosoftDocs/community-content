@@ -19,7 +19,7 @@ In this quick post, I will try to create a bearer token and use it to authentica
 - [Azure CLI](/cli/azure/install-azure-cli) or [Cloud Shell](https://shell.azure.com/)
 - [Postman](https://www.getpostman.com/downloads/)
 
-## Create the tearer token
+## Create the bearer token
 
 For the demo purposes, we are going to use Azure CLI to create the Bearer Token.
 
