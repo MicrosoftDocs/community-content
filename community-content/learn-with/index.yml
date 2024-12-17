@@ -35,7 +35,7 @@ sections:
         title: Grace Leung
         imageUrl: ./grace-leung/media/grace-leung.png
         # alt: Headshot of Grace Leung
-        summary: LLMs | Marketing | Prompt engineering
+        summary: Digital Marketing | AI Prompting | Growth Strategy
         socialLink:
           componentType: social-link
           url: ./grace-leung/index.yml
