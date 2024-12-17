@@ -60,16 +60,41 @@ sections:
         icon:
           componentType: image
           src: ../media/icons/web.png
+  - title: AI Skills & Prompting
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: Create presentations in half the time with Copilot
+        componentType: card
+        summary: Build decks faster with Copilot.
+        imageUrl: ./media/copilot-ppt.jpg
+        url: https://youtu.be/r1vn8ehR3Aw 
+      - title: Powerful ChatGPT hacks & tips
+        componentType: card
+        summary: Boost ChatGPT skills with these tips.
+        imageUrl: ./media/chatgpt-skills.jpg
+        url: https://youtu.be/JuNGRgNXW-Q
+      - title: Smart AI search prompting frameworks
+        componentType: card
+        summary: AI prompting to improve search results.
+        imageUrl: ./media/ai-search-prompts.jpg
+        url: https://youtu.be/5_nnWceoPrc
+      - title: 6 Powerful AI prompting hacks 
+        componentType: card
+        summary: AI prompting hacks for better results.
+        imageUrl: ./media/powerful-ai-prompting.jpg
+        url: https://youtu.be/g55knWQTUms
   - title: AI for Digital Marketing
     componentType: cards
     isShadowless: true
     summary: ''
     blocks:
-      - title: 6 Powerful AI prompting hacks
+      - title: Find winning content ideas with AI
         componentType: card
-        summary: AI prompting hacks for better results.
-        imageUrl: ./media/powerful-ai-prompting.jpg
-        url: https://youtu.be/g55knWQTUms
+        summary: Validate golden content ideas with AI.
+        imageUrl: ./media/content-ideas.jpg
+        url: https://youtu.be/sTVhhX5Z2ss
       - title: The right strategy to humanize AI generated text
         componentType: card
         summary: Learn to make AI text sound more human.
@@ -80,8 +105,8 @@ sections:
         summary: Tips to optimize websites for AI search.
         imageUrl: ./media/ai-search-engine-optimizatoin.jpg
         url: https://youtu.be/5jHkPLRM-fw
-      - title: AI-Proof Your Digital Marketing Career
+      - title: AI-Proof your digital marketing career
         componentType: card
         summary: Future-proof your career in the AI age.
-        imageUrl: ./media/ai-proof-career.jpg
+        imageUrl: ./media/ai-proof-career2.jpg
         url: https://youtu.be/WT2mvqNbQ9c
