@@ -70,25 +70,31 @@ The first step will be to build the Microsoft Linux kernel from the version 6.6.
     cd WSL2-Linux-Kernel
     ```
 
-5. Build the kernel:
+5. Configure the kernel
+
+    ```bash
+    make -j$(nproc) KCONFIG_CONFIG=Microsoft/config-wsl olddefconfig
+    ```
+
+6. Build the kernel:
 
     ```bash
     make -j$(nproc) KCONFIG_CONFIG=Microsoft/config-wsl
     ```
 
-6. Install the kernel modules and headers:
+7. Install the kernel modules and headers:
 
     ```bash
     sudo make modules_install headers_install
     ```
 
-7. Copy the kernel image to the Windows file system:
+8. Copy the kernel image to the Windows file system:
 
     ```bash
     cp arch/x86/boot/bzImage /mnt/c/
     ```
 
-8. Exit the WSL terminal window
+9. Exit the WSL terminal window
 
 ## 2 - Installing the Microsoft Linux kernel v6.6.x
 
