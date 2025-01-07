@@ -22,6 +22,6 @@ landingContent:
       - linkListType: overview
         links:
           - text: What is?
-            url: ./content/securing-backups-with-azure
-          - text: What is 2?
-            url: ./content/securing-backups-with-azure.md
+            url: securing-backups-with-azure.md
+          - text: AI + Machine Learning
+            url: get-started-machine-learning.md

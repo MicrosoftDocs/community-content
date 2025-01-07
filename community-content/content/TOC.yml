@@ -1,23 +1,65 @@
 - name: Microsoft Learn Community Content
   href: index.yml
-- name: overview
+- name: Securing your Microsoft Azure Backups
+  href: securing-backups-with-azure.md
+- name: AI + Machine Learning
   items: 
-  - name: Securing your Microsoft Azure Backups
-    href: securing-backups-with-azure.md
-- name: Azure Firewall vs Azure NSG
-  href: azure-firewall-vs-azure-nsg.md
-- name: Manage cost and optimize resources in AKS with Kubecost
-  href: how-to-utilize-kubecost-for-cost-management-of-aks.md
-- name: Working with Azure AD B2C Custom Policies
-  href: Working-With-Azure-AD-B2C-Custom-Policies.md
-- name: Azure REST API - How to create a bearer token
-  href: azure-rest-api-how-to-create-a-bearer-token.md
-- name: Configure Azure Load Balancer for sticky sessions
-  href: azure-configure-load-balancer-for-sticky-sessions.md
-- name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
-  href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
-- name: Get started with Machine Learning
-  href: get-started-machine-learning.md
+  - name: Get started with Machine Learning
+    href: get-started-machine-learning.md
+  - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
+    href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
+- name: Analysis
+  items: 
+- name: Compute
+  items: 
+- name: Containers
+  items: 
+- name: Databases
+  items: 
+- name: Developer Tools
+  items: 
+- name: DevOps
+  items: 
+- name: Hybrid + multicloud
+  items: 
+- name: Identity
+  items: 
+  - name: Working with Azure AD B2C Custom Policies
+    href: Working-With-Azure-AD-B2C-Custom-Policies.md
+- name: Integration
+  items: 
+- name: Internet of Things
+  items: 
+- name: Management and Governance
+  items: 
+  - name: Azure REST API - How to create a bearer token
+    href: azure-rest-api-how-to-create-a-bearer-token.md
+  - name: Manage cost and optimize resources in AKS with Kubecost
+    href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+- name: Media
+  items: 
+- name: Migration
+  items: 
+- name: Mixed Reality
+  items: 
+- name: Mobile
+  items: 
+- name: Networking
+  items: 
+  - name: Azure Firewall vs Azure NSG
+    href: azure-firewall-vs-azure-nsg.md
+- name: Security
+  items: 
+- name: Storage
+  items: 
+- name: Virtual Desktop Infrastructure
+  items: 
+- name: Web
+  items: 
+  - name: Configure Azure Load Balancer for sticky sessions
+    href: azure-configure-load-balancer-for-sticky-sessions.md
+- name: Other
+  items: 
 - name: Power Automate - Working with object variables
   href: power-automate-working-with-object-variables.md
 - name: Machine learning for those who don't know anything about machine learning
