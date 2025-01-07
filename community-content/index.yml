@@ -43,7 +43,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Welcome
-            url: welcome.md
+            url: ./content/welcome.md
           - text: "Learn collection - Editing in your browser"
             url: /collections/1ekghm5k25kxe3
           - text: "Learn collection - Editing on your local machine"
