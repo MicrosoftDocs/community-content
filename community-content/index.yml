@@ -1,0 +1,27 @@
+### YamlMime:Landing
+
+title: Microsoft Learn Community Content
+summary: Community written content for the community about Microsoft products and features.
+
+metadata:
+  title: Microsoft Learn Community Content
+  description: Community written content for the community about Microsoft products and features.
+  author: pdebruin
+  ms.author: mlcc-owners
+  ms.date: 01/07/2025
+  ms.topic: landing-page
+  contributor-type: community
+  no_index_ks: true
+  
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  # Card 
+  - title: About ...
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is?
+            url: ./content/securing-backups-with-azure
+          - text: What is 2?
+            url: ./content/securing-backups-with-azure.md
