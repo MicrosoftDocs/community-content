@@ -1,5 +1,5 @@
 - name: Microsoft Learn Community Content
-  href: ../index.md
+  href: index.yml
 - name: overview
   items: 
   - name: Securing your Microsoft Azure Backups
