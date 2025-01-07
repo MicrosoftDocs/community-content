@@ -28,8 +28,8 @@
   items: 
   - name: Manage cost and optimize resources in AKS with Kubecost
     href: how-to-utilize-kubecost-for-cost-management-of-aks.md
-- name: Databases
-  items: 
+# - name: Databases
+#   items: 
 - name: Developer Tools
   items: 
   - name: Quickstart Speed up the inner development loop with Dapr multi-app run
@@ -66,24 +66,24 @@
     href: hidden-tags-azure.md
   - name: Remembering the users in cloud transformations
     href: remembering-the-users-in-cloud-transformation.md
-- name: Media
-  items: 
-- name: Migration
-  items: 
-- name: Mixed Reality
-  items: 
-- name: Mobile
-  items: 
+# - name: Media
+#   items: 
+# - name: Migration
+#   items: 
+# - name: Mixed Reality
+#   items: 
+# - name: Mobile
+#   items: 
 - name: Networking
   items: 
   - name: Azure Firewall vs Azure NSG
     href: azure-firewall-vs-azure-nsg.md
-- name: Security
-  items: 
-- name: Storage
-  items: 
-- name: Virtual Desktop Infrastructure
-  items: 
+# - name: Security
+#   items: 
+# - name: Storage
+#   items: 
+# - name: Virtual Desktop Infrastructure
+#   items: 
 - name: Web
   items: 
   - name: Configure Azure Load Balancer for sticky sessions
