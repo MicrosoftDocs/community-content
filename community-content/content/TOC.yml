@@ -1,7 +1,7 @@
 - name: Microsoft Learn Community Content
   href: index.yml
 - name: Overview
-  href: index.md
+  href: overview.md
 - name: AI + Machine Learning
   items: 
   - name: Azure Bot Framework Introduction to Azure Bot Service and QnA Maker
@@ -14,7 +14,7 @@
     href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
   - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
     href: azure-openai-azure-speech-gpt-4.md
-- name: Analysis
+- name: Analytics
   items: 
   - name: Learning data analysis faster in the age of AI
     href: tips-to-learn-data-analysis-faster.md
@@ -26,6 +26,8 @@
     href: wsl-user-msft-kernel-v6.md
 - name: Containers
   items: 
+  - name: Manage cost and optimize resources in AKS with Kubecost
+    href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: Databases
   items: 
 - name: Developer Tools
@@ -62,8 +64,6 @@
     href: AzTerraform-Deploy-Resource-Group-and-Azure-Blob-Storage.md
   - name: Hidden Tags in Microsoft Azure
     href: hidden-tags-azure.md
-  - name: Manage cost and optimize resources in AKS with Kubecost
-    href: how-to-utilize-kubecost-for-cost-management-of-aks.md
   - name: Remembering the users in cloud transformations
     href: remembering-the-users-in-cloud-transformation.md
 - name: Media
