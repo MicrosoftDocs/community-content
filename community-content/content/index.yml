@@ -21,8 +21,6 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview
-            url: overview.md
           - text: AI + Machine Learning
             url: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
           - text: Compute
@@ -39,3 +37,18 @@ landingContent:
           #   url: get-started-machine-learning.md
           - text: Web
             url: azure-configure-load-balancer-for-sticky-sessions.md
+
+  - title: Contributing
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Welcome
+            url: welcome.md
+          - text: "Learn collection - Editing in your browser"
+            url: /collections/1ekghm5k25kxe3
+          - text: "Learn collection - Editing on your local machine"
+            url: /collections/eg2qsxy1qrnre2
+          - text: Learn documentation contributor guide
+            url: /contribute/content/
+          - text: More ways to contribute to Microsoft Learn
+            url: /contribute
