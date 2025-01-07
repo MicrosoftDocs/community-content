@@ -3,7 +3,7 @@ title: Microsoft Learn Community Content
 description: Community written content for the community about Microsoft products and features.
 author: pdebruin
 ms.author: mlcc-owners
-ms.date: 01/19/2024
+ms.date: 01/07/2025
 ms.topic: conceptual
 contributor-type: community
 no_index_ks: true
@@ -13,7 +13,7 @@ no_index_ks: true
 
 Ready to learn something new? Curious about how something works? All content in this area is written and maintained by experts in our Microsoft Learn community!
 
-We're just getting this experience off the ground, but we hope that it can help you gain the skills you're looking for by providing you options to learn from people just like you, who have demonstrated expertise in specific subjects and want to share what they know. Content is provided by [Microsoft MVPs](https://mvp.microsoft.com/) and invited community experts who demonstrate a passion for helping people learn.
+We are experimenting here and hope that it can help you gain the skills you're looking for by providing you options to learn from people just like you, who have demonstrated expertise in specific subjects and want to share what they know. Content is provided by [Microsoft MVPs](https://mvp.microsoft.com/) and invited community experts who demonstrate a passion for helping people learn.
 
 **Want to know more about whom you're learning from?** Author names, linked to their Microsoft Learn profiles, are listed near the top of the article. If you find someone's content helpful, let them know! You can provide feedback on any article by selecting the **Feedback** button at the top of the page
 

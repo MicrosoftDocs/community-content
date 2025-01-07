@@ -1,0 +1,54 @@
+### YamlMime:Landing
+
+title: Microsoft Learn Community Content
+summary: Community written content for the community about Microsoft products and features.
+
+metadata:
+  title: Microsoft Learn Community Content
+  description: Community written content for the community about Microsoft products and features.
+  author: pdebruin
+  ms.author: mlcc-owners
+  ms.date: 01/07/2025
+  ms.topic: landing-page
+  contributor-type: community
+  no_index_ks: true
+  
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  # Card 
+  - title: Popular
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: AI + Machine Learning
+            url: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
+          - text: Compute
+            url: securing-backups-with-azure.md
+          - text: Containers
+            url: how-to-utilize-kubecost-for-cost-management-of-aks.md
+          - text: Databases
+            url: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
+          # - text: Hybrid + multicloud
+          #   url: get-started-machine-learning.md
+          - text: Identity
+            url: Working-With-Azure-AD-B2C-Custom-Policies.md
+          # - text: Security
+          #   url: get-started-machine-learning.md
+          - text: Web
+            url: azure-configure-load-balancer-for-sticky-sessions.md
+
+  - title: Contributing
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Welcome
+            url: welcome.md
+          - text: "Learn collection - Editing in your browser"
+            url: /collections/1ekghm5k25kxe3
+          - text: "Learn collection - Editing on your local machine"
+            url: /collections/eg2qsxy1qrnre2
+          - text: Learn documentation contributor guide
+            url: /contribute/content/
+          - text: More ways to contribute to Microsoft Learn
+            url: /contribute
