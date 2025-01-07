@@ -17,11 +17,25 @@ metadata:
 
 landingContent:
   # Card 
-  - title: About ...
+  - title: Popular
     linkLists:
       - linkListType: overview
         links:
-          - text: What is?
-            url: securing-backups-with-azure.md
+          - text: Welcome
+            url: index.md
           - text: AI + Machine Learning
+            url: get-started-machine-learning.md
+          - text: Compute
+            url: get-started-machine-learning.md
+          - text: Containers
+            url: get-started-machine-learning.md
+          - text: Databases
+            url: get-started-machine-learning.md
+          - text: Hybrid + multicloud
+            url: get-started-machine-learning.md
+          - text: Identity
+            url: get-started-machine-learning.md
+          - text: Security
+            url: get-started-machine-learning.md
+          - text: Web
             url: get-started-machine-learning.md

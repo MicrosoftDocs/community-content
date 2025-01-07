@@ -1,25 +1,43 @@
 - name: Microsoft Learn Community Content
   href: index.yml
-- name: Securing your Microsoft Azure Backups
-  href: securing-backups-with-azure.md
+- name: Overview
+  href: index.md
 - name: AI + Machine Learning
   items: 
+  - name: Azure Bot Framework Introduction to Azure Bot Service and QnA Maker
+    href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
   - name: Get started with Machine Learning
     href: get-started-machine-learning.md
+  - name: Machine learning for those who don't know anything about machine learning
+    href: ml-for-those-who-don't-know-anything-about-ml.md
   - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
     href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
+  - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
+    href: azure-openai-azure-speech-gpt-4.md
 - name: Analysis
   items: 
+  - name: Learning data analysis faster in the age of AI
+    href: tips-to-learn-data-analysis-faster.md
 - name: Compute
   items: 
+  - name: Securing your Microsoft Azure Backups
+    href: securing-backups-with-azure.md
+  - name: How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
+    href: wsl-user-msft-kernel-v6.md
 - name: Containers
   items: 
 - name: Databases
   items: 
 - name: Developer Tools
   items: 
+  - name: Quickstart Speed up the inner development loop with Dapr multi-app run
+    href: dapr-multi-app-run.md
 - name: DevOps
   items: 
+  - name: How to enforce .NET code format using EditorConfig and GitHub Actions
+    href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
+  - name: Troubleshoot Azure Devops Error-0000000000aaTF401027
+    href: azure-devops-error-0000000000aaTF401027.md
 - name: Hybrid + multicloud
   items: 
 - name: Identity
@@ -28,14 +46,26 @@
     href: Working-With-Azure-AD-B2C-Custom-Policies.md
 - name: Integration
   items: 
+  - name: Azure Logic Apps How To Send Tweets In Your Email Address Using Service Bus
+    href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
 - name: Internet of Things
   items: 
 - name: Management and Governance
   items: 
+  - name: Azure Compute Start,Stop,Restart Multiple VMs
+    href: Azure-Compute-Start-Stop-Restart-Multiple-VMs.md
+  - name: Azure resources Naming convention and tagging
+    href: Azure-Resources-Naming-Convention-and-Tagging.md
   - name: Azure REST API - How to create a bearer token
     href: azure-rest-api-how-to-create-a-bearer-token.md
+  - name: "Azure Terraform: How to deploy Azure RG and blob storage"  
+    href: AzTerraform-Deploy-Resource-Group-and-Azure-Blob-Storage.md
+  - name: Hidden Tags in Microsoft Azure
+    href: hidden-tags-azure.md
   - name: Manage cost and optimize resources in AKS with Kubecost
     href: how-to-utilize-kubecost-for-cost-management-of-aks.md
+  - name: Remembering the users in cloud transformations
+    href: remembering-the-users-in-cloud-transformation.md
 - name: Media
   items: 
 - name: Migration
@@ -60,39 +90,11 @@
     href: azure-configure-load-balancer-for-sticky-sessions.md
 - name: Other
   items: 
-- name: Power Automate - Working with object variables
-  href: power-automate-working-with-object-variables.md
-- name: Machine learning for those who don't know anything about machine learning
-  href: ml-for-those-who-don't-know-anything-about-ml.md
-- name: "Azure Terraform: How to deploy Azure RG and blob storage"  
-  href: AzTerraform-Deploy-Resource-Group-and-Azure-Blob-Storage.md
-- name: Must-Use AI features in Power BI
-  href: must-use-ai-features-in-power-bi.md
-- name: Learning data analysis faster in the age of AI
-  href: tips-to-learn-data-analysis-faster.md
-- name: Best practices for building collaborative UX with Human-AI partnership
-  href: best-practices-ai-ux.md
-- name: Hidden Tags in Microsoft Azure
-  href: hidden-tags-azure.md
-- name: Discover Microsoft Azure learning, training, certifications, and career path opportunities
-  href: discover-azure-learning-opps.md
-- name: Remembering the users in cloud transformations
-  href: remembering-the-users-in-cloud-transformation.md
-- name: How to enforce .NET code format using EditorConfig and GitHub Actions
-  href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
-- name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
-  href: azure-openai-azure-speech-gpt-4.md
-- name: Quickstart Speed up the inner development loop with Dapr multi-app run
-  href: dapr-multi-app-run.md
-- name: How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
-  href: wsl-user-msft-kernel-v6.md
-- name: Azure resources Naming convention and tagging
-  href: Azure-Resources-Naming-Convention-and-Tagging.md
-- name: Azure Logic Apps How To Send Tweets In Your Email Address Using Service Bus
-  href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
-- name: Azure Compute Start,Stop,Restart Multiple VMs
-  href: Azure-Compute-Start-Stop-Restart-Multiple-VMs.md
-- name: Azure Bot Framework Introduction to Azure Bot Service and QnA Maker
-  href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
-- name: Troubleshoot Azure Devops Error-0000000000aaTF401027
-  href: azure-devops-error-0000000000aaTF401027.md
+  - name: Best practices for building collaborative UX with Human-AI partnership
+    href: best-practices-ai-ux.md
+  - name: Discover Microsoft Azure learning, training, certifications, and career path opportunities
+    href: discover-azure-learning-opps.md
+  - name: Must-Use AI features in Power BI
+    href: must-use-ai-features-in-power-bi.md
+  - name: Power Automate - Working with object variables
+    href: power-automate-working-with-object-variables.md
