@@ -1,5 +1,5 @@
 - name: Microsoft Learn Community Content
-  href: index.yml
+  href: ../index.yml
 - name: Welcome
   href: welcome.md
 - name: AI + Machine Learning
