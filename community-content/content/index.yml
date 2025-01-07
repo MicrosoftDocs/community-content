@@ -31,8 +31,8 @@ landingContent:
             url: how-to-utilize-kubecost-for-cost-management-of-aks.md
           - text: Databases
             url: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
-          - text: Hybrid + multicloud
-            url: get-started-machine-learning.md
+          # - text: Hybrid + multicloud
+          #   url: get-started-machine-learning.md
           - text: Identity
             url: Working-With-Azure-AD-B2C-Custom-Policies.md
           # - text: Security

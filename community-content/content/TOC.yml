@@ -10,8 +10,6 @@
     href: get-started-machine-learning.md
   - name: Machine learning for those who don't know anything about machine learning
     href: ml-for-those-who-don't-know-anything-about-ml.md
-  - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
-    href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
   - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
     href: azure-openai-azure-speech-gpt-4.md
 - name: Analytics
@@ -28,8 +26,10 @@
   items: 
   - name: Manage cost and optimize resources in AKS with Kubecost
     href: how-to-utilize-kubecost-for-cost-management-of-aks.md
-# - name: Databases
-#   items: 
+- name: Databases
+  items: 
+  - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
+    href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
 - name: Developer Tools
   items: 
   - name: Quickstart Speed up the inner development loop with Dapr multi-app run
@@ -40,8 +40,8 @@
     href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
   - name: Troubleshoot Azure Devops Error-0000000000aaTF401027
     href: azure-devops-error-0000000000aaTF401027.md
-- name: Hybrid + multicloud
-  items: 
+# - name: Hybrid + multicloud
+#   items: 
 - name: Identity
   items: 
   - name: Working with Azure AD B2C Custom Policies
@@ -50,8 +50,8 @@
   items: 
   - name: Azure Logic Apps How To Send Tweets In Your Email Address Using Service Bus
     href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
-- name: Internet of Things
-  items: 
+# - name: Internet of Things
+#   items: 
 - name: Management and Governance
   items: 
   - name: Azure Compute Start,Stop,Restart Multiple VMs
