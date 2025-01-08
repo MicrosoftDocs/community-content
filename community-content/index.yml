@@ -37,7 +37,7 @@ landingContent:
         links:
           - text: Welcome
             url: ./content/welcome.md
-      - linkListType: how-to
+      - linkListType: how-to-guide
         links:
           - text: Edit Microsoft Learn documentation in the browser
             url: /contribute/content/how-to-write-quick-edits
@@ -45,7 +45,7 @@ landingContent:
             url: /training/modules/contribute-to-docs-browser
           - text: Edit on your local machine
             url: /collections/eg2qsxy1qrnre2
-      - linkListType: conceptual
+      - linkListType: concept
         links:
           - text: Microsoft Learn documentation contributor guide
             url: /contribute/content/
