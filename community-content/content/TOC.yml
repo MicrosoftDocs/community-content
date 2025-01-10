@@ -3,98 +3,104 @@
 - name: Welcome
   href: welcome.md
 - name: AI + Machine Learning
-  items: 
-  - name: Azure Bot Framework Introduction to Azure Bot Service and QnA Maker
-    href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
-  - name: Get started with Machine Learning
-    href: get-started-machine-learning.md
-  - name: Machine learning for those who don't know anything about machine learning
+  items:
+  - name: Machine learning for beginners
     href: ml-for-those-who-don't-know-anything-about-ml.md
-  - name: Tutorial integrating Azure OpenAI and Azure Speech Services to create a voice enabled chatbot with Python and GPT-4
+  - name: Get started with machine learning
+    href: get-started-machine-learning.md
+  - name: Introduction to Azure Bot Service and QnA Maker
+    href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
+  - name: Create a voice enabled chatbot with Azure OpenAI and Azure Speech Services
     href: azure-openai-azure-speech-gpt-4.md
+  - name: Store, index, and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
+    href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
+  - name: Power BI must-use AI features
+    href: must-use-ai-features-in-power-bi.md
+  - name: Best practices for building collaborative UX with human-AI partnership
+    href: best-practices-ai-ux.md
 - name: Analytics
-  items: 
-  - name: Learning data analysis faster in the age of AI
+  items:
+  - name: Data analysis with Power BI for beginners
     href: tips-to-learn-data-analysis-faster.md
 - name: Compute
-  items: 
-  - name: Securing your Microsoft Azure Backups
+  items:
+  - name: Secure Azure Backups
     href: securing-backups-with-azure.md
-  - name: How to use the Microsoft Linux kernel v6 on Windows Subsystem for Linux version 2 (WSL2)
+  - name: Microsoft Linux kernel v6 on Windows Subsystem for Linux v2
     href: wsl-user-msft-kernel-v6.md
 - name: Containers
-  items: 
-  - name: Manage cost and optimize resources in AKS with Kubecost
+  items:
+  - name: Manage cost and optimize AKS resources with Kubecost
     href: how-to-utilize-kubecost-for-cost-management-of-aks.md
 - name: Databases
-  items: 
-  - name: Store, index and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
+  items:
+  - name: Store, index, and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
     href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
 - name: Developer Tools
-  items: 
-  - name: Quickstart Speed up the inner development loop with Dapr multi-app run
+  items:
+  - name: Speed up the inner development loop with Dapr
     href: dapr-multi-app-run.md
 - name: DevOps
-  items: 
-  - name: How to enforce .NET code format using EditorConfig and GitHub Actions
+  items:
+  - name: Enforce .NET code formatting with EditorConfig and GitHub Actions
     href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
-  - name: Troubleshoot Azure Devops Error-0000000000aaTF401027
+  - name: Troubleshoot Azure DevOps error 0000000000aaTF401027
     href: azure-devops-error-0000000000aaTF401027.md
 # - name: Hybrid + multicloud
-#   items: 
+#   items:
 - name: Identity
-  items: 
-  - name: Working with Azure AD B2C Custom Policies
+  items:
+  - name: Authenticate with Azure AD B2C custom policies
     href: Working-With-Azure-AD-B2C-Custom-Policies.md
 - name: Integration
-  items: 
-  - name: Azure Logic Apps How To Send Tweets In Your Email Address Using Service Bus
+  items:
+  - name: Send tweets to email with Azure Logic Apps and Service Bus
     href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
+  - name: Introduction to Power Automate object variables
+    href: power-automate-working-with-object-variables.md
 # - name: Internet of Things
-#   items: 
+#   items:
 - name: Management and Governance
   items: 
-  - name: Azure Compute Start,Stop,Restart Multiple VMs
+  - name: Start, stop, and restart multiple VMs
     href: Azure-Compute-Start-Stop-Restart-Multiple-VMs.md
-  - name: Azure resources Naming convention and tagging
+  - name: Azure resources naming convention and tagging
     href: Azure-Resources-Naming-Convention-and-Tagging.md
-  - name: Azure REST API - How to create a bearer token
+  - name: Create a bearer token with Azure REST API
     href: azure-rest-api-how-to-create-a-bearer-token.md
-  - name: "Azure Terraform: How to deploy Azure RG and blob storage"  
+  - name: Deploy Azure blob storage and resource group with Terraform
     href: AzTerraform-Deploy-Resource-Group-and-Azure-Blob-Storage.md
-  - name: Hidden Tags in Microsoft Azure
+  - name: Hidden tags in Azure
     href: hidden-tags-azure.md
-  - name: Remembering the users in cloud transformations
+  - name: Remember business users in cloud transformations
     href: remembering-the-users-in-cloud-transformation.md
 # - name: Media
-#   items: 
+#   items:
 # - name: Migration
-#   items: 
+#   items:
 # - name: Mixed Reality
-#   items: 
+#   items:
 # - name: Mobile
-#   items: 
+#   items:
 - name: Networking
-  items: 
-  - name: Azure Firewall vs Azure NSG
+  items:
+  - name: Azure Firewall vs network security group
     href: azure-firewall-vs-azure-nsg.md
-# - name: Security
-#   items: 
+- name: Security
+  items:
+  - name: Authenticate with Azure AD B2C custom policies
+    href: Working-With-Azure-AD-B2C-Custom-Policies.md
+  - name: Create a bearer token with Azure REST API
+    href: azure-rest-api-how-to-create-a-bearer-token.md
 # - name: Storage
-#   items: 
+#   items:
 # - name: Virtual Desktop Infrastructure
-#   items: 
+#   items:
 - name: Web
-  items: 
-  - name: Configure Azure Load Balancer for sticky sessions
+  items:
+  - name: Configure sticky sessions with Azure Load Balancer
     href: azure-configure-load-balancer-for-sticky-sessions.md
 - name: Other
-  items: 
-  - name: Best practices for building collaborative UX with Human-AI partnership
-    href: best-practices-ai-ux.md
-  - name: Discover Microsoft Azure learning, training, certifications, and career path opportunities
+  items:
+  - name: Discover Azure education, certifications, and career opportunities
     href: discover-azure-learning-opps.md
-  - name: Must-Use AI features in Power BI
-    href: must-use-ai-features-in-power-bi.md
-  - name: Power Automate - Working with object variables
-    href: power-automate-working-with-object-variables.md
