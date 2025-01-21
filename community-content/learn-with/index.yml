@@ -67,6 +67,14 @@ sections:
           url: ./lisa-crosbie/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Mark Kashef
+        imageUrl: ./mark-kashef/media/mark-kashef.png
+        summary: "AI strategy | Prompt engineering"
+        socialLink:
+          componentType: social-link
+          url: ./mark-kashef/index.yml
+          destination: blog          
+      - componentType: speaker-profile-card
         title: Olanrewaju Oyinbooke
         imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.png
         # alt: Headshot of Olanrewaju Oyinbooke

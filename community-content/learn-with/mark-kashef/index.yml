@@ -1,0 +1,76 @@
+### YamlMime:Marketing
+title: Learn With Mark Kashef
+sections:
+  - title: 'Learn with Mark Kashef'
+    componentType: hero-product
+    supertitle: Microsoft Learn Community
+    summary: 'Mark Kashef is the founder of Prompt Advisers, an AI consultancy that has helped hundreds of businesses seamlessly integrate generative AI into their workflows. With over a decade of experience in data science and machine learning—spanning roles as a data scientist at multiple startups and as a data science manager—he brings a proven track record of harnessing advanced tools to drive meaningful outcomes. Alongside his consulting work, Mark shares insights and practical guidance on his YouTube channel, where he helps professionals quickly understand and apply the latest AI innovations to solve real-world challenges.'
+    links:
+      - componentType: link
+        url: ../
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: ./media/hero-light.png
+      darkImageSrc: ./media/hero-dark.png
+  - componentType: social
+    title: ''
+    links: 
+      - componentType: social-link
+        url: https://www.linkedin.com/in/mkashef//
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@Mark_Kashef
+        destination: youtube
+      - componentType: social-link
+        url: www.promptadvisers.com
+        destination: blog
+  - title: 'AI Strategy & Concepts'
+    componentType: cards
+    blocks:
+      - title: "The AI Roadmap Every Business Owner Needs to Win in 2025"
+        componentType: card
+        url: https://youtu.be/mgjZfDRm4-8
+        imageUrl: ./media/2025-ai-roadmap.jpg
+        summary: Strategic AI roadmap for 2025
+      - title: "Explaining AI agents in a way anyone can understand"
+        imageUrl: ./media/what-is-ai-agent.jpg
+        componentType: card
+        url: https://youtu.be/lLMAU731E2k
+        summary: Clear guide to AI agents
+      - title: "How to Design the Perfect Custom GPT"
+        imageUrl: ./media/perfect-custom-gpts.jpg
+        componentType: card
+        url: https://youtu.be/aDN51Gmelcw
+        summary: Master custom GPT creation
+      - title: "How to Build An AI Agent Team in ChatGPT"
+        imageUrl: ./media/chat-gpt-agents.jpg
+        componentType: card
+        url: https://youtu.be/jF-Yvu7MuI8
+        summary: ChatGPT agent teams explained
+  - title: 'Advanced Prompt Engineering'
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: "How to Test Any Prompt (no one talks about this)"
+        componentType: card
+        imageUrl: ./media/test-any-prompt.jpg
+        url: https://youtu.be/2VxFY0EYvg8
+        summary: Essential prompt testing guide
+      - title: "How to Visualize Any Process Instantly Using AI"
+        componentType: card
+        imageUrl: ./media/visualizing-ai.jpg
+        url: https://youtu.be/kj6JkLFbs
+        summary: AI-powered process visualization
+      - title: "How to Master the Art of Chain Prompting"
+        componentType: card
+        imageUrl: ./media/chain-prompting.jpg
+        url: https://youtu.be/B4MR8m7V17A
+        summary: Master chain prompting
+      - title: "You'll NEVER Need Prompt Engineering Again with Meta-Prompting"
+        componentType: card
+        imageUrl: ./media/ultimate-technique.jpg
+        url: https://youtu.be/cgBVHj9DXXY
+        summary: Advanced meta-prompting guide
+
