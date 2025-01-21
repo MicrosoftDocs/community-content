@@ -32,6 +32,14 @@ sections:
           url: ./cole-medin/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Frank Nillard
+        imageUrl: ./frank-nillard/media/frank-nillard.jpg
+        summary: ''
+        socialLink:
+          componentType: social-link
+          url: ./frank-nillard
+          destination: blog
+      - componentType: speaker-profile-card
         title: Grace Leung
         imageUrl: ./grace-leung/media/grace-leung.png
         # alt: Headshot of Grace Leung
