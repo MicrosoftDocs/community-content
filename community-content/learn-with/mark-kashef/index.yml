@@ -23,7 +23,7 @@ sections:
         url: https://www.youtube.com/@Mark_Kashef
         destination: youtube
       - componentType: social-link
-        url: www.promptadvisers.com
+        url: https://www.promptadvisers.com
         destination: blog
   - title: 'AI Strategy & Concepts'
     componentType: cards
