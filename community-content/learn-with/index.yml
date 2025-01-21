@@ -33,11 +33,11 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Frank Nillard
-        imageUrl: ./frank-nillard/media/frank-nillard.jpg
+        imageUrl: ./frank-nillard/media/frank-nillard.png
         summary: ''
         socialLink:
           componentType: social-link
-          url: ./frank-nillard
+          url: ./frank-nillard/index.yml
           destination: blog
       - componentType: speaker-profile-card
         title: Grace Leung

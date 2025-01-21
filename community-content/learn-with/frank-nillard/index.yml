@@ -1,18 +1,18 @@
 ### YamlMime:Marketing
 title: Learn With Frank Nillard
 sections:
-  - title: Understanding AI
+  - title: 'Learn with Frank Nillard'
     componentType: hero-product
     supertitle: Microsoft Learn Community
     summary: Frank Nillard is a former mechanical engineer and tech consultant for a top 10 global conglomerate. He has led tech teams across 3 continents, bringing a wealth of expertise and the ability to quickly master new technologies. As the founder of a software startup and AI development agency, Frank is passionate about turning ideas into reality with AI and innovative tools, while empowering others to reach their full potential. Through his YouTube channel, he shares his journey and teaches how to master AI with a hands-on approach.
     links:
       - componentType: link
-        url: ../
+        url: /community/learn-with
         text: Back to Microsoft Learn Community Leaders
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/hero-light.png
-      darkImageSrc: ./media/hero-dark.png
+      lightImageSrc: /community/learn-with/frank-nillard/media/hero-light.png
+      darkImageSrc: /community/learn-with/frank-nillard/media/hero-dark.png
   - componentType: social
     links:
       - componentType: social-link
