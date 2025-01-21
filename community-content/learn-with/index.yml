@@ -34,7 +34,7 @@ sections:
       - componentType: speaker-profile-card
         title: Frank Nillard
         imageUrl: ./frank-nillard/media/frank-nillard.png
-        summary: ''
+        summary: 'AI agents | Reasoning | Automation'
         socialLink:
           componentType: social-link
           url: ./frank-nillard/index.yml
