@@ -7,7 +7,7 @@ sections:
     summary: 'I love teaching tips and tricks about ChatGPT and other Large Language Models that no one else is talking about. I''ve been promptcrafting and AI automating on my YouTube channel, I versus AI, since 2023. Viewers love my voice and wonder if it is real (it is).A viewer recently commented: "Your knowledge of explaining a subject is unmatched along with the incredible voice and genuine love of what you''re doing sets your videos apart.  The way you zoom into a screen, and take the listener on a journey makes it more fun to learn with you."'
     links:
       - componentType: link
-        url: ../
+        url: /community/learn-with
         text: Back to Microsoft Learn Community Leaders
     heroImage:
       componentType: hero-image

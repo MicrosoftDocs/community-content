@@ -7,7 +7,7 @@ sections:
     summary: 'Mark Kashef is the founder of Prompt Advisers, an AI consultancy that has helped hundreds of businesses seamlessly integrate generative AI into their workflows. With over a decade of experience in data science and machine learning—spanning roles as a data scientist at multiple startups and as a data science manager—he brings a proven track record of harnessing advanced tools to drive meaningful outcomes. Alongside his consulting work, Mark shares insights and practical guidance on his YouTube channel, where he helps professionals quickly understand and apply the latest AI innovations to solve real-world challenges.'
     links:
       - componentType: link
-        url: ../
+        url: /community/learn-with
         text: Back to Microsoft Learn Community Leaders
     heroImage:
       componentType: hero-image
