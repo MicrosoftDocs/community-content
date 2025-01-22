@@ -49,6 +49,14 @@ sections:
           url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Jessa O
+        imageUrl: ./jessa-o/media/jessa.png
+        summary: ''
+        socialLink:
+          componentType: social-link
+          url: ./jessa-o/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Kelwin Fernandes
         imageUrl: ./kelwin-fernandes/media/kelwin-fernandes.png
         # alt: Headshot of Kelwin Fernandes

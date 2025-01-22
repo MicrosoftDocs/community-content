@@ -1,0 +1,132 @@
+### YamlMime:Marketing
+title: Learn With Jessa from I versus AI
+sections:
+  - title: Learn with Jessa from I versus AI
+    componentType: hero-product
+    supertitle: Microsoft Learn Community
+    summary: 'I love teaching tips and tricks about ChatGPT and other Large Language Models that no one else is talking about. I''ve been promptcrafting and AI automating on my YouTube channel, I versus AI, since 2023. Viewers love my voice and wonder if it is real (it is).A viewer recently commented: "Your knowledge of explaining a subject is unmatched along with the incredible voice and genuine love of what you''re doing sets your videos apart.  The way you zoom into a screen, and take the listener on a journey makes it more fun to learn with you."'
+    links:
+      - componentType: link
+        url: ../
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: ./media/hero-light.png
+      darkImageSrc: ./media/hero-dark.png
+  - title: ""
+    componentType: social
+    links:
+      - componentType: social-link
+        url: https://x.com/IversusAI
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@IversusAI
+        destination: youtube
+      - componentType: social-link
+        url: https://iversusai.com
+        destination: blog
+  - title: Get Started with Promptcrafting and AI Automation
+    componentType: grid
+    blocks:
+      - title: The AI Automators Promptcrafting Society
+        componentType: icon-card
+        summary: The Guildhall is the space for solopreneurs to learn AI automation & promptcrafting for LLMs. Welcome creative thinkers!
+        url: https://n8n.iversusai.com/form/SocietyWaitlist
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Overwhelmed by AI? Actually, you're not behind
+        componentType: icon-card
+        summary: You are not behind in learning about AI automation, and I’m here to help you by showing you how to adapt to AI.
+        url: https://www.youtube.com/watch?v=Eow8vzdYZB8
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: An AI Prompt Engineer Shares Her Secrets
+        componentType: icon-card
+        summary: Why is what I teach Prompt Crafting and not Prompt Engineering? Teodora Danilovic explains the difference.
+        url: https://www.youtube.com/watch?v=AxfmzLz9xXM
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: 'Learn Prompt Engineering: Full Beginner Crash Course (5 HOURS!)'
+        componentType: icon-card
+        summary: Stop memorizing random prompts. Instead, learn how LLMs *actually* work under the hood and how to use them effectively.
+        url: https://www.youtube.com/watch?v=LWiMwhDZ9as
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: Learn Prompting's Introductory Course on Generative AI and Prompt Engineering
+        componentType: icon-card
+        summary: The most comprehensive (and free) guide to learn prompting, tailored to non-technical readers - perfect for beginners.
+        url: https://learnprompting.org/docs/introduction
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: n8n
+        componentType: icon-card
+        summary: n8n's flexibility, simple user interface and excellent documentation are the key to learning AI Automation QUICKLY.
+        url: https://n8n.io
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Obsidian
+        componentType: icon-card
+        summary: LLMs output text in markdown and Obsidian is the best markdown editor and note taking app available. It's useful & free.
+        url: https://obsidian.md
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Typing Mind
+        componentType: icon-card
+        summary: Use GPT-4, Gemini, and Claude in one chat interface. A fully featured chat UI/UX for AI enthusiasts. Use your API Key.
+        url: https://www.typingmind.com
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: AI Automation with n8n
+    componentType: cards
+    blocks:
+      - title: n8n is 2025's secret to learning AI Automation QUICKLY
+        componentType: card
+        summary: Learn AI Automation with n8n in 2025
+        imageUrl: ./media/ai-automation-saved-my-obsidian-vault.jpeg
+        url: https://www.youtube.com/watch?v=rV6rlNaivO8
+      - title: It's so easy! Automated YouTube/TikTok/Twitter Transcripts (n8n/AI)
+        componentType: card
+        summary: 'Automate Transcripts: n8n YouTube TikTok'
+        imageUrl: ./media/break-your-chains-with-ai-automation-_n8n_.jpeg
+        url: https://www.youtube.com/watch?v=B6kP8vdGP1M
+      - title: Break Your Chains with AI Automation (n8n)
+        componentType: card
+        summary: 'n8n AI Automation: Get Out of the Grind'
+        imageUrl: ./media/excel-at-life-with-chatgpt_s-new-interactive-charts.jpeg
+        url: https://www.youtube.com/watch?v=2g-p8BtsIIk
+      - title: What If You Could Create Content Effortlessly? (n8n AI Automation)
+        componentType: card
+        summary: Automate YouTube Metadata with n8n & AI
+        imageUrl: ./media/hero-dark.png
+        url: https://www.youtube.com/watch?v=_vW5U5BYrEQ
+  - title: Mastering ChatGPT & Creative AI Use Cases
+    componentType: cards
+    blocks:
+      - title: AI Automation Saved My Obsidian Vault
+        componentType: card
+        summary: Automate Your Obsidian with AI Tutorial
+        imageUrl: ./media/i-rigged-chatgpt_s-new-memory-into-my-personal-jarvis.jpeg
+        url: https://www.youtube.com/watch?v=3yel0c9yF-c
+      - title: Excel at Life with ChatGPT's New Interactive Charts
+        componentType: card
+        summary: Master ChatGPT Data Analysis & Charts
+        imageUrl: ./media/it_s-so-easy_-automated-youtubetiktoktwitter-transcripts-_n8nai_.jpeg
+        url: https://www.youtube.com/watch?v=cpfqhbHiUNI
+      - title: 3 Clever Use Cases for ChatGPT
+        componentType: card
+        summary: 3 Clever ChatGPT Use Cases You Can Try
+        imageUrl: ./media/jessa.png
+        url: https://www.youtube.com/watch?v=0j7KR_gx1ZE
+      - title: I rigged ChatGPT's new memory into my personal JARVIS
+        componentType: card
+        summary: 'ChatGPT Memory: Build Your Personal AI'
+        imageUrl: ./media/n8n-is-2025_s-secret-to-learning-ai-automation-quickly.jpeg
+        url: https://www.youtube.com/watch?v=ce0UroMVo2M
