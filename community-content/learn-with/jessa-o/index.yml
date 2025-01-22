@@ -90,22 +90,22 @@ sections:
       - title: n8n is 2025's secret to learning AI Automation QUICKLY
         componentType: card
         summary: Learn AI Automation with n8n in 2025
-        imageUrl: ./media/ai-automation-saved-my-obsidian-vault.jpeg
+        imageUrl: ./media/n8n-is-2025_s-secret-to-learning-ai-automation-quickly.jpeg
         url: https://www.youtube.com/watch?v=rV6rlNaivO8
       - title: It's so easy! Automated YouTube/TikTok/Twitter Transcripts (n8n/AI)
         componentType: card
         summary: 'Automate Transcripts: n8n YouTube TikTok'
-        imageUrl: ./media/break-your-chains-with-ai-automation-_n8n_.jpeg
+        imageUrl: ./media/it_s-so-easy_-automated-youtubetiktoktwitter-transcripts-_n8nai_.jpeg
         url: https://www.youtube.com/watch?v=B6kP8vdGP1M
       - title: Break Your Chains with AI Automation (n8n)
         componentType: card
         summary: 'n8n AI Automation: Get Out of the Grind'
-        imageUrl: ./media/excel-at-life-with-chatgpt_s-new-interactive-charts.jpeg
+        imageUrl: ./media/break-your-chains-with-ai-automation-_n8n_.jpeg
         url: https://www.youtube.com/watch?v=2g-p8BtsIIk
       - title: What If You Could Create Content Effortlessly? (n8n AI Automation)
         componentType: card
         summary: Automate YouTube Metadata with n8n & AI
-        imageUrl: ./media/hero-dark.png
+        imageUrl: ./media/what-if-you-could-create-content-effortlessly-_n8n-ai-automation_.jpeg
         url: https://www.youtube.com/watch?v=_vW5U5BYrEQ
   - title: Mastering ChatGPT & Creative AI Use Cases
     componentType: cards
@@ -113,20 +113,20 @@ sections:
       - title: AI Automation Saved My Obsidian Vault
         componentType: card
         summary: Automate Your Obsidian with AI Tutorial
-        imageUrl: ./media/i-rigged-chatgpt_s-new-memory-into-my-personal-jarvis.jpeg
+        imageUrl: ./media/ai-automation-saved-my-obsidian-vault.jpeg
         url: https://www.youtube.com/watch?v=3yel0c9yF-c
       - title: Excel at Life with ChatGPT's New Interactive Charts
         componentType: card
         summary: Master ChatGPT Data Analysis & Charts
-        imageUrl: ./media/it_s-so-easy_-automated-youtubetiktoktwitter-transcripts-_n8nai_.jpeg
+        imageUrl: ./media/excel-at-life-with-chatgpt_s-new-interactive-charts.jpeg
         url: https://www.youtube.com/watch?v=cpfqhbHiUNI
       - title: 3 Clever Use Cases for ChatGPT
         componentType: card
         summary: 3 Clever ChatGPT Use Cases You Can Try
-        imageUrl: ./media/jessa.png
+        imageUrl: ./media/3-clever-use-cases-for-chatgpt.jpeg
         url: https://www.youtube.com/watch?v=0j7KR_gx1ZE
       - title: I rigged ChatGPT's new memory into my personal JARVIS
         componentType: card
         summary: 'ChatGPT Memory: Build Your Personal AI'
-        imageUrl: ./media/n8n-is-2025_s-secret-to-learning-ai-automation-quickly.jpeg
+        imageUrl: ./media/i-rigged-chatgpt_s-new-memory-into-my-personal-jarvis.jpeg
         url: https://www.youtube.com/watch?v=ce0UroMVo2M
