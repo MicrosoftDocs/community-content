@@ -1,0 +1,90 @@
+### YamlMime:Marketing
+title: Learn With Nate Herkelman
+sections:
+  - title: 'Learn With Nate Herkelman'
+    componentType: hero-product
+    supertitle: Microsoft Learn Community
+    summary: Hi 👋 I'm Nate Herk. I’m passionate about helping small businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. I graduated from the University of Iowa in 2024, and then started working full time as a business intelligence analyst where I worked in automation. This experience opened my eyes to the power of automation, so I threw myself into how I could use artificial intelligence to make automations even smarter and faster. Now, I create content on YouTube where I teach others how to leverage AI in order to help them scale their businesses, without any coding experience! Let’s build a more efficient future together!
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to Microsoft Learn Community Leaders
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: ./media/nate-herkelman-hero-light.png
+      darkImageSrc: ./media/nate-herkelman-hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.linkedin.com/in/nateherkelman/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@nateherk
+        destination: youtube
+      - componentType: social-link
+        url: https://uppitai.com/
+        destination: your website
+  - title: Generative AI skills resources
+    componentType: grid
+    blocks:
+      - title: AI Automation Society
+        componentType: icon-card
+        summary: A free Skool community to connect with dedicated AI Automation learners.
+        url: https://www.skool.com/ai-automation-society/about
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: AI Automation Society Plus
+        componentType: icon-card
+        summary: A hands on Skool learning community with courses, live calls, and a strong network.
+        url: https://www.skool.com/ai-automation-society-plus/about
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: AI agents
+    componentType: grid
+    blocks:
+      - title: Everything I Learned About AI Agents in 2024 in 19 Minutes
+        componentType: card
+        summary: Here’s what I learned about building AI Agents in 2024.
+        imageUrl: ./media/everything-i-learned.jpg
+        url: https://youtu.be/pYelCIqkm5Y?si=STi7q-MFc_nd3swU
+      - title: How I’d Teach a 10 Year Old to Build AI Agents
+        componentType: card
+        summary: The simplest way to understand building agents with no code.
+        imageUrl: ./media/simplest-way.jpg
+        url: https://youtu.be/6DLZK7XDOGo?si=4vZ4NrXPuRxhyPiO
+      - title: AI Personal Assistant 2.0
+        componentType: card
+        summary: This is a super powerful personal assistant that I built using a multi-agent framework.
+        imageUrl: ./media/personal-assistant-2.0.jpg
+        url: https://youtu.be/9G-5SiShBKM?si=ck_yC41Q487YNw7b
+      - title: AI Agent Prompting Masterclass
+        componentType: card
+        summary: Robust prompt engineering is what separates casual agents and production ready agents.
+        imageUrl: ./media/prompting-masterclass.jpg
+        url: https://youtu.be/bwrAsnU2P88?si=ThaMLmx4sP1i5rN2
+  - title: Low-code AI agent builder
+    componentType: grid
+    blocks:
+      - title: n8n Masterclass
+        componentType: card
+        summary: A great starting point for learning about n8n!
+        imageUrl: ./media/n8n-masterclass.jpg
+        url: https://youtu.be/ZHH3sr234zY?si=GozajR2rt0Uj_v59
+      - title: 5 n8n Tips You NEED to Know
+        componentType: card
+        imageUrl: ./media/5-tips.jpg
+        summary: Sharing some of the most useful tips and tricks for automating workflows with n8n.
+        url: https://youtu.be/Ctr89Q2Nei8?si=5pMUyu6GbaMVfP54
+      - title: Understanding APIs in n8n
+        componentType: card
+        summary: APIs help us connect our workflows to anything… you better learn about them.
+        imageUrl: ./media/apis.jpg
+        url: https://youtu.be/ju9xk_QX990?si=gXjXfygcYqgf_VLo
+      - title: n8n AI Nodes Masterclass
+        componentType: card
+        summary: Breaking down the AI nodes in n8n so you can start building powerful workflows.
+        imageUrl: ./media/ai-agent-masterclass.jpg
+        url: https://youtu.be/EzS2PIjyeQQ?si=ADw3imyuKUXqzgZW
