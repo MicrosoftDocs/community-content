@@ -4,7 +4,7 @@ sections:
   - title: Learn with Jessa from I versus AI
     componentType: hero-product
     supertitle: Microsoft Learn Community
-    summary: 'I love teaching tips and tricks about ChatGPT and other Large Language Models that no one else is talking about. I''ve been promptcrafting and AI automating on my YouTube channel, I versus AI, since 2023. Viewers love my voice and wonder if it is real (it is).A viewer recently commented: "Your knowledge of explaining a subject is unmatched along with the incredible voice and genuine love of what you''re doing sets your videos apart.  The way you zoom into a screen, and take the listener on a journey makes it more fun to learn with you."'
+    summary: 'I love teaching tips and tricks about ChatGPT and other Large Language Models that no one else is talking about. I''ve been promptcrafting and AI automating on my YouTube channel, I versus AI, since 2023. Viewers love my voice and wonder if it is real (it is). A viewer recently commented: "Your knowledge of explaining a subject is unmatched along with the incredible voice and genuine love of what you''re doing sets your videos apart.  The way you zoom into a screen, and take the listener on a journey makes it more fun to learn with you."'
     links:
       - componentType: link
         url: /community/learn-with
@@ -107,7 +107,7 @@ sections:
         summary: Automate YouTube Metadata with n8n & AI
         imageUrl: ./media/what-if-you-could-create-content-effortlessly-_n8n-ai-automation_.jpeg
         url: https://www.youtube.com/watch?v=_vW5U5BYrEQ
-  - title: Mastering ChatGPT & Creative AI Use Cases
+  - title: Mastering ChatGPT & creative AI use cases
     componentType: cards
     blocks:
       - title: AI Automation Saved My Obsidian Vault

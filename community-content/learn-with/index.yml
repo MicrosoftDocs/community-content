@@ -51,7 +51,7 @@ sections:
       - componentType: speaker-profile-card
         title: Jessa O
         imageUrl: ./jessa-o/media/jessa.png
-        summary: ''
+        summary: 'Promptcrafting | AI Automation'
         socialLink:
           componentType: social-link
           url: ./jessa-o/index.yml
