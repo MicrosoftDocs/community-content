@@ -32,6 +32,14 @@ sections:
           url: ./cole-medin/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Frank Nillard
+        imageUrl: ./frank-nillard/media/frank-nillard.png
+        summary: 'AI agents | Reasoning | Automation'
+        socialLink:
+          componentType: social-link
+          url: ./frank-nillard/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Grace Leung
         imageUrl: ./grace-leung/media/grace-leung.png
         # alt: Headshot of Grace Leung
@@ -39,6 +47,14 @@ sections:
         socialLink:
           componentType: social-link
           url: ./grace-leung/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
+        title: Jessa O
+        imageUrl: ./jessa-o/media/jessa.png
+        summary: 'Promptcrafting | AI Automation'
+        socialLink:
+          componentType: social-link
+          url: ./jessa-o/index.yml
           destination: blog
       - componentType: speaker-profile-card
         title: Kelwin Fernandes
@@ -58,6 +74,14 @@ sections:
           componentType: social-link
           url: ./lisa-crosbie/index.yml
           destination: blog
+      - componentType: speaker-profile-card
+        title: Mark Kashef
+        imageUrl: ./mark-kashef/media/mark-kashef.png
+        summary: "AI strategy | Prompt engineering"
+        socialLink:
+          componentType: social-link
+          url: ./mark-kashef/index.yml
+          destination: blog          
       - componentType: speaker-profile-card
         title: Olanrewaju Oyinbooke
         imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.png
