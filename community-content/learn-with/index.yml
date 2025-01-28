@@ -49,7 +49,7 @@ sections:
           url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
-        title: Jessa O
+        title: Jessa from I versus AI 
         imageUrl: ./jessa-from-i-versus-ai/media/jessa.png
         summary: 'Promptcrafting | AI Automation'
         socialLink:
