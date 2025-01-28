@@ -24,8 +24,8 @@ sections:
         destination: youtube
       - componentType: social-link
         url: https://uppitai.com/
-        destination: your website
-  - title: Generative AI skills resources
+        destination: website
+  - title: Learning Communities/Tools I Love
     componentType: grid
     blocks:
       - title: AI Automation Society
@@ -42,8 +42,22 @@ sections:
         icon:
           componentType: image
           src: ../media/icons/web.png
+      - title: n8n Community Templates
+        componentType: icon-card
+        summary: A place to download n8n workflow templates in seconds. One of the best ways to learn.
+        url: https://n8n.io/workflows/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: n8n Ultimate Starter Kit
+        componentType: icon-card
+        summary: New to n8n? Check out the ultimate starter kit to speed up your learning!
+        url: https://docs.google.com/document/d/1MTpkLrymqx_QLEHs2Oy6xxsQt6t_H73wrrFFoxRqIbM/edit?usp=sharing
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
   - title: AI agents
-    componentType: grid
+    componentType: cards
     blocks:
       - title: Everything I Learned About AI Agents in 2024 in 19 Minutes
         componentType: card
@@ -66,7 +80,7 @@ sections:
         imageUrl: ./media/prompting-masterclass.jpg
         url: https://youtu.be/bwrAsnU2P88?si=ThaMLmx4sP1i5rN2
   - title: Low-code AI agent builder
-    componentType: grid
+    componentType: cards
     blocks:
       - title: n8n Masterclass
         componentType: card
