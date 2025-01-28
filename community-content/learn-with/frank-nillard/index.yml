@@ -8,7 +8,7 @@ sections:
     links:
       - componentType: link
         url: /community/learn-with
-        text: Back to Microsoft Learn Community Leaders
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/frank-nillard/media/hero-light.png
