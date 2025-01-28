@@ -8,7 +8,7 @@ sections:
     links:
       - componentType: link
         url: /community/learn-with
-        text: Back to Microsoft Learn Community Leaders
+        text: Back to all Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: ./media/nate-herkelman-hero-light.png
