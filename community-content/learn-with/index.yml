@@ -50,11 +50,11 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Jessa O
-        imageUrl: ./jessa-o/media/jessa.png
+        imageUrl: ./jessa-from-i-versus-ai/media/jessa.png
         summary: 'Promptcrafting | AI Automation'
         socialLink:
           componentType: social-link
-          url: ./jessa-o/index.yml
+          url: ./jessa-from-i-versus-ai/index.yml
           destination: blog
       - componentType: speaker-profile-card
         title: Kelwin Fernandes
