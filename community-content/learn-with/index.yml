@@ -83,6 +83,14 @@ sections:
           url: ./mark-kashef/index.yml
           destination: blog          
       - componentType: speaker-profile-card
+        title: Nate Herkelman
+        imageUrl: ./nate-herkelman/media/nate-herkelman.png
+        summary: 'AI agents | Low-code agent builder'
+        socialLink:
+          componentType: social-link
+          url: ./nate-herkelman/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Olanrewaju Oyinbooke
         imageUrl: ./olanrewaju-oyinbooke/media/olanrewaju-oyinbooke.png
         # alt: Headshot of Olanrewaju Oyinbooke
