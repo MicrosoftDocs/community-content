@@ -16,7 +16,7 @@ sections:
   - componentType: social
     links:
       - componentType: social-link
-        url: https://www.linkedin.com/in/frank-nillard-6bb3291b3/
+        url: https://www.linkedin.com/in/franknillard/
         destination: linkedin
       - componentType: social-link
         url: https://x.com/frnillard/
