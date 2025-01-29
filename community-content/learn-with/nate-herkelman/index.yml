@@ -11,8 +11,8 @@ sections:
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/nate-herkelman-hero-light.png
-      darkImageSrc: ./media/nate-herkelman-hero-dark.png
+      lightImageSrc: /community/learn-with/nate-herkelman/media/nate-herkelman-hero-light.png
+      darkImageSrc: /community/learn-with/nate-herkelman/media/nate-herkelman-hero-dark.png
   - componentType: social
     title: ''
     links:

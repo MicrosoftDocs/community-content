@@ -11,8 +11,8 @@ sections:
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/hero-light.png
-      darkImageSrc: ./media/hero-dark.png
+      lightImageSrc: /community/learn-with/mark-kashef/media/hero-light.png
+      darkImageSrc: /community/learn-with/mark-kashef/media/hero-dark.png
   - componentType: social
     title: ''
     links: 
