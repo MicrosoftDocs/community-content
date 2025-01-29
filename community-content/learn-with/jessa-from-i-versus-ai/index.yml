@@ -11,8 +11,8 @@ sections:
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: ./media/hero-light.png
-      darkImageSrc: ./media/hero-dark.png
+      lightImageSrc: /community/learn-with/jessa-from-i-versus-ai/media/hero-light.png
+      darkImageSrc: /community/learn-with/jessa-from-i-versus-ai/media/hero-dark.png
   - title: ""
     componentType: social
     links:
