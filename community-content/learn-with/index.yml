@@ -15,7 +15,7 @@ sections:
     blocks:
       - componentType: speaker-profile-card
         title: Astro K Joseph
-        imageUrl: ./astro-k-joseph/media/astro-k-joseph-hero-dark.png
+        imageUrl: ./astro-k-joseph/media/astro-k-joseph.png
         summary: 'AI for coding | Application development'
         socialLink:
           componentType: social-link
