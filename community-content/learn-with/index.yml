@@ -124,14 +124,14 @@ sections:
           componentType: social-link
           url: ./raul-ordonez/index.yml
           destination: blog
-      # - componentType: speaker-profile-card
-      #   title: Ritika Aghi
-      #   imageUrl: ./ritika-aghi/media/ritika-aghi.png
-      #   summary: 'Prompt engineering | Productivity'
-      #   socialLink:
-      #     componentType: social-link
-      #     url: ./ritika-aghi/index.yml
-      #     destination: blog
+      - componentType: speaker-profile-card
+        title: Ritika Aghi
+        imageUrl: ./ritika-aghi/media/ritika-aghi.png
+        summary: 'Prompt engineering | Productivity'
+        socialLink:
+          componentType: social-link
+          url: ./ritika-aghi/index.yml
+          destination: blog
       - componentType: speaker-profile-card
         title: Scott Brant
         imageUrl: ./scott-brant/media/scott-brant.png
