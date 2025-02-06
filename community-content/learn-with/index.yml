@@ -14,6 +14,14 @@ sections:
     summary: Explore our creators' profiles and check out their recommendations to accelerate your AI skill building.
     blocks:
       - componentType: speaker-profile-card
+        title: Astro K Joseph
+        imageUrl: ./astro-k-joseph/media/astro-k-joseph.png
+        summary: 'AI for coding | Application development'
+        socialLink:
+          componentType: social-link
+          url: ./astro-k-joseph/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Ben Van Sprundel
         imageUrl: ./ben-van-sprundel/media/ben-van-sprundel.png
         # alt: Headshot of Ben Van Sprundel
@@ -108,6 +116,22 @@ sections:
           componentType: social-link
           url: ./pascal-regeer/index.yml
           destination: blog
+      - componentType: speaker-profile-card
+        title: Raul Ordonez
+        imageUrl: ./raul-ordonez/media/raul-ordonez.png
+        summary: 'Generative AI | AI for all audiences'
+        socialLink:
+          componentType: social-link
+          url: ./raul-ordonez/index.yml
+          destination: blog
+      # - componentType: speaker-profile-card
+      #   title: Ritika Aghi
+      #   imageUrl: ./ritika-aghi/media/ritika-aghi.png
+      #   summary: 'Prompt engineering | Productivity'
+      #   socialLink:
+      #     componentType: social-link
+      #     url: ./ritika-aghi/index.yml
+      #     destination: blog
       - componentType: speaker-profile-card
         title: Scott Brant
         imageUrl: ./scott-brant/media/scott-brant.png
