@@ -12,8 +12,8 @@ sections:
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/bree-hall/media/hero-light.png
-      darkImageSrc: /community/learn-with/bree-hall/media/hero-dark.png
+      lightImageSrc: ./media/hero-light.png
+      darkImageSrc: ./media/hero-dark.png
   - componentType: social
     title: ''
     links:

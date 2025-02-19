@@ -32,7 +32,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Bree Hall
-        imageUrl: ./bree-hall/media/Bree-Hall.png
+        imageUrl: ./bree-hall/media/bree-hall.png
         # alt: Headshot of Bree Hall
         summary: 'AI Agents | Building web development | Coding'
         socialLink:
