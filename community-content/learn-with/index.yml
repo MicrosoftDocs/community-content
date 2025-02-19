@@ -31,6 +31,15 @@ sections:
           url: ./ben-van-sprundel/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Bree Hall
+        imageUrl: ./bree-hall/media/Bree-Hall.png
+        # alt: Headshot of Bree Hall
+        summary: 'AI Agents | Building web development | Coding'
+        socialLink:
+          componentType: social-link
+          url: ./bree-hall/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Cole Medin
         imageUrl: ./cole-medin/media/cole-medin.png
         # alt: Headshot of Cole Medin
