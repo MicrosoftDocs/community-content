@@ -1,0 +1,116 @@
+### YamlMime:Marketing
+title: Learn With Alejandro AO
+sections:
+  - title: Learn With Alejandro AO
+    componentType: hero-product
+    supertitle: Creator Community
+    summary: Alejandro is a software engineer working on building secure and reliable AI applications. He hosts tutorials and courses primarily on YouTube and in person. He likes everything related to mathematics, literature, and music. 
+    links:
+      - componentType: link
+        url: /community/learn-with/
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/alejandro-ao/media/alejandro-ao-light.png
+      darkImageSrc: /community/learn-with/alejandro-ao/media/alejandro-ao-dark.png
+  - componentType: social
+    title: ''
+    links: 
+      - componentType: social-link
+        url: https://github.com/alejandro-ao
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/alejandro-ao/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/_alejandroao
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@alejandro_ao
+        destination: youtube
+      - componentType: social-link
+        url: https://open.spotify.com/show/2hFvSMXqNYTrCKn49EEBOG
+        destination: Podcast        
+      - componentType: social-link
+        url: https://alejandro-ao.com/
+        destination: website
+        
+  - title: Get Started With RAG and Agents
+    componentType: grid
+    blocks:
+      - title: Introduction to RAG
+        componentType: icon-card
+        summary: A great piece of documentation for understanding how RAG works.
+        url: /azure/databricks/generative-ai/tutorials/ai-cookbook/rag-overview
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: An open-source repo that shows how to create a RAG app
+        componentType: icon-card
+        summary: Learn to do RAG over multiple documents.
+        url: https://github.com/alejandro-ao/ask-multiple-pdfs
+        icon:
+          componentType: image
+          src: ../media/icons/github.png
+      - title: CrewAI CrashCourse
+        componentType: icon-card
+        summary: Master the basic workflow of a team of AI Agents using CrewAI
+        url: https://alejandro-ao.com/crew-ai-crash-course-step-by-step/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: "Agent Workflow: A Great Way to Create Agents"
+        componentType: icon-card
+        summary: Check out LlamaIndex's new multi-agent framework
+        url: https://www.llamaindex.ai/blog/introducing-agentworkflow-a-powerful-system-for-building-ai-agent-systems
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+
+  - title: Create Custom LLM Applications
+    componentType: cards
+    blocks:
+      - title: Create an Agent from Scratch
+        componentType: card
+        summary: Learn the basics of RAG by building an app that lets you chat with a PDF.
+        imageUrl: ./media/agents-from-scratch.webp
+        url: Python: https://youtu.be/hKVhRA9kfeM
+
+      - title: Introduction to Multimodal RAG
+        componentType: card
+        summary: Chat with documents that contain images, plots, and tables.
+        imageUrl: ./media/rag-multimodal.jpg
+        url: https://youtu.be/uLrReyH5cu0
+
+      - title: Introduction to LlamaIndex
+        componentType: card
+        summary: Learn the basics of LlamaIndex to create your own LLM applications.
+        imageUrl: ./media/intro-to-llamaindex.webp
+        url: https://youtu.be/cCyYGYyCka4
+
+      - title: Chat with MySQL Database
+        componentType: card
+        summary: Create an application that lets you chat with a MySQL database.
+        imageUrl: ./media/chat-with-mysql.webp
+        url: https://youtu.be/YqqRkuizNN4
+
+  - title: Listen to Conversations With AI Engineers
+    componentType: cards
+    blocks:
+      - title: Joe Moura | CrewAI
+        componentType: card
+        summary: Joe Moura Introduces CrewAI and how it helps you create Multi-Agent AI Applications
+        imageUrl: ./media/joe-moura.jpg
+        url: https://youtu.be/N-IYzyi86yY
+
+      - title: Jerry Liu | LlamaIndex
+        componentType: card
+        summary: Jelly Liu talks about LlamaIndex, a data framework that enables you to create RAG and agentic applications
+        imageUrl: ./media/jerry.webp
+        url: https://youtu.be/imlQ1icxpBU
+
+      - title: Harrison Chase | LangChain
+        componentType: card
+        summary: Harrison Chase talks about LangChain, an ecosystem that allows you to create, monitor, and deploy RAG and agentic applications
+        imageUrl: ./media/harrison.jpg
+        url: https://youtu.be/8E6uPB4U0E8
