@@ -30,7 +30,7 @@ sections:
         destination: youtube
       - componentType: social-link
         url: https://open.spotify.com/show/2hFvSMXqNYTrCKn49EEBOG
-        destination: Podcast        
+        destination: podcast        
       - componentType: social-link
         url: https://alejandro-ao.com/
         destination: website
