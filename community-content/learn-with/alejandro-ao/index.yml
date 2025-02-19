@@ -34,7 +34,7 @@ sections:
       - componentType: social-link
         url: https://alejandro-ao.com/
         destination: website
-        
+
   - title: Get Started With RAG and Agents
     componentType: grid
     blocks:
@@ -74,7 +74,7 @@ sections:
         componentType: card
         summary: Learn the basics of RAG by building an app that lets you chat with a PDF.
         imageUrl: ./media/agents-from-scratch.webp
-        url: Python: https://youtu.be/hKVhRA9kfeM
+        url: https://youtu.be/hKVhRA9kfeM
 
       - title: Introduction to Multimodal RAG
         componentType: card
