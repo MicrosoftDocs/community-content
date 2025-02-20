@@ -14,6 +14,15 @@ sections:
     summary: Explore our creators' profiles and check out their recommendations to accelerate your AI skill building.
     blocks:
       - componentType: speaker-profile-card
+        title: Alejandro AO
+        imageUrl: ./alejandro-ao/media/alejandro-ao.png
+        # alt: Headshot of Alejandro AO
+        summary: 'AI Agents | Application development'
+        socialLink:
+          componentType: social-link
+          url: ./alejandro-ao/index.yml
+          destination: blog
+      - componentType: speaker-profile-card
         title: Astro K Joseph
         imageUrl: ./astro-k-joseph/media/astro-k-joseph.png
         summary: 'AI for coding | Application development'
