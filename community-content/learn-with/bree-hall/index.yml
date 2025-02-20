@@ -28,6 +28,9 @@ sections:
       - componentType: social-link
         url: https://www.youtube.com/@bytesofbree
         destination: youtube
+      #- componentType: social-link
+      #  url: https://www.tiktok.com/@bytesofbree
+      #  destination: tiktok
       - componentType: social-link
         url: https://www.bytesofbree.com/
         destination: website
