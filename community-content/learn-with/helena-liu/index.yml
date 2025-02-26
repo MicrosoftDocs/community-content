@@ -4,7 +4,7 @@ sections:
   - title: Learn With Helena Liu
     componentType: hero-product
     supertitle: Creator Community
-    summary: Helena Liu - summary waiting to be added.
+    summary: summary waiting to be added.
     links:
       - componentType: link
         url: /community/learn-with/
