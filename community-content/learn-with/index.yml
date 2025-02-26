@@ -76,9 +76,9 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Helena Liu
-        imageUrl: ./helena-liu/media/helena-liu.jpg
+        imageUrl: ./helena-liu/media/helena-liu.png
         # alt: Headshot of Helena Liu
-        summary: summary waiting to be added.
+        summary: Automation | Management
         socialLink:
           componentType: social-link
           url: ./helena-liu/index.yml

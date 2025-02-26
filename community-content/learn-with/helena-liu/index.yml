@@ -4,15 +4,15 @@ sections:
   - title: Learn With Helena Liu
     componentType: hero-product
     supertitle: Creator Community
-    summary: summary waiting to be added.
+    summary: Hi, I'm Helena, founder of Product Camps and ExamsPM. My goal is to help businesses enhance their efficiency and effectiveness through AI, automations, and project management. I want to help you turn AI from a novelty into a time saving tool. 
     links:
       - componentType: link
         url: /community/learn-with/
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/helena-liu/media/helena-liu.jpg
-      darkImageSrc: /community/learn-with/helena-liu/media/helena-liu.jpg
+      lightImageSrc: /community/learn-with/helena-liu/media/helena-liu-light.png
+      darkImageSrc: /community/learn-with/helena-liu/media/helena-liu-dark.png
   - componentType: social
     title: ''
     links: 
