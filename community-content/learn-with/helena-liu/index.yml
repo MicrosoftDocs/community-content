@@ -1,0 +1,93 @@
+### YamlMime:Marketing
+title: Learn With Helena Liu
+sections:
+  - title: Learn With Helena Liu
+    componentType: hero-product
+    supertitle: Creator Community
+    # summary: 
+    links:
+      - componentType: link
+        url: /community/learn-with/
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      # lightImageSrc: /community/learn-with/helena-liu/media/helena-liu-light.png
+      # darkImageSrc: /community/learn-with/helena-liu/media/helena-liu-dark.png
+  - componentType: social
+    title: ''
+    links: 
+      - componentType: social-link
+        url: https://www.linkedin.com/in/helena--liu/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@helena-liu
+        destination: youtube
+      - componentType: social-link
+        url: https://open.spotify.com/show/1Zu4akK6B5mmaggA1gvaYJ
+        destination: podcast        
+      - componentType: social-link
+        url: https://www.productcamps.com
+        destination: website
+
+  - title: Recommended AI resources
+    componentType: grid
+    blocks:
+      - title: Free AI Automation Course
+        componentType: icon-card
+        summary: Unlock the power of AI and automation to work smarter, save hours, and boost productivity—without coding!
+        url: https://productcamps.com/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      
+      - title: Learn to Create 90 Days of Content in 1 Hour
+        componentType: icon-card
+        summary: Discover the secret to AI-powered content creation—churn out 3 months of high-quality posts in just 60 minutes!
+        url: https://www.productcamps.com/content
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      
+      - title: Automate Anything with AI
+        componentType: icon-card
+        summary: Supercharge your business with AI! Automate repetitive tasks, streamline operations, and scale effortlessly.
+        url: https://productcamps.com/automation/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      
+      - title: Start Your Own AI Agency
+        componentType: icon-card
+        summary: Want to start an AI agency? Get the exact blueprint to land clients and build a profitable automation business.
+        url: https://chatlemon.com/free/
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+
+  - title: AI-Powered Content Creation and Automation
+    componentType: cards
+    blocks:
+      - title: This Social Media AI System Creates Unique Content Daily! (100% Automated)
+        componentType: card
+        summary: Automate daily unique social media posts.
+        imageUrl: ./media/thumbnail1.jpg
+        url: https://www.youtube.com/watch?v=H0YRniHh2tg&t=19s&ab_channel=HelenaLiu
+
+      - title: Using ChatGPT to Generate 1000s of Leads in Any Niche (Free + Easy Method)
+        componentType: card
+        summary: Generate niche leads effortlessly with AI.
+        imageUrl: ./media/thumbnail2.jpg
+        url: https://www.youtube.com/watch?v=XgclEibeoGc&t=3s&ab_channel=HelenaLiu
+
+      - title: How to Make $30,000/Year Blogging Using AI & Automation (step-by-step course)
+        componentType: card
+        summary: Monetize blogs through AI-driven strategies.
+        imageUrl: ./media/thumbnail3.jpg
+        url: https://www.youtube.com/watch?v=u5TyXyf1jRk&t=232s&ab_channel=HelenaLiu
+
+      - title: Make 1,000 YouTube Shorts with THIS AI Automation in 19 Mins! 🤯 (ChatGPT + Canva + Make)
+        componentType: card
+        summary: Produce numerous shorts quickly using AI.
+        imageUrl: ./media/thumbnail4.jpg
+        url: https://www.youtube.com/watch?v=K1Pt1hf-ysQ&t=93s&ab_channel=HelenaLiu
+
