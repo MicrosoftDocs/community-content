@@ -76,7 +76,7 @@ sections:
           destination: blog
       - componentType: speaker-profile-card
         title: Helena Liu
-        imageUrl: ./helena-liu/media/helena-liu.png
+        imageUrl: ./helena-liu/media/helena-liu.jpg
         # alt: Headshot of Helena Liu
         # summary: 'AI Agents | Application development'
         socialLink:

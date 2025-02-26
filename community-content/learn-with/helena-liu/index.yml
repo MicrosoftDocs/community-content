@@ -4,15 +4,15 @@ sections:
   - title: Learn With Helena Liu
     componentType: hero-product
     supertitle: Creator Community
-    # summary: 
+    summary: Helena Liu - summary waiting to be added.
     links:
       - componentType: link
         url: /community/learn-with/
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      # lightImageSrc: /community/learn-with/helena-liu/media/helena-liu-light.png
-      # darkImageSrc: /community/learn-with/helena-liu/media/helena-liu-dark.png
+      lightImageSrc: /community/learn-with/helena-liu/media/helena-liu.jpg
+      darkImageSrc: /community/learn-with/helena-liu/media/helena-liu.jpg
   - componentType: social
     title: ''
     links: 
