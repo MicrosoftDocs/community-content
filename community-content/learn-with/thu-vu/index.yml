@@ -1,0 +1,105 @@
+### YamlMime:Marketing
+title: Learn with Thu Vu
+sections:
+  - title: Learn with Thu Vu
+    size: large
+    componentType: hero-product
+    supertitle: Creator Community
+    summary: Thu Vu is a former data science consultant with experience in data analysis, machine learning and AI. Through her YouTube channel, she is known for creating high-quality, engaging content on data science, delivering inspiring, easy-to-follow tutorials, and pushing the boundaries of educational content. Her mission is to help people from different backgrounds develop important skills in data science and AI, build meaningful projects and solve problems they care about. In her free time, she enjoys climbing at a local bouldering gym, experimenting with new recipes, taking walks, or diving into a good book.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/thu-vu/media/hero-light.png
+      darkImageSrc: /community/learn-with/thu-vu/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://github.com/thu-vu92
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/thu-hien-vu-3766b174/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@Thuvu5
+        destination: youtube
+      - componentType: social-link
+        url: https://medium.com/@vuthihienthu.ueb
+        destination: medium
+      - componentType: social-link
+        url: https://thuhienvu.com/
+        destination: website
+  - title: AI resources
+    componentType: grid
+    blocks:
+      - title: Deep Dive into LLMs like ChatGPT
+        componentType: icon-card
+        summary: In-depth analysis of large language models, their capabilities, and real-world applications.
+        url: https://youtu.be/7xTGNNLPyMI?si=9BlPTpaFWlIs386D
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: Andrew Ng Explores The Rise Of AI Agents And Agentic Reasoning | BUILD 2024 Keynote
+        componentType: icon-card
+        summary: Andrew Ng discusses AI agents, agentic reasoning, and their impact on the future of AI.
+        url: https://youtu.be/KrRD7r7y7NY
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: Large Language Models explained briefly
+        componentType: icon-card
+        summary: A concise and visual breakdown of how large language models work and their key principles.
+        url: https://youtu.be/LPZh9BOjkQs?si=RdWEq-Mn7xLO6sp8
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: A.I. - Humanity's Final Invention?
+        componentType: icon-card
+        summary: Explores AI's potential risks, benefits, and its role in shaping humanity's future.
+        url: https://youtu.be/fa8k8IQ1_X0?si=qapk4R89SiZpdXXE
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+  - title: AI roadmap and Understanding
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: How I'd Learn AI (If I Had to Start Over)
+        componentType: card
+        summary: AI learning roadmap for beginners, from technical skills to theoretical foundation.
+        imageUrl: ./media/ai-roadmap.webp
+        url: https://youtu.be/TR7AGmey1C8?si=i-QLchC9dq5DGMol
+      - title: What I've Learned Reading These 7 Books about AI
+        componentType: card
+        summary: My insights from 7 must-read AI books.
+        imageUrl: ./media/ai-books.webp
+        url: https://youtu.be/BdrpsRGCxfg?si=uVhfRADG3zb9nX5r
+  - title: Building AI projects
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: Extracting Structured Data From PDFs | Full Python AI project for beginners
+        componentType: card
+        summary: Learn to extract structured data from PDFs using AI.
+        imageUrl: ./media/rag-project.webp
+        url: https://youtu.be/EFUE4DHiAPM?si=rO1AyohmrJZktSrx
+      - title: How to Build an AI Project Portfolio (Beginner - Advanced)
+        componentType: card
+        summary: Guide to building an AI project portfolio.
+        imageUrl: ./media/project-ideas.webp
+        url: https://youtu.be/rI1FcpKi0Lc?si=5rSJ829hUMPLP6xO
+      - title: I Analyzed My Finance With Local LLMs
+        componentType: card
+        summary: Using local LLMs for personal finance analysis.
+        imageUrl: ./media/local-llms.webp
+        url: https://youtu.be/h_GTxRFYETY?si=vGWU93qImPJJMZnW
+      - title: How I Would Learn Python FAST (if I could start over)
+        componentType: card
+        summary: Best approach to learning Python quickly.
+        imageUrl: ./media/learn-python.webp
+        url: https://youtu.be/St48epdRDZw?si=wrV0Y4l1un1XqXS-

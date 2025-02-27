@@ -169,6 +169,15 @@ sections:
           url: ./shriram-vasudevan/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Thu Vu
+        imageUrl: ./thu-vu/media/thu-vu.png
+        # alt: Headshot of Thu Vu
+        summary: 'ChatGPT | Data & AI | AI Agents'
+        socialLink:
+          componentType: social-link
+          url: ./thu-vu/index.yml
+          destination: blog    
+      - componentType: speaker-profile-card
         title: Xavier Mitjana
         imageUrl: ./xavier-mitjana/media/xavier-mitjana.png
         # alt: Headshot of Xavier Mitjana
