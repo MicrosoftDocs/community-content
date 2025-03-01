@@ -46,6 +46,8 @@
     href: how-to-enforce-dotnet-format-using-editorconfig-github-actions.md
   - name: Troubleshoot Azure DevOps error 0000000000aaTF401027
     href: azure-devops-error-0000000000aaTF401027.md
+  - name: Azure Verified Modules
+    href: azure-verified-modules.md
 # - name: Hybrid + multicloud
 #   items:
 - name: Identity
