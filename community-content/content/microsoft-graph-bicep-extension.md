@@ -125,6 +125,8 @@ These use cases demonstrate how the Microsoft Graph Bicep extension can transfor
 
 ## Examples
 
+### Preliminary Setup
+
 To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](https://learn.microsoft.com/en-us/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Below is an example of the configuration file:
 
 ```json
@@ -145,12 +147,25 @@ extension graphBeta
 
 // using Microsoft Graph v1.0
 resource group 'Microsoft.Graph/groups@v1.0' existing = {
-    uniqueName: groupName
+  uniqueName: groupName
 }
 
 // using Microsoft Graph beta
 resource app 'Microsoft.Graph/applications@beta' existing = {
-    uniqueName: appName
+  uniqueName: appName
+}
+```
+
+The examples above use the following Bicep configuration:
+
+```json
+{  
+  "experimentalFeaturesEnabled": {  
+    "extensibility": true  
+  },
+  "extensions": {
+    "microsoftGraphV1": "br:mcr.microsoft.com/bicep/extensions/microsoftgraph/v1.0:0.1.9-preview"
+  }
 }
 ```
 
@@ -159,7 +174,7 @@ resource app 'Microsoft.Graph/applications@beta' existing = {
 Here's an example of creating a security group and assigning a role-based permission using the Microsoft Graph Bicep extension:
 
 ```bicep
-extension graphV1
+extension microsoftGraphV1
 
 @sys.description('Specifies the role definition ID used in the role assignment.')
 param roleDefinitionID string
@@ -211,7 +226,7 @@ One potential issue that may arise is that the instantiation of the principal or
 Here's an example of creating an application and its associated service principal using the Microsoft Graph Bicep extension:
 
 ```bicep
-extension graphV1
+extension microsoftGraphV1
 
 @sys.description('The unique name of the application.')
 param uniqueName string
