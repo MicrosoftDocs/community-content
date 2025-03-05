@@ -35,7 +35,7 @@ This extension allows Bicep templates to define tenant resources beyond the trad
 ![Microsoft Graph Bicep Extension](media/microsoft-graph-bicep-extension/graph-bicep-extension.jpg)
 
 > [!NOTE]
-> For a complete list of supported resource types, refer to the [Microsoft Graph template reference](https://learn.microsoft.com/graph/templates/reference/overview?view=graph-bicep-1.0).
+> For a complete list of supported resource types, refer to the [Microsoft Graph template reference](https://learn.microsoft.com/graph/templates/reference/overview).
 
 ## Key Benefits of the Microsoft Graph Bicep Extension
 
@@ -259,7 +259,7 @@ In this example, the Bicep template creates an application and its associated se
 3. **Idempotency Challenges**: When working with Microsoft Graph resources, pay special attention to client-provided keys to ensure reliable, repeatable deployments.
 
 > [!NOTE]
-> More known issues and solutions can be found in the [Microsoft Graph Bicep](https://learn.microsoft.com/graph/templates/known-issues-graph-bicep?view=graph-bicep-1.0) documentation.
+> More known issues and solutions can be found in the [Microsoft Graph Bicep](https://learn.microsoft.com/graph/templates/known-issues-graph-bicep) documentation.
 
 ## Summary
 
