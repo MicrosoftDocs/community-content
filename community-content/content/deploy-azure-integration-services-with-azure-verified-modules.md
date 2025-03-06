@@ -2,7 +2,7 @@
 title: Deploy Azure Integration Services with Azure Verified Modules
 description: Streamline deployment for integration applications with Azure Verified Modules for Bicep.
 contributor-type: community #Required. Don't change this value.
-author: estfan
+author: ecfan
 ms.author: mlcc-owners #Required. Don't change this value.
 ms.reviewer: wsilveira, estfan #Required for Microsoft internal owners and reviewers. Don't change these values.
 ms.service: azure #Required. Don't change this value.
