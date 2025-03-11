@@ -8,7 +8,8 @@ metadata:
   description: Community written content for the community about Microsoft products and features.
   author: pdebruin
   ms.author: mlcc-owners
-  ms.date: 01/07/2025
+  ms.service: azure
+  ms.date: 03/11/2025
   ms.topic: landing-page
   contributor-type: community
   no_index_ks: true
@@ -17,25 +18,21 @@ metadata:
 
 landingContent:
   # Card 
-  - title: Popular
+  - title: Top categories
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: learn
         links:
-          - text: Create a bearer token with Azure REST API
-            url: /community/content/azure-rest-api-how-to-create-a-bearer-token
-          - text: Introduction to object variables in Power Automate
-            url: /community/content/power-automate-working-with-object-variables
-          - text: Azure resources naming convention and tagging
-            url: /community/content/azure-resources-naming-convention-and-tagging
-          - text: Configure sticky sessions with Azure Load Balancer
-            url: /community/content/azure-configure-load-balancer-for-sticky-sessions
-          - text: Start, stop, and restart multiple VMs
-            url: /community/content/azure-compute-start-stop-restart-multiple-vms
-  - title: Contributors
+          - text: Artificial Intelligence (AI)
+            url: /community/content/ml-for-those-who-don't-know-anything-about-ml
+          - text: Compute
+            url: /community/content/wsl-user-msft-kernel-v6
+          - text: DevOps
+            url: /community/content/azure-verified-modules
+  - title: Contribute
     linkLists:
       - linkListType: overview
         links:
-          - text: Welcome
+          - text: Welcome to community content
             url: ./content/welcome.md
       - linkListType: how-to-guide
         links:
@@ -45,7 +42,7 @@ landingContent:
             url: /training/modules/contribute-to-docs-browser
           - text: Edit on your local machine
             url: /collections/eg2qsxy1qrnre2
-      - linkListType: concept
+      - linkListType: get-started
         links:
           - text: Microsoft Learn documentation contributor guide
             url: /contribute/content/
