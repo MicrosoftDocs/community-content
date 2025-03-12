@@ -14,7 +14,7 @@ ms.date: 03/06/2025 #Required in mm/dd/yyyy format.
 
 ---
 
-**Principal author**: [Viktor Hodberg](https://github.com/Viktorh89)
+**Principal author**: [Viktor Hogberg](https://github.com/Viktorh89)
 
 ---
 
