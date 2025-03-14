@@ -75,6 +75,15 @@ sections:
           url: ./grace-leung/index.yml
           destination: blog
       - componentType: speaker-profile-card
+        title: Helena Liu
+        imageUrl: ./helena-liu/media/helena-liu.png
+        # alt: Headshot of Helena Liu
+        summary: Automation | Management
+        socialLink:
+          componentType: social-link
+          url: ./helena-liu/index.yml
+          destination: blog      
+      - componentType: speaker-profile-card
         title: Jessa from I versus AI 
         imageUrl: ./jessa-from-i-versus-ai/media/jessa.png
         summary: 'Promptcrafting | AI Automation'
