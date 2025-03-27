@@ -35,7 +35,7 @@ This extension allows Bicep templates to define tenant resources beyond the trad
 ![Microsoft Graph Bicep Extension](media/microsoft-graph-bicep-extension/graph-bicep-extension.jpg)
 
 > [!NOTE]
-> For a complete list of supported resource types, refer to the [Microsoft Graph template reference](https://learn.microsoft.com/graph/templates/reference/overview).
+> For a complete list of supported resource types, refer to the [Microsoft Graph template reference](/graph/templates/reference/overview).
 
 ## Key Benefits of the Microsoft Graph Bicep Extension
 
@@ -127,7 +127,7 @@ These use cases demonstrate how the Microsoft Graph Bicep extension can transfor
 
 ### Preliminary Setup
 
-To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](https://learn.microsoft.com/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Available versions can be found [here for v1](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags) and [here for beta](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/beta/tags). Below is an example of the configuration file:
+To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Available versions can be found [here for v1](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags) and [here for beta](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/beta/tags). Below is an example of the configuration file:
 
 ```json
 {  
@@ -259,7 +259,7 @@ In this example, the Bicep template creates an application and its associated se
 3. **Idempotency Challenges**: When working with Microsoft Graph resources, pay special attention to client-provided keys to ensure reliable, repeatable deployments.
 
 > [!NOTE]
-> More known issues and solutions can be found in the [Microsoft Graph Bicep](https://learn.microsoft.com/graph/templates/known-issues-graph-bicep) documentation.
+> More known issues and solutions can be found in the [Microsoft Graph Bicep](/graph/templates/known-issues-graph-bicep) documentation.
 
 ## Summary
 
@@ -276,6 +276,6 @@ To get started, ensure your Bicep environment is properly configured with the ex
 
 ## Resources
 
-- [**Microsoft Graph Bicep Extension**](https://learn.microsoft.com/graph/templates/overview-bicep-templates-for-graph)
+- [**Microsoft Graph Bicep Extension**](/graph/templates/overview-bicep-templates-for-graph)
 - [**Quickstart Templates**](https://github.com/microsoftgraph/msgraph-bicep-types/tree/main/quickstart-templates)
 - [**Microsoft Graph Bicep Extension (v1.0)**](https://mcr.microsoft.com/en-us/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags)
