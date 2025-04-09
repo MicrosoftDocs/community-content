@@ -127,7 +127,7 @@ These use cases demonstrate how the Microsoft Graph Bicep extension can transfor
 
 ### Preliminary Setup
 
-To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Below is an example of the configuration file:
+To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Available Bicep versions can be found [here for v1](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags) and [here for beta](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/beta/tags). Below is an example of the configuration file:
 
 ```json
 {  
@@ -278,3 +278,4 @@ To get started, ensure your Bicep environment is properly configured with the ex
 
 - [**Microsoft Graph Bicep Extension**](/graph/templates/overview-bicep-templates-for-graph)
 - [**Quickstart Templates**](https://github.com/microsoftgraph/msgraph-bicep-types/tree/main/quickstart-templates)
+- [**Microsoft Graph Bicep Extension (v1.0)**](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags)
