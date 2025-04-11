@@ -1,0 +1,195 @@
+### YamlMime:Marketing
+title: Learn with Olanrewaju Oyinbooke
+sections:
+  - componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    title: Learn with Olanrewaju Oyinbooke
+    summary: AI is not coming for your work; it is coming TO your work! Olanrewaju is the data and AI guy. He is deeply passionate about helping you stay relevant by teaching you how to apply AI to your work and accelerate your career. As a Microsoft Certified Trainer and community leader with 13 Microsoft certifications, he can help you build reports that add value to business; build machine learning models that can reduce costs, increase revenue, and optimize business processes; build low-code applications; and much more.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: >-
+        /community/learn-with/olanrewaju-oyinbooke/media/hero-light.png
+      darkImageSrc: >-
+        /community/learn-with/olanrewaju-oyinbooke/media/hero-dark.png
+  - componentType: social
+    title: ' '
+    links:
+      - componentType: social-link
+        url: https://github.com/theoyinbooke
+        destination: github
+      - componentType: social-link
+        url: https://twitter.com/theoyinbooke
+        destination: twitter
+      - componentType: social-link
+        url: https://linkedin.com/in/olanrewaju-oyinbooke
+        destination: linkedin
+      - componentType: social-link
+        url: https://youtube.com/@theoyinbooke
+        destination: youtube
+      - componentType: social-link
+        url: https://theoyinbooke.medium.com
+        destination: medium
+      - componentType: social-link
+        url: https://facebook.com/theoyinbooke
+        destination: facebook
+  - componentType: grid
+    title: My favourite AI resources
+    blocks:
+      - componentType: icon-card
+        title: Using Copilot with Jupyter Notebook
+        summary: >-
+          With this feature, you’ll never work alone using Jupyter Notebook. Get
+          started to supercharge your productivity.
+        url: https://www.youtube.com/watch?v=QS_bh-3qKdw
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - componentType: icon-card
+        title: Microsoft Fabric for beginners
+        summary: >-
+          Learn how to deliver quicker business value and innovation on data
+          with the Data Analytic platform for the era of AI.
+        url: >-
+          /training/modules/get-started-data-activator-microsoft-fabric?wt.mc_id=learnwithola_01_content_cnl
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - componentType: icon-card
+        title: Must-use AI features in Power BI
+        summary: >-
+          Get familiar with AI features in Power BI to improve your
+          productivity.
+        url: >-
+          https://techcommunity.microsoft.com/t5/educator-developer-blog/power-bi-ai-features-for-all-data-analysts/ba-p/3835447?wt.mc_id=learnwithola_01_content_cnl
+        icon:
+          componentType: image
+          src: ../media/icons/microsoft.png
+      - componentType: icon-card
+        title: 'Microsoft Azure AI Fundamentals: Generative AI'
+        summary: >-
+          A valuable resources for beginners in Generative AI and its
+          application. Earn badges and trophy when you learn.
+        url: /training/paths/introduction-generative-ai
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - componentType: icon-card
+        title: Generative AI for beginners curriculum
+        summary: >-
+          Learn the fundamentals of building Generative AI applications
+          with12-lesson comprehensive course for beginners.
+        url: https://github.com/microsoft/generative-ai-for-beginners
+        icon:
+          componentType: image
+          src: ../media/icons/github.png
+      - componentType: icon-card
+        title: GitHub for beginners learning resource
+        summary: >-
+          Having the knowledge of GitHub as a Data Professional will make you
+          open to expand your role into more technical area.
+        url: /training/modules/introduction-to-github
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - componentType: icon-card
+        title: Projects to challenge your data skills
+        summary: >-
+          In doers I trust, take up this data analysis challenge to demonstrate
+          your skill. Highly recommended if you need portfolio worthy project.
+        url: >-
+          https://techcommunity.microsoft.com/t5/educator-developer-blog/github-for-data-analyst-and-power-platform-developers/ba-p/3719651
+        icon:
+          componentType: image
+          src: ../media/icons/microsoft.png
+      - componentType: icon-card
+        title: Start your Power BI learning journey here
+        summary: >-
+          A compilation of Power BI learning resources. Highly recommended for
+          beginners.
+        url: /collections/60nmc8q70e561d
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+  - componentType: cards
+    isShadowless: true
+    title: Valuable AI & data analytics videos
+    summary: >-
+      These videos are owned and/or curated by Olanrewaju. Microsoft doesn't own
+      or review this content.
+    blocks:
+      - componentType: card
+        title: Deliver competitive advantage with AI
+        summary: >-
+          We are in the era of AI and Microsoft Fabric is the analytics
+          platform. Build data pipelines, predictive models, Power BI reports,
+          etc.
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/comp-adv-ai.jpg
+        url: https://www.youtube.com/watch?v=jt6oq2CjaiA
+      - componentType: card
+        title: Get started with Microsoft Fabric
+        summary: Get yourself familiar with the analytic platform in the era of AI.
+        imageUrl: >-
+          /community/learn-with/media/olanrewaju-oyinbooke/get-started-fabric.jpg
+        url: >-
+          https://www.youtube.com/watch?v=-f0XIVEP7bE&list=PLv2BtOtLblH1RhbtfTpp9ovi3Y-3HiRO2
+      - componentType: card
+        title: Error troubleshooting in Jupyter Notebooks
+        summary: >-
+          Troubleshooting takes a huge part of our work, what if you can do it
+          better and faster? Learn more here.
+        imageUrl: >-
+          /community/learn-with/media/olanrewaju-oyinbooke/troubleshooting-jupyter.jpg
+        url: https://www.youtube.com/watch?v=Wc9ZyHG0xxA
+      - componentType: card
+        title: Practical SQL for beginners
+        summary: >-
+          SQL is the language for databases. This is where your work will mostly
+          start – getting the data from where they are stored. SQL to the
+          rescue.
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/practical-sql.jpg
+        url: >-
+          https://www.youtube.com/playlist?list=PL21kTsq1t_-kA8aET667XjUrx8xjfXfwD
+  - componentType: cards
+    isShadowless: true
+    title: Must-have knowledge for data professionals
+    summary: >-
+      These videos are owned and/or curated by Olanrewaju. Microsoft doesn't own
+      or review this content.
+    blocks:
+      - componentType: card
+        title: Understanding GitHub for data analysts
+        summary: >-
+          As a data analyst, the knowledge of GitHub will help you strengthen
+          your ability to collaborate across code estates on multiple projects.
+        imageUrl: >-
+          /community/learn-with/media/olanrewaju-oyinbooke/github-for-data-analysts.jpg
+        url: https://www.youtube.com/watch?v=TB7m05rilw4
+      - componentType: card
+        title: Documenting your data analysis project on GitHub
+        summary: >-
+          Don’t keep your data analysis project on your PC. Learn how to
+          properly document it to earn more reward for your learning effort.
+        imageUrl: /community/learn-with/media/olanrewaju-oyinbooke/project-doc.jpg
+        url: https://www.youtube.com/watch?v=GLIwyoPWrHs
+      - componentType: card
+        title: Using Copilot with Jupyter Notebooks
+        summary: >-
+          Copilot for Jupyter Notebooks in Visual Studio Code -- you have the
+          assistance you’ve been waiting for.
+        imageUrl: >-
+          /community/learn-with/media/olanrewaju-oyinbooke/github-copilot-jupyter.jpg
+        url: https://www.youtube.com/watch?v=QS_bh-3qKdw
+      - componentType: card
+        title: Effortless Python with GitHub Copilot
+        summary: >-
+          Leverage GitHub Copilot for your python projects in Visual Studio
+          Code. The assistant you’ve been waiting for.
+        imageUrl: >-
+          /community/learn-with/media/olanrewaju-oyinbooke/python-github-copilot.jpg
+        url: >-
+          https://www.youtube.com/watch?v=DSHfHT5qnGc&list=PLj6YeMhvp2S5_hvBl2SE-7YCHYlLQ0bPt&index=4

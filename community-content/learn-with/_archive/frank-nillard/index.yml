@@ -1,0 +1,98 @@
+### YamlMime:Marketing
+title: Learn With Frank Nillard
+sections:
+  - title: 'Learn with Frank Nillard'
+    componentType: hero-product
+    supertitle: Creator Community
+    summary: |
+      Frank Nillard is a former mechanical engineer and tech consultant with experience leading tech teams across three continents. After founding a software startup and development agency, he’s dedicated to building tech solutions and making the power of AI accessible to everyone. 
+      Through his YouTube channel, Frank shares his journey and offers hands-on insights into mastering AI. He focuses on helping entrepreneurs and businesses understand how to use AI tools to solve problems and scale their ideas—even without any coding experience. His mission is to prove that anyone, regardless of their technical background, can harness AI to save them time and be more productive.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/frank-nillard/media/hero-light.png
+      darkImageSrc: /community/learn-with/frank-nillard/media/hero-dark.png
+  - componentType: social
+    links:
+      - componentType: social-link
+        url: https://www.linkedin.com/in/franknillard/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/frnillard/
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@franknillard
+        destination: youtube
+      - componentType: social-link
+        url: https://www.franknillard.com
+        destination: blog
+  - title: Understanding AI
+    componentType: grid
+    blocks:
+      - title: The Rise of Agents and Agentic Reasoning
+        componentType: icon-card
+        summary: Andrew Ng discusses how the AI Agent-to-Data convergence will shape automation & application building across industries
+        url: https://www.youtube.com/watch?v=KrRD7r7y7NY
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: The Moment We Stopped Understanding AI
+        componentType: icon-card
+        summary: AlexNet revolutionized AI in 2012 by showing deep learning's power, using GPUs, and improving CNN designs
+        url: https://www.youtube.com/watch?v=UZDiGooFs54
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: Intro to Large Language Models- Andrej Karpathy (OpenAI Co-founder)
+        componentType: icon-card
+        summary: A full introduction to Large Language Models
+        url: https://www.youtube.com/watch?v=zjkBMFhNj_g&t=1142s
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: What’s Next for Agentic Workflows?
+        componentType: icon-card
+        summary: Andrew Ng speaks about what's next for AI agentic workflows and their potential to significantly propel AI advancements
+        url: https://www.youtube.com/watch?v=sal78ACtGTc
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+  - title: Build AI Agents
+    componentType: cards
+    blocks:
+      - title: This RAG Agent is The Real Deal
+        componentType: card
+        summary: Build a RAG agent using n8n
+        imageUrl: ./media/RAGAGENT.png
+        url: https://www.youtube.com/watch?v=YmPNUIELbZ4&t=1644s
+      - title: 16 Months of Building AI Agents in 60 Minutes
+        componentType: card
+        summary: My experience building with AI
+        imageUrl: ./media/AGENTSIN60MIN.png
+        url: https://www.youtube.com/watch?v=AWQ6DaCy46U&t=13s
+      - title: Build a WhatsApp Personal AI Agent with n8n
+        componentType: card
+        summary: Build a Personal Assistant within WhatsApp
+        imageUrl: ./media/PERSONALAGENT.png
+        url: https://www.youtube.com/watch?v=UXn4y0aOzOs&t=388s
+  - title: Build AI Automations
+    componentType: cards
+    blocks:
+      - title: Build Your First AI Voice Receptionist
+        componentType: card
+        summary: Build an AI Voice Agent on phone
+        imageUrl: ./media/AIRECEPTIONIST.png
+        url: https://www.youtube.com/watch?v=KBSVwGlsEM4&t=2663s
+      - title: Build Your Own Scraper and Generate 1000s of Quality Leads in Minutes
+        componentType: card
+        summary: Create your own lead scraper
+        imageUrl: ./media/BYOSCRAPER.png
+        url: https://www.youtube.com/watch?v=meQXuVkMV2c
+      - title: This AI Skill Will Put You Ahead of 97% of People this 2025
+        componentType: card
+        summary: You must have this skill when using LLMs
+        imageUrl: ./media/PROMPTDESIGN.png
+        url: https://www.youtube.com/watch?v=wK0C6r-wxtc

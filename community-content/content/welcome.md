@@ -13,11 +13,6 @@ no_index_ks: true
 
 Ready to learn something new? Curious about how something works? All content in this area is written and maintained by experts in our Microsoft Learn community!
 
-- mark1
-  - test2
-    - test3
-      - test4
-
 We are experimenting here and hope that it can help you gain the skills you're looking for by providing you options to learn from people just like you, who have demonstrated expertise in specific subjects and want to share what they know. Content is provided by [Microsoft MVPs](https://mvp.microsoft.com/) and invited community experts who demonstrate a passion for helping people learn.
 
 **Want to know more about whom you're learning from?** Author names, linked to their Microsoft Learn profiles, are listed near the top of the article. If you find someone's content helpful, let them know! You can provide feedback on any article by selecting the **Feedback** button at the top of the page

@@ -1,0 +1,112 @@
+### YamlMime:Marketing
+title: Learn with Ben van Sprundel
+sections:
+  - title: Learn with Ben van Sprundel
+    componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    summary: Ben van Sprundel is a two-time founder who helps startups and scaleups become AI-first companies. Originally from the Netherlands, he has been living and working remotely for over 10 years. Ben assists businesses in adopting and integrating AI Agents and automation to help businesses scale profitably. Through his YouTube channel, he also teaches others how to build practical no-code AI applications to save time and streamline processes in sales, marketing, business operations, and more.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/ben-van-sprundel/media/hero-light.png
+      darkImageSrc: /community/learn-with/ben-van-sprundel/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.linkedin.com/in/benvansprundel/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/ben_vs92
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@BenAI92/
+        destination: youtube
+      - componentType: social-link
+        url: https://www.benvansprundel.com/
+        destination: website
+  - title: Getting Started with AI Agents
+    componentType: grid
+    blocks:
+      - title: Intro to Large Language Models by Andrej Karpathy
+        componentType: icon-card
+        summary: 'This is a 1 hour introduction to Large Language Models: the core technical component behind systems like ChatGPT'
+        url: https://youtu.be/zjkBMFhNj_g?si=uVGZuU_FdhU_WeKg
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: What are AI agents?
+        componentType: icon-card
+        summary: Maya Murad explaines the evolution of AI agents and their pivotal role in revolutionizing AI systems
+        url: https://www.youtube.com/watch?v=F8NKVhkZZWI
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+      - title: What’s next for AI agents?
+        componentType: icon-card
+        summary: Andrew Ng about what's next for AI agentic workflows and their potential to significantly propel AI advancements
+        url: https://youtu.be/sal78ACtGTc?si=S-srw3GqsZMkeRyB
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: Build AI Agents with Microsoft CoPilot Studio
+        componentType: icon-card
+        summary: Build agents that act independently, trigger events, and automate complex business tasks with Microsoft CoPilot Studio.
+        url: https://youtu.be/qxMi-tLg4MA?si=PCyfhbg6zqNNZAX9
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+  - title: Build No-Code AI Agents
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: Build an AI Agent Team That Does EVERYTHING for You! (No-Code)
+        componentType: card
+        summary: Learn to build an AI Personal Assistant
+        imageUrl: ./media/Thumbnail1.png
+        url: https://youtu.be/NH0OhyZcK-E?si=prTpxaXobJ8M8ss4
+      - title: Build an AI Agent That Scrapes ANYTHING (No-Code)
+        componentType: card
+        summary: Build a competitor analysis agent
+        imageUrl: ./media/Thumbnail2.png
+        url: https://youtu.be/yJ7R3jxSF_g
+      - title: Build an AI Agent that Manages Your Linkedin Strategy (No-Code)
+        componentType: card
+        summary: Build a Linkedin Content Agent
+        imageUrl: ./media/Thumbnail3.png
+        url: https://youtu.be/5F6sF6HhKdc?si=RQIJ18XFmRpo0kPG
+      - title: Build an AI Agent Social Media Team (No-Code)
+        componentType: card
+        summary: Build a Social Media Agent
+        imageUrl: ./media/Thumbnail4.png
+        url: https://youtu.be/xTS481-vu44?si=dV0UrqXSQd9mM-k-
+  - title: Build No-Code AI Agents
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: Master Prompt Engineering in 50 min
+        componentType: card
+        summary: Prompt Engineering for AI Agents
+        imageUrl: ./media/Thumbnail5.png
+        url: https://youtu.be/hqkAH_65-vY?si=NUagb9_xicdm50ks
+      - title: Build Your First No-Code AI Agent (Beginners tutorial)
+        componentType: card
+        summary: Beginners Guide to AI agents
+        imageUrl: ./media/Thumbnail6.png
+        url: https://youtu.be/EIvAMkNXfY0?si=2z2iMR9Z_I2Bj-9f
+      - title: Learn How to Finetune Language Models
+        componentType: card
+        summary: Finetune LLM’s on your tone of voice
+        imageUrl: ./media/Thumbnail7.png
+        url: https://youtu.be/VcelnXSWhzg?si=etOkV3DodqD6SlEz
+      - title: Connect AI Agents with any software through API’s
+        componentType: card
+        summary: Beginners Guide to API’s for AI agents
+        imageUrl: ./media/Thumbnail8.png
+        url: https://youtu.be/1PhG9c5N1jc?si=vP-StZumyivEftNx

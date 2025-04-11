@@ -1,0 +1,78 @@
+### YamlMime:Marketing
+title: Learn with Pascal Regeer
+sections:
+  - title: 'Learn with Pascal Regeer'
+    componentType: hero-product
+    size: large
+    supertitle: Creator Community
+    summary: Pascal Regeer is the creator of The Artificial Analyst, a YouTube channel that makes AI accessible for busy professionals. With humor and practical insights, Pascal’s videos cover essential AI tools, AI-powered diagramming, and productivity hacks, all designed to save time and boost efficiency. Drawing from years of tech consulting, he simplifies complex concepts, empowering viewers to leverage AI and focus on tasks they enjoy. Explore his content to learn how to make AI work for you!
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all Creators
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/pascal-regeer/media/hero-light.png
+      darkImageSrc: /community/learn-with/pascal-regeer/media/hero-dark.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://www.linkedin.com/in/pascalregeer/
+        destination: linkedin
+      - componentType: social-link
+        url: https://www.youtube.com/@TheArtificialAnalyst
+        destination: youtube
+      - componentType: social-link
+        url: https://pascalregeer.com/
+        destination: website
+  - title: My favourite videos for AI diagram creation
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: This Is How You Can Create BPMN diagrams with ChatGPT O1
+        componentType: card
+        summary: How to create BPMN diagrams with AI!
+        imageUrl: ./media/maxresdefault.jpg
+        url: https://youtu.be/3drKpV6Nab0
+      - title: Stop making Diagrams use this AI instead!
+        componentType: card
+        summary: How to make flowcharts using AI
+        imageUrl: ./media/maxresdefault-2.jpg
+        url: https://youtu.be/oCwLtckrXXQ
+      - title: This CustomGPT Creates All Your Diagrams For You
+        componentType: card
+        summary: Create diagrams in ChatGPT
+        imageUrl: ./media/maxresdefault-6.jpg
+        url: https://youtu.be/cp5DMdks2Rw
+      - title: How ChatGPT Can Help You Create Complex Use Case Diagrams (Beware Analysts!)
+        componentType: card
+        summary: How to create usecase diagrams with AI!
+        imageUrl: ./media/maxresdefault-9.jpg
+        url: https://youtu.be/TPyD9JchHKA
+  - title: Videos that help you save time with AI
+    componentType: cards
+    isShadowless: true
+    summary: ''
+    blocks:
+      - title: These 3 CoPilot Features CUT email time in HALF!
+        componentType: card
+        summary: Save Time with MS Copilot in Outlook!
+        imageUrl: ./media/maxresdefault-3.jpg
+        url: https://www.youtube.com/watch?v=4bXCVaUu4h8
+      - title: How to Use ChatGPT to Write Perfect Emails at Work
+        componentType: card
+        summary: Let ChatGPT write your email responses!
+        imageUrl: ./media/maxresdefault-4.jpg
+        url: https://youtu.be/_r7O7unkHBk
+      - title: ChatGPT Secret Image Editing Feature
+        componentType: card
+        summary: Learn how to Edit images with ChatGPT
+        imageUrl: ./media/maxresdefault-5.jpg
+        url: https://www.youtube.com/watch?v=RoTmIGPduX8
+      - title: ChatGPT can create PowerPoint presentations now?!
+        componentType: card
+        summary: How to make a Powerpoint with ChatGPT
+        imageUrl: ./media/maxresdefault-8.jpg
+        url: https://youtu.be/yD-2Gc0ArTc
