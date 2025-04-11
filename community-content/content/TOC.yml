@@ -48,7 +48,7 @@
     href: azure-devops-error-0000000000aaTF401027.md
   - name: Azure Verified Modules
     href: azure-verified-modules.md
-  - name: Microsoft-Graph-Bicep-Extension
+  - name: Microsoft Graph Bicep Extension
     href: microsoft-graph-bicep-extension.md
 # - name: Hybrid + multicloud
 #   items:
@@ -60,6 +60,8 @@
   items:
   - name: Deploy Azure Integration Services with Azure Verified Modules
     href: deploy-azure-integration-services-with-azure-verified-modules.md
+  - name: Secure Standard workflows in Azure Logic Apps with API Management
+    href: secure-integration-workflows-azure-logic-apps-api-management.md
   - name: Send tweets to email with Azure Logic Apps and Service Bus
     href: Azure-Logic-Apps-How-To-Send-Tweets-In-Your-Email-Address-Using-Service-Bus.md
   - name: Introduction to Power Automate object variables
