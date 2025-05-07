@@ -43,6 +43,7 @@ Azure Logic Apps (Standard) provide actions that allow for inline code execution
     -   [C\#](/azure/logic-apps/add-run-csharp-scripts)
     -   [Javascript](/azure/logic-apps/add-run-javascript)
     -   [PowerShell](/azure/logic-apps/add-run-powershell-scripts)
+-   **Available for cloud and local development -** Being fully embedded in the Azure Logic Apps (Standard) designer, Inline code actions are available for authoring in both the Azure portal and VS Code experiences.
 
 NOTE: Javascript inline code action is also available in Azure Logic Apps (Consumption)
 
@@ -58,6 +59,7 @@ Custom Code in Azure Logic Apps (Standard) offers a seamless way to incorporate 
 
 ### **Key Characteristics**
 
+-   **Based on Azure Functions programming model** - A custom code action is based on the same programming model used by Azure Functions. This action is a new function, deployed in the same host as the Azure Logic Apps (Standard) application, which uses a new  trigger binding - the WorkflowActionTrigger. This allows workflows to invoke that action natively during its execution without needed to execute an http request.
 -   **Integrate with existing code -** Incorporate custom reusable components, be it a legacy components written in .NET Framework or a a modern .NET component in your workflows, by refactoring them as custom code functions that directly integrate into your Logic Apps.
 -   **Encapsulate complex processes -**Move complex logic from your workflow, simplifying your overall solution, and having better control of your complex components
 -   **Simplify your deployments -** Custom code functions become part of your Logic Apps Workspace, making them available across multiple workflows in the target application. This tight coupling reinforces code reusability and central management, simplifying your deployments and source control.
