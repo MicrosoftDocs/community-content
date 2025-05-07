@@ -18,9 +18,6 @@ ms.date: 05/08/2025 #Required in mm/dd/yyyy format.
 
 ---
 
-
-# Introduction
-
 Azure Logic Apps (Standard) is an exceptionally powerful low-code/no-code solution for designing and automating business processes. It caters for developers of all levels of experience by offering flexibility in implementing workflows.
 
 As business processes complexity grows, they can become harder to represent those solutions in a low-code format while providing the same level of operational efficiency and performance organization requires.
@@ -43,9 +40,9 @@ Azure Logic Apps (Standard) provide actions that allow for inline code execution
 
 -   **Simplicity & Integration -** Inline code is embedded directly within your workflow, meaning you don’t have to manage separate deployments or services. This close coupling makes it perfect for lightweight tasks, such as data validation or small business rules.
 -   **Provided in multiple language variants-**  This is the only pro-code solution provided by Azure Logic Apps (Standard) that is supported in multiple languages. The languages supported currently are:
-    -   [C\#](https://learn.microsoft.com/en-us/azure/logic-apps/add-run-csharp-scripts)
-    -   [Javascript](https://learn.microsoft.com/en-us/azure/logic-apps/add-run-javascript)
-    -   [PowerShell](https://learn.microsoft.com/en-us/azure/logic-apps/add-run-powershell-scripts)
+    -   [C\#](/azure/logic-apps/add-run-csharp-scripts)
+    -   [Javascript](/azure/logic-apps/add-run-javascript)
+    -   [PowerShell](/azure/logic-apps/add-run-powershell-scripts)
 
 NOTE: Javascript inline code action is also available in Azure Logic Apps (Consumption)
 
@@ -64,7 +61,7 @@ Custom Code in Azure Logic Apps (Standard) offers a seamless way to incorporate 
 -   **Integrate with existing code -** Incorporate custom reusable components, be it a legacy components written in .NET Framework or a a modern .NET component in your workflows, by refactoring them as custom code functions that directly integrate into your Logic Apps.
 -   **Encapsulate complex processes -**Move complex logic from your workflow, simplifying your overall solution, and having better control of your complex components
 -   **Simplify your deployments -** Custom code functions become part of your Logic Apps Workspace, making them available across multiple workflows in the target application. This tight coupling reinforces code reusability and central management, simplifying your deployments and source control.
--   **Support for Different .NET Versions -** You can [create custom code projects](https://learn.microsoft.com/en-us/azure/logic-apps/create-run-custom-code-functions) using one of the following versiond of .NET:
+-   **Support for Different .NET Versions -** You can [create custom code projects](/azure/logic-apps/create-run-custom-code-functions) using one of the following versiond of .NET:
     -   .NET Framework - reuse legacy components in application modernization scenarios, like BizTalk Migration,
     -   .NET 8 - extend your application without creating additional Azure resources, using modern .NET components.
 
@@ -80,9 +77,9 @@ For organizations that are heavily invested in serverless computing, Azure Funct
 
 ### **Key Characteristics**
 
--   **Code Reusability & Scalability -** Azure Functions allow you to reuse business logic written in several supported languages, with the added benefit of independent scaling. If you already have robust business functions deployed, [calling them from Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/call-azure-functions-from-workflows) avoids redundant development and code duplication.
+-   **Code Reusability & Scalability -** Azure Functions allow you to reuse business logic written in several supported languages, with the added benefit of independent scaling. If you already have robust business functions deployed, [calling them from Azure Logic Apps](/azure/logic-apps/call-azure-functions-from-workflows) avoids redundant development and code duplication.
 -   **Operational Considerations -** This approach introduces external dependencies, meaning you must manage separate deployments, version controls, and potential integration complexities between Logic Apps and Azure Functions.
--   **Integration & Supported Languages –** Azure Functions [support multiple languages and frameworks](https://learn.microsoft.com/en-us/azure/azure-functions/supported-languages?tabs=isolated-process%2Cv4&pivots=programming-language-csharp), which might be useful when your business logic requires a specific domain or dependency components.
+-   **Integration & Supported Languages –** Azure Functions [support multiple languages and frameworks](/azure/azure-functions/supported-languages?tabs=isolated-process%2Cv4&pivots=programming-language-csharp), which might be useful when your business logic requires a specific domain or dependency components.
 
 ### **Additional Considerations**
 
