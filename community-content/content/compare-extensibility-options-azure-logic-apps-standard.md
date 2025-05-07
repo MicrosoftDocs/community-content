@@ -45,7 +45,8 @@ Azure Logic Apps (Standard) provide actions that allow for inline code execution
     -   [PowerShell](/azure/logic-apps/add-run-powershell-scripts)
 -   **Available for cloud and local development -** Being fully embedded in the Azure Logic Apps (Standard) designer, Inline code actions are available for authoring in both the Azure portal and VS Code experiences.
 
-NOTE: Javascript inline code action is also available in Azure Logic Apps (Consumption)
+> [!NOTE]
+> Javascript inline code action is also available in Azure Logic Apps (Consumption)
 
 ### Additional Considerations
 
