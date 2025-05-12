@@ -6,7 +6,7 @@ author: sebastianmeyer-1
 ms.author: mlcc-owners
 ms.reviewer: wsilveira, estfan
 ms.service: azure
-ms.topic: how-to
+ms.topic: concept-article
 ms.date: 05/08/2025
 ---
 
