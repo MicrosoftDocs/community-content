@@ -43,12 +43,12 @@ Azure Logic Apps (Standard) provides actions that allow for inline code executio
 ### Considerations
 
 - **Dependency support**: Inline code action doesn't support the injection of dependencies, like custom C\# assemblies. Consider this information if your code logic is dependent on components that aren't readily available in the supported version of .NET.
-- **Debugging**: Although inline code can simplify development by keeping everything in one place, debugging complex logic might be challenging. The Azure Logic Apps (Standard) designer offers some rudimentary support for troubleshooting by providing access to the execution logs during test. For complex logic, we recommend other options that allow for testing and debugging the logic in isolation.
+- **Debugging**: Although inline code can simplify development by keeping everything in one place, debugging complex logic might be challenging. The Azure Logic Apps (Standard) designer offers some rudimentary support for troubleshooting by providing access to the execution logs during tests. For complex logic, we recommend other options that allow for testing and debugging the logic in isolation.
 - **Versioning and deployment**: Because inline code is part of the workflow definition, you can't control the code version independently from the workflow where it's embedded. If your code is required for multiple workflows in the same application, a copy of that code needs to be inserted in each workflow. For components that require independent versioning or use within multiple workflows, we don't recommend this option.
 
 ## Custom code
 
-Custom code in Azure Logic Apps (Standard) offers a seamless way to incorporate more sophisticated programming logic, including legacy code written in the .NET Framework. This ability makes it suitable for modernizing legacy BizTalk solutions or extending workflows. This approach is particularly valuable if you need to implement complex logic, reuse business logic within multiple workflows, or perform operations that exceed what inline code can comfortably handle.
+Custom code in Azure Logic Apps (Standard) offers a seamless way to incorporate more sophisticated programming logic, including legacy code written in the .NET Framework. This ability makes custom code suitable for modernizing legacy BizTalk solutions or extending workflows. This approach is particularly valuable if you need to implement complex logic, reuse business logic within multiple workflows, or perform operations that exceed what inline code can comfortably handle.
 
 ### Key characteristics
 
@@ -57,8 +57,8 @@ Custom code in Azure Logic Apps (Standard) offers a seamless way to incorporate 
 - **Encapsulation of complex processes**: The ability to move complex logic from your workflow simplifies your overall solution and gives you better control of your complex components.
 - **Simplified deployments**: Custom code functions become part of your Logic Apps workspace, so they're available across multiple workflows in the target application. This tight coupling reinforces code reusability and central management, to help simplify your deployments and source control.
 - **Support for multiple .NET versions**: You can [create custom code projects](/azure/logic-apps/create-run-custom-code-functions) by using one of the following versions of .NET:
-  - .NET Framework: Reuse legacy components in application modernization scenarios, like BizTalk migration.
-  - .NET 8: Extend your application without creating additional Azure resources, by using modern .NET components.
+  - **.NET Framework**: Reuse legacy components in application modernization scenarios, like BizTalk migration.
+  - **.NET 8**: Extend your application without creating additional Azure resources, by using modern .NET components.
 
 ### Considerations
 
@@ -88,9 +88,9 @@ A clear side-by-side evaluation can help you determine which approach is best fo
 
 | Approach        | Ideal use case                                                 | Pros                                                                            | Cons                                                                         | Deployment considerations                                                                           |
 |---------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Inline code**     | Simple data transformation, validations, light tasks               | - Minimal overhead <br> - Direct integration <br> - No external dependencies <br> - Cloud and local authoring tools                 | - Limited debugging for complex logic <br> - Versioning tied to workflow              | - Deployed within a Logic Apps workflow, so the version is always attached to the workflow.                         |
-| **Custom code**     | Migrating legacy systems, advanced processing                      | - Reuse of existing code <br> - Centralized functions within the same Logic Apps project | - Increased solution complexity <br> - Testing required for independent functions                                | - Deployed as part of the Logic Apps (Standard) application, minimizing the surface area of deployment. |
-| **Azure Functions** | Existing serverless functions, independent scalable business logic | - Independent scaling <br> - Reuse of serverless patterns <br> - Language versatility         | - Introduction of external dependencies <br> - Requirement of separate deployment and monitoring | - Independent deployment allows for independent scale. <br> - Versioning must be carefully managed.        |
+| **Inline code**     | Simple data transformation, validations, light tasks               | - Minimal overhead <br> - Direct integration <br> - No external dependencies <br> - Cloud and local authoring tools                 | - Limited debugging for complex logic <br> - Versioning tied to workflow              | - Deployed within a Logic Apps workflow, so the version is always attached to the workflow                         |
+| **Custom code**     | Migrating legacy systems, advanced processing                      | - Reuse of existing code <br> - Centralized functions within the same Logic Apps project | - Increased solution complexity <br> - Testing required for independent functions                                | - Deployed as part of the Logic Apps (Standard) application to minimize the surface area of deployment |
+| **Azure Functions** | Existing serverless functions, independent scalable business logic | - Independent scaling <br> - Reuse of serverless patterns <br> - Language versatility         | - Introduces external dependencies <br> - Requires separate deployment and monitoring | - Independent deployment, allowing for independent scale <br> - Requires careful management of versioning        |
 
 ## Conclusion
 
