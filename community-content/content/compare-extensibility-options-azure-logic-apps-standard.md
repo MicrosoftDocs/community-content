@@ -1,13 +1,15 @@
 ---
-title: Compare the Extensibility Options for Azure Logic Apps (Standard)
-description: Select the best extensibility option for your Azure Logic Apps (Standard) implementation.
+title: Compare Extensibility Options for Azure Logic Apps (Standard)
+description: Learn how to choose the best extensibility option for the integration solutions that you build with Azure Logic Apps (Standard).
+
 contributor-type: community
 author: sebastianmeyer-1
 ms.author: mlcc-owners
 ms.reviewer: wsilveira, estfan
 ms.service: azure
 ms.topic: concept-article
-ms.date: 05/08/2025
+ms.date: 05/29/2025
+
 ---
 
 # Compare the extensibility options for Azure Logic Apps (Standard)
