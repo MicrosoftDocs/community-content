@@ -1,7 +1,6 @@
 ---
-title: Compare Extensibility Options for Azure Logic Apps (Standard)
-description: Learn how to choose the best extensibility option for the integration solutions that you build with Azure Logic Apps (Standard).
-
+title: Compare Extensibility Options in Azure Logic Apps (Standard)
+description: Learn how to choose the best extensibility option for integration solutions that you build with Azure Logic Apps (Standard).
 contributor-type: community
 author: sebastianmeyer-1
 ms.author: mlcc-owners
@@ -9,7 +8,6 @@ ms.reviewer: wsilveira, estfan
 ms.service: azure
 ms.topic: concept-article
 ms.date: 05/28/2025
-
 ---
 
 # Compare the extensibility options for Azure Logic Apps (Standard)
@@ -52,52 +50,76 @@ The following table describes considerations for using inline code:
 
 ## Custom code
 
-Custom code in Azure Logic Apps (Standard) offers a seamless way to incorporate more sophisticated programming logic, including legacy code written in the .NET Framework. This ability makes custom code suitable for modernizing legacy BizTalk solutions or extending workflows. This approach is particularly valuable if you need to implement complex logic, reuse business logic within multiple workflows, or perform operations that exceed what inline code can comfortably handle.
+The custom code action in Azure Logic Apps (Standard) offers a way to seamlessly include more sophisticated programming logic, including legacy code written with the .NET Framework, as a custom function. This capability makes custom code suitable for modernizing legacy BizTalk solutions or extending workflows. This option is particularly valuable if you need to implement complex logic, reuse business logic in multiple workflows, or perform operations that exceed the limits that inline code can comfortably handle.
 
-### Key characteristics
+### Key attributes
 
-- **Based on Azure Functions programming model**: A custom code action is based on the same programming model that Azure Functions uses. This action is a new function that's deployed in the same host as the Azure Logic Apps (Standard) application. It uses a new trigger binding: `WorkflowActionTrigger`. Workflows can invoke that action natively during execution without the need to execute an HTTP request.
-- **Integration with existing code**: You can incorporate custom reusable components by refactoring them as custom code functions that directly integrate into your logic apps. These reusable components could be legacy components written in the .NET Framework or modern .NET components in your workflows.
-- **Encapsulation of complex processes**: The ability to move complex logic from your workflow simplifies your overall solution and gives you better control of your complex components.
-- **Simplified deployments**: Custom code functions become part of your Logic Apps workspace, so they're available across multiple workflows in the target application. This tight coupling reinforces code reusability and central management, to help simplify your deployments and source control.
-- **Support for multiple .NET versions**: You can [create custom code projects](/azure/logic-apps/create-run-custom-code-functions) by using one of the following versions of .NET:
-  - **.NET Framework**: Reuse legacy components in application modernization scenarios, like BizTalk migration.
-  - **.NET 8**: Extend your application without creating additional Azure resources, by using modern .NET components.
+The following table describes the main benefits that custom code functions provide:
+
+| Benefit | Description |
+|---------|-------------|
+| **Azure Functions programming model-based** | The custom code action is based on the same programming model that Azure Functions uses. This action deploys a newly created custom function to the same host as the logic app resource in Azure Logic Apps (Standard). The action uses a new trigger binding named **`WorkflowActionTrigger`**. Workflows can natively invoke this action during execution without having to make an HTTP request. |
+| **Integrate with existing code** | You can incorporate custom reusable components by refactoring them into custom code functions that directly integrate into your workflows. For example, reusable components migh include legacy components written with the .NET Framework or modern .NET components in your workflows. |
+| **Encapsulate complex processes** | The capability to move complex logic out from your workflow simplifies your overall solution and gives you better control over complex components. |
+| **Simpler deployments** | Custom code functions become part of your Azure Logic Apps workspace, so they're available across multiple workflows in the same application. This tight coupling reinforces code reusability and central management, which help simplify your deployments and source control. |
+| **Multiple .NET version support** | To [create custom code projects](/azure/logic-apps/create-run-custom-code-functions), use one of the following versions of .NET <br><br>- **.NET Framework**: Reuse legacy components in application modernization scenarios such as BizTalk migration. <br><br>- **.NET 8**: Extend your application without creating additional Azure resources by using modern .NET components. |
 
 ### Considerations
 
-- **Testing and quality assurance**: Because custom code approaches are more complex, ensure that these modules are thoroughly unit tested. Consider integrating automated testing pipelines by using Azure DevOps or GitHub Actions.
-- **Maintainability**: With greater complexity comes the need for disciplined code reviews, robust logging, and clear documentation to manage ongoing updates and deployments.
-- **Performance and scaling**: Although custom code offers more control, closely monitor for performance bottlenecks. Integrate distributed tracing and Application Insights to track issues across the integrated Azure Logic Apps (Standard) ecosystem.
+The following table describes considerations for using custom code functions:
+
+| Consideration | Description |
+|---------------|-------------|
+| **Testing and quality assurance** | Custom code approaches are more complex, so make sure that you thoroughly unit test these modules. Consider integrating automated test pipelines by using Azure DevOps or GitHub Actions. |
+| **Maintainability** | Greater complexity requires more disciplined code reviews, robust logging, and clear documentation to manage ongoing updates and deployments. |
+| **Performance and scaling** | Custom code offers more control, but continue to closely monitor for performance bottlenecks. Integrate distributed tracing and Application Insights to track issues across the integrated Azure Logic Apps (Standard) ecosystem. |
 
 ## Azure Functions
 
 For organizations that are heavily invested in serverless computing, Azure Functions presents a robust and scalable method to integrate existing business logic directly into your workflows.
 
-### Key characteristics
+### Key attributes
 
-- **Code reusability and scalability**: Azure Functions allows you to reuse business logic written in several supported languages, with the added benefit of independent scaling. If you already deployed robust business functions, [calling them from Azure Logic Apps](/azure/logic-apps/call-azure-functions-from-workflows) avoids redundant development and code duplication.
-- **Operational considerations**: This approach introduces external dependencies. You must manage separate deployments, version controls, and potential integration complexities between Logic Apps and Azure Functions.
-- **Integration and supported languages**: Azure Functions [supports multiple languages and frameworks](/azure/azure-functions/supported-languages?tabs=isolated-process%2Cv4&pivots=programming-language-csharp). This support might be useful when your business logic requires a specific domain or dependency components.
+The following table describes the main benefits that Azure Functions provides:
+
+| Benefit | Description |
+|---------|-------------|
+| **Code reusability and scalability** | Azure Functions lets you reuse business logic written in multiple supported languages along with the benefit from independent scaling. If you already deployed robust business functions, you can [call them from Azure Logic Apps](/azure/logic-apps/call-azure-functions-from-workflows) to avoid redundant development and code duplication. |
+| **Operational considerations** | Azure Functions introduces external dependencies. You must manage separate deployments, version controls, and potential integration complexities between Azure Logic Apps and Azure Functions. |
+| **Integration and supported languages** | Azure Functions [supports multiple languages and frameworks](/azure/azure-functions/supported-languages?tabs=isolated-process%2Cv4&pivots=programming-language-csharp). This support might be useful when your business logic requires a specific domain or dependency components. |
 
 ### Considerations
 
-- **Monitoring and logging**: Use Application Insights and Azure Monitor to understand performance, track errors, and investigate exceptions across both Azure Functions and Logic Apps.
-- **Versioning and DevOps**: Maintain independent versioning of your code in Azure Functions while ensuring that Logic Apps workflows are synchronized with any changes that disrupt the API contracts.
-- **Security**: Help secure communication between Logic Apps and Azure Functions by using managed identities or API keys.
+The following table describes considerations for using Azure Functions:
+
+| Consideration | Description |
+|---------------|-------------|
+| **Monitoring and logging** | To understand performance, track errors, and investigate exceptions across both Azure Functions and Azure Logic Apps, use Application Insights and Azure Monitor. |
+| **Versioning and DevOps** | Maintain independent versioning for your code in Azure Functions, while you make sure to synchronize Azure Logic Apps workflows with any changes that disrupt the API contracts. |
+| **Security** | Secure communication between Azure Logic Apps and Azure Functions by using managed identities or API keys. |
 
 ## Comparative analysis
 
-A clear side-by-side evaluation can help you determine which approach is best for your needs:
+The following side-by-side evaluation can help you determine the best approach for your needs:
 
-| Approach        | Ideal use case                                                 | Pros                                                                            | Cons                                                                         | Deployment considerations                                                                           |
-|---------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Inline code**     | Simple data transformation, validations, light tasks               | - Minimal overhead <br> - Direct integration <br> - No external dependencies <br> - Cloud and local authoring tools                 | - Limited debugging for complex logic <br> - Versioning tied to workflow              | - Deployed within a Logic Apps workflow, so the version is always attached to the workflow                         |
-| **Custom code**     | Migrating legacy systems, advanced processing                      | - Reuse of existing code <br> - Centralized functions within the same Logic Apps project | - Increased solution complexity <br> - Testing required for independent functions                                | - Deployed as part of the Logic Apps (Standard) application, minimizing the surface area of deployment |
-| **Azure Functions** | Existing serverless functions, independent scalable business logic | - Independent scaling <br> - Reuse of serverless patterns <br> - Language versatility         | - Introduces external dependencies <br> - Requires separate deployment and monitoring | - Independent deployment, allowing for independent scale <br> - Requires careful management of versioning        |
+| Approach | Ideal use case | Pros | Cons | Deployment considerations |
+|----------|----------------|------|------|---------------------------|
+| **Inline code** | Simple data transformation, validations, or light tasks | - Minimal overhead <br><br>- Direct integration <br><br>- No external dependencies <br><br>- Cloud and local authoring tools | - Limited debugging for complex logic <br><br>- Versioning tied to workflow | Deployed within a logic app workflow, so the version is always attached to the workflow. |
+| **Custom code** | Migrating legacy systems, advanced processing | - Reuses existing code <br><br>- Centralized functions in the same logic app project | - Increased solution complexity <br><br>- Testing required for independent functions | Deployed as part of a Standard logic app, minimizing the surface area of deployment |
+| **Azure Functions** | Existing serverless functions, independent scalable business logic | - Independent scaling <br><br>- Reuses serverless patterns <br><br>- Language versatility | - Introduces external dependencies <br><br>- Requires separate deployment and monitoring | - Independent deployment, allowing for independent scale <br><br>- Requires careful version management |
 
 ## Conclusion
 
-Logic Apps (Standard) is a versatile platform that bridges the gap between low-code simplicity and the power of pro-code development. You can choose among three approaches: inline code for simplicity, custom code for migration and reusability, or Azure Functions for scalability. By choosing the right approach, you can craft solutions that are robust, maintainable, and future-proof.
+Azure Logic Apps (Standard) is a versatile platform that bridges the gap between low-code simplicity and the power of pro-code development. You can choose from the following approaches:
 
-The key is understanding your requirements: balance development speed with long-term maintainability, consider performance implications, and always design with security and testing in mind. As you expand the capabilities of your logic apps, remember that the best solutions come from a careful evaluation of both the technical and operational landscapes.
+- Inline code for simplicity
+- Custom code for migration and reusability
+- Azure Functions for scalability
+
+By choosing the right approach, you can craft solutions that are robust, maintainable, and future-proof. The key for success is understanding your requirements:
+
+- Balance development speed with long-term maintainability
+- Consider performance implications
+- Always design with security and testing in mind
+
+As you expand the capabilities of your logic app workflows, remember that the best solutions come from carefully evaluating both the technical and operational landscapes.
