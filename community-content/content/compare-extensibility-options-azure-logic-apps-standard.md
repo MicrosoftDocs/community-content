@@ -8,7 +8,7 @@ ms.author: mlcc-owners
 ms.reviewer: wsilveira, estfan
 ms.service: azure
 ms.topic: concept-article
-ms.date: 05/29/2025
+ms.date: 05/28/2025
 
 ---
 
@@ -20,33 +20,35 @@ ms.date: 05/29/2025
 
 ---
 
-Azure Logic Apps (Standard) is a powerful low-code/no-code solution for designing and automating business processes. It caters to developers of all experience levels by offering flexibility in implementing workflows.
+Azure Logic Apps (Standard) is an integration platform where you can design and automate business processes, often with little or no code. This platform supports developers at all experience levels and offers flexibility for implementing workflows.
 
-As the complexity of business processes grows, it can become harder to represent solutions in a low-code format while maintaining the same level of operational efficiency and performance that an organization requires. In these cases, Azure Logic Apps (Standard) empowers you to blend low-code and pro-code solutions together. It can help you reduce the complexity of a workflow solution.
+As your business processes get more complex, you might experience difficulties representing solutions in low-code format, while keeping performance and efficiency at the same levels that your organization requires. For these scenarios, Azure Logic Apps (Standard) gives you the capability to combine low-code and pro-code approaches so that you can reduce complexity in your workflows. For example, you can blend inline code, custom code, and Azure Functions in your solutions. 
 
-Azure Logic Apps (Standard) provides options to blend low-code and pro-code solutions: inline code, custom code, and Azure Functions. Let's dive into each option, including practical advice, comparison criteria, and additional operational considerations. You can then choose an option based on your needs, whether you're migrating legacy BizTalk solutions, managing simple code snippets, or integrating with serverless architectures.
+This article covers each option in detail and includes, practical advice, comparison criteria, and operational considerations. You can then choose an option based on your needs, whether you're migrating legacy BizTalk solutions, managing simple code snippets, or integrating with serverless architectures.
 
 ## Inline code
 
-Azure Logic Apps (Standard) provides actions that allow for inline code execution in multiple languages. This approach is ideal when you need to quickly introduce logic without introducing external dependencies or additional deployment pipelines.
+Azure Logic Apps (Standard) provides actions that support inline code execution in multiple programming languages. This feature is particularly useful when you need to quickly add logic without relying on external dependencies or set up extra deployment steps.
 
-### Key characteristics
+### Key attributes
 
-- **Simplicity and integration**: Inline code is embedded directly within your workflow, so you don't have to manage separate deployments or services. This close coupling makes it useful for lightweight tasks, such as data validation or small business rules.
-- **Multiple language variants**: This is the only pro-code solution provided by Azure Logic Apps (Standard) that's supported in multiple languages. The currently supported languages are:
-  - [C\#](/azure/logic-apps/add-run-csharp-scripts)
-  - [JavaScript](/azure/logic-apps/add-run-javascript)
-  - [PowerShell](/azure/logic-apps/add-run-powershell-scripts)
-- **Availability for cloud and local development**: Because inline code actions are fully embedded in the Azure Logic Apps (Standard) designer, they're available for authoring in both the Azure portal and Visual Studio Code.
+The following table describes the main benefits that inline code provides:
 
-> [!NOTE]
-> JavaScript inline code action is also available in Azure Logic Apps (Consumption).
+| Benefit | Description |
+|---------|-------------|
+| **Simplicity and integration** | Inline code is directly embedded into your workflow, so you don't have to manage separate deployments or services. This close coupling makes inline code useful for lightweight tasks, such as data validation or small business rules. |
+| **Multiple programming languages** | Inline code is the only pro-code solution in Azure Logic Apps (Standard) that supports multiple languages: <br><br>- [C\#](/azure/logic-apps/add-run-csharp-scripts) <br>- [JavaScript](/azure/logic-apps/add-run-javascript) <br>- [PowerShell](/azure/logic-apps/add-run-powershell-scripts) <br><br>**Note**: The JavaScript inline code action is also available in Azure Logic Apps (Consumption). |
+| **Cloud and local development support** | Inline code actions are fully embedded in the workflow designer for Azure Logic Apps (Standard), so you can use these actions for authoring in both the Azure portal and Visual Studio Code. |
 
 ### Considerations
 
-- **Dependency support**: Inline code action doesn't support the injection of dependencies, like custom C\# assemblies. Consider this information if your code logic is dependent on components that aren't readily available in the supported version of .NET.
-- **Debugging**: Although inline code can simplify development by keeping everything in one place, debugging complex logic might be challenging. The Azure Logic Apps (Standard) designer offers some rudimentary support for troubleshooting by providing access to the execution logs during tests. For complex logic, we recommend other options that allow for testing and debugging the logic in isolation.
-- **Versioning and deployment**: Because inline code is part of the workflow definition, you can't control the code version independently from the workflow where it's embedded. If your code is required for multiple workflows in the same application, a copy of that code needs to be inserted in each workflow. For components that require independent versioning or use within multiple workflows, we don't recommend this option.
+The following table describes considerations for using inline code:
+
+| Consideration | Description |
+|---------------|-------------|
+| **Dependency support** | Inline code actions don't support injecting dependencies such as custom C\# assemblies. This limitation might pose a problem if your code logic depends on components that aren't available in supported .NET versions. |
+| **Debugging** | Inline code helps simplify development by keeping everything in one place, but debugging complex logic might prove challenging. The workflow designer in Azure Logic Apps (Standard) offers some basic support for troubleshooting by providing access to workflow run history, inputs, outputs, and execution logs during testing. For complex logic, consider other tools that let you test and debug logic in isolation. |
+| **Versioning and deployment** | Inline code is embedded in the workflow definition, so you can't control code versions separately from the workflow where the code exists. If you need to use your code across multiple workflows in the same application, you must duplicate that code in each workflow. This option isn't recommended for components that require independent versioning or use in multiple workflows. |
 
 ## Custom code
 
