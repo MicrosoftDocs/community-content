@@ -5,7 +5,7 @@ author: christosgalano
 ms.author: mlcc-owners
 ms.service: azure
 ms.topic: conceptual
-ms.date: 22/08/2025
+ms.date: 08/22/2025
 contributor-type: community
 ---
 
