@@ -12,6 +12,8 @@
     href: Azure-Bot-Framework-Introduction-to-Azure-Bot-Service-and-QnA-Maker.md
   - name: Create a voice enabled chatbot with Azure OpenAI and Azure Speech Services
     href: azure-openai-azure-speech-gpt-4.md
+  - name: Azure AI Speech Service Configuration
+    href: azure-ai-speech-service-configuration.md
   - name: Store, index, and query Azure AI Vision embeddings in Azure Cosmos DB for PostgreSQL
     href: store-index-query-azure-ai-vision-embeddings-azure-cosmos-db-postgresql.md
   - name: Power BI must-use AI features
