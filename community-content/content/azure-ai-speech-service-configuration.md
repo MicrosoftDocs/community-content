@@ -145,7 +145,7 @@ The implementation uses the following environment variables to determine configu
 |---------------------|----------|-------------|
 | `SPEECH_KEY` | For API key auth | Your Speech service subscription key |
 | `SPEECH_REGION` | For regional endpoint | Azure region (e.g., "eastus") |
-| `SPEECH_ENDPOINT` | For private/custom endpoint | Full endpoint URL (https:// <your-speech-service/> .cognitiveservices.azure.com) |
+| `SPEECH_ENDPOINT` | For private/custom endpoint | Full endpoint URL (https:// `<your-speech-service`> .cognitiveservices.azure.com) |
 | `SPEECH_RESOURCE_ID` | For managed identity auth | Resource ID in format `/subscriptions/.../resourceGroups/.../providers/Microsoft.CognitiveServices/accounts/...` |
 | `SPEECH_LANGUAGE` | Optional | Language code (defaults to "en-US") |
 
