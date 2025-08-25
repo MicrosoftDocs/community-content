@@ -4,6 +4,7 @@ description: Community written content for the community about Microsoft product
 author: pdebruin
 ms.author: mlcc-owners
 ms.date: 01/07/2025
+ms.service: azure
 ms.topic: conceptual
 contributor-type: community
 no_index_ks: true
