@@ -12,8 +12,8 @@ sections:
         text: Back to all contributors
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/contributor-showcase-temp/media/supreet.png
-      darkImageSrc: /community/learn-with/contributor-showcase-temp/media/supreet.png
+      lightImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
+      darkImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
   - title: My contibutions
     componentType: grid
     blocks:
