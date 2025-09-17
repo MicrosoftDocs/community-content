@@ -31,4 +31,18 @@ sections:
         icon:
           componentType: image
           src: ../media/icons/web.png
+      - title: Generative AI operations with MLOps
+        componentType: icon-card
+        summary: This article provides guidance to workload teams that have existing machine learning operations (MLOps) investments and want to extend those investments to include generative AI technology and patterns in their workload.
+        url: /azure/architecture/ai-ml/guide/genaiops-for-mlops
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
+      - title: MLOps maturity model
+        componentType: icon-card
+        summary: The purpose of this maturity model is to help clarify the Machine Learning Operations (MLOps) principles and practices.
+        url: /azure/architecture/ai-ml/guide/mlops-maturity-model
+        icon:
+          componentType: image
+          src: ../media/icons/web.png
       
