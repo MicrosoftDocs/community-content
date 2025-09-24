@@ -61,7 +61,7 @@ sections:
           componentType: image
           src: ../media/icons/learn.png
   - title: Recommended reading
-    componentType: grid
+    componentType: card
     blocks:
       - title: AI architecture design
         componentType: icon-card
