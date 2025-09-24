@@ -14,6 +14,21 @@ sections:
       componentType: hero-image
       lightImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
       darkImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://github.com/coleam00
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/cole-medin-727752184/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/cole_medin
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@ColeMedin
+        destination: youtube
   - title: My contibutions
     componentType: grid
     blocks:
@@ -23,26 +38,42 @@ sections:
         url: /azure/architecture/ai-ml/guide/genaiops-for-mlops
         icon:
           componentType: image
-          src: ../media/icons/web.png
+          src: ../media/icons/learn.png
       - title: MLOps maturity model
         componentType: icon-card
         summary: The purpose of this maturity model is to help clarify the Machine Learning Operations (MLOps) principles and practices.
         url: /azure/architecture/ai-ml/guide/mlops-maturity-model
         icon:
           componentType: image
-          src: ../media/icons/web.png
+          src: ../media/icons/learn.png
       - title: Generative AI operations with MLOps
         componentType: icon-card
         summary: This article provides guidance to workload teams that have existing machine learning operations (MLOps) investments and want to extend those investments to include generative AI technology and patterns in their workload.
         url: /azure/architecture/ai-ml/guide/genaiops-for-mlops
         icon:
           componentType: image
-          src: ../media/icons/web.png
+          src: ../media/icons/learn.png
       - title: MLOps maturity model
         componentType: icon-card
         summary: The purpose of this maturity model is to help clarify the Machine Learning Operations (MLOps) principles and practices.
         url: /azure/architecture/ai-ml/guide/mlops-maturity-model
         icon:
           componentType: image
-          src: ../media/icons/web.png
-      
+          src: ../media/icons/learn.png
+  - title: Recommended reading
+    componentType: grid
+    blocks:
+      - title: AI architecture design
+        componentType: icon-card
+        summary: ""
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Cursor AI Tutorial
+        componentType: icon-card
+        summary: Beginner's Guide to Cursor AI IDE
+        url: https://www.youtube.com/watch?v=uSgeH_02VRA
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+     
