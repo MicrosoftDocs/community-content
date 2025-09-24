@@ -76,4 +76,12 @@ sections:
         icon:
           componentType: image
           src: ../media/icons/youtube.png
+      - title: Cursor AI Tutorial
+        componentType: icon-card
+        summary: Beginner's Guide to Cursor AI IDE
+        url: https://www.youtube.com/watch?v=uSgeH_02VRA
+        icon:
+          componentType: image
+          src: ../media/icons/youtube.png
+
      
