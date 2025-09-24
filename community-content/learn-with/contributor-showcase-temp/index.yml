@@ -64,24 +64,14 @@ sections:
     componentType: cards
     blocks:
       - title: AI architecture design
-        componentType: icon-card
-        summary: ""
-        icon:
-          componentType: image
-          src: ../media/icons/learn.png
-      - title: Cursor AI Tutorial
-        componentType: icon-card
-        summary: Beginner's Guide to Cursor AI IDE
-        url: https://www.youtube.com/watch?v=uSgeH_02VRA
-        icon:
-          componentType: image
-          src: ../media/icons/youtube.png
-      - title: Cursor AI Tutorial
-        componentType: icon-card
-        summary: Beginner's Guide to Cursor AI IDE
-        url: https://www.youtube.com/watch?v=uSgeH_02VRA
-        icon:
-          componentType: image
-          src: ../media/icons/youtube.png
-
+        componentType: card
+        summary: "Learn the details of  AI architeture"
+        imageUrl: ../media/icons/learn.png
+        url: /azure/architecture/ai-ml/
+      - title: Best AI Coding Tools Compared
+        componentType: card
+        summary: Best AI Coding Tools Compared
+        imageUrl: ./media/best-ai-for-coding.jpg
+        url: https://www.youtube.com/watch?v=WI8pWSQ88Io
+      
      
