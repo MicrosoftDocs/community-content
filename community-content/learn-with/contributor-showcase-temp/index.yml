@@ -73,5 +73,15 @@ sections:
         summary: Best AI Coding Tools Compared
         imageUrl: ./media/best-ai-for-coding.jpg
         url: https://www.youtube.com/watch?v=WI8pWSQ88Io
+      - title: AI architecture design
+        componentType: card
+        summary: "Learn the details of  AI architeture"
+        imageUrl: ../media/icons/learn.png
+        url: /azure/architecture/ai-ml/
+      - title: Best AI Coding Tools Compared
+        componentType: card
+        summary: Best AI Coding Tools Compared
+        imageUrl: ./media/best-ai-for-coding.jpg
+        url: https://www.youtube.com/watch?v=WI8pWSQ88Io
       
      
