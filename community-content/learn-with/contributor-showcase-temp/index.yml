@@ -1,0 +1,87 @@
+### YamlMime:Marketing
+title: John Doe, Partner Solution Architect, Microsoft
+sections:
+  - title: John Doe, Partner Solution Architect, Microsoft
+    componentType: hero-product
+    size: large
+    supertitle: Contributor showcase
+    summary: John is a passionate solution architect with a strong focus on scalable cloud solutions. He enjoys simplifying complex systems through clear documentation and visual storytelling.
+    links:
+      - componentType: link
+        url: /community/learn-with
+        text: Back to all contributors
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
+      darkImageSrc: /community/learn-with/contributor-showcase-temp/media/hero-image.png
+  - componentType: social
+    title: ''
+    links:
+      - componentType: social-link
+        url: https://github.com/coleam00
+        destination: github
+      - componentType: social-link
+        url: https://www.linkedin.com/in/cole-medin-727752184/
+        destination: linkedin
+      - componentType: social-link
+        url: https://x.com/cole_medin
+        destination: twitter
+      - componentType: social-link
+        url: https://www.youtube.com/@ColeMedin
+        destination: youtube
+  - title: My contibutions
+    componentType: grid
+    blocks:
+      - title: Generative AI operations with MLOps
+        componentType: icon-card
+        summary: This article provides guidance to workload teams that have existing machine learning operations (MLOps) investments and want to extend those investments to include generative AI technology and patterns in their workload.
+        url: /azure/architecture/ai-ml/guide/genaiops-for-mlops
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: MLOps maturity model
+        componentType: icon-card
+        summary: The purpose of this maturity model is to help clarify the Machine Learning Operations (MLOps) principles and practices.
+        url: /azure/architecture/ai-ml/guide/mlops-maturity-model
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: Generative AI operations with MLOps
+        componentType: icon-card
+        summary: This article provides guidance to workload teams that have existing machine learning operations (MLOps) investments and want to extend those investments to include generative AI technology and patterns in their workload.
+        url: /azure/architecture/ai-ml/guide/genaiops-for-mlops
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+      - title: MLOps maturity model
+        componentType: icon-card
+        summary: The purpose of this maturity model is to help clarify the Machine Learning Operations (MLOps) principles and practices.
+        url: /azure/architecture/ai-ml/guide/mlops-maturity-model
+        icon:
+          componentType: image
+          src: ../media/icons/learn.png
+  - title: Recommended reading
+    componentType: cards
+    blocks:
+      - title: AI architecture design
+        componentType: card
+        summary: "Learn the details of  AI architeture"
+        imageUrl: ../media/icons/learn.png
+        url: /azure/architecture/ai-ml/
+      - title: Best AI Coding Tools Compared
+        componentType: card
+        summary: Best AI Coding Tools Compared
+        imageUrl: ./media/best-ai-for-coding.jpg
+        url: https://www.youtube.com/watch?v=WI8pWSQ88Io
+      - title: AI architecture design
+        componentType: card
+        summary: "Learn the details of  AI architeture"
+        imageUrl: ../media/icons/learn.png
+        url: /azure/architecture/ai-ml/
+      - title: Best AI Coding Tools Compared
+        componentType: card
+        summary: Best AI Coding Tools Compared
+        imageUrl: ./media/best-ai-for-coding.jpg
+        url: https://www.youtube.com/watch?v=WI8pWSQ88Io
+      
+     
