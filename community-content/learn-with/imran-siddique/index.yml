@@ -14,8 +14,8 @@ sections:
         text: Back to all Creators
     heroImage:
       componentType: hero-image
-      lightImageSrc: /community/learn-with/imran-siddique/media/hero-light.png
-      darkImageSrc: /community/learn-with/imran-siddique/media/hero-dark.png
+      lightImageSrc: /community/learn-with/imran-siddique/media/hero-light.jpg
+      darkImageSrc: /community/learn-with/imran-siddique/media/hero-dark.jpg
   - componentType: social
     title: ''
     links: 
