@@ -79,14 +79,14 @@ sections:
       - componentType: icon-card
         title: "The Semantic Firewall & Agentic RAG"
         summary: "Architecting governance layers that act as firewalls for autonomous systems."
-        url: https://dev.to/mosiddi/the-agentic-architect-series-part-2-1g4k
+        url: https://dev.to/mosiddi/the-agentic-architect-series-part-2-327i
         icon:
           componentType: image
           src: ../media/icons/web.png
       - componentType: icon-card
         title: "The End of the Text Box"
         summary: "Why the future of AI interfaces is polymorphic and multi-modal."
-        url: https://dev.to/mosiddi/the-end-of-the-text-box-architecting-the-universal-signal-bus-for-ai-4740
+        url: https://dev.to/mosiddi/the-end-of-the-text-box-architecting-the-universal-signal-bus-for-ai-20np
         icon:
           componentType: image
           src: ../media/icons/web.png
@@ -105,21 +105,21 @@ sections:
       - componentType: icon-card
         title: "Scale by Subtraction: An Engineering Leader's View"
         summary: "A manifesto on removing friction and complexity to achieve true scale in critical systems."
-        url: https://medium.com/@isiddique/scale-by-subtraction-an-engineering-leaders-view-on-practical-ai-fdc5ba612f5a
+        url: https://dev.to/mosiddi/scale-by-subtraction-an-engineering-leaders-view-on-practical-ai-4iba
         icon:
           componentType: image
           src: ../media/icons/web.png
       - componentType: icon-card
         title: "Redefining the Engineering Organization"
         summary: "How to structure teams for the AI era."
-        url: https://dev.to/mosiddi/scale-by-subtraction-part-2-redefining-the-engineering-organization-3k2j
+        url: https://dev.to/mosiddi/scale-by-subtraction-part-2-redefining-the-engineering-organization-31if
         icon:
           componentType: image
           src: ../media/icons/web.png
       - componentType: icon-card
         title: "Why Senior Engineers Must Be 'Chief Deletion Officers'"
         summary: "Why the most senior engineering move is often to delete code, not create it."
-        url: https://dev.to/mosiddi/scale-by-subtraction-why-senior-engineers-must-be-chief-deletion-officers-41k2
+        url: https://dev.to/mosiddi/scale-by-subtraction-why-senior-engineers-must-be-chief-deletion-officers-1e5a
         icon:
           componentType: image
           src: ../media/icons/web.png
