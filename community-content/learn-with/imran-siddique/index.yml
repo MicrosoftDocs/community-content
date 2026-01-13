@@ -39,21 +39,21 @@ sections:
       - componentType: icon-card
         title: "Part 1: The Architecture of Recall"
         summary: "Foundations of high-fidelity retrieval and why vector databases aren't enough."
-        url: https://dev.to/mosiddi/context-engineering-part-1-the-architecture-of-recall-4n9n
+        url: https://dev.to/mosiddi/context-engineering-part-1-the-architecture-of-recall-46kj
         icon:
           componentType: image
           src: ../media/icons/web.png
       - componentType: icon-card
         title: "Part 2: The Temporal Index"
         summary: "Why your AI needs to understand 'when' as much as 'what' to avoid stale context."
-        url: https://dev.to/mosiddi/context-engineering-part-2-the-temporal-index-948f13f4622e
+        url: https://dev.to/mosiddi/context-engineering-part-2-the-temporal-index-447l
         icon:
           componentType: image
           src: ../media/icons/web.png
       - componentType: icon-card
         title: "Part 3: The Frugal Architect"
         summary: "Managing token economics and cost in massive context windows."
-        url: https://dev.to/mosiddi/context-engineering-part-3-the-frugal-architect-2g8k
+        url: https://dev.to/mosiddi/context-engineering-part-3-the-frugal-architect-44fa
         icon:
           componentType: image
           src: ../media/icons/web.png
