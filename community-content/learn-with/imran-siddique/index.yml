@@ -5,9 +5,9 @@ sections:
     componentType: hero-product
     supertitle: Creator Community
     summary: |
-      Imran Siddique is a **Principal Group Engineering Manager at Microsoft** and the author of *"Architecting at Scale"* (Packt Publishing). 
+      Imran Siddique is a Principal Group Engineering Manager at Microsoft and the author of "Architecting at Scale" (Packt Publishing). 
       
-      His engineering philosophy, **"Scale by Subtraction,"** challenges leaders to remove complexity to achieve true reliability. Imran is a thought leader in **Agent Control Planes**, focusing on the governance, safety, and architectural constraints of autonomous AI systems. He actively writes about Context Engineering, the "Mute Agent" pattern, and the shift from static software to self-evolving agentic architectures.
+      His engineering philosophy, "Scale by Subtraction," challenges leaders to remove complexity to achieve true reliability. Imran is a thought leader in Agent Control Planes, focusing on the governance, safety, and architectural constraints of autonomous AI systems. He actively writes about Context Engineering, the "Mute Agent" pattern, and the shift from static software to self-evolving agentic architectures.
     links:
       - componentType: link
         url: /community/learn-with/
