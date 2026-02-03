@@ -11,7 +11,7 @@ sections:
     links:
       - componentType: link
         url: /community/learn-with/
-        text: Back to all Creators
+        text: View Community Creators
     heroImage:
       componentType: hero-image
       lightImageSrc: /community/learn-with/imran-siddique/media/hero-light.jpg
