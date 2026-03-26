@@ -4,7 +4,7 @@ description: A comprehensive guide to configuring Azure AI Speech Service with m
 author: christosgalano
 ms.author: mlcc-owners
 ms.service: azure
-ms.topic: conceptual
+ms.topic: best-practice
 ms.date: 08/22/2025
 contributor-type: community
 ---

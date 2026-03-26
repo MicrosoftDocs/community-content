@@ -4,7 +4,7 @@ description: How to use features such as Resource Guard and immutability to secu
 author: lukemurraynz 
 ms.author: mlcc-owners
 ms.service: azure-backup
-ms.topic: conceptual
+ms.topic: best-practice
 ms.date: 09/21/2023
 contributor-type: community
 

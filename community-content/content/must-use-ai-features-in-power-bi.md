@@ -4,7 +4,7 @@ description: This article is your companion to becoming effective business data 
 author: theoyinbooke 
 ms.author: mlcc-owners 
 ms.service: powerbi 
-ms.topic: conceptual
+ms.topic: article
 ms.date: 11/14/2023 
 contributor-type: community
 

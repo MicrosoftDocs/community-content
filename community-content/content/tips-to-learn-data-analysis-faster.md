@@ -4,7 +4,7 @@ description: Your quick guide to learning Data Analysis with Power BI faster and
 author: theoyinbooke 
 ms.author: mlcc-owners 
 ms.service: powerbi 
-ms.topic: conceptual
+ms.topic: best-practice
 ms.date: 11/14/2023 
 contributor-type: community
 
