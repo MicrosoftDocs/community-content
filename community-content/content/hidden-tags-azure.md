@@ -4,7 +4,7 @@ description: What the hidden tags are, and how to use them in Microsoft Azure
 author: lukemurraynz 
 ms.author: mlcc-owners 
 ms.service: azure-portal
-ms.topic: conceptual 
+ms.topic: feature-guide
 ms.date: 09/26/2023
 contributor-type: community
 

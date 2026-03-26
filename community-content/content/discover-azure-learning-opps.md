@@ -4,7 +4,7 @@ description: This blog post will help you land correctly with your Microsoft Azu
 author: h-sadeghpour
 ms.author: mlcc-owners
 ms.service: azure
-ms.topic: conceptual
+ms.topic: overview
 ms.date: 09/19/2023
 contributor-type: community
 ---

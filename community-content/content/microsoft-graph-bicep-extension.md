@@ -4,7 +4,7 @@ description: A comprehensive guide on using the Microsoft Graph Bicep extension 
 author: christosgalano
 ms.author: mlcc-owners
 ms.service: azure
-ms.topic: conceptual
+ms.topic: feature-guide
 ms.date: 03/05/2025
 contributor-type: community
 ---
