@@ -4,7 +4,7 @@ description: Board members of the Microsoft Learn community
 author: pituach 
 ms.author: mlcc-owners 
 ms.service: azure 
-ms.topic: conceptual 
+ms.topic: concept-article
 ms.date: 01/12/2024 
 contributor-type: community
 

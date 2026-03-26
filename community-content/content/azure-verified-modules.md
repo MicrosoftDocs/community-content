@@ -4,7 +4,7 @@ description: Azure Verified Modules (AVM) are standardized, supported Infrastruc
 author: christosgalano
 ms.author: mlcc-owners
 ms.service: azure
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/01/2025
 contributor-type: community
 ---

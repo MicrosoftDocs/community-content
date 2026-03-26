@@ -4,7 +4,7 @@ description: This article introduces you to the basic concepts in machine learni
 author: bumie-e 
 ms.author: mlcc-owners 
 ms.service: azure-machine-learning
-ms.topic: conceptual 
+ms.topic: overview
 ms.date: 11/15/2023 
 contributor-type: community
 
