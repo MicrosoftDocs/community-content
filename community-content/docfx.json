@@ -57,7 +57,7 @@
     },
     "fileMetadata": {
     "ms.topic": {
-        "learn-with/**/*.md": "marketing-hub" 
+        "learn-with/**/*.yml": "marketing-hub" 
         }
       },
     "template": [],
