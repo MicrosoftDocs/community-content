@@ -56,9 +56,9 @@
       "permissioned-type": "public"
     },
     "fileMetadata": {
-
     "ms.topic": {
-        "learn-with/**/*.md": "marketing-hub"      
+        "learn-with/**/*.md": "marketing-hub" 
+        }
       },
     "template": [],
     "dest": "community-content"
