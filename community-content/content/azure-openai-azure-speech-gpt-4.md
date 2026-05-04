@@ -32,7 +32,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- An Azure subscription - Create a [free trial account](https://azure.microsoft.com/free)
+- An Azure subscription - Create a [free trial account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 - Access to Azure OpenAI Service - https://aka.ms/oaiapply
 
 ## What is the difference between Azure OpenAI and OpenAI
