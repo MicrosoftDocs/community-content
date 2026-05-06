@@ -55,7 +55,11 @@
       "open_source_feedback_productName": "Community Content",
       "permissioned-type": "public"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+    "ms.topic": {
+        "learn-with/**/*.yml": "marketing-hub" 
+        }
+      },
     "template": [],
     "dest": "community-content"
   }
