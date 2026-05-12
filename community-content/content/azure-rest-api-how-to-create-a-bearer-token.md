@@ -4,7 +4,7 @@ description: Azure REST API - How to create a Bearer token #Required; article de
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list.
-ms.topic: conceptual #Required; leave this attribute/value as-is.
+ms.topic: article
 ms.date: 03/20/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
@@ -129,6 +129,6 @@ In conclusion, this brief exploration into creating and utilizing a bearer token
 
 ## See also
 
-- [Getting started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
+- [Azure API Management REST API reference](/rest/api/apimanagement/)
 - [Postman API client](https://www.getpostman.com/product/api-client)
 - [Azure REST API reference](/rest/api/azure/)

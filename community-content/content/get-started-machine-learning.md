@@ -4,7 +4,7 @@ description: The article is an introductory guide to machine learning, covering 
 author: bumie-e #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure-machine-learning
-ms.topic: conceptual #Required; leave this attribute/value as-is.
+ms.topic: article
 ms.date: 03/19/2024 #Required; mm/dd/yyyy format.
 contributor-type: community #Required; don't change.
 ---
