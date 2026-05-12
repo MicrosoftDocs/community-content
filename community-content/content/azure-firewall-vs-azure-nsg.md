@@ -4,7 +4,7 @@ description: Comparison of Azure Firewall and Network Security Groups for cloud 
 author: gxgrammatikos #Required; your GitHub user alias, with correct capitalization.
 ms.author: mlcc-owners #Required; a Microsoft distribution list; don't change. 
 ms.service: azure #Required; service per approved list.
-ms.topic: conceptual #Required; leave this attribute/value as-is.
+ms.topic: article
 ms.date: 10/07/2024 #Required; mm/dd/yyyy format.
 contributor-type: community
 ---
