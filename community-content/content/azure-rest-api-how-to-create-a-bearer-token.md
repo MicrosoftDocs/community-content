@@ -129,6 +129,6 @@ In conclusion, this brief exploration into creating and utilizing a bearer token
 
 ## See also
 
-- [Getting started with Azure API Management REST API](https://azure.microsoft.com/resources/videos/getting-started-with-azure-api-management-rest-api/)
+- [Azure API Management REST API reference](/rest/api/apimanagement/)
 - [Postman API client](https://www.getpostman.com/product/api-client)
 - [Azure REST API reference](/rest/api/azure/)
