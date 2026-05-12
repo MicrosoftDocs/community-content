@@ -16,9 +16,10 @@
     }
   ],
   "notification_subscribers": [
-    "eujuric@microsoft.com",
-    "sonia@microsoft.com",
-    "pieter.de.bruin@microsoft.com"
+    "kimberlm@microsoft.com",
+    "pidebrui@microsoft.com",
+    "sarahgaspari@microsoft.com",
+    "kichand@microsoft.com"
   ],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
