@@ -59,6 +59,121 @@
             "source_path": "CONTRIBUTING.md",
             "redirect_url": "https://github.com/MicrosoftDocs/community-content/wiki/Contribute-to-this-repo",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "community-content/learn-with/alejandro-ao/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/astro-k-joseph/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/ben-van-sprundel/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/bree-hall/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/cole-medin/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/frank-nillard/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/grace-leung/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/helena-liu/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/imran-siddique/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/jessa-from-i-versus-ai/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/kelwin-fernandes/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/lisa-crosbie/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/mark-kashef/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/nate-herkelman/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/olanrewaju-oyinbooke/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/pascal-regeer/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/raul-ordonez/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/ritika-aghi/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/scott-brant/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/shriram-vasudevan/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/thu-vu/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "community-content/learn-with/xavier-mitjana/index.yml",
+            "redirect_url": "/community",
+            "redirect_document_id": false
         }
     ]
 }
