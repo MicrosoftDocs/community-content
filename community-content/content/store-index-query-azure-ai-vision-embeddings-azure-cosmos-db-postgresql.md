@@ -5,8 +5,10 @@ author: sfoteini
 ms.author: mlcc-owners 
 ms.service: azure-cosmos-db
 ms.topic: how-to
-ms.date: 03/18/2024
+ms.date: 05/22/2026
 ms.custom: template-how-to-pattern
+ms.collection: ce-skilling-ai-copilot
+ms.update-cycle: 180-days
 contributor-type: community
 
 ---
