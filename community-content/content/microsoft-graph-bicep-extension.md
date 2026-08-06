@@ -127,13 +127,10 @@ These use cases demonstrate how the Microsoft Graph Bicep extension can transfor
 
 ### Preliminary Setup
 
-To use the Microsoft Graph Bicep extension, you need to enable the experimental feature in your Bicep configuration file. It is also advisable to use [dynamic types](/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Available Bicep versions can be found [here for v1](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags) and [here for beta](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/beta/tags). Below is an example of the configuration file:
+To use the Microsoft Graph Bicep extension, you need to include it in your Bicep configuration file. It is advisable to use [dynamic types](/graph/templates/how-to-migrate-to-dynamic-types) rather than built-in types. Available Bicep versions can be found [here for v1](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/v1.0/tags) and [here for beta](https://mcr.microsoft.com/artifact/mar/bicep/extensions/microsoftgraph/beta/tags). Below is an example of the configuration file:
 
 ```json
 {  
-  "experimentalFeaturesEnabled": {  
-    "extensibility": true  
-  },
   "extensions": {  
     "graphV1": "br:mcr.microsoft.com/bicep/extensions/microsoftgraph/v1.0:<v1.0-version>",
     "graphBeta": "br:mcr.microsoft.com/bicep/extensions/microsoftgraph/beta:<beta-version>"  
@@ -160,11 +157,8 @@ The examples above use the following Bicep configuration:
 
 ```json
 {  
-  "experimentalFeaturesEnabled": {  
-    "extensibility": true  
-  },
   "extensions": {
-    "microsoftGraphV1": "br:mcr.microsoft.com/bicep/extensions/microsoftgraph/v1.0:0.1.9-preview"
+    "microsoftGraphV1": "br:mcr.microsoft.com/bicep/extensions/microsoftgraph/v1.0:1.0.0"
   }
 }
 ```
